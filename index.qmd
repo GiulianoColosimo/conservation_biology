@@ -4,7 +4,7 @@ subtitle: "Evoluzione e Conservazione"
 author:
     - name: Giuliano Colosimo
       orcid: 0000-0002-0485-9758
-date: "2024-09-04"
+date: "2025-09-29"
 date-modified: last-modified
 bibliography: ./comprehensive_database.bib
 csl: ./apa_5th_edition.csl
@@ -16,7 +16,7 @@ citecolor: "red"
 
 Welcome to class! These web-pages contain all the information you need to accomplish your class work for the teaching module **Biologia della Conservazione**. This module is part of the integrated course of Evolution and Conservation.
 
-This is a mandatory module for master level students enrolled in the "Biologia Ambientale" degree at the University of Rome Tor Vergata. It is worth **5 CFU** for a total of 40 hours (i.e., 20 classes of 2 hours each) to be administered in person during the first semester of academic year 2024/2025. The first class will be on Monday, November 4, 2024.
+This is a mandatory module for master level students enrolled in the "Biologia Ambientale" degree at the University of Rome Tor Vergata. It is worth **5 CFU** for a total of 40 hours (i.e., 20 classes of 2 hours each) to be administered in person during the first semester of academic year 2024/2025. The first class will be on Monday, September 29, 2025.
 
 ## Program
 
@@ -28,7 +28,7 @@ Topics covered during the course include: evolutionary genetics of natural popul
 
 The course aims at providing students with the most fundamental tools to understand, acknowledge, describe, and address problems related to the conservation of Biodiversity. By the end of the course the students should develop autonomy in the process of understanding of different approaches and methods, consolidating the awareness that conservation biology is a crisis discipline that requires specific analytical skills to guide appropriate interventions.
 
-Students are expected to develop professional language and communication skills through a continuous interaction with the teacher and interventions during classes. Additionally, students are guided in the understanding of the discipline through the access to primary literature in English. The process of development such skills is monitored by written periodical checks, with open questions.
+Students are expected to develop professional language and communication skills through a continuous interaction with the teacher and interventions during classes. Additionally, students are guided in the understanding of the discipline through the access to primary literature in English. The process of development such skills is monitored by written periodical checks.
 
 
 ::: callout-note
@@ -54,7 +54,7 @@ The course will be thought in Italian unless international students are present 
 
 There is no mandatory textbook to buy!! While this is true, the overall implant of classes and the material presented is largely sourced from the book Conservation Biology [@VanDyke2020]. All students are expected to attend and take notes during lessons. The material covered in class will be complemented with the scientific literature provided by the professor. Moreover, this website will be periodically updated with new and additional resources that could be useful for the successful completion of this class. 
 
-Below is a by-no-means-exhaustive list of books and other resources that I strongly encourage you to look at (especially the free material). This list also includes freely available web applications and/or databases from where it is possible to source and visualize data of interest.
+Below is a BY-NO-MEANS-EXHAUSTIVE list of books and other resources that I strongly encourage you to look at (especially the free material!). This list also includes freely available web applications and/or databases from where it is possible to source and visualize data of interest.
 
 - Introduction to conservation genetics [@Frankham2010]
 - [Conservation Biology for all](https://conbio.org/publications/free-textbook), free downloadable book from @Sodhi2010 
@@ -66,7 +66,7 @@ Below is a by-no-means-exhaustive list of books and other resources that I stron
 
 # Meeting hours
 
-Every student is encouraged to contact me by e-mail with questions, doubts, curiosities about this course. My office hours are between 10:00 and 12:00 every Wednesday. My office is number 14, located on the first floor of the main building at "Laboratori di Ecologia Sperimentale ed Acquacoltura" (see the Contact tab for a map with the location of the office). It is always a good idea to e-mail me before coming to the office, to prevent overcrowding :-)
+Every student is encouraged to contact me by e-mail with questions, doubts, curiosities, and even things you didn't like about this course. My office hours are between 10:00 and 12:00 every Wednesday. My office is number 14, located on the first floor of the main building at "Laboratori di Ecologia Sperimentale ed Acquacoltura" (see the Contact tab for a map with the location of the office). It is always a good idea to e-mail me before coming to the office, to prevent overcrowding :-)
 
 # Students with disabilities
 

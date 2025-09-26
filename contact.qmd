@@ -2,7 +2,7 @@
 title: "Contact"
 author: "Giuliano Colosimo"
 editor: visual
-date: "2024-11-02"
+date: "2025-09-29"
 date-modified: last-modified
 bibliography: ./comprehensive_database.bib
 csl: ./apa_5th_edition.csl
