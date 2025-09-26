@@ -1,0 +1,144 @@
+---
+title: "Calendar"
+author: "Giuliano Colosimo"
+editor: visual
+date: "2024-11-02"
+date-modified: last-modified
+bibliography: ./comprehensive_database.bib
+csl: ./apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+x <- c("calendR",
+       "ggthemes",
+       "knitr", "kableExtra",
+       "lubridate",
+       "scales",
+       "tidyverse",
+       "XML", "xml2")
+lapply(x, require, character.only = T)
+rm(x)
+```
+
+```{r schedule, echo=FALSE}
+schedule <- data.frame(" " = c("Lectures", "Mid Term Exam - 1", "Mid Term Exam - 2", "Final exam"),
+                       "Day" = c("Mon/Thu", "Monday, December 9", "Monday, February 3 2025", "To be decided"),
+                       "Time" = c("11:00-13:00/14:00-16:00", "14:00-16:00", "14:00-16:00", "To be decided"),
+                       "Location" = c("Aula centro studi pesca", "Aula centro studi pesca","Aula centro studi pesca", "Aula centro studi pesca"))
+kable(schedule, col.names = c(" ", "Day", "Time", "Location"),
+      caption = "The course will begin on Monday, November 4, 2024. The tentative schedule for mid-terms and final exams will be updated throughout the course.")
+```
+
+Below you will find a temptative schedule for the rest of the semester and a table with the temptative date for your presentation. Manuscript and dates have been assigned in a random way. Please, if you already know that you will not be present on the date that has been assigned to you let me know in time so that I can arrange a schedule change.
+
+::: callout-important
+## Read carefully!
+
+It is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule and content. The dates for the mid term and final exams will be published on this website later during the course of the semester!
+:::
+
+```{r}
+#| eval: false
+#| include: false
+paperAssign <- read.csv("data/paperAssignment.csv", header = T)
+paperAssign$Paper <- text_spec(paperAssign$Paper,
+                               link = paperAssign$Link, format = "html",
+                               color = "blue")
+kable(paperAssign[, c("Last.name", "Paper", "Presentation.date")], 
+      format = "html", escape = F) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", 
+                                      "condensed", "responsive"),
+                font_size = 7)
+```
+
+```{r echo=FALSE}
+#| out-width: 100%
+
+dates <- seq(as.Date("2024-11-01"), as.Date("2024-11-30"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+events[c(4, 7, 11, 14, 18, 21, 28)] <- "Class"
+calendR(month = 11,
+        start = "M",
+        special.days = events,
+        special.col = c("green", "gray"),
+        legend.pos = "bottom",
+        pdf = F, 
+        day.size = 3, 
+        weeknames.size = 4, 
+        title = "November",
+        subtitle="2024",
+        text.size = 2.5,              
+        text.col = "black",
+        text = "Class cancelled",
+        text.pos = 25)
+```
+
+```{r echo=FALSE}
+#| out-width: 100%
+
+dates <- seq(as.Date("2024-12-01"), as.Date("2024-12-31"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+events[c(2, 5, 12, 16, 17, 19)] <- "Class"
+events[9] <- "Mid Term 1"
+calendR(month = 12,
+        start = "M",
+        special.days = events,
+        special.col = c("green", "red", "gray"),
+        legend.pos = "bottom",
+        pdf = F, 
+        day.size = 3, 
+        weeknames.size = 4, 
+        title = "December",
+        subtitle="2024",
+        text.size = 2.5,              
+        text.col = "black",
+        text = c("11:00-13:00\n 14:00-16:00", "11:00-13:00"),
+        text.pos = c(9,17))
+```
+
+```{r echo=FALSE}
+#| out-width: 100%
+
+dates <- seq(as.Date("2025-01-01"), as.Date("2025-01-31"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+events[c(9, 13, 20, 27)] <- "Class"
+calendR(month = 1, year = 2025,
+        start = "M",
+        special.days = events,
+        special.col = c("green", "gray"),
+        legend.pos = "bottom",
+        pdf = F, 
+        day.size = 3, 
+        weeknames.size = 4, 
+        title = "January",
+        subtitle="2025",
+        text.size = 2.5,              
+        text.col = "black",
+        text = c("11:00-13:00\n 14:00-16:00", "11:00-13:00\n 14:00-16:00"),
+        text.pos = c(20,27))
+```
+
+```{r echo=FALSE}
+#| out-width: 100%
+
+dates <- seq(as.Date("2025-02-01"), as.Date("2025-02-28"), by = "1 day")
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+events[3] <- "Mid Term 2"
+calendR(month = 2, year = 2025,
+        start = "M",
+        special.days = events,
+        special.col = c("red", "gray"),
+        legend.pos = "bottom",
+        pdf = F, 
+        day.size = 3, 
+        weeknames.size = 4, 
+        title = "February",
+        subtitle="2025",
+        text.size = 2.5,              
+        text.col = "black",
+        text = c("11:00-13:00"),
+        text.pos = c(3))
+```
