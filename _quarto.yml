@@ -35,8 +35,9 @@ website:
       - section: "Classes"
         title: "Classes"
         contents: 
-          - href: ./classes/Class 1 - Introduction to Conservation Biology.pdf
+          - href: ./classes/Conservation Biology 25-26 - Class 1 - Introduction to Conservation Biology.pdf
             text: "Class 1 - Introduction to Conservation Biology"
+            icon: file-pdf
 #          - href: ./classes/2/class_2.html
 #            text: "Class 2 - Biodiversity"
 #          - href: ./classes/3/class_3.html
