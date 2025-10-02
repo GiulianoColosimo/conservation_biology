@@ -43,9 +43,17 @@ It is a student's responsibility to periodically check this website to make sure
 ```{r}
 #| eval: TRUE
 #| echo: FALSE
+
+students <- c("Serena Liverino",     "Francesco Baldini",   "Federcio Cornacchia", "Alessia Iacobelli",  
+ "Laura Oliva",         "Anna Battista",       "Carlotta Cimini",     "Alessia Caretti",    
+ "Leonardo Fritz",      "Lorenzo D'Orfeo",     "Arianna Merli",       "Michela Papa",       
+"Chiarta Di Ruzza",    "Ilaria Manni",        "Luca Moruso")
+
+
 paperAssign <- read.csv("paper assignment.csv", header = T)
 ppaperAssign <- read.csv("paper assignment.csv", header = T)
 names(paperAssign)<- c("Student", "Title", "Url", "Date")
+paperAssign$Student[1:15] <- students
 paperAssign$Title <- text_spec(paperAssign$Title,
                                link = paperAssign$Url,
                                format = "html",
