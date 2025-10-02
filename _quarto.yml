@@ -38,8 +38,9 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 1 - Introduction to Conservation Biology.pdf
             text: "Class 1 - Introduction to Conservation Biology"
             icon: file-pdf
-#          - href: ./classes/2/class_2.html
-#            text: "Class 2 - Biodiversity"
+          - href: ./classes/Conservation Biology 25-26 - Class 2 - Biodiversity - Concept, Measurement, and Management.pdf
+            text: "Class 2 - Biodiversity: Concept, Measurement, and Management"
+            icon: file-pdf
 #          - href: ./classes/3/class_3.html
 #            text: "Class 3 - Anthropocene"
 #          - href: ./classes/4/class_4.html

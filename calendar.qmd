@@ -41,17 +41,22 @@ It is a student's responsibility to periodically check this website to make sure
 :::
 
 ```{r}
-#| eval: false
-#| include: false
-paperAssign <- read.csv("data/paperAssignment.csv", header = T)
-paperAssign$Paper <- text_spec(paperAssign$Paper,
-                               link = paperAssign$Link, format = "html",
+#| eval: TRUE
+#| echo: FALSE
+paperAssign <- read.csv("paper assignment.csv", header = T)
+ppaperAssign <- read.csv("paper assignment.csv", header = T)
+names(paperAssign)<- c("Student", "Title", "Url", "Date")
+paperAssign$Title <- text_spec(paperAssign$Title,
+                               link = paperAssign$Url,
+                               format = "html",
                                color = "blue")
-kable(paperAssign[, c("Last.name", "Paper", "Presentation.date")], 
+
+kable(paperAssign[, c("Student", "Title", "Date")], 
       format = "html", escape = F) %>%
   kable_styling(bootstrap_options = c("striped", "hover", 
                                       "condensed", "responsive"),
                 font_size = 7)
+
 ```
 
 ```{r echo=FALSE}
