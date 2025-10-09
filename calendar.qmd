@@ -47,13 +47,13 @@ It is a student's responsibility to periodically check this website to make sure
 students <- c("Serena Liverino",     "Francesco Baldini",   "Federcio Cornacchia", "Alessia Iacobelli",  
  "Laura Oliva",         "Anna Battista",       "Carlotta Cimini",     "Alessia Caretti",    
  "Leonardo Fritz",      "Lorenzo D'Orfeo",     "Arianna Merli",       "Michela Papa",       
-"Chiarta Di Ruzza",    "Ilaria Manni",        "Luca Moruso")
+"Chiara Di Ruzza",    "Ilaria Manni",        "Luca Amoruso",  "Lucrezia Tiseo")
 
 
 paperAssign <- read.csv("paper assignment.csv", header = T)
 ppaperAssign <- read.csv("paper assignment.csv", header = T)
 names(paperAssign)<- c("Student", "Title", "Url", "Date")
-paperAssign$Student[1:15] <- students
+paperAssign$Student[1:16] <- students
 paperAssign$Title <- text_spec(paperAssign$Title,
                                link = paperAssign$Url,
                                format = "html",
@@ -108,7 +108,7 @@ calendR(month = 10,
         subtitle="2025",
         text.size = 2.5,              
         text.col = "black",
-        text = "14:00-16:00",
+        text = c("14:00-16:00", "14:00-16:00\nOnly presentation", rep("14:00-16:00", 6)),
         text.pos = c(2, 6, 9, 13, 16, 20, 23, 27, 30))
 ```
 
@@ -139,7 +139,7 @@ calendR(month = 11,
 
 dates <- seq(as.Date("2025-12-01"), as.Date("2025-12-31"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(1,4)] <- "Class"
+events[c(1,4,8)] <- "Class"
 calendR(month = 12,
         #year = 2025,
         start = "M",
@@ -154,5 +154,5 @@ calendR(month = 12,
         text.size = 2.5,              
         text.col = "black",
         text = c("14:00-16:00"),
-        text.pos = c(1,4))
+        text.pos = c(1,4, 8))
 ```

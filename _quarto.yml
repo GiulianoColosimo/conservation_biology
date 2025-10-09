@@ -41,10 +41,11 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 2 - Biodiversity - Concept, Measurement, and Management.pdf
             text: "Class 2 - Biodiversity: Concept, Measurement, and Management"
             icon: file-pdf
-#          - href: ./classes/3/class_3.html
-#            text: "Class 3 - Anthropocene"
+          - href: ./classes/Conservation Biology 25-26 - Class 3 - Anthropocene.pdf
+            text: "Class 3 - Anthropocene"
+            icon: file-pdf
 #          - href: ./classes/4/class_4.html
-#            text: "Class 4 - Populations and conservation genetics"
+#            text: "Class 4 - Populations and their genetics"
 #          - href: ./classes/5/class_5.html
 #            text: "Class 5 - HW and Genetic drift"
 #          - href: ./classes/6/class_6.html
