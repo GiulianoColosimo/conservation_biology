@@ -25,8 +25,8 @@ rm(x)
 
 ```{r schedule, echo=FALSE}
 schedule <- data.frame(" " = c("Lectures", "Mid Term Exam - 1", "Mid Term Exam - 2", "Final exam"),
-                       "Day" = c("Mon/Thu", "TBD", "TBD", "TBD"),
-                       "Time" = c("14:00-16:00/14:00-16:00", "TBD", "TBD", "TBD"),
+                       "Day" = c("Mon/Thu", "Mon, 10 Nov", "TBD", "TBD"),
+                       "Time" = c("14:00-16:00/14:00-16:00", "14:00-16:00", "TBD", "TBD"),
                        "Location" = c("Aula centro studi pesca", "Aula centro studi pesca","Aula centro studi pesca", "Aula centro studi pesca"))
 kable(schedule, col.names = c(" ", "Day", "Time", "Location"),
       caption = "The course will begin on Monday, September 29, 2025. The tentative schedule for mid-terms and final exams will be updated throughout the course.")
@@ -43,17 +43,18 @@ It is a student's responsibility to periodically check this website to make sure
 ```{r}
 #| eval: TRUE
 #| echo: FALSE
+#| warning: FALSE
 
-students <- c("Serena Liverino",     "Francesco Baldini",   "Federcio Cornacchia", "Alessia Iacobelli",  
+students <- c("Serena Liverino",     "Francesco Baldini",   "Federico Cornacchia", "Alessia Iacobelli",  
  "Laura Oliva",         "Anna Battista",       "Carlotta Cimini",     "Alessia Caretti",    
  "Leonardo Fritz",      "Lorenzo D'Orfeo",     "Arianna Merli",       "Michela Papa",       
-"Chiara Di Ruzza",    "Ilaria Manni",        "Luca Amoruso",  "Lucrezia Tiseo")
+"Chiara Di Ruzza",    "Ilaria Manni",        "Luca Amoruso",  "Lucrezia Tiseo", "Loris Bognanno")
 
 
 paperAssign <- read.csv("paper assignment.csv", header = T)
 ppaperAssign <- read.csv("paper assignment.csv", header = T)
 names(paperAssign)<- c("Student", "Title", "Url", "Date")
-paperAssign$Student[1:16] <- students
+paperAssign$Student[1:17] <- students
 paperAssign$Title <- text_spec(paperAssign$Title,
                                link = paperAssign$Url,
                                format = "html",
@@ -67,12 +68,14 @@ kable(paperAssign[, c("Student", "Title", "Date")],
 
 ```
 
+
 ```{r echo=FALSE}
 #| out-width: 100%
+#| warning: FALSE
 
 dates <- seq(as.Date("2025-09-01"), as.Date("2025-09-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(29)] <- "Class"
+events[29] <- "Class"
 calendR(month = 9,
         start = "M",
         special.days = events,
@@ -117,11 +120,12 @@ calendR(month = 10,
 
 dates <- seq(as.Date("2025-11-01"), as.Date("2025-11-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(3, 6, 10, 13, 17, 20, 24, 27)] <- "Class"
+events[c(3, 6, 13, 17, 20, 24, 27)] <- "Class"
+events[10] <- "Mid term 1"
 calendR(month = 11,
         start = "M",
         special.days = events,
-        special.col = c("green", "gray"),
+        special.col = c("green", "red", "gray"),
         legend.pos = "bottom",
         pdf = F, 
         day.size = 3, 
