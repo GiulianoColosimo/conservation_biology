@@ -72,6 +72,7 @@ kable(paperAssign[, c("Student", "Title", "Date")],
 ```{r echo=FALSE}
 #| out-width: 100%
 #| warning: FALSE
+#| message: false
 
 dates <- seq(as.Date("2025-09-01"), as.Date("2025-09-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
@@ -97,12 +98,12 @@ calendR(month = 9,
 
 dates <- seq(as.Date("2025-10-01"), as.Date("2025-10-31"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(2, 6, 9, 13, 16, 20, 23, 27, 30)] <- "Class"
-#events[9] <- "Mid Term 1"
+events[c(2, 6, 9, 16, 20, 23, 27, 30)] <- "Class"
+events[13] <- "Class canceled"
 calendR(month = 10,
         start = "M",
         special.days = events,
-        special.col = c("green", "gray"),
+        special.col = c("green", "violet", "gray"),
         legend.pos = "bottom",
         pdf = F, 
         day.size = 3, 
@@ -111,8 +112,8 @@ calendR(month = 10,
         subtitle="2025",
         text.size = 2.5,              
         text.col = "black",
-        text = c("14:00-16:00", "14:00-16:00\nOnly presentation", rep("14:00-16:00", 6)),
-        text.pos = c(2, 6, 9, 13, 16, 20, 23, 27, 30))
+        text = c("14:00-16:00", "14:00-16:00\nOnly presentation", rep("14:00-16:00", 5)),
+        text.pos = c(2, 6, 9, 16, 20, 23, 27, 30))
 ```
 
 ```{r echo=FALSE}
@@ -120,8 +121,8 @@ calendR(month = 10,
 
 dates <- seq(as.Date("2025-11-01"), as.Date("2025-11-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(3, 6, 13, 17, 20, 24, 27)] <- "Class"
-events[10] <- "Mid term 1"
+events[c(3, 6, 10, 17, 20, 24, 27)] <- "Class"
+events[13] <- "Mid term 1"
 calendR(month = 11,
         start = "M",
         special.days = events,
@@ -143,12 +144,13 @@ calendR(month = 11,
 
 dates <- seq(as.Date("2025-12-01"), as.Date("2025-12-31"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(1,4,8)] <- "Class"
+events[c(1,4,11,15)] <- "Class"
+events[8] <- "Holiday"
 calendR(month = 12,
         #year = 2025,
         start = "M",
         special.days = events,
-        special.col = c("green", "gray"),
+        special.col = c("green", "gold", "gray"),
         legend.pos = "bottom",
         pdf = F, 
         day.size = 3, 
@@ -158,5 +160,5 @@ calendR(month = 12,
         text.size = 2.5,              
         text.col = "black",
         text = c("14:00-16:00"),
-        text.pos = c(1,4, 8))
+        text.pos = c(1,4,11,15))
 ```
