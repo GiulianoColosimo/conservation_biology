@@ -25,7 +25,7 @@ rm(x)
 
 ```{r schedule, echo=FALSE}
 schedule <- data.frame(" " = c("Lectures", "Mid Term Exam - 1", "Mid Term Exam - 2", "Final exam"),
-                       "Day" = c("Mon/Thu", "Mon, 10 Nov", "TBD", "TBD"),
+                       "Day" = c("Mon/Thu", "Thu, 13 Nov", "TBD", "TBD"),
                        "Time" = c("14:00-16:00/14:00-16:00", "14:00-16:00", "TBD", "TBD"),
                        "Location" = c("Aula centro studi pesca", "Aula centro studi pesca","Aula centro studi pesca", "Aula centro studi pesca"))
 kable(schedule, col.names = c(" ", "Day", "Time", "Location"),
