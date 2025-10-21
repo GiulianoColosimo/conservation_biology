@@ -32,6 +32,888 @@
     "href": "calendar.html",
     "title": "Calendar",
     "section": "",
-    "text": "The course will begin on Monday, September 29, 2025. The tentative schedule for mid-terms and final exams will be updated throughout the course.\n\n\n\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nMon/Thu\n14:00-16:00/14:00-16:00\nAula centro studi pesca\n\n\nMid Term Exam - 1\nThu, 13 Nov\n14:00-16:00\nAula centro studi pesca\n\n\nMid Term Exam - 2\nTBD\nTBD\nAula centro studi pesca\n\n\nFinal exam\nTBD\nTBD\nAula centro studi pesca\n\n\n\n\n\n\n\n\n\n\n\n\nImportantRead carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule and content. The dates for the mid term and final exams will be published on this website later during the course of the semester!\n\n\n\n\n\n\n\n\nStudent\nTitle\nDate\n\n\n\n\nSerena Liverino\nSvenning_The late-quaternary megafauna extinctions_2024\n2025-10-06\n\n\nFrancesco Baldini\nGarizio_First evidence of recruitment in critically endangered Galapagos pink land_2024\n2025-10-09\n\n\nFederico Cornacchia\nChekunov_Scale of unregulated international trade in Australian reptiles and amphibians_2024\n2025-10-13\n\n\nAlessia Iacobelli\nWestaway_Wildlife restoration in fragmented landscapes Trialling wild-to-wild translocation with two common reptiles_2024\n2025-10-16\n\n\nLaura Oliva\nBuckley_Conservation threats from tourism land grabs and greenwash_2024\n2025-10-20\n\n\nAnna Battista\nMorris_Factors affecting success of conservation translocations of terrestrial vertebrates: A global systematic review_2021\n2025-10-23\n\n\nCarlotta Cimini\nFarquharson_Offspring survival changes over generations of captive breeding_2021\n2025-10-27\n\n\nAlessia Caretti\nSchmidt_A Survey of Mammal and Fish Genetic Diversity Across the Global Protected Area Network_2025\n2025-10-30\n\n\nLeonardo Fritz\nChristie_Genetic adaptation to captivity can occur in a single generation_2012\n2025-11-03\n\n\nLorenzo D'Orfeo\nMawdsley_A Review of Climate-Change Adaptation Strategies for Wildlife Management and Biodiversity Conservation_2009\n2025-11-06\n\n\nMichela Papa\nCui_Food resources and competition rather than eco-geographic rules explain trait variations in two contrasting rat species: Implications for future climate change_2022\n2025-11-17\n\n\nChiara Di Ruzza\nDesigaux_Assessing the relative influence of island climatic and geographical factors on body size in an endangered iguana species of the French Caribbean_2025\n2025-11-20\n\n\nIlaria Manni\nMakuya_Kin-based spatial structure in a solitary small mammal as indicated by GPS dataloggers_2024\n2025-11-24\n\n\nLuca Amoruso\nMarucco_A multidisciplinary approach to estimating wolf population size for long-term conservation_2022\n2025-11-27\n\n\nLucrezia Tiseo\nSimkins_Past conservation efforts reveal which actions lead to positive outcomes for species_2025\n2025-12-01\n\n\nLoris Bognanno\nCastano_Invasive rodent eradication on islands: assessment and mitigation of human exposure to rodenticides_2023\n2025-12-04\n\n\nSerena Liverino\nObiol_Evolutionarily distinct lineages of a migratory bird of prey show divergent responses to climate change_2025\n2025-12-11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning in texts[text.pos] &lt;- text: number of items to replace is not a\nmultiple of replacement length"
+    "text": "The course will begin on Monday, September 29, 2025. The tentative schedule for mid-terms and final exams will be updated throughout the course.\n\n\n\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nMon/Thu\n14:00-16:00/14:00-16:00\nAula centro studi pesca\n\n\nMid Term Exam - 1\nThu, 13 Nov\n14:00-16:00\nAula centro studi pesca\n\n\nMid Term Exam - 2\nTBD\nTBD\nAula centro studi pesca\n\n\nFinal exam\nTBD\nTBD\nAula centro studi pesca\n\n\n\n\n\n\n\n\n\n\n\n\nImportantRead carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule and content. The dates for the mid term and final exams will be published on this website later during the course of the semester!\n\n\n\n\n\n\n\n\nStudent\nTitle\nDate\n\n\n\n\nSerena Liverino\nSvenning_The late-quaternary megafauna extinctions_2024\n2025-10-06\n\n\nFrancesco Baldini\nGarizio_First evidence of recruitment in critically endangered Galapagos pink land_2024\n2025-10-09\n\n\nFederico Cornacchia\nChekunov_Scale of unregulated international trade in Australian reptiles and amphibians_2024\n2025-10-16\n\n\nAlessia Iacobelli\nWestaway_Wildlife restoration in fragmented landscapes Trialling wild-to-wild translocation with two common reptiles_2024\n2025-10-20\n\n\nLaura Oliva\nBuckley_Conservation threats from tourism land grabs and greenwash_2024\n2025-10-23\n\n\nAnna Battista\nMorris_Factors affecting success of conservation translocations of terrestrial vertebrates: A global systematic review_2021\n2025-10-27\n\n\nCarlotta Cimini\nFarquharson_Offspring survival changes over generations of captive breeding_2021\n2025-10-30\n\n\nAlessia Caretti\nSchmidt_A Survey of Mammal and Fish Genetic Diversity Across the Global Protected Area Network_2025\n2025-11-06\n\n\nLeonardo Fritz\nChristie_Genetic adaptation to captivity can occur in a single generation_2012\n2025-11-17\n\n\nLorenzo D'Orfeo\nMawdsley_A Review of Climate-Change Adaptation Strategies for Wildlife Management and Biodiversity Conservation_2009\n2025-11-20\n\n\nMichela Papa\nCui_Food resources and competition rather than eco-geographic rules explain trait variations in two contrasting rat species: Implications for future climate change_2022\n2025-11-24\n\n\nChiara Di Ruzza\nDesigaux_Assessing the relative influence of island climatic and geographical factors on body size in an endangered iguana species of the French Caribbean_2025\n2025-11-27\n\n\nIlaria Manni\nMakuya_Kin-based spatial structure in a solitary small mammal as indicated by GPS dataloggers_2024\n2025-12-01\n\n\nLuca Amoruso\nMarucco_A multidisciplinary approach to estimating wolf population size for long-term conservation_2022\n2025-12-04\n\n\nLucrezia Tiseo\nSimkins_Past conservation efforts reveal which actions lead to positive outcomes for species_2025\n2025-12-11\n\n\nLoris Bognanno\nCastano_Invasive rodent eradication on islands: assessment and mitigation of human exposure to rodenticides_2023\n2025-12-15\n\n\nNA\nObiol_Evolutionarily distinct lineages of a migratory bird of prey show divergent responses to climate change_2025\n2025-12-18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning in texts[text.pos] &lt;- text: number of items to replace is not a\nmultiple of replacement length"
+  },
+  {
+    "objectID": "conservation biology old/index.html",
+    "href": "conservation biology old/index.html",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Welcome to class! These web-pages contain all the information you need to accomplish your class work for the teaching module Biologia della Conservazione. This module is part of the integrated course of Evolution and Conservation.\nThis is a mandatory module for master level students enrolled in the “Biologia Ambientale” degree at the University of Rome Tor Vergata. It is worth 5 CFU for a total of 40 hours (i.e., 20 classes of 2 hours each) to be administered in person during the first semester of academic year 2024/2025. The first class will be on Monday, November 4, 2024.\n\n\nThe module introduces students to Conservation Biology, a synthesis and crisis discipline that uses approaches and methods from disciplines such as Ecology, Population biology, Population genetics, Molecular biology, and applies them to the conservation of species, intended as dynamic entities capable to respond to environmental changes. Criteria and principles for the adoption of the different conservation strategies are presented and discussed throughout the course. Moreover, the practical aspects of the various approaches are examined through the study and analysis of real cases, with particular reference to aspects linked to the research lines carried out and coordinated by the teacher.\nTopics covered during the course include: evolutionary genetics of natural populations; loss of genetic variability in small populations; inbreeding and decreased fitness; fragmentation of populations; definition and maintenance of evolutionary potential; population size (\\(N\\) and \\(N_e\\)) and its estimators; resolution of taxonomic uncertainties; genetic management of threatened species; adaptation to captivity; planning of head-start interventions and captive-breeding; the IUCN classification; criteria for conservation: species richness, rare species, endemisms; hotspot analysis; gap analysis; climate change; conservation technology; conservation economics.\n\n\n\nThe course aims at providing students with the most fundamental tools to understand, acknowledge, describe, and address problems related to the conservation of Biodiversity. By the end of the course the students should develop autonomy in the process of understanding of different approaches and methods, consolidating the awareness that conservation biology is a crisis discipline that requires specific analytical skills to guide appropriate interventions.\nStudents are expected to develop professional language and communication skills through a continuous interaction with the teacher and interventions during classes. Additionally, students are guided in the understanding of the discipline through the access to primary literature in English. The process of development such skills is monitored by written periodical checks, with open questions.\n\n\n\n\n\n\nNote\n\n\n\nAttendance is mandatory!\n\n\n\n\n\n\n\n\nImportantRead carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule and content. The dates for the mid term and final exams will be published on this website later during the course of the semester!"
+  },
+  {
+    "objectID": "conservation biology old/index.html#program",
+    "href": "conservation biology old/index.html#program",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "The module introduces students to Conservation Biology, a synthesis and crisis discipline that uses approaches and methods from disciplines such as Ecology, Population biology, Population genetics, Molecular biology, and applies them to the conservation of species, intended as dynamic entities capable to respond to environmental changes. Criteria and principles for the adoption of the different conservation strategies are presented and discussed throughout the course. Moreover, the practical aspects of the various approaches are examined through the study and analysis of real cases, with particular reference to aspects linked to the research lines carried out and coordinated by the teacher.\nTopics covered during the course include: evolutionary genetics of natural populations; loss of genetic variability in small populations; inbreeding and decreased fitness; fragmentation of populations; definition and maintenance of evolutionary potential; population size (\\(N\\) and \\(N_e\\)) and its estimators; resolution of taxonomic uncertainties; genetic management of threatened species; adaptation to captivity; planning of head-start interventions and captive-breeding; the IUCN classification; criteria for conservation: species richness, rare species, endemisms; hotspot analysis; gap analysis; climate change; conservation technology; conservation economics."
+  },
+  {
+    "objectID": "conservation biology old/index.html#learning-objectives",
+    "href": "conservation biology old/index.html#learning-objectives",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "The course aims at providing students with the most fundamental tools to understand, acknowledge, describe, and address problems related to the conservation of Biodiversity. By the end of the course the students should develop autonomy in the process of understanding of different approaches and methods, consolidating the awareness that conservation biology is a crisis discipline that requires specific analytical skills to guide appropriate interventions.\nStudents are expected to develop professional language and communication skills through a continuous interaction with the teacher and interventions during classes. Additionally, students are guided in the understanding of the discipline through the access to primary literature in English. The process of development such skills is monitored by written periodical checks, with open questions.\n\n\n\n\n\n\nNote\n\n\n\nAttendance is mandatory!\n\n\n\n\n\n\n\n\nImportantRead carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule and content. The dates for the mid term and final exams will be published on this website later during the course of the semester!"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html",
+    "href": "conservation biology old/classes/3/class_3.html",
+    "title": "Anthropocene",
+    "section": "",
+    "text": "Downloaded from www.geosociety.org."
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#geological-time-scale",
+    "href": "conservation biology old/classes/3/class_3.html#geological-time-scale",
+    "title": "Anthropocene",
+    "section": "",
+    "text": "Downloaded from www.geosociety.org."
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#we-know-we-are-changing-the-environment",
+    "href": "conservation biology old/classes/3/class_3.html#we-know-we-are-changing-the-environment",
+    "title": "Anthropocene",
+    "section": "We know we are changing the environment",
+    "text": "We know we are changing the environment\n\nThe Holocene (Greek for “entirely recent”) had been designated for the post-glacial period of the past ten to twelve thousands years during the Geological Congress in Bologna in 1855\nThe Welsh geologist Thomas Jenkins was probably the first one to publish the idea of an evidence-based human geologic time unit (Lewis & Maslin, 2015)\nThe US author George Perkins published in 1864 the volume “Man and Nature” detailing the global extent of modification of the earth by humans\n\n\n\nIn 1873 the overwhelming impact of human activities on the environment was even more explicitly stated by the Italian geologist Antonio Stoppani who described the human impact as a “telluric force which in power and universality may compared to the greater forces of earth” (Dyke & Lamb, 2020)\n“Any formal recognition of an Anthropocene epoch in the geological time scale hinge on whether humans have changed the Earth ecosystem….to produce a stratigraphic signature in sediment and ice that is distinct of that of the holocene epoch” (Waters et al., 2016)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#the-anthropocene",
+    "href": "conservation biology old/classes/3/class_3.html#the-anthropocene",
+    "title": "Anthropocene",
+    "section": "The Anthropocene",
+    "text": "The Anthropocene\n\nThe sharpest of these signals is made by the artificial radionuclides spread worldwide by the thermonuclear bomb tests from the early 1950 (Dyke & Lamb, 2020)\nIn 2019 the Anthropocene Working Group (AWG) released the result of its vote to designate a new geologic epoch\n2019 officially marks the manifold and planetary effects that human beings are now creating on the ecology, natural processes and even geological records of planet Earth (Dyke & Lamb, 2020)\n\n\n\n\n\nAfter Lewis & Maslin (2015)\n\n\n\n\n\n\nAfter Lewis & Maslin (2015)\n\n\n\n\n\n\nAfter Lewis & Maslin (2015)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#from-biomes",
+    "href": "conservation biology old/classes/3/class_3.html#from-biomes",
+    "title": "Anthropocene",
+    "section": "From Biomes…",
+    "text": "From Biomes…\n\n\n\nBiomes are large areas of regionally similar vegetation which generally occur in predictable patterns of latitude and climate"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#to-anthromes",
+    "href": "conservation biology old/classes/3/class_3.html#to-anthromes",
+    "title": "Anthropocene",
+    "section": "… to Anthromes",
+    "text": "… to Anthromes\n\n\n\nAfter Ellis & Ramankutty (2008)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#catastrophic-invasions---the-zebra-mussel",
+    "href": "conservation biology old/classes/3/class_3.html#catastrophic-invasions---the-zebra-mussel",
+    "title": "Anthropocene",
+    "section": "Catastrophic invasions - The zebra mussel",
+    "text": "Catastrophic invasions - The zebra mussel\n\n\n\nDreissena polymorpha the zebra mussel. Picture downloaded from this website.\n\n\n\n\nZebra mussel can attach to any hard surface and to other living creature. In the later case they can cause the death of the individual they attach to\nThey are exceptionally good filter-feeders and they can alter the ecosystem by filtering huge amounts of phytoplankton, often the most important component of primary production in many aquatic systems\nThe introduction in North America, in the late 80ies, caused a great deal of disruption in many biotic and abiotic components of the environment where they were introduced and spread\n\n\n\nAmong others, this invaders altered water transparency, nutrient cycling, and benthic habitat structure as well as food web structure, bioaccumulation of contaminants, and the diversity of native freshwater mussels (Crowl et al., 2008; Strayer, 2009)\nAlong with the zebra mussel came also its own roundworm parasite (Bucephalus polymorphus) which caused the reduction in many cyprind fish species (Crowl et al., 2008; Dyke & Lamb, 2020)\n\n\n\n\n\nStrayer (2009)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#catastrophic-invasions---green-iguanas",
+    "href": "conservation biology old/classes/3/class_3.html#catastrophic-invasions---green-iguanas",
+    "title": "Anthropocene",
+    "section": "Catastrophic invasions - Green iguanas",
+    "text": "Catastrophic invasions - Green iguanas\n\nGreen iguanas have invaded Grand Cayman island!\n\n\n\n\nDownloaded here"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#catastrophic-invasions---the-blue-crab",
+    "href": "conservation biology old/classes/3/class_3.html#catastrophic-invasions---the-blue-crab",
+    "title": "Anthropocene",
+    "section": "Catastrophic invasions - The blue crab",
+    "text": "Catastrophic invasions - The blue crab\n\n\n\nCallinectes sapidus invaded from the american East cost. After Clavero et al. (2022)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#the-seven-steps-of-a-succesfull-invasion",
+    "href": "conservation biology old/classes/3/class_3.html#the-seven-steps-of-a-succesfull-invasion",
+    "title": "Anthropocene",
+    "section": "The seven steps of a succesfull invasion",
+    "text": "The seven steps of a succesfull invasion\n\nIntroduction (intentional or accidental)\nColonization (sustained residence on at least one invaded area)\nEstablishment (positive population growth on at least one of the new sites)\nDispersal\nSpatially distributed populations\nInvasive spread\nAdaptation to new environments"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#understanding-the-invasive-process",
+    "href": "conservation biology old/classes/3/class_3.html#understanding-the-invasive-process",
+    "title": "Anthropocene",
+    "section": "Understanding the invasive process!",
+    "text": "Understanding the invasive process!\n\nSuccessful invaders are rare! Invaders must possess traits predisposing them to be transported by humans and to survive in the new environment\n\n\nThey can deliver seeds, breeding individuals, or other type of propagules at a high rate at an opportune moment for invasion and at a high density\nThey are able to persist for extended periods of time at low density under unfavorable conditions until favorable conditions permit them to grow to very high densities and initiate the spreading phase\nThey are a good ecological match for the environment and are able to exploit local conditions and abiotic factors that favor the completion of their life cycle as well or even better than the native species (Dyke & Lamb, 2020)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#the-role-of-humans-in-moving-things-around",
+    "href": "conservation biology old/classes/3/class_3.html#the-role-of-humans-in-moving-things-around",
+    "title": "Anthropocene",
+    "section": "The role of humans in moving things around!",
+    "text": "The role of humans in moving things around!\n\nEffects of invasive species will increase in response with increased levels of global trade and will be exacerbated by the climatic crisis (Levine & D’Antonio, 2003)\nHumans have often been deliberate in the intent of introducing species to non-native areas while ignorant of the consequences of such introductions\nIn the nineteenth century the Naturalization Society attempted, and for the most part succeeded, in its intent to introduce common British songbirds to recreate the England country side environement. Such behaviour caused a dramatic dirsuption of the natural environment, with great damage to the local avifauna (Dyke & Lamb, 2020)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#a-documented-case-of-impact",
+    "href": "conservation biology old/classes/3/class_3.html#a-documented-case-of-impact",
+    "title": "Anthropocene",
+    "section": "A documented case of impact",
+    "text": "A documented case of impact"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#species-extinction",
+    "href": "conservation biology old/classes/3/class_3.html#species-extinction",
+    "title": "Anthropocene",
+    "section": "Species extinction",
+    "text": "Species extinction\n\nThe extinction of species, each one a pilgrim of four billion years of evolution, is an irreversible loss. The ending of the lines of so many creatures with whom we have traveled this far is an occasion of profound sorrow and grief. Death can be accepted and to some degree transformed. But the loss of lineages and all their future young is not something to accept. It must be rigorously and intelligently resisted (Snyder, 1990).\n\n\n\nCurrent biodiversity can be thought as the outcome of two “competing” and ongoing evolutionary processes: speciation and extinction.\nExtinction is a fundamental part of natural processes and can be defined as the global loss of species.\nExtinction is for good! Or maybe not…(Evans Ogden, 2014).\nThe institution most actively contributing to track global decline in species and biodiversity is the IUCN.\nHow exactly species extinction is a natural process and if so, why should we really care if things are currently going extinct?"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#first-life-forms",
+    "href": "conservation biology old/classes/3/class_3.html#first-life-forms",
+    "title": "Anthropocene",
+    "section": "First life forms",
+    "text": "First life forms\n\nThe oldest evidence of life on earth may be as old as 4 billion years ago (Dodd et al., 2017).\nAfter its appearance life remained pretty much the same and without much differentiation throughout the proterozoic era."
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#cambrian-explosion",
+    "href": "conservation biology old/classes/3/class_3.html#cambrian-explosion",
+    "title": "Anthropocene",
+    "section": "Cambrian explosion",
+    "text": "Cambrian explosion\n\nEdiacaran diversity, between 635 and 542 MYA.\n\nMostly unskeletonized.\nCharniodiscus, Kimberella.\n\nExplosion of animal diversity in early Cambrian (542-480 MYA).\n\nFirst dominated by small shelly fossils.\nBrachiopoda and Mollusca.\nUnique in its degree of diversity and disparity.\n\n\n\n\n\n\nAnatomy of the Cambrian explosion. After (Marshall, 2006)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#ordovician-diversification",
+    "href": "conservation biology old/classes/3/class_3.html#ordovician-diversification",
+    "title": "Anthropocene",
+    "section": "Ordovician diversification",
+    "text": "Ordovician diversification\n\nGOBE (Great Ordovician Biodiversification Event)\nGreat diversification in the seas (Brachiopods, Gastropods, Bivalves)\nLandmasses invasion by plants and animals\nIt happened in a relatively small amount of time (ca. 485-460 MYA)\n\n\n\n\n\nPaleogeographic reconstruction of the Ordovician period (Servais, Owen, Harper, Kröger, & Munnecke, 2010).\n\n\n\n\n\n\nA glimpse of the Smithsonian fossil collection! Image downloaded from this website."
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#how-many-species-are-there",
+    "href": "conservation biology old/classes/3/class_3.html#how-many-species-are-there",
+    "title": "Anthropocene",
+    "section": "How many species are there?",
+    "text": "How many species are there?\n\n\n\nNumber of described species. Data downloaded from IUCN website."
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#fossil-records-and-extinction-rates",
+    "href": "conservation biology old/classes/3/class_3.html#fossil-records-and-extinction-rates",
+    "title": "Anthropocene",
+    "section": "Fossil records and extinction rates",
+    "text": "Fossil records and extinction rates\n\n\n\nTaxon\nSource\nAverage (MY)\n\n\n\n\nAll invertebrates\n(Raup, 1978)\n11\n\n\nMarine invertebrates\n(Valentine, 1970)\n5-10\n\n\nMarine animals\n(Sepkoski, 1992)\n5\n\n\nAll fossil groups\n(Simpson, 1952)\n0.5-5\n\n\nMammals\n(Martin, 1993)\n5\n\n\nCenozoic mammals\n(Raup & Stanley, 1978)\n1-2\n\n\nDiatoms\n(Valen, 1973)\n8\n\n\nDinoflagellates\n(Valen, 1973)\n13\n\n\nPlanktonic foraminifera\n(Valen, 1973)\n7\n\n\nEchinoderms\n(Durham, 1970)\n6\n\n\n\n\nEstimates of species lifespan from origin to extinction (Lawton & May, 1995).\n\n\n\n\n\nAfter Raup & Sepkoski (1982)\n\n\n\n\nOrdovician-Silurian. 86% of life lost. Scientists theorize that there were two main phases to this extinction; a glaciation event and a heating event\nLate Devonian. 75% life lost. Global cooling. Algae blooming consumed vast amounts of oxygen in the oceans, suffocating many species\nPermian-Triassic. 96% of life lost. Volcanic activity in Siberia put out massive amounts of carbon dioxide into the atmosphere. Bacteria began producing methane, another greenhouse gas. Large quantities of both gases warmed the planet and combined with earth’s water, making the ocean and rain acidic, creating a highly toxic environment for life\n\n\n\nTriassic-Jurassic. 80% of life lost. Volcanic eruption and/or asteroid\nCretaceous. ca. 65% of life lost. The Cretaceous-Paleogene extinction wiped out the dinosaurs, along with a significant portion of all life on Earth. A widely accepted theory is that an asteroid landed in the Yucatán Peninsula in Mexico and killed the dinosaurs"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#a-little-excercise",
+    "href": "conservation biology old/classes/3/class_3.html#a-little-excercise",
+    "title": "Anthropocene",
+    "section": "A little excercise…",
+    "text": "A little excercise…\n\nWe saw that the majority of life on earth exploded and differentiated approximately in the last 600 MY\nWe also estimated that a single species persists on average 5 MY (Lawton & May, 1995)\nFinally we will assume that the number of total species today is, roughly, 2.16 M\n\n\n\n\n\n\n\nImportantQuestion\n\n\n\nCan you estimate what is the percentage of extant biodiversity compared to what is extinct?\n\n\n\n\n(specTurnover &lt;- 600/5)\n\n[1] 120\n\n(totalSpec &lt;- 2.16 * specTurnover)\n\n[1] 259.2\n\n(2.16*100)/totalSpec\n\n[1] 0.8333333\n\n\n\nThis means that more than 99% of all species that have ever lived are extinct today! (See also Jablonski, 2004)"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#another-little-excercise",
+    "href": "conservation biology old/classes/3/class_3.html#another-little-excercise",
+    "title": "Anthropocene",
+    "section": "Another little excercise…",
+    "text": "Another little excercise…\n\n\n\n\n\n\nImportantQuestion\n\n\n\nBased on the data we have, can you roughly estimate what is the proportion of species that went extinct outside of the mass extinction events? (Ordovician-Silurian 86%; Late Devonian 75%; Permian-Triassic 96%; Triassic-Jurassic 80%; Cretaceous 65%)\n\n\n. . .\n\n100-(0.86+0.75+0.96+0.80+0.65)\n\n[1] 95.98\n\n\n. . .\n\nThis means that 100% - 4% = 96% of all extinctions occurred outside the mass extinction events\n\n\n\nThe results from this little exercise are not so distant from what has been known in the scientific literature (Raup, 1991)\nThese results tell us that extinction is a natural process!!!\nIf extinction is part of the natural process of evolution it should be possible to identify a background-extinction rate, i.e. the natural extinction rate during periods in between major extinction events"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#background-extinction-rate.",
+    "href": "conservation biology old/classes/3/class_3.html#background-extinction-rate.",
+    "title": "Anthropocene",
+    "section": "Background extinction rate.",
+    "text": "Background extinction rate.\n\nIf we can estimate a background-extinction rate it should also be possible to compare it across time to measure our current impact on biodiversity\nThe value we just used (~5-10 MY) per species is a good approximation of the background extinction rate (Lawton & May, 1995) and falls under the categories of extinction rate intended as species survival rate\n\n\n\n\nOne of the estimate of extinction rate largely used is in million species years (MSY) and is based on fossil records (S. L. Pimm, Raven, Peterson, H. Şekercioğlu, & Ehrlich, 2006)\nThe million species year extinction rate is based on the empirical estimate from known data on current extinction\nIt tells us how many extinctions we should expect in any sample where the sum of all of the years over all of the species under consideration is one million\nFor example, follow the fates of 10,000 bird species for one century and one should observe just one extinction (i.e., 1 E/MSY according to S. L. Pimm et al., 2006)\n\n\n\n\n\n\n\n\nImportantQuestion!\n\n\n\n1230 species of birds have been described since 1900. This cohort has accumulated 98334 species-years, meaning that one species has been known, on average, for 80 years. Since their description, 13 have gone extinct. Can you estimate the extinction rate?\n\n\n. . .\n\\[\n13:98334=x:10^6\n\\]\n. . .\n\nThis means that the rates of extinctions in recent times (at least since we can document extinctions as they happen) seems to be dramatically increased (S. L. Pimm et al., 2014)!\n\n\n\nThe core idea is to find a background extinction rate that doesn’t consider the influence of mass-extinction events and/or anthropic influence.\nWe know from fossil records that species seem to persist ~1 MY. Stuart L. Pimm, Russell, Gittleman, & Brooks (1995) take the fossil evidence and turn it into a background extinction rate (i.e, a ratio between two quantities, the number of species extinct over time-species). In particular, 1 extinction (E) per \\(10^6\\) species-years (MSY).\n\n\n\n\n\\[\n\\frac{x}{10000}=\\frac{1}{10^6};\n\\]\n\\[\nx = \\frac{1}{10^6}*10000;\n\\]\n\\[\nx = 0.01\n\\]\n\n\\[\n\\frac{13}{98334}=\\frac{x}{10^6};\n\\]\n\\[\nx = \\frac{13}{98334}*10^6;\n\\]\n\\[\nx = 132.202\n\\]\n\n\\[\n\\frac{191}{100000}=\\frac{x}{10^6};\n\\]\n\\[\nx = \\frac{191}{10^5}*10^6;\n\\]\n\\[\nx=1910\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/3/class_3.html#the-sixth-extinction",
+    "href": "conservation biology old/classes/3/class_3.html#the-sixth-extinction",
+    "title": "Anthropocene",
+    "section": "The sixth extinction!",
+    "text": "The sixth extinction!\nThe overarching driver of species extinction is human population growth and per-capita consumption!\n\n1690 Dodo bird (Raphus cucullatus), extinct from predation by introduced pigs and cats.\n1768 Stellar’s sea cow (Hydrodamalis gigas), extinct from hunting for fur and oil.\n1870 Labrador duck (Camptorhynchus labradorius), extinct from human competition for mussels and other shellfish.\n1900 Rocky mountain locust (Melanoplus spretus), extinct from habitat conversion to farmland.\n1936 Tasmanian wolf (Thylacinus cynocephalus), extinct from hunting, habitat loss, and competition with dogs.\n\n\n\n1952 Deepwater cisco fish (Coregonus johannae), extinct from competition and predation by introduced fishes.\n1962 Hawaii chaff flower (Achyranthes atollensis), extinct from habitat conversion to military installations.\n1989 Golden toad (Incilius periglenes), extinct from climate change or other impacts.\n2004 St. Helena olive tree (Nesiota elliptica), extinct from logging and plantations.\n\n(List available from the Smithsonian website.)\n\n\n\n\nAfter Smith, May, Pellew, Johnson, & Walter (1993)."
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html",
+    "href": "conservation biology old/classes/4/class_4.html",
+    "title": "Populations",
+    "section": "",
+    "text": "The traditional definition of a population is:\n\n (Dyke & Lamb, 2020)\n\nThis definition is strictly biological, but it could be more complex when we refer to individuals that are harvested, threatened or are perceived controversially by the public opinion\nIn the above cases, a population may be defined using political and social arguments rather than biological ones\nFor example, Michigan and Wisconsin manage their Wolf (Canis lupus) population independently even though they are neighboring states and even though wolf individuals, obviously, move across the boundaries as they please\n\n\n\nEven if they “feel” artificial, political and social perspectives should always be considered when defining populations, as politicians are the ones that ultimately support or deny conservation policies"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#what-is-a-population",
+    "href": "conservation biology old/classes/4/class_4.html#what-is-a-population",
+    "title": "Populations",
+    "section": "",
+    "text": "The traditional definition of a population is:\n\n (Dyke & Lamb, 2020)\n\nThis definition is strictly biological, but it could be more complex when we refer to individuals that are harvested, threatened or are perceived controversially by the public opinion\nIn the above cases, a population may be defined using political and social arguments rather than biological ones\nFor example, Michigan and Wisconsin manage their Wolf (Canis lupus) population independently even though they are neighboring states and even though wolf individuals, obviously, move across the boundaries as they please\n\n\n\nEven if they “feel” artificial, political and social perspectives should always be considered when defining populations, as politicians are the ones that ultimately support or deny conservation policies"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#population-demography",
+    "href": "conservation biology old/classes/4/class_4.html#population-demography",
+    "title": "Populations",
+    "section": "Population demography",
+    "text": "Population demography\n\nPopulations mutate over time due to individuals or , or \nPopulation demography is the study of populations by understanding how probable each one of the above mentioned events is, and what factors influence these probabilities\n\n. . .\n\n is the event that conservation biologists are trying to avoid\nVery few populations suddenly disappear when they are alrge and healthy: extinction is generally preceded by decline!\n\n\n\n: a group of individuals born at the same time\n: the probability of an individual surviving up to a certain age\n: the net additions/subtractions of reproductively viable individuals, added to the population after the adjustment for early or neonatal mortality\n: the number of young or eggs produced per female (animal) or seeds per individual (plants) per unit time\n: the permanent movement of an individual from its area of birth to another area. Usually measured in term of , and \n\n\n\n\nIf we had perfect knowledge about each individual in the population it would be relatively simple to make precise predictions about the behavior of the population through time\nUnfortunately, in most cases our knowledge about population status is far from perfect. We therefore construct models to understand and approximate the complexity of a population and predict how it will behave\nThe models and their assumptions are NOT laws that invariably describe how populations work. They have to be informed with direct information gathered from real populations"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#population-models-exponential",
+    "href": "conservation biology old/classes/4/class_4.html#population-models-exponential",
+    "title": "Populations",
+    "section": "Population models: exponential",
+    "text": "Population models: exponential\n\nThe simplest model of population dynamic can be written as the sum of births () and migrants entering the populations () minus mortality () and individuals leaving or exiting the population ()\n\n\\[\n\\label{popmod}\n\\tag{4.1}\nN_{(t+1)} = N_{(t)} + (B_t + I_t) - (D_t + E_t)\n\\]\n. . .\n\nIf a population is increasing exponentially (, increasing with and increasing rate over time) its growth will be defined by \\(N\\) and a rate of increase \\(r\\) which is rate of birth minus rate of death (\\(r = b-d\\))\nWithout considering migration (neither in nor out of the population) \\(B\\) becomes a function of birth rate (\\(b\\)), the number of deaths (\\(D\\)) is a function of \\(d\\) the per capita death rate\n\n\n\n\n\nExponential growth curve\n\n\n\nChange in numbers over change in time is expressed as:\n\n\\[\n\\label{expgrth}\n\\tag{4.2}\n\\frac{dN}{dt} = rN\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#population-models-logistic",
+    "href": "conservation biology old/classes/4/class_4.html#population-models-logistic",
+    "title": "Populations",
+    "section": "Population models: logistic",
+    "text": "Population models: logistic\n\nThe exponential growth curve is a good starting point, although unrealistic for most species. (Boyce, 1992)\nA more realistic model should account for species’ ecology and the fact that species exist in their environment\nThe limits imposed by the environment are usually identified using \\(K\\), the carrying capacity\n\n\\[\n\\label{expgrthcc}\n\\tag{4.3}\n\\frac{dN}{dt} = rN (\\frac{K-N}{K})\n\\]\n\nWith small values of \\(N\\) relative to \\(K\\), \\((\\frac{K-N}{K}) \\approx 1\\) and the population grows almost exponentially\n\n\n\n\n\nLogistic growth curve\n\n\n\nThis model assumes all individuals are demographic equivalent, an unlikely assumption in many systems, especially with long lived individuals!\n\n\n\nIn logistic model, changes in the size of the population (\\(N\\)) directly affect population growth, an expression of \nDensity dependence operates through a negative feedback between the growth rate and the population size at one or more steps\nDensity dependence results in regulation of the population fluctuations around a mean population size, which is the carrying capacity"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#population-perturbations-density-independent",
+    "href": "conservation biology old/classes/4/class_4.html#population-perturbations-density-independent",
+    "title": "Populations",
+    "section": "Population perturbations: density independent",
+    "text": "Population perturbations: density independent\n\nMany factors influencing population size are described as stochastic factors\nA population whose growth is only a function of stochastic variation can be described as density independent. Shaffer (1981) recognizes 4 main sources of such stochasticity:\n\ngenetic stochasticity;\ndemographic stochasticity;\nenvironmental stochasticity\nnatural catastrophes!\n\nThe effects of the these sources of variation are not predetermined, but subject to uncertainties that are more or less probable according to population characteristics"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#population-perturbations-natural-catastrophes",
+    "href": "conservation biology old/classes/4/class_4.html#population-perturbations-natural-catastrophes",
+    "title": "Populations",
+    "section": "Population perturbations: natural catastrophes!",
+    "text": "Population perturbations: natural catastrophes!\n\nSome have argued that natural catastrophes are a special case of environmental stochasticity because they are only extreme forms of normal environment variation (prolonged drought, flash floods, extreme rain)\nThe point is that catastrophes lie outside of the normal probability distribution of random events associated with environmental variation\nThey also are qualitatively and quantitatively different in their effects\nA forest fire is not just a very hot day! (Lacy, 1993)\nThe most viable protection against risks associated with catastrophes is spatial segregation of different population subunits (Dyke & Lamb, 2020)"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#avoiding-extinction-through-spatial-segregation",
+    "href": "conservation biology old/classes/4/class_4.html#avoiding-extinction-through-spatial-segregation",
+    "title": "Populations",
+    "section": "Avoiding extinction through spatial segregation",
+    "text": "Avoiding extinction through spatial segregation\n\nWhat are the relative risks of keeping a small population intact on a single site versus subdividing the population in to separate units?\n\n\n\n\nDecision analysis after Drechsler & Burgman (2004)\n\n\n\n\n\n\nThe pink iguana population only persists on the top of an active volcano!"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#population-perturbations-density-dependent",
+    "href": "conservation biology old/classes/4/class_4.html#population-perturbations-density-dependent",
+    "title": "Populations",
+    "section": "Population perturbations: density dependent",
+    "text": "Population perturbations: density dependent\n\nDensity dependent factors can regulate the size of a population in a much more precise way than the independent ones\nTo better understand these factors it is useful to debunk the assumptions of the logistic growth curves\n\nTime lag in density dependence: the addition of new individuals in the population may not have an immediate effect in shaping the growth curve\nTraditional logistic curves assume constant values of K: it is more accurate to define K not as a constant value that a population cannot exceed, but as a population size reflecting equilibrium between a population and its resources created by their interaction\nIndividuals in a population are not contributing equally to the population growth: age and sex structure play a pivotal role"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#how-do-we-estimate-the-size-of-a-population",
+    "href": "conservation biology old/classes/4/class_4.html#how-do-we-estimate-the-size-of-a-population",
+    "title": "Populations",
+    "section": "How do we estimate the size of a population?",
+    "text": "How do we estimate the size of a population?\n\nIt is often impractical and/or impossible to count every single individual in a population\n\n. . .\n\nCapture-Mark-Recapture experiments allow to estimate a population’s size\n\nSome individuals are captured and marked\nThe marked individuals are released in their environment\nA second sampling trip is conducted and another portion of the individuals are collected\nThe number of marked individuals collected in the second expedition is expected to be proportional to the number of marked individuals in the entire population"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#tagging-systems",
+    "href": "conservation biology old/classes/4/class_4.html#tagging-systems",
+    "title": "Populations",
+    "section": "Tagging systems",
+    "text": "Tagging systems\n\nA tagging system is a system allowing us to tag and label things to provide those things a unique identifier\nPeople have been tagging animals (wild and captive) for hundreds of years and have developed different ways to tag pretty much every single living things\nAn animal tag can be as simple as a piece of metal or plastic with a number carved on it or with a standardized meaning"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#visual-tagging-systems",
+    "href": "conservation biology old/classes/4/class_4.html#visual-tagging-systems",
+    "title": "Populations",
+    "section": "Visual tagging systems",
+    "text": "Visual tagging systems\n\n\n\n \n\n\n\n\n\n\n\nA male Cyclura carinata with colored bead tags. Photo credits: Giuliano Colosimo."
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#passive-integrated-transponders",
+    "href": "conservation biology old/classes/4/class_4.html#passive-integrated-transponders",
+    "title": "Populations",
+    "section": "Passive integrated transponders",
+    "text": "Passive integrated transponders\n\n\n\nTags based on radio-frequency identification (RFID) \nEmit a signal with an alpha-numeric code unique to the animal \nWidely used for wildlife fauna \nThey generally do not carry any other information but the ID\n\n\n\n\n\nA Passive Integrated Transponder by Trovan®. Photo credits: Giuliano Colosimo."
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#patterns-tagging",
+    "href": "conservation biology old/classes/4/class_4.html#patterns-tagging",
+    "title": "Populations",
+    "section": "Patterns tagging",
+    "text": "Patterns tagging\n\nToes and nail clipping\n\n\n\nThis image is from Waichman (1992). The author describes all possible combination of toe clipping to uniquely identify individuals\n\n\n\n\n\nFeatures tag\n\n\n\nToads of the genus Bombina have unique spotted patterns. Photo credits: marioeffe"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#photo-tagging",
+    "href": "conservation biology old/classes/4/class_4.html#photo-tagging",
+    "title": "Populations",
+    "section": "Photo tagging",
+    "text": "Photo tagging\n\n\n\nDevelopment of a photo recognition software to identify iguanas in the wild. Image courtesy of Nathalie Duporge."
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#satellite-tags",
+    "href": "conservation biology old/classes/4/class_4.html#satellite-tags",
+    "title": "Populations",
+    "section": "Satellite tags",
+    "text": "Satellite tags\n\n\n\n\nA male Conolophus marthae with a Wireless Sensor Node (WSN) attached behind its hindlegs. Photo credits: Giuliano Colosimo."
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#estimates-of-census-population-size",
+    "href": "conservation biology old/classes/4/class_4.html#estimates-of-census-population-size",
+    "title": "Populations",
+    "section": "Estimates of census population size",
+    "text": "Estimates of census population size\n\nA conservationist is working on a critical endangered species and needs to estimate how many individuals are left. He/she goes to the field and captures 15 individuals. These individuals are tagged and released on site. One week later the researcher comes back and catches 20 individuals, 10 of which are tagged\nLets define some variables as:\n\n\\(N\\) = Number of animals in the population\n\\(n\\) = Number of animals marked on the first visit\n\\(K\\) = Number of animals captured on the second visit\n\\(k\\) = Number of animals captured in the second visit that were marked (i.e., recaptured individuals)"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#lincoln-petersen-estimator-of-n-seber1982",
+    "href": "conservation biology old/classes/4/class_4.html#lincoln-petersen-estimator-of-n-seber1982",
+    "title": "Populations",
+    "section": "Lincoln-Petersen estimator of N (Seber, 1982)",
+    "text": "Lincoln-Petersen estimator of N (Seber, 1982)\n\nUseful with only two sampling events \nAssumes that \\(N\\) is constant over the time of the experiment (i.e., there are no deaths or births) \nAssumes a closed population (i.e., there are no migrants) \nCatchability is the same among individuals, even the tagged ones \nTags are not lost between sampling events \nIndividuals have the time to randomly redistribute over their habitat\n\n\n\n\\(N\\) = Number of animals in the population \n\\(n\\) = Number of animals marked on the first visit \n\\(K\\) = Number of animals captured on the second visit \n\\(k\\) = Number of animals captured in the second visit that were marked (i.e., recaptured individuals)\n\n\\[\n\\label{lp}\n\\tag{4.4}\nN=\\frac{K*n}{k}\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#schnable-estimator-of-n",
+    "href": "conservation biology old/classes/4/class_4.html#schnable-estimator-of-n",
+    "title": "Populations",
+    "section": "Schnable estimator of \\(N\\)",
+    "text": "Schnable estimator of \\(N\\)\n\nExtension of the LP estimator \nSame assumptions of LP \nAllows to incorporate \\(s\\) sampling events in the calculation \nIt depends simply on observing how the proportion of marked animals in catches increases as more animals have been marked (Sutherland, 2006)\n\n\n\n\\(N\\) = Number of animals in the population \n\\(n_i\\) = Number of animals captured on \\(i^{th}\\) visit \n\\(m_i\\) = Number of animals marked on \\(i^{th}\\) visit \n\\(k_i\\) = Number of animals captured on \\(i^{th}\\) visit that were marked (i.e., recaptured individuals) \n\\(s\\) = Number of visits\n\n\\[\n\\label{schnable}\n\\tag{4.5}\nN=\\frac{\\sum_{i=1}^s  n_i*m_i}{\\sum_{i=1}^s k_i}\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#jolly-seber",
+    "href": "conservation biology old/classes/4/class_4.html#jolly-seber",
+    "title": "Populations",
+    "section": "Jolly-Seber",
+    "text": "Jolly-Seber\n\nJolly-Seber (Jolly, 1965; Seber, 1982) is the method of election to estimate N starting from multiple sampling occasions\nThe following set of four numbers are needed in order to begin the calculation\n\n\\(n_i\\) = total number of animals caught in the \\(i^{th}\\) sample\n\\(R_i\\) = number of animals that are released after the \\(i^{th}\\) sample\n\\(m_i\\) = number of animals in the \\(i^{th}\\) sample that carry marks from previous captures\n\\(m_{ij}\\) = number of animals in the \\(i^{th}\\) sample that were most recently caught in the \\(j^{th}\\) sample\n\n\n\n\n\n\nCapture history of sampled individuals. After Sutherland (2006), p. 121\n\n\n\n\n\n\nSummary of capture data from previous table. After Sutherland (2006), p. 121\n\n\n\n\n\\(z_i\\) = the number of animals caught both before and after the \\(i^{th}\\) sample but not in the \\(i^{th}\\) sample itself\n\\(r_i\\) = the number of animals that were released from the \\(i^{th}\\) sample and were subsequently recaptured (Sutherland, 2006)\n\\(M_i\\) = number of marked animals in the population when the \\(i^{th}\\) sample is taken (but not including animals newly marked in the \\(i^{th}\\) sample)\n\n\\[\n    \\label{mi}\n    \\tag{4.6}\n    m_1 + (R_i + 1)z_i /(r_i + 1)\n\\]\n\n\n\n\nCapture history data sourced from Jolly (1965)\n\n\n\n\n\\(N_i\\) = population size at the time of the \\(i^{th}\\) sample\n\n\\[\n    \\label{ni}\n    \\tag{4.7}\n    M_i (n_i + 1)/(m_i + 1)\n    \\]\n\n\\(\\phi_i\\) = proportion of the population surviving (and remaining in the study area) from the \\(i^{th}\\) sampling occasion to the \\((i + 1)^{th}\\)\n\n\\[\n\\label{fi}\n\\tag{4.8}\nM_{i+1}/(M_i − m_i + R_1)\n\\]\n\n\\(B_i\\) = number of animals that enter the population between the \\(i^{th}\\) and \\((i + 1)^{th}\\) samples and survive until the \\((i + 1)^{th}\\) sampling occasion\n\n\\[\n    \\label{bi}\n    \\tag{4.9}\n    N_{i+1} − \\phi_i (N_i − n_i + R_i)\n\\]\n\n\n\\(M_2 = 10 + (143 + 1)14/(80 + 1) = 34.89\\) \n\\(N_2 = 34.89(146 + 1)/(10 + 1) = 466.1\\) \n\\(\\phi_2 = 169.46/(34.89 − 10 + 143) = 1.009\\) \n\\(B_2 = 758.1 − 1.009(466.2 − 146 + 143) = 290.7\\) \nNote that one cannot calculate \\(M\\) for the last sample, \\(N\\) for the first or last, \\(\\phi\\) for the last two and \\(B\\) for the first or last two. \\(M_1\\) is always zero"
+  },
+  {
+    "objectID": "conservation biology old/classes/4/class_4.html#distance-sampling",
+    "href": "conservation biology old/classes/4/class_4.html#distance-sampling",
+    "title": "Populations",
+    "section": "Distance sampling",
+    "text": "Distance sampling\n\nThis method is based on performing transects during which the user collects the distances of the surveyed individuals from a line or point\nThe goal is to estimate the density of individuals within a region\n\n\n\n\nDistance sampling using line transect. Downloaded here\n\n\n\n\nDistance sampling assumes perfect detectability on the walking transect line\n\n\n\n\nExample survey from systematic parallel design. Data downloaded here"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html",
+    "href": "conservation biology old/classes/2/class_2.html",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "",
+    "text": "One of the most pervasive environmental changes of recent history is the loss of Earth’s diversity of life.\nThis loss is a systemic problem embedded in the normal ways the human species lives on planet earth, especially with: its ability to to system designed to maximize human benefit, its and waste production, its , its ability to themselves, and all sorts of plants and animal around, its capacity and supporting technology to in little time, its industrial-level production of many substances that destroy many kinds of life, its ability to influence and .\n\n\n\nConservation biology origins were driven by studies and discoveries in basic sciences such as genetics and population dynamics, but soon became manifest in applied sciences like forestry, fisheries, wildlife management, and more.\nThe traditional view of recent extinctions as a collection of tragic individual case histories was replaced by a conviction that the global extinction crisis was produced by the fundamental disruption of ecosystem processes.\nThe extinction crisis created an urgency to develop an alternative concept and transition from loss of endangered species to loss of Biodiversity (Dyke & Lamb, 2020)."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#why-should-we-care-about-biodiversity",
+    "href": "conservation biology old/classes/2/class_2.html#why-should-we-care-about-biodiversity",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Why should we care about Biodiversity?",
+    "text": "Why should we care about Biodiversity?\n\nA more diverse combination of species (biological community) or, in other words, a more biodiverse system…\n\n… translates in to a more productive environment (Duffy, 2009; Hooper et al., 2005).\n… produces a more resistant environment (Naeem et al., 2000; Tilman et al., 1997).\n… produces a more resilient environment (Wilsey & Potvin, 2000).\n… produces more stable ecosystem processes and a more stable environment in general (Cardinale et al., 2012; Van Meerbeek, Jucker, & Svenning, 2021).\n\n\n\n\nA key concept when talking about Biodiversity is that of emergence. This occurs when a complex entity has properties or behaviors that its parts do not have on their own, and emerge only when they interact in a wider whole (Wikipedia contributors, 2025)\n\n. . .\n\nBiodiversity is essential for food security and nutrition and offers key options for sustainable livelihoods (Convention on Biological Diversity, https://www.cbd.int)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#emergence",
+    "href": "conservation biology old/classes/2/class_2.html#emergence",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Emergence…",
+    "text": "Emergence…\n\n\n\nExamples of emergent properties arising from community complexity. After Berg et al. (2022)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#emergence-1",
+    "href": "conservation biology old/classes/2/class_2.html#emergence-1",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Emergence…",
+    "text": "Emergence…\n\n\n\nMultifunctional ecosystem require many species. After Duffy (2009)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#resistent-environment",
+    "href": "conservation biology old/classes/2/class_2.html#resistent-environment",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Resistent environment",
+    "text": "Resistent environment\n\n\n\nRoles of host species in the transmission of Lyme disease in the northeastern USA. After Keesing et al. (2010)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#higher-productivity",
+    "href": "conservation biology old/classes/2/class_2.html#higher-productivity",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Higher productivity",
+    "text": "Higher productivity\n\n\n\n\n\nAfter Wilsey & Potvin (2000)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#species-richness",
+    "href": "conservation biology old/classes/2/class_2.html#species-richness",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Species richness",
+    "text": "Species richness\n\n\n\nRelative species richness per land use type. After Baan, Alkemade, & Koellner (2013)\n\n\n\n\nThe ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site’s resources over time and provides an effective way to multiple goods and services (Hooper et al., 2005).\n\n. . .\n\n\n\n\n\n\nImportantQuestion!\n\n\n\nWhat are ecosystem services?\n\n\n\n\nProvisioning services\n\nFood, Energy, Structural materials\n\nRegulating services\n\nReduce the severity of environmental events\n\nSupporting services\n\nProvision of physical bodies to be used for essential services (oxygen and soil)\n\nCultural services\n\nRecreational, intellectual and spiritual activities"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#current-status-of-biodiversity",
+    "href": "conservation biology old/classes/2/class_2.html#current-status-of-biodiversity",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Current status of biodiversity",
+    "text": "Current status of biodiversity\n\n\n\nCurrent biodiversity on vertebrates according to Hoffmann et al. (2010)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#causes-of-rapid-decline-in-amphibians",
+    "href": "conservation biology old/classes/2/class_2.html#causes-of-rapid-decline-in-amphibians",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Causes of rapid decline in amphibians",
+    "text": "Causes of rapid decline in amphibians\n\n\n\nAfter Stuart et al. (2004)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#main-causes-of-biodiversity-loss",
+    "href": "conservation biology old/classes/2/class_2.html#main-causes-of-biodiversity-loss",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Main causes of biodiversity loss",
+    "text": "Main causes of biodiversity loss\n\nHabitat modification (Baan et al., 2013)\n\nTransformational effects\nOccupational effects\nPermanent effects\n\nClimate change (we will talk about this in a separate class)\n\n. . .\n\nTransformational effects\nChange in the way the land is used. For example, a prairie changed to become a soybean field. The land is still there, and the productivity in term of biomass may even be higher, but the system structure’s is simplified and the chance to have a diverse group of species is lost\n\n\n\nOccupational effects\nColonization of areas that were previously human free. The human presence directly and indirectly affect the newly colonized system by removing resources, producing wastes, altering the landscape\n. . .\n\n\nPermanent effects\nAreas can be disturbed in a more or less permanent way. Lumbering of a forest section in a specific area can be, with time and proper management, reversed and the forest could be reestablished. A prairie covered in asphalt to build a mall and a parking lot is probably lost for good"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-excercise-1",
+    "href": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-excercise-1",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Calculating biodiversity: Excercise 1",
+    "text": "Calculating biodiversity: Excercise 1\n\n\n\nExcercise dataset.\n\n\n\nWhat is the most diverse site based on Shannon index? \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-excercise-1-in-r",
+    "href": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-excercise-1-in-r",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Calculating biodiversity: Excercise 1 in R",
+    "text": "Calculating biodiversity: Excercise 1 in R\n\nlibrary(vegan)\ndata(BCI)\nplantDivExcercise &lt;- BCI[1:10, \n                         c(144, 186, 208, 216, 223)]\nspecies_names &lt;- rep(NA, ncol(plantDivExcercise))\nfor (i in 1:ncol(plantDivExcercise)){\n  species_names[i] &lt;- paste(\"Sp_\", i, sep = \"\")\n}\nnames(plantDivExcercise) &lt;- species_names\nSite &lt;-  1:10\nplantDivExcercise &lt;- cbind(Site, plantDivExcercise)\ndiversity(plantDivExcercise)[diversity(plantDivExcercise)\n    [] == max(diversity(plantDivExcercise))]\n\n       5 \n1.544138"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-1-explanation",
+    "href": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-1-explanation",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Calculating biodiversity: Exercise 1 explanation",
+    "text": "Calculating biodiversity: Exercise 1 explanation\n\nIn \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\), \\(p_i\\) is the proportion of the total community abundance of the species \\(i\\)\nWe can workout the value for site 5:\n\n\\[\n17+5+15+31+5 = 73\n\\]\n\\[\np_{species1} = 17/73 = 0.233\n\\]\n\\[\nln(p_{species1}) = ln(0.233) = -1.457\n\\]\n\\[\n0.233*-1.457 = -0.339\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-2",
+    "href": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-2",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Calculating biodiversity: Exercise 2",
+    "text": "Calculating biodiversity: Exercise 2\n\n\n\n\n\nExcercise 2 dataset A.\n\n\n\n\n\n\nExcercise 2 dataset B.\n\n\n\n\n\nQuestion: What is the most diverse area based on \\(\\beta\\) diversity index as postulated by Whittaker (1975)? \\(S/\\alpha-1\\)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-2-in-r",
+    "href": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-2-in-r",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Calculating biodiversity: Exercise 2 in R",
+    "text": "Calculating biodiversity: Exercise 2 in R\n\ndata(BCI)\nplantDivExcercise &lt;- BCI[1:10, c(144,186,208,216,223)]\nspecies_names &lt;- rep(NA, ncol(plantDivExcercise))\nfor (i in 1:ncol(plantDivExcercise)){\n  species_names[i] &lt;- paste(\"Sp_\", i, sep = \"\")\n}  \nnames(plantDivExcercise) &lt;- species_names\nSite &lt;-  1:10\nplantDivExcercise &lt;- cbind(Site, plantDivExcercise)\nncol(plantDivExcercise[1:4, 2:6])/\n  mean(specnumber(plantDivExcercise[1:4, 2:6])) - 1\n\n[1] 0.05263158"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-2-explanation",
+    "href": "conservation biology old/classes/2/class_2.html#calculating-biodiversity-exercise-2-explanation",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Calculating biodiversity: Exercise 2 explanation",
+    "text": "Calculating biodiversity: Exercise 2 explanation\n\n\n\nExcercise 2 dataset A.\n\n\n\nThe Whittaker (1975) formula: \\(\\beta=(S/\\alpha)-1\\), where \\(S\\) is the total number of species in the area, and \\(\\alpha\\) is the average number of species in the area. \\(\\beta\\) diversity gives us an index of species turnover along a geographic gradient.\n\n\\[\n\\beta=\\frac{5}{(5+4+5+5)/4}-1=0.052\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#biodiversity-distribution",
+    "href": "conservation biology old/classes/2/class_2.html#biodiversity-distribution",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Biodiversity distribution",
+    "text": "Biodiversity distribution\n\n\n\n\n\n\n\n\n\nMammal richness. Data downloaded from https://biodiversitymapping.org."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#global-prioritization-strategies",
+    "href": "conservation biology old/classes/2/class_2.html#global-prioritization-strategies",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Global prioritization strategies",
+    "text": "Global prioritization strategies\n\n\n\nSpatial concordance of global biodiversity priorities and ecosystem service value (ESV). Increasing intensities of green and red represent, respectively, increasing rank ESV and increasing rank consensus biodiversity priority. White corresponds to low values for both variables, black to high values for both, and shades of gray to covarying values for both. After Turner et al. (2007)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#integrated-conservation-strategies",
+    "href": "conservation biology old/classes/2/class_2.html#integrated-conservation-strategies",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Integrated conservation strategies",
+    "text": "Integrated conservation strategies\n\n\n\nConservation priority-setting indices combining EcoWise, SocioWise and ClimateWise priorities. After Freudenberger et al. (2013)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#how-to-support-biodiversity-in-human-modified-landscapes",
+    "href": "conservation biology old/classes/2/class_2.html#how-to-support-biodiversity-in-human-modified-landscapes",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "How to support biodiversity in human modified landscapes?",
+    "text": "How to support biodiversity in human modified landscapes?\n\nPrefer diversity in crops (polyculture) and land use (land-use mosaic).\nEncourage traditional agricultural practices over large-scale mechanized solutions.\nMonitor and maintain keystone structure or species from the environment.\nMaintain as much natural vegetation as possible.\nExpand protected areas to encompass species of significant value (keystone-species).\nFavor use of native species in gardens and cultivation.\nMaintain urban green areas.\nDiscourage urban sprawl.\nEncourage appreciation and understanding of conservation goals among land users.\n\nAfter Trimble & Aarde (2014)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2.html#synthesis",
+    "href": "conservation biology old/classes/2/class_2.html#synthesis",
+    "title": "Biodiversity: Concept, Measurement, and Management",
+    "section": "Synthesis",
+    "text": "Synthesis\n\nBiodiversity is a core concept of conservation biology. Its usefulness is only valid if we are able to thoroughly measure it and define it mathematically.\nOnly with a clear understanding and measurement of biodiversity and its value we could use it in conservation studies, conservation laws and conservation policy.\nEffective future research on biodiversity will not only keep on refining and finding new ways on how to measure it, but also understand the evolutionary and ecological processes that can contribute to its creation and maintainment.\nThe hope is to increasingly see biodiversity as a core concept of future local and international strategies for the conservation of nature."
+  },
+  {
+    "objectID": "conservation biology old/contact.html",
+    "href": "conservation biology old/contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Here you can find my contact information. My office is number 14, located on the first floor of the main building at “Laboratori di Ecologia Sperimentale ed Acquacoltura” in Via Cracovia 1, 00133 Rome, Italy.\n\n\n\n\n\n\n\nYou can reach me by e-mail using the following address:\n\ngiuliano.colosimo@uniroma2.it\n\nOr you can call my office number at:\n\n+39 06 7259 5964"
+  },
+  {
+    "objectID": "conservation biology old/calendar.html",
+    "href": "conservation biology old/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "The course will begin on Monday, November 4, 2024. The tentative schedule for mid-terms and final exams will be updated throughout the course.\n\n\n\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nMon/Thu\n11:00-13:00/14:00-16:00\nAula centro studi pesca\n\n\nMid Term Exam - 1\nMonday, December 9\n14:00-16:00\nAula centro studi pesca\n\n\nMid Term Exam - 2\nMonday, February 3 2025\n14:00-16:00\nAula centro studi pesca\n\n\nFinal exam\nTo be decided\nTo be decided\nAula centro studi pesca\n\n\n\n\n\nBelow you will find a temptative schedule for the rest of the semester and a table with the temptative date for your presentation. Manuscript and dates have been assigned in a random way. Please, if you already know that you will not be present on the date that has been assigned to you let me know in time so that I can arrange a schedule change.\n\n\n\n\n\n\nImportantRead carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule and content. The dates for the mid term and final exams will be published on this website later during the course of the semester!\n\n\n\n\n\n\n\n\nLast.name\nPaper\nPresentation.date\n\n\n\n\nEsposito\nFreudenberger_Nature conservation priority setting needs a global change_2013\n2024-11-14\n\n\nCannone\nSvenning_The late-quaternary megafauna extinctions_2024\n2024-11-21\n\n\nGiammattei\nGarizio_First evidence of recruitment in critically endangered Galapagos pink land_2024\n2024-11-28\n\n\nPasina\nBina-Perl_Population genetic analysis of the recently redisovered Hula painted frog Latonia nigriventer reveals high genetic diversity and low inbreeding _2018\n2024-12-2\n\n\nGiammatteo\nChekunov_Scale of unregulated international trade in Australian reptiles and amphibians_2024\n2024-12-05\n\n\nSegatti\nSatta_Genetic characterization and implications for conservation of the last autochthous Mouflon population in Europe_2021\n2024-12-12\n\n\nZingaretti\nLeitschuh_Developing gene drive technologies to eradicate invasive rodents from islands_2018\n2024-12-16\n\n\nPepere\nCalinger_Herbarium specimens reveal the footprint of climate change on flowering trends across North America_2013\n2024-12-19\n\n\nMarchetti\nOppel_Habitat specific effectiveness of feral cat control for the conservation of an endemic ground-nesting bird species_2014\n2025-01-09\n\n\nCanti\nWestaway_Wildlife restoration in fragmented landscapes Trialling wild-to-wild translocation with two common reptiles_2024\n2025-01-13\n\n\nDe Sanctis\nHardy_Swift action increases the success of population reinforcement for a declining prairie grouse_2018\n2025-01-20\n\n\n\n\n\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\nℹ The deprecated feature was likely used in the calendR package.\n  Please report the issue to the authors."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html",
+    "href": "conservation biology old/classes/2/class_2_old.html",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "One of the most pervasive environmental changes of recent history is the loss of Earth’s diversity of life\nThis loss is a systemic problem embedded in the normal ways the human species lives on planet earth\nConservation biology origins were driven by studies and discoveries in basic sciences such as genetics and population dynamics, but soon became manifest in applied sciences like forestry, fisheries, wildlife management, and more\nThe traditional view of recent extinctions as a collection of tragic individual case histories was replaced by a conviction that the global extinction crisis was produced by the fundamental disruption of ecosystem processes\nThe extinction crisis created an urgency to develop an alternative concept and transition from loss of endangered species to loss of Biodiversity (Dyke & Lamb, 2020)\n\n\n\n\n. . .\n\nThe structural and functional variety of life forms at genetic, population community and ecosystem levels (Sandlund, Hindar, & Brown, 1992).\nGenes and their variety of forms (alleles) are the most fundamental units at which biodiversity can be measured, and their are the basis for all other measures of diversity.\n\n. . .\n\n\n\n\n\nMain biodiversity levels.\n\n\n\n\n\n\n\n\nA more diverse combination of species (biological community) or, in other words, a more biodiverse system…\n\n… translates in to a more productive environment (Duffy, 2009; Hooper et al., 2005).\n… produces a more resistant environment (Naeem et al., 2000; Tilman et al., 1997).\n… produces a more resilient environment (Wilsey & Potvin, 2000).\n… produces more stable ecosystem processes and a more stable environment in general (Cardinale et al., 2012; Vanmeerbeek2021?).\n\n\n. . .\n\nA key concept when talking about Biodiversity is that of emergence. This occurs when a complex entity has properties or behaviors that its parts do not have on their own, and emerge only when they interact in a wider whole (WikiEmergence?)\n\n. . .\n\nBiodiversity is essential for food security and nutrition and offers key options for sustainable livelihoods (Convention on Biological Diversity, https://www.cbd.int)\n\n\n\n\n\n\n\nExamples of emergent properties arising from community complexity. After (vandenBerg2022?)\n\n\n\n\n\n\nMultifunctional ecosystem require many species. After Duffy (2009)\n\n\n\n\n\n\nRoles of host species in the transmission of Lyme disease in the northeastern USA. After Keesing et al. (2010)\n\n\n\n\n\n\n\n\nAfter Wilsey & Potvin (2000)\n\n\n\n\n\n\n\n\n\n\nRelative species richness per land use type. After Baan, Alkemade, & Koellner (2013)\n\n\n\n\nThe ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site’s resources over time and provides an effective way to multiple goods and services (Hooper et al., 2005).\n\n. . .\n\n\n\n\n\n\nImportantQuestion!\n\n\n\nWhat are ecosystem services?\n\n\n. . .\n\n\n\nProvisioning services\n\nFood, Energy, Structural materials\n\nRegulating services\n\nReduce the severity of environmental events\n\n\n\n\nSupporting services\n\nProvision of physical bodies to be used for essential services (oxygen and soil)\n\nCultural services\n\nRecreational, intellectual and spiritual activities\n\n\n\n\n\n\n\n\nIts vision…\n\n…create a just world that values and conserves nature.\n\nIts mission…\n\n…influence, encourage and assist societies throughout the world to conserve the integrity and diversity of nature…\n\nPermanent staff of ca. 1000 paid employees and thousands of volunteer experts and professional dislocated and working in about 50 locations globally. Combines together government and NGOs. It has no explicit authority to make any “law”, but its authority has gained enough momentum to have the force of law as international standards for conservation practice (Stuart et al., 2017).\n\n\nThe IUCN has contributed published standards and protocols that are currently in use and followed throughout the world\nStudents and practitioners need to know about, appreciate, access and effectively use such resources to work in conservation at any scale\n\nGuidelines for applying protected area management categories (Dudley, 2008)\nIUCN Red List Categories and Criteria Version 3.1 Second Edition (IUCN, 2012)\nA global standard for the identification of Key Biodiversity Areas : version 1.0 (“A global standard for the identification of key biodiversity areas ,” n.d.)\nGuidelines for the application of IUCN Red List of Ecosystems Categories and Criteria. Version 1.1 (Guidelines for the application of IUCN red list of ecosystems categories and criteria. Version 1.1, 2017)\n\n\n\n\n\n\n\n\n\n\nRed List Categories. Each one of these level is defined by very specific and stringent criteria.\n\n\n\n\n\n\n\n\n\n\nCurrent biodiversity on vertebrates according to Hoffmann et al. (2010)\n\n\n\n\n\n\n\n\nAfter Stuart et al. (2004)\n\n\n\n\n\n\nHabitat modification (Baan et al., 2013)\n\nTransformational effects\nOccupational effects\nPermanent effects\n\nClimate change (we will talk about this in a separate class)\n\n. . .\n\n\nChange in the way the land is used. For example, a prairie changed to become a soybean field. The land is still there, and the productivity in term of biomass may even be higher, but the system structure’s is simplified and the chance to have a diverse group of species is lost\n\n\n\n\nColonization of areas that were previously human free. The human presence directly and indirectly affect the newly colonized system by removing resources, producing wastes, altering the landscape\n\n\n\n\nAreas can be disturbed in a more or less permanent way. Lumbering of a forest section in a specific area can be, with time and proper management, reversed and the forest could be reestablished. A prairie covered in asphalt to build a mall and a parking lot is probably lost for good\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAlthough as an applied concept we can measure it at multiple levels, the most widely used currency to measure and compare biodiversity across sites is SPECIES!\n\n\n. . .\n\n\n\n\n\n\n\n\nSpecies concept\nDescription\nReference\n\n\n\n\nTypological Species Concept (TySP)\nDefines species as distinct and fixed morphological types\nBased on Plato’s, Aristotele’s, and, later, Christian philosophies\n\n\nEvolutionary Species Concept (ESC)\nA species is a lineage of ancestral descent which maintains its identity from other such lineages and which has its own evolutionary tendencies and historical fate\n(Wiley, 1978)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(continued)\n\n\n\n\nBiological Species Concept (BSC)\nGroups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\n(Mayr, 1942)\n\n\nPhylogenetic Species Concept (PSC)\nA species is the smallest diagnosable cluster of individual organisms within which there is a parental pattern of ancestry and descent\n(Cracraft, 1983)\n\n\nDifferential Fitness Species Concept (DFSC)\nGroups of individuals with features that would have negative fitness effects in other groups and cannot regularly be exchanged between groups upon contact\n(Hausdorf, 2011)\n\n\n\n\n\nImportant to conservation is the identification of operational units to be preserved (individuals, populations, species, etc. etc. etc.)\nConservationists, thus, not only work to preserve organisms, but also their ability to adapt and respond to environmental changes (i.e., the capability of individuals to give rise to new species in the future)\nFrom this perspective, the PSC has become widely used by conservationists as it incorporates well defined tools (both scientific and normative) to define species\nPSC showing more species (48%) and an associated decrease in population size and range (Agapow et al., 2004)\nThe concept of Evolutionary Significant Units (ESU) aims at preserving both evolutionary potential and organisms. ESUs are based on criteria that are associated to genetic variation between and within populations (Moritz, 1994)\n\n\n\n\n\nCyclura diversity in the West Indies\n\n\n\n\n\n\nCyclura carinata population structure, After Welch et al. (2017)\n\n\n\n\n\n\nCyclura carinata ESU identification, After Welch et al. (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndex\nFormula\nTerms\n\n\n\n\nAlpha diversity: The diversity of species within an ecological community. The number of different species (species richness) and their evenness (the species’ relative abundance)\n\\(H = - \\sum_i^s \\ p_i \\ ln(p_i),\\) \\(\\ (i=1, 2, 3,...,s),\\) \\(\\ \\ (0 \\le H^{'}\\le \\infty)\\) (Dyke & Lamb, 2020)\n\\(p_i\\) = proportion of the total community abundance of the species \\(i\\)\n\n\nBeta diversity: Measure of diversity among communities. A measure of the gradient of species composition across a landscape\n\\(S/\\alpha-1\\) (Whittaker, 1975)\n\\(S\\) = number of species in the area; \\(\\alpha\\) = average number of species per site\n\n\nGamma diversity: Biodiversity of species across larger landscape levels\n\\(dS/dD[(g+l)/2]\\) (Cody, 1986)\n\\(D\\) = distance; \\(g\\) = rate of species gain; \\(l\\) = rate of species loss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n5\n17\n5\n15\n31\n5\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n10\n20\n1\n46\n17\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse site based on Shannon index? \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n5\n17\n5\n15\n31\n5\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n10\n20\n1\n46\n17\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse site based on Shannon index? \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\)\nAnswer\n\n\n\nCode\nlibrary(vegan)\ndata(BCI)\nplantDivExcercise &lt;- \n  BCI[1:10, c(144, 186, 208, 216, 223)]\nspecies_names &lt;- rep(NA, ncol(plantDivExcercise))\nfor (i in 1:ncol(plantDivExcercise)){\n  species_names[i] &lt;- paste(\"Sp_\", i, sep = \"\")\n}  \nnames(plantDivExcercise) &lt;- species_names\ndiversity(plantDivExcercise)[diversity(plantDivExcercise)[] == max(diversity(plantDivExcercise))]\n\n\n       5 \n1.395482 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n5\n17\n5\n15\n31\n5\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n10\n20\n1\n46\n17\n4\n\n\n\n\n\n\n\nIn \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\), \\(p_i\\) is the proportion of the total community abundance of the species \\(i\\)\nWe can workout the value for site 5:\n\n\\[\n17+5+15+31+5 = 73\n\\]\n\\[\np_{species1} = 17/73 = 0.233\n\\]\n\\[\nln(p_{species1}) = ln(0.233) = -1.457\n\\]\n\\[\n0.233*-1.457 = -0.339\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse area based on \\(\\beta\\) diversity index as postulated by Whittaker (1975)? \\(S/\\alpha-1\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse area based on \\(\\beta\\) diversity index as postulated by Whittaker (1975)? \\(S/\\alpha-1\\)\nAnswer\n\n\n\nCode\ndata(BCI)\nplantDivExcercise &lt;- BCI[1:10, c(144, 186, 208, 216, 223)]\nspecies_names &lt;- rep(NA, ncol(plantDivExcercise))\nfor (i in 1:ncol(plantDivExcercise)){\n  species_names[i] &lt;- paste(\"Sp_\", i, sep = \"\")\n}  \nnames(plantDivExcercise) &lt;- species_names\nSite &lt;-  1:10\nplantDivExcercise &lt;- cbind(Site, plantDivExcercise)\nncol(plantDivExcercise[1:4, 2:6])/mean(specnumber(plantDivExcercise[1:4, 2:6])) - 1\n\n\n[1] 0.05263158\n\n\nCode\nncol(plantDivExcercise[6:9, 2:6])/mean(specnumber(plantDivExcercise[6:9, 2:6])) - 1\n\n\n[1] 0.1764706\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n\n\n\n\n\nThe Whittaker (1975) formula: \\(\\beta=(S/\\alpha)-1\\), where \\(S\\) is the total number of species in the area, and \\(\\alpha\\) is the average number of species in the area. \\(\\beta\\) diversity gives us an index of species turnover along a geographic gradient.\n\n\\[\n\\beta=\\frac{5}{(5+4+5+5)/4}-1=0.052\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMammal richness. Data downloaded from https://biodiversitymapping.org.\n\n\n\n\n\n\n\nSpatial concordance of global biodiversity priorities and ecosystem service value (ESV). Increasing intensities of green and red represent, respectively, increasing rank ESV and increasing rank consensus biodiversity priority. White corresponds to low values for both variables, black to high values for both, and shades of gray to covarying values for both. After Turner et al. (2007)\n\n\n\n\n\n\n\n\n\nConservation priority-setting indices combining EcoWise, SocioWise and ClimateWise priorities with equal weighting of all indicators (a), SocioWise and ClimateWise priorities (b), EcoWise and ClimateWise priorities (c), EcoWise and SocioWise priorities (d), Coefficient of variation corresponding to index values prior normalization (e) and frequency of achieving more than 80 % of the maximum index value over 20 index variations (f) (compare with Table 1). Blue to yellow areas indicate low to high values. Data of a, b, c and d were normalized to a range of 0–100. Class breaks have been calculated with the Jenks Breaks algorithm. After Freudenberger et al. (2013)\n\n\n\n\n\n\n\nPrefer diversity in crops (polyculture) and land use (land-use mosaic).\nEncourage traditional agricultural practices over large-scale mechanized solutions.\nMonitor and maintain keystone structure or species from the environment.\nMaintain as much natural vegetation as possible.\nExpand protected areas to encompass species of significant value (keystone-species).\nFavor use of native species in gardens and cultivation.\nMaintain urban green areas.\nDiscourage urban sprawl.\nEncourage appreciation and understanding of conservation goals among land users.\n\nAfter Trimble & Aarde (2014)\n\n\n\n\n\nBiodiversity is a core concept of conservation biology. Its usefulness is only valid if we are able to thoroughly measure it and define it mathematically.\nOnly with a clear understanding and measurement of biodiversity and its value we could use it in conservation studies, conservation laws and conservation policy.\nEffective future research on biodiversity will not only keep on refining and finding new ways on how to measure it, but also understand the evolutionary and ecological processes that can contribute to its creation and maintainment.\nThe hope is to increasingly see biodiversity as a core concept of future local and international strategies for the conservation of nature."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#changing-paradigm",
+    "href": "conservation biology old/classes/2/class_2_old.html#changing-paradigm",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "One of the most pervasive environmental changes of recent history is the loss of Earth’s diversity of life\nThis loss is a systemic problem embedded in the normal ways the human species lives on planet earth\nConservation biology origins were driven by studies and discoveries in basic sciences such as genetics and population dynamics, but soon became manifest in applied sciences like forestry, fisheries, wildlife management, and more\nThe traditional view of recent extinctions as a collection of tragic individual case histories was replaced by a conviction that the global extinction crisis was produced by the fundamental disruption of ecosystem processes\nThe extinction crisis created an urgency to develop an alternative concept and transition from loss of endangered species to loss of Biodiversity (Dyke & Lamb, 2020)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#what-is-biodiversity",
+    "href": "conservation biology old/classes/2/class_2_old.html#what-is-biodiversity",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": ". . .\n\nThe structural and functional variety of life forms at genetic, population community and ecosystem levels (Sandlund, Hindar, & Brown, 1992).\nGenes and their variety of forms (alleles) are the most fundamental units at which biodiversity can be measured, and their are the basis for all other measures of diversity.\n\n. . .\n\n\n\n\n\nMain biodiversity levels."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#why-should-we-care-about-biodiversity",
+    "href": "conservation biology old/classes/2/class_2_old.html#why-should-we-care-about-biodiversity",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "A more diverse combination of species (biological community) or, in other words, a more biodiverse system…\n\n… translates in to a more productive environment (Duffy, 2009; Hooper et al., 2005).\n… produces a more resistant environment (Naeem et al., 2000; Tilman et al., 1997).\n… produces a more resilient environment (Wilsey & Potvin, 2000).\n… produces more stable ecosystem processes and a more stable environment in general (Cardinale et al., 2012; Vanmeerbeek2021?).\n\n\n. . .\n\nA key concept when talking about Biodiversity is that of emergence. This occurs when a complex entity has properties or behaviors that its parts do not have on their own, and emerge only when they interact in a wider whole (WikiEmergence?)\n\n. . .\n\nBiodiversity is essential for food security and nutrition and offers key options for sustainable livelihoods (Convention on Biological Diversity, https://www.cbd.int)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#emergence",
+    "href": "conservation biology old/classes/2/class_2_old.html#emergence",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Examples of emergent properties arising from community complexity. After (vandenBerg2022?)\n\n\n\n\n\n\nMultifunctional ecosystem require many species. After Duffy (2009)\n\n\n\n\n\n\nRoles of host species in the transmission of Lyme disease in the northeastern USA. After Keesing et al. (2010)\n\n\n\n\n\n\n\n\nAfter Wilsey & Potvin (2000)\n\n\n\n\n\n\n\n\n\n\nRelative species richness per land use type. After Baan, Alkemade, & Koellner (2013)\n\n\n\n\nThe ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site’s resources over time and provides an effective way to multiple goods and services (Hooper et al., 2005).\n\n. . .\n\n\n\n\n\n\nImportantQuestion!\n\n\n\nWhat are ecosystem services?\n\n\n. . .\n\n\n\nProvisioning services\n\nFood, Energy, Structural materials\n\nRegulating services\n\nReduce the severity of environmental events\n\n\n\n\nSupporting services\n\nProvision of physical bodies to be used for essential services (oxygen and soil)\n\nCultural services\n\nRecreational, intellectual and spiritual activities"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#iucn-international-union-for-the-conservation-of-nature-est.-1948-httpswww.iucn.org",
+    "href": "conservation biology old/classes/2/class_2_old.html#iucn-international-union-for-the-conservation-of-nature-est.-1948-httpswww.iucn.org",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Its vision…\n\n…create a just world that values and conserves nature.\n\nIts mission…\n\n…influence, encourage and assist societies throughout the world to conserve the integrity and diversity of nature…\n\nPermanent staff of ca. 1000 paid employees and thousands of volunteer experts and professional dislocated and working in about 50 locations globally. Combines together government and NGOs. It has no explicit authority to make any “law”, but its authority has gained enough momentum to have the force of law as international standards for conservation practice (Stuart et al., 2017).\n\n\nThe IUCN has contributed published standards and protocols that are currently in use and followed throughout the world\nStudents and practitioners need to know about, appreciate, access and effectively use such resources to work in conservation at any scale\n\nGuidelines for applying protected area management categories (Dudley, 2008)\nIUCN Red List Categories and Criteria Version 3.1 Second Edition (IUCN, 2012)\nA global standard for the identification of Key Biodiversity Areas : version 1.0 (“A global standard for the identification of key biodiversity areas ,” n.d.)\nGuidelines for the application of IUCN Red List of Ecosystems Categories and Criteria. Version 1.1 (Guidelines for the application of IUCN red list of ecosystems categories and criteria. Version 1.1, 2017)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#red-list-of-threatened-species",
+    "href": "conservation biology old/classes/2/class_2_old.html#red-list-of-threatened-species",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Red List Categories. Each one of these level is defined by very specific and stringent criteria."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#current-status-of-biodiversity",
+    "href": "conservation biology old/classes/2/class_2_old.html#current-status-of-biodiversity",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Current biodiversity on vertebrates according to Hoffmann et al. (2010)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#causes-of-rapid-decline-in-amphibians",
+    "href": "conservation biology old/classes/2/class_2_old.html#causes-of-rapid-decline-in-amphibians",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "After Stuart et al. (2004)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#main-causes-of-biodiversity-loss",
+    "href": "conservation biology old/classes/2/class_2_old.html#main-causes-of-biodiversity-loss",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Habitat modification (Baan et al., 2013)\n\nTransformational effects\nOccupational effects\nPermanent effects\n\nClimate change (we will talk about this in a separate class)\n\n. . .\n\n\nChange in the way the land is used. For example, a prairie changed to become a soybean field. The land is still there, and the productivity in term of biomass may even be higher, but the system structure’s is simplified and the chance to have a diverse group of species is lost\n\n\n\n\nColonization of areas that were previously human free. The human presence directly and indirectly affect the newly colonized system by removing resources, producing wastes, altering the landscape\n\n\n\n\nAreas can be disturbed in a more or less permanent way. Lumbering of a forest section in a specific area can be, with time and proper management, reversed and the forest could be reestablished. A prairie covered in asphalt to build a mall and a parking lot is probably lost for good"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#species-concept-in-conservation",
+    "href": "conservation biology old/classes/2/class_2_old.html#species-concept-in-conservation",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Note\n\n\n\nAlthough as an applied concept we can measure it at multiple levels, the most widely used currency to measure and compare biodiversity across sites is SPECIES!\n\n\n. . .\n\n\n\n\n\n\n\n\nSpecies concept\nDescription\nReference\n\n\n\n\nTypological Species Concept (TySP)\nDefines species as distinct and fixed morphological types\nBased on Plato’s, Aristotele’s, and, later, Christian philosophies\n\n\nEvolutionary Species Concept (ESC)\nA species is a lineage of ancestral descent which maintains its identity from other such lineages and which has its own evolutionary tendencies and historical fate\n(Wiley, 1978)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(continued)\n\n\n\n\nBiological Species Concept (BSC)\nGroups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\n(Mayr, 1942)\n\n\nPhylogenetic Species Concept (PSC)\nA species is the smallest diagnosable cluster of individual organisms within which there is a parental pattern of ancestry and descent\n(Cracraft, 1983)\n\n\nDifferential Fitness Species Concept (DFSC)\nGroups of individuals with features that would have negative fitness effects in other groups and cannot regularly be exchanged between groups upon contact\n(Hausdorf, 2011)\n\n\n\n\n\nImportant to conservation is the identification of operational units to be preserved (individuals, populations, species, etc. etc. etc.)\nConservationists, thus, not only work to preserve organisms, but also their ability to adapt and respond to environmental changes (i.e., the capability of individuals to give rise to new species in the future)\nFrom this perspective, the PSC has become widely used by conservationists as it incorporates well defined tools (both scientific and normative) to define species\nPSC showing more species (48%) and an associated decrease in population size and range (Agapow et al., 2004)\nThe concept of Evolutionary Significant Units (ESU) aims at preserving both evolutionary potential and organisms. ESUs are based on criteria that are associated to genetic variation between and within populations (Moritz, 1994)\n\n\n\n\n\nCyclura diversity in the West Indies\n\n\n\n\n\n\nCyclura carinata population structure, After Welch et al. (2017)\n\n\n\n\n\n\nCyclura carinata ESU identification, After Welch et al. (2017)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#measuring-biodiversity",
+    "href": "conservation biology old/classes/2/class_2_old.html#measuring-biodiversity",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Index\nFormula\nTerms\n\n\n\n\nAlpha diversity: The diversity of species within an ecological community. The number of different species (species richness) and their evenness (the species’ relative abundance)\n\\(H = - \\sum_i^s \\ p_i \\ ln(p_i),\\) \\(\\ (i=1, 2, 3,...,s),\\) \\(\\ \\ (0 \\le H^{'}\\le \\infty)\\) (Dyke & Lamb, 2020)\n\\(p_i\\) = proportion of the total community abundance of the species \\(i\\)\n\n\nBeta diversity: Measure of diversity among communities. A measure of the gradient of species composition across a landscape\n\\(S/\\alpha-1\\) (Whittaker, 1975)\n\\(S\\) = number of species in the area; \\(\\alpha\\) = average number of species per site\n\n\nGamma diversity: Biodiversity of species across larger landscape levels\n\\(dS/dD[(g+l)/2]\\) (Cody, 1986)\n\\(D\\) = distance; \\(g\\) = rate of species gain; \\(l\\) = rate of species loss"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-excercise-1",
+    "href": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-excercise-1",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Site\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n5\n17\n5\n15\n31\n5\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n10\n20\n1\n46\n17\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse site based on Shannon index? \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-excercise-1-1",
+    "href": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-excercise-1-1",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Site\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n5\n17\n5\n15\n31\n5\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n10\n20\n1\n46\n17\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse site based on Shannon index? \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\)\nAnswer\n\n\n\nCode\nlibrary(vegan)\ndata(BCI)\nplantDivExcercise &lt;- \n  BCI[1:10, c(144, 186, 208, 216, 223)]\nspecies_names &lt;- rep(NA, ncol(plantDivExcercise))\nfor (i in 1:ncol(plantDivExcercise)){\n  species_names[i] &lt;- paste(\"Sp_\", i, sep = \"\")\n}  \nnames(plantDivExcercise) &lt;- species_names\ndiversity(plantDivExcercise)[diversity(plantDivExcercise)[] == max(diversity(plantDivExcercise))]\n\n\n       5 \n1.395482"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-1-explanation",
+    "href": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-1-explanation",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Site\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n5\n17\n5\n15\n31\n5\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n10\n20\n1\n46\n17\n4\n\n\n\n\n\n\n\nIn \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\), \\(p_i\\) is the proportion of the total community abundance of the species \\(i\\)\nWe can workout the value for site 5:\n\n\\[\n17+5+15+31+5 = 73\n\\]\n\\[\np_{species1} = 17/73 = 0.233\n\\]\n\\[\nln(p_{species1}) = ln(0.233) = -1.457\n\\]\n\\[\n0.233*-1.457 = -0.339\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-2",
+    "href": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-2",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Site\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse area based on \\(\\beta\\) diversity index as postulated by Whittaker (1975)? \\(S/\\alpha-1\\)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-2-1",
+    "href": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-2-1",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Site\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n\n\n\n\n\n\nSite\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n6\n19\n0\n31\n19\n3\n\n\n7\n20\n5\n27\n8\n0\n\n\n8\n20\n0\n36\n19\n2\n\n\n9\n18\n1\n65\n16\n4\n\n\n\n\n\n\n\nQuestion: What is the most diverse area based on \\(\\beta\\) diversity index as postulated by Whittaker (1975)? \\(S/\\alpha-1\\)\nAnswer\n\n\n\nCode\ndata(BCI)\nplantDivExcercise &lt;- BCI[1:10, c(144, 186, 208, 216, 223)]\nspecies_names &lt;- rep(NA, ncol(plantDivExcercise))\nfor (i in 1:ncol(plantDivExcercise)){\n  species_names[i] &lt;- paste(\"Sp_\", i, sep = \"\")\n}  \nnames(plantDivExcercise) &lt;- species_names\nSite &lt;-  1:10\nplantDivExcercise &lt;- cbind(Site, plantDivExcercise)\nncol(plantDivExcercise[1:4, 2:6])/mean(specnumber(plantDivExcercise[1:4, 2:6])) - 1\n\n\n[1] 0.05263158\n\n\nCode\nncol(plantDivExcercise[6:9, 2:6])/mean(specnumber(plantDivExcercise[6:9, 2:6])) - 1\n\n\n[1] 0.1764706"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-2-explanation",
+    "href": "conservation biology old/classes/2/class_2_old.html#calculating-biodiversity-exercise-2-explanation",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Site\nSp_1\nSp_2\nSp_3\nSp_4\nSp_5\n\n\n\n\n1\n22\n2\n18\n17\n2\n\n\n2\n21\n0\n27\n12\n2\n\n\n3\n14\n3\n28\n11\n2\n\n\n4\n23\n3\n35\n16\n5\n\n\n\n\n\n\n\nThe Whittaker (1975) formula: \\(\\beta=(S/\\alpha)-1\\), where \\(S\\) is the total number of species in the area, and \\(\\alpha\\) is the average number of species in the area. \\(\\beta\\) diversity gives us an index of species turnover along a geographic gradient.\n\n\\[\n\\beta=\\frac{5}{(5+4+5+5)/4}-1=0.052\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#biodiversity-distribution",
+    "href": "conservation biology old/classes/2/class_2_old.html#biodiversity-distribution",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Mammal richness. Data downloaded from https://biodiversitymapping.org."
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#global-prioritization-strategies",
+    "href": "conservation biology old/classes/2/class_2_old.html#global-prioritization-strategies",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Spatial concordance of global biodiversity priorities and ecosystem service value (ESV). Increasing intensities of green and red represent, respectively, increasing rank ESV and increasing rank consensus biodiversity priority. White corresponds to low values for both variables, black to high values for both, and shades of gray to covarying values for both. After Turner et al. (2007)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#integrated-conservation-strategies",
+    "href": "conservation biology old/classes/2/class_2_old.html#integrated-conservation-strategies",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Conservation priority-setting indices combining EcoWise, SocioWise and ClimateWise priorities with equal weighting of all indicators (a), SocioWise and ClimateWise priorities (b), EcoWise and ClimateWise priorities (c), EcoWise and SocioWise priorities (d), Coefficient of variation corresponding to index values prior normalization (e) and frequency of achieving more than 80 % of the maximum index value over 20 index variations (f) (compare with Table 1). Blue to yellow areas indicate low to high values. Data of a, b, c and d were normalized to a range of 0–100. Class breaks have been calculated with the Jenks Breaks algorithm. After Freudenberger et al. (2013)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#how-to-support-biodiversity-in-human-modified-landscapes",
+    "href": "conservation biology old/classes/2/class_2_old.html#how-to-support-biodiversity-in-human-modified-landscapes",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Prefer diversity in crops (polyculture) and land use (land-use mosaic).\nEncourage traditional agricultural practices over large-scale mechanized solutions.\nMonitor and maintain keystone structure or species from the environment.\nMaintain as much natural vegetation as possible.\nExpand protected areas to encompass species of significant value (keystone-species).\nFavor use of native species in gardens and cultivation.\nMaintain urban green areas.\nDiscourage urban sprawl.\nEncourage appreciation and understanding of conservation goals among land users.\n\nAfter Trimble & Aarde (2014)"
+  },
+  {
+    "objectID": "conservation biology old/classes/2/class_2_old.html#synthesis",
+    "href": "conservation biology old/classes/2/class_2_old.html#synthesis",
+    "title": "Biologia della Conservazione",
+    "section": "",
+    "text": "Biodiversity is a core concept of conservation biology. Its usefulness is only valid if we are able to thoroughly measure it and define it mathematically.\nOnly with a clear understanding and measurement of biodiversity and its value we could use it in conservation studies, conservation laws and conservation policy.\nEffective future research on biodiversity will not only keep on refining and finding new ways on how to measure it, but also understand the evolutionary and ecological processes that can contribute to its creation and maintainment.\nThe hope is to increasingly see biodiversity as a core concept of future local and international strategies for the conservation of nature."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html",
+    "href": "conservation biology old/classes/1/class_1.html",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "This is a mandatory module for master level students enrolled in “Biologia Ambientale”. It is worth 5 CFU for a total of 40 hours (i.e., 20 classes of 2 hours each) to be administered in person during the first semester of academic year 2025/2026.\nClasses are on Monday (14:00-16:00) and Thursday (14:00-16:00) in “Aula Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present or unless you want me to teach it in English. All the material and the literature used will be in English.\n\n\n\n\n\nThe material presented is largely sourced from the book Conservation Biology (Dyke & Lamb, 2020).\n\nIntroduction to conservation genetics (Frankham, Ballou, & Briscoe, 2010)\nConservation and the Genomics of Populations (Allendorf et al., 2022)\nLiterature I will provide every class\n\nMy office hours are between 10:00 and 12:00 every Wednesday. It is best to first send me an e-mail: giuliano.colosimo@protonmail.com\n\n\n\n\n\nThere will be a basic refresher on every single topic discussed throughout the course. Nevertheless, this is a master level course and students participating to this class are expected to have a good grasp of basic concepts in zoology, ecology, population biology, genetics, and molecular biology.\nThroughout the course I will go over examples and exercises to better grasps the concepts and methodologies that we will be discussing. My software of election is , which is a freeware and runs on all platforms. I strongly encourage you to bring your computer and try and replicate the examples we discuss about.\n\n\n\n\n\nThe course aims at providing students with the most fundamental tools to understand, acknowledge, describe, and address problems related to the conservation of Biodiversity. More broadly, students will develop an appreciation of the concept of Conservation.\nTopics covered during the course include: loss of genetic variability in small populations; inbreeding and decreased fitness; fragmentation of populations; definition and maintenance of evolutionary potential; population size and estimators; climate change; conservation technology and conservation economics.\n\n\n\nBy the end of the course you should be able to identify, understand, analyse and solve issues related to the conservation of biological diversity, especially at the level of population and species.\nStudents are expected to develop professional language and communication skills through a continuous interaction with the teacher and discussion during classes.\n\n\n\n\n\n The first mid term will cover the material studied up until the exam date. The second mid term will cover the new material thought after the first mid term. At the end, if you are satisfied with the average of the votes you can keep the grade. If you are not satisfied you can improve (or decrease!!) your vote with an oral exam. If you are completely dissatisfied with the outcome of your mid term exams you will have a chance to do a final comprehensive written exam covering everything we did in class.\n Each student will be assigned a manuscript that he/she will present to the rest of the class in a 15 minutes presentation.\n\n\n\n\n\nI prepared website for this course that you can access .\nAll slides will be posted here immediately before or after the class, so that you can download them and review the material for later study.\nMake sure to periodically check the website because that is where I will post the changes to the schedule and the list of manuscripts and dates for everyone’s presentation."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#the-course",
+    "href": "conservation biology old/classes/1/class_1.html#the-course",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "This is a mandatory module for master level students enrolled in “Biologia Ambientale”. It is worth 5 CFU for a total of 40 hours (i.e., 20 classes of 2 hours each) to be administered in person during the first semester of academic year 2025/2026.\nClasses are on Monday (14:00-16:00) and Thursday (14:00-16:00) in “Aula Centro Studi Pesca” (Laboratori di Ecologia Sperimentale ed Acquacoltura).\nThe course will be thought in Italian unless international students are present or unless you want me to teach it in English. All the material and the literature used will be in English."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#resources",
+    "href": "conservation biology old/classes/1/class_1.html#resources",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "The material presented is largely sourced from the book Conservation Biology (Dyke & Lamb, 2020).\n\nIntroduction to conservation genetics (Frankham, Ballou, & Briscoe, 2010)\nConservation and the Genomics of Populations (Allendorf et al., 2022)\nLiterature I will provide every class\n\nMy office hours are between 10:00 and 12:00 every Wednesday. It is best to first send me an e-mail: giuliano.colosimo@protonmail.com"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#pre-requisites",
+    "href": "conservation biology old/classes/1/class_1.html#pre-requisites",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "There will be a basic refresher on every single topic discussed throughout the course. Nevertheless, this is a master level course and students participating to this class are expected to have a good grasp of basic concepts in zoology, ecology, population biology, genetics, and molecular biology.\nThroughout the course I will go over examples and exercises to better grasps the concepts and methodologies that we will be discussing. My software of election is , which is a freeware and runs on all platforms. I strongly encourage you to bring your computer and try and replicate the examples we discuss about."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#learning-objectives",
+    "href": "conservation biology old/classes/1/class_1.html#learning-objectives",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "The course aims at providing students with the most fundamental tools to understand, acknowledge, describe, and address problems related to the conservation of Biodiversity. More broadly, students will develop an appreciation of the concept of Conservation.\nTopics covered during the course include: loss of genetic variability in small populations; inbreeding and decreased fitness; fragmentation of populations; definition and maintenance of evolutionary potential; population size and estimators; climate change; conservation technology and conservation economics.\n\n\n\nBy the end of the course you should be able to identify, understand, analyse and solve issues related to the conservation of biological diversity, especially at the level of population and species.\nStudents are expected to develop professional language and communication skills through a continuous interaction with the teacher and discussion during classes."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#course-evaluation",
+    "href": "conservation biology old/classes/1/class_1.html#course-evaluation",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "The first mid term will cover the material studied up until the exam date. The second mid term will cover the new material thought after the first mid term. At the end, if you are satisfied with the average of the votes you can keep the grade. If you are not satisfied you can improve (or decrease!!) your vote with an oral exam. If you are completely dissatisfied with the outcome of your mid term exams you will have a chance to do a final comprehensive written exam covering everything we did in class.\n Each student will be assigned a manuscript that he/she will present to the rest of the class in a 15 minutes presentation."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#course-website",
+    "href": "conservation biology old/classes/1/class_1.html#course-website",
+    "title": "Introduction to Conservation Biology",
+    "section": "",
+    "text": "I prepared website for this course that you can access .\nAll slides will be posted here immediately before or after the class, so that you can download them and review the material for later study.\nMake sure to periodically check the website because that is where I will post the changes to the schedule and the list of manuscripts and dates for everyone’s presentation."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#what-is-conservation-biology",
+    "href": "conservation biology old/classes/1/class_1.html#what-is-conservation-biology",
+    "title": "Introduction to Conservation Biology",
+    "section": "What is Conservation Biology?",
+    "text": "What is Conservation Biology?\n. . .\n\nConservation biology is (Dyke & Lamb, 2020).\nEcologists, geneticists, zoologists, botanists, microbiologists, evolutionary biologists, bio-engineers, politicians, (etc. etc. etc.) do not stop their job and career but unite their expertise towards a common goal.\nA , providing knowledge and tools to preserve biodiversity. It does not draw all its theory and models only from biology (Soulé, 1985).\n, Society for Conservation Biology (SCB), Ann Arbor (MI, USA)\n\n\n\nGenuine conservation can occur only when humans intentionally use resources at less than maximum sustainable rates or forego the use of some resources altogether. This kind of conservation is motivated by appreciating an intrinsic value of the resource itself or from the desire to provide a long-term supply of the resource for others, including others still to come in future generations (Dyke & Lamb, 2020).\nConservation has benefits for humans but . Conservation that involves neither restraint nor cost is not conservation.\nIf we are careless in defining conservation it is easy to make historical generalizations that are not true.\n\n\n\n\n\nData downloaded from WOS.\n\n\n\n\n\n\nAfter Nicholls (2011)"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#the-origins-of-conservation",
+    "href": "conservation biology old/classes/1/class_1.html#the-origins-of-conservation",
+    "title": "Introduction to Conservation Biology",
+    "section": "The origins of conservation",
+    "text": "The origins of conservation\n\nFor thousands of years humans have natural resources and have always appreciated the importance of preserving the natural environment.\n\nPlato (~427—348 b.c.), through the words of Critia, laments the bad conditions of the land that is no longer productive and rich how it used to be (“Crizia,” n.d.).\nJudaism extended the principle of the Sabbath to agricultural land (“La Bibbia—Leviticus 25:4—5,” n.d.).\nDuring the Song dynasty (China, 960—1279 AD) it was common practice to set aside fengshui (sacred) portions of the land, mostly forest, to help regulating spiritual and physical power. Modern china forgo this view."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#fossil-fuel-consumption",
+    "href": "conservation biology old/classes/1/class_1.html#fossil-fuel-consumption",
+    "title": "Introduction to Conservation Biology",
+    "section": "Fossil fuel consumption",
+    "text": "Fossil fuel consumption\n\n\n\nData downloaded from https://ourworldindata.org/fossil-fuels on 2023-02-07"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#new-record-in-co_2-atmosphere",
+    "href": "conservation biology old/classes/1/class_1.html#new-record-in-co_2-atmosphere",
+    "title": "Introduction to Conservation Biology",
+    "section": "New record in \\(CO_2\\) atmosphere",
+    "text": "New record in \\(CO_2\\) atmosphere\n\n\n\nNewspaper article from “Il Fatto Quotidiano” on line, published on 2024-10-28"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#earlier-eod-earth-overshoot-day",
+    "href": "conservation biology old/classes/1/class_1.html#earlier-eod-earth-overshoot-day",
+    "title": "Introduction to Conservation Biology",
+    "section": "Earlier EOD (Earth Overshoot Day)",
+    "text": "Earlier EOD (Earth Overshoot Day)\n\n\n\nEvolution of the EOD dates (available from Wikipedia)"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#deforestation",
+    "href": "conservation biology old/classes/1/class_1.html#deforestation",
+    "title": "Introduction to Conservation Biology",
+    "section": "Deforestation",
+    "text": "Deforestation\n\n\n\nData downloaded from https://www.globalforestwatch.org on 2023-02-07"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#biodiversity-loss",
+    "href": "conservation biology old/classes/1/class_1.html#biodiversity-loss",
+    "title": "Introduction to Conservation Biology",
+    "section": "Biodiversity loss",
+    "text": "Biodiversity loss\n\n\n\nThe Living Planet Index (LPI). Data downloaded from https://ourworldindata.org/biodiversity on 2024-03-05\n\n\n\nThe index value measures the change in abundance in 31,821 populations across 5,230 species relative to the year 1970 (i.e. 1970 = 100%)."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#why-are-we-so-bad-at-conservation",
+    "href": "conservation biology old/classes/1/class_1.html#why-are-we-so-bad-at-conservation",
+    "title": "Introduction to Conservation Biology",
+    "section": "Why are we so bad at “conservation”?",
+    "text": "Why are we so bad at “conservation”?\n. . .\n\nMany have argued that our incapability to conserve is driven by greed. It may be deeper and more complicated than that!\n\n\n\n\nAre indigenous people really better than the industrialized civilization at conserving nature? Can we learn from them how to conserve it?\nMany of the misconceptions concerning the apparent conservation proclivities of traditional peoples are the result of an imprecise understanding of what constitutes conservation (Alvard, 1993).\n\n. . .\n\nIt is hard to imagine the evolution of behavioral traits beneficial to a group of individuals if these traits are contrary to the individual’s best interest (Williams, 1966).\nThere is little theoretical justification for expecting individuals to conserve open access resources (Alvard, 1993).\n\n\n\nA small group of individuals living in an abundant and productive environment can easily manage their resources in a sustainable way! For example, in a place with great abundance of prey, hunters can even be wasteful in their hunting, and yet cause little to no damage to the environment."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#defining-conservation-using-the-foraging-theory",
+    "href": "conservation biology old/classes/1/class_1.html#defining-conservation-using-the-foraging-theory",
+    "title": "Introduction to Conservation Biology",
+    "section": "Defining conservation using the foraging theory",
+    "text": "Defining conservation using the foraging theory\n\nObtaining the highest quantity of food is expected to augment fertility and survivorship and to allow engaging in other fitness enhancing activities. Individuals that follow this strategy are defined: rate-maximizers.\nNon rate-maximizers will be selected against by natural selection.\n\n. . .\n\n\n\n\n\n\nImportantQuestion(?)\n\n\n\nBased on the premises described above, can you think of a scenario in which a conservation strategy/behavior could evolve?\n\n\n\n\nConservation should not be defined based on the effect of a certain behavior. Rather, we can here define conservation based on foraging theory as a specific restrain behavior that endures a cost in the present to have a benefit in the long run (Alvard, 1993).\nNo restraints in foraging behavior means no conservation, even if the behavior produces a sustainable outcome!\n\n\n\n\n\n\n\nNoteWorking hypotheses\n\n\n\n\nNative people are conservationists!\nNative people will over-exploit resources whenever it is to their advantage to do so!\n\n\n\n\n\n\n\n\n\n\nTipExpectation\n\n\n\n\nEvidence for conservation would consist of hunters forgoing opportunities to kill vulnerable species that are nonetheless predicted by foraging theory to be pursued.\n\n\n\n\nThe native people considered in this study are the Piro community of Diamante, situated in the lowland rain forest environment of southeastern Peru.\nThe profitability of prey type \\(i\\) is \\(e_i/h_i\\). The prey are ranked according to their profitability, such that is \\(e_1/h_1 &gt; e_2/h_2... &gt; e_n/h_n\\).\n\n\n\n\\(h_i\\) = handling time with an individual of type \\(i\\) after encounter\n\\(e_i\\) = average expected net energy gain after encounter with prey type \\(i\\)\n\\(\\lambda_i\\) = rate of encounter with prey type i\n\nBeginning with the most profitable type (which is always included in the diet), prey are added to the diet, one by one, until a prey item is found that has a lower return rate upon encounter than could be obtained from searching for more profitable prey.\n\\[\n\\frac{\\sum_{i=1}^n \\lambda_i e_i}{1+\\sum_{i=1}^n \\lambda_i h_i} &gt; \\frac{e_{n+1}}{h_{n+1}}\n\\]\nAfter Alvard (1993), but see also Stephens & Krebs (1986)\n\n\n\n\nFrom Alvard (1993)\n\n\n\n\n\n\nFrom Alvard (1993)\n\n\n\n\n\n\nFrom Alvard (1993)"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#take-home-messages-from-alvard-1993",
+    "href": "conservation biology old/classes/1/class_1.html#take-home-messages-from-alvard-1993",
+    "title": "Introduction to Conservation Biology",
+    "section": "Take home messages from Alvard (1993)",
+    "text": "Take home messages from Alvard (1993)\n\nDevelopment and use of an operational definition of conservation that allows empirical tests.\nThe prey items that are always pursued by Piro shotgun hunters closely match those predicted by foraging theory. These are large, high ranked animals in the optimal diet.\nThe observation that no restraint was shown killing the large primate species is the strongest evidence contrary to the conservation hypothesis.\nNative populations are expected to desire the same material benefits than other, more developed peoples, enjoy such as adequate nutrition, shelter, health care, and education.\nIs conservation behavior something that still needs to evolve?"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#core-merits-of-conservation-biology",
+    "href": "conservation biology old/classes/1/class_1.html#core-merits-of-conservation-biology",
+    "title": "Introduction to Conservation Biology",
+    "section": "Core merits of conservation biology",
+    "text": "Core merits of conservation biology\n\n\n\n\n\n\n\nMerit\nConservation biology…\n\n\n\n\nBasis in preserving biodiversity.\n…focuses on preserving and conserving biodiversity rather than managing individual species.\n\n\nValue laden and value driven.\n…is committed to valuing biodiversity, regardless of its utilitarian value.\n\n\nMission- and advocacy- oriented.\n…emphasizes intentions and actions to save species and habitats.\n\n\nCrisis-oriented.\n…requires rapid investigation and response even before risk or replication studies can be performed.\n\n\n\n\n\n\n\n\n\n\n\nMerit\nConservation biology…(continued)\n\n\n\n\nIntegrative and multidisciplinary.\n…synthesizes information across disciplines (biology, ecology, ethics, politics, and others).\n\n\nConcerned with evolutionary times.\n…seeks preservation of genetic information and processes that promote speciation for future biodiversity, not just conservation for present organisms.\n\n\nAdaptive.\n…treats management options as experimental and imprecise, where outcomes may be risky or unpredictable.\n\n\n\nAfter Dyke & Lamb (2020)"
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#synthesis",
+    "href": "conservation biology old/classes/1/class_1.html#synthesis",
+    "title": "Introduction to Conservation Biology",
+    "section": "Synthesis",
+    "text": "Synthesis\n\nConservation finds its origin in moral arguments about the intrinsic value of nature.\nConservation biology can succeed only if its purpose is sought through the application of the best scientific knowledge to preserve nature and its intrinsic value.\nConservation cannot be accomplished without moral and economic restraint.\n“The success of conservation efforts depends also on how we are perceived by decision makers and the public at large. Although we must alert these groups to impeding ecological challenges, we must also give them reason for hope” (Beever, 2000)."
+  },
+  {
+    "objectID": "conservation biology old/classes/1/class_1.html#to-read-for-next-time",
+    "href": "conservation biology old/classes/1/class_1.html#to-read-for-next-time",
+    "title": "Introduction to Conservation Biology",
+    "section": "To read for next time…",
+    "text": "To read for next time…\n\nTesting the “Ecologically Noble Savage” hypothesis: Interspecific Prey Choice by Piro Hunters of Amazonian Peru"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html",
+    "href": "conservation biology old/classes/5/class_5.html",
+    "title": "Populations genetics",
+    "section": "",
+    "text": "Genetics (and genomic) have an important role in conservation biology and towards the protection of biodiversity\nDarwin was the first to consider the importance of genetics and evolution in the persistence of natural populations. He postulated that because of the reduced population size of deer in British natural reserves they may experience loss of vigor (Darwin, 1896)\nThe modern concern for genetics in conservation began in the 1970s when Frankel began to raise the alarm about the loss of primitive crop varieties and their replacement by genetically uniform cultivars (Frankel, 1974; Frankel, Bennett, Food and Agriculture Organization of the United Nations, & International Biological Programme, 1970)\n\n\n\nMost articles dealing with conservation and genetics fit into one of the five general categories (Allendorf et al., 2022):\n\nManagement and reintroduction of captive populations, and the restoration of biological communities\nDescription and identification of individuals, genetic population structure, kin relationships, and taxonomic relationships\nDetection and prediction of the effects of habitat loss, fragmentation, isolation, and genetic rescue\nDetection and prediction of the effects of hybridization and introgression\nUnderstanding the relationships between fitness of individuals or local adaptation of populations and environmental factors\n\n\n\n\nAs in other sciences, conservation genetics has benefited from the use of model organisms for experiments as well as modelistic and numerical approaches\nHow much gene flow is required to prevent the inbreeding effects of small population size?\n\nWe can use species with short generation time and easy to control (Drosophila, peas, Arabidopsis thaliana) to make empirical experiments and answer the above question\n\n\n\n\nDescribing individuals from a molecular genetic standpoint can also help to better understand the basic biology of species and populations (Allendorf et al., 2022)\n\nTotal population size can be estimated from the genotypes in populations that are difficult to sample with the classic methodologies (Luikart, Ryman, Tallmon, Schwartz, & Allendorf, 2010)\n\nGenetic analysis can help detecting cryptic effects of climate change on the distribution of species (Allendorf et al., 2022)\n\nGurgel, Camacho, Minne, Wernberg, & Coleman (2020) documented the reduction in genetic diversity after a heatwave despite the sea weed population had recovered\n\n\n\n\n\n\nGenetic (blue) and genomic (blue) issues that can be addressed in a population"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#population-genetics",
+    "href": "conservation biology old/classes/5/class_5.html#population-genetics",
+    "title": "Populations genetics",
+    "section": "",
+    "text": "Genetics (and genomic) have an important role in conservation biology and towards the protection of biodiversity\nDarwin was the first to consider the importance of genetics and evolution in the persistence of natural populations. He postulated that because of the reduced population size of deer in British natural reserves they may experience loss of vigor (Darwin, 1896)\nThe modern concern for genetics in conservation began in the 1970s when Frankel began to raise the alarm about the loss of primitive crop varieties and their replacement by genetically uniform cultivars (Frankel, 1974; Frankel, Bennett, Food and Agriculture Organization of the United Nations, & International Biological Programme, 1970)\n\n\n\nMost articles dealing with conservation and genetics fit into one of the five general categories (Allendorf et al., 2022):\n\nManagement and reintroduction of captive populations, and the restoration of biological communities\nDescription and identification of individuals, genetic population structure, kin relationships, and taxonomic relationships\nDetection and prediction of the effects of habitat loss, fragmentation, isolation, and genetic rescue\nDetection and prediction of the effects of hybridization and introgression\nUnderstanding the relationships between fitness of individuals or local adaptation of populations and environmental factors\n\n\n\n\nAs in other sciences, conservation genetics has benefited from the use of model organisms for experiments as well as modelistic and numerical approaches\nHow much gene flow is required to prevent the inbreeding effects of small population size?\n\nWe can use species with short generation time and easy to control (Drosophila, peas, Arabidopsis thaliana) to make empirical experiments and answer the above question\n\n\n\n\nDescribing individuals from a molecular genetic standpoint can also help to better understand the basic biology of species and populations (Allendorf et al., 2022)\n\nTotal population size can be estimated from the genotypes in populations that are difficult to sample with the classic methodologies (Luikart, Ryman, Tallmon, Schwartz, & Allendorf, 2010)\n\nGenetic analysis can help detecting cryptic effects of climate change on the distribution of species (Allendorf et al., 2022)\n\nGurgel, Camacho, Minne, Wernberg, & Coleman (2020) documented the reduction in genetic diversity after a heatwave despite the sea weed population had recovered\n\n\n\n\n\n\nGenetic (blue) and genomic (blue) issues that can be addressed in a population"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#what-should-we-conserve",
+    "href": "conservation biology old/classes/5/class_5.html#what-should-we-conserve",
+    "title": "Populations genetics",
+    "section": "What should we conserve?",
+    "text": "What should we conserve?\n\nIn 1990 IUCN identified genetic diversity as one of the three most important element of conservation biology (Genetic diversity, Species diversity, Ecosystem diversity)\n: A monotypic genus receives higher priority (USA Fish and Wildlife Services, 1983). The Tuatara case from New Zealand is paradigmatic (Daugherty, Cree, Hay, & Thompson, 1990; Gemmell et al., 2020)\nVane-Wright, Humphries, & Williams (1991) developed a method to assign a conservation value to distinct phylogenetic lineages. This value is inversely proportional to the number of branching points to other extant lineages\n\n\n\n: Conservation requires a balanced approach based on habitat protection that also takes into account the natural history and viability of individual species. This is particularly challenging for wide-ranging species (Allendorf et al., 2022)\n: Genetically distinct populations should probably receive more attention than species from a conservation perspective\nThe functional units of an ecosystem are populations\n\n\n\nExperiments conducted in the field of community genetics hint towards a correlation between individual alleles within species and community composition and diversity (Crutsinger, 2016)\nGenetic variation of a Tasmanian blue gum tree affects the distribution of insects, birds, and marsupials (Whitham et al., 2008)\nConservation genetics ultimately looks for and tries to maintain the within a population and prevent the fixation of alleles"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#fundamental-vocabulary",
+    "href": "conservation biology old/classes/5/class_5.html#fundamental-vocabulary",
+    "title": "Populations genetics",
+    "section": "Fundamental vocabulary",
+    "text": "Fundamental vocabulary\n\n\n\n\n\n\n\nTerm\nDefinition\n\n\n\n\nLocus\nThe position on the chromosome where a specific gene is found, and/or the genetic segment, even a single nucleotide base, of interest.\n\n\nAllele\nVariant of a specific locus on homologous chromosomes (containing the same type of genetic information).\n\n\nGenotype\nCombination of alleles at one or more loci (genes) in an individual. For example, the genotype of a diploid individual characterized for the bi-allelic gene A might be A1A1, A1A2, or A2A2.\n\n\n\n\n\n\n\n\n\n\n\n\n(continues)\n\n\n\n\nPhenotype\nThe obvious and measurable manifestation of a specific genotype.\n\n\nGenome\nThe set of nucleotide sequences, coding and not, generally organized into chromosomes, which characterize a species or an individual.\n\n\nHomozygote\nIndividual with two identical copies of a specific allele registered at the locus (gene) of interest.\n\n\nHeterozygote\nIndividual with two different alleles characterized at the locus (gene) of interest.\n\n\nAllele frequency\nThe frequency of a specific allele in a population. The term gene frequency is often used to indicate the same concept.\n\n\n\n\n\n\n\n\n\n\n\n\n(continues)\n\n\n\n\nPolymorphic\nThe presence in a species or population of 2 or more alleles at a certain gene. For example, gene A in a population might have 4 alleles: A1, A2, A3, and A4. A locus is considered polymorphic if the frequency of its most frequent allele is less than 0.99 or 0.95.\n\n\nMonomorphic\nA population or species is monomorphic for a gene when all individuals have the same allele. In other words, the frequency of that allele in the population is 1.\n\n\nAverage heterozygosity\nAverage number of heterozygous loci in an individual or population.\n\n\n\n\n\n\n\n\n\n\n\n\n(continues)\n\n\n\n\nCo-dominance\nSituation where all genotypes can be identified by their phenotypes. In the case of gene A with two codominant alleles, the A1A1, A1A2, and A2A2 genotypes all produce different and distinguishable phenotypes.\n\n\nAllelic diversity\nMean number of alleles per locus.\n\n\nGenetic distance\nA measure of distance obtained by comparing 2 or more nucleotide sequences or by comparing the allele and genotype frequencies of two or more individuals or populations."
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#molecular-techniques",
+    "href": "conservation biology old/classes/5/class_5.html#molecular-techniques",
+    "title": "Populations genetics",
+    "section": "Molecular techniques",
+    "text": "Molecular techniques\n\n\n\nFigure reproduced from Allendorf et al. (2022)"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#fundamental-measures-of-genetic-diversity",
+    "href": "conservation biology old/classes/5/class_5.html#fundamental-measures-of-genetic-diversity",
+    "title": "Populations genetics",
+    "section": "Fundamental measures of genetic diversity",
+    "text": "Fundamental measures of genetic diversity\n\nPolymorphism\n\n\\[\nP = number\\ of\\ polymorphic\\ loci/total\\ number\\ of\\ loci\n\\]\n\nAllele frequency (for diploid individuals)\n\n\\[\np = \\frac{2n_{Hom} + n_{Het}}{2n}\n\\]\n\n\nAverage heterozygosity \\(H = \\sum H_i/N\\) where \\(H_i\\) is the average heterozygosity at locus \\(i\\), and \\(N\\) is the total number of loci\n\n\n\nDescribing the genetic variation using mathematical tool is a good and necessary exercise, but it is not enough!\nWe need to develop models that could tell us about how various evolutionary factors (natural selection, mutations, population size, geographic fragmentation, drift) affect the persistence of populations and species\nModels are essential for understanding the genetics of natural populations in a variety of ways: i) models make us define the parameters that need to be considered; ii) models allow us to test hypotheses; iii) models allow us to generalize results; iv) models allow us to predict how a system will operate in the future (Allendorf et al., 2022, p. 95)."
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#the-simpler-model-hardy-weinberg-principle",
+    "href": "conservation biology old/classes/5/class_5.html#the-simpler-model-hardy-weinberg-principle",
+    "title": "Populations genetics",
+    "section": "The simpler model: Hardy-Weinberg principle",
+    "text": "The simpler model: Hardy-Weinberg principle\n\n\n\n\n\n\nGregory Harol Hardy, figure from the Wiki page\n\n\n\n\n\n\nWilhelm Weinberg, figure from http://www.esp.org/people/"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#assumptions-of-the-model",
+    "href": "conservation biology old/classes/5/class_5.html#assumptions-of-the-model",
+    "title": "Populations genetics",
+    "section": "Assumptions of the model",
+    "text": "Assumptions of the model\n\n\n\n\n\n\n\nAssumption\nSignificance\n\n\n\n\nRandom mating\nIndividuals show no significant preference or dislike for other individuals with respect to specific traits or loci.\n\n\nNo mutation\nMutation is one of the few forces creating variability. We assume that the information is transmitted from generation to generation without the influence of mutation.\n\n\nInfinite population size\nNo population in nature is actually infinite (although populations of some species may as well be)! This assumption is fundamental to construct a null model and compare the effect of small population size.\n\n\n\n\n\n\n\n\n\n\n\n\n(continues)\n\n\n\n\nNo natural selection\nWe will assume that all alleles and genotypes have the same fitness and that there is no differential reproduction or survival. This assumption is very unlikely to be true in nature, especially because selection may be reduced for the loci under analysis, but still present at all other loci in an individual.\n\n\nNo immigration\nWe will first consider a situation where only one population of a certain species is present. This means that we will not consider gene flow and exchange of genetic material from and to other populations.\n\n\n\n\n\n\n\n\n\n\nImportantQuestion\n\n\n\nWhat is the main consequence of the assumptions we have just described?\n\n\n\n\n\n\nOrganization of genetic variability in a Hardy-Weinberg equilibrium population typed at a biallelic locus."
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#analyzing-the-hardy-weinberg-model",
+    "href": "conservation biology old/classes/5/class_5.html#analyzing-the-hardy-weinberg-model",
+    "title": "Populations genetics",
+    "section": "Analyzing the Hardy-Weinberg model",
+    "text": "Analyzing the Hardy-Weinberg model\n\n\n\nDiploid population with n=15\n\n\n\n\n\n\nTwo alleles per locus (A and a)\n\n\n\n\n\n\n\\(n_{AA}\\)\n\\(n_{Aa}\\)\n\\(n_{aa}\\)\n\\(n\\)\n\n\n\n\n6\n7\n2\n15\n\n\n\n\\[\np = f(A) = \\frac{2n_{AA} + n_{Aa}}{2n} = \\frac{12 + 7}{30} \\approx 0.633\n\\]\n\\[\nq = f(a) = \\frac{2n_{aa} + n_{Aa}}{2n}= \\frac{4 + 7}{30} \\approx 0.367\n\\]\n\\[\np + q = 1\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#expansion-with-alleles-2",
+    "href": "conservation biology old/classes/5/class_5.html#expansion-with-alleles-2",
+    "title": "Populations genetics",
+    "section": "Expansion with alleles > 2",
+    "text": "Expansion with alleles &gt; 2\n\nBecause of our assumption of random mating the assortment of alleles in the zygotes can be estimated from the allele frequencies using a binomial expansion:\n\n\\[\n(p+q)^2=p^2+2pq+q^2\n\\]\n\nIf we want to add another allele (\\(A_1, A_2, A_3\\))…\n\n\\[\n(p+q+r)^2=p^2+2pq+q^2+2pr+2qr+r^2\n\\]\n\n\nRandom mating and same fitness mean the frequencies of male and female gametes correspond to the allele frequencies and zygotes are formed randomly choosing gametes from the gene pool\n\n\n\n\nGene pool"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#basic-probability-theory",
+    "href": "conservation biology old/classes/5/class_5.html#basic-probability-theory",
+    "title": "Populations genetics",
+    "section": "Basic probability theory",
+    "text": "Basic probability theory\n\nThe probability of two independent events, such as the union of two gametes at random in a zygote, is calculated as the product of the probability of the single events\n\n\n(dice &lt;- c(1,2,3,4,5,6))\n\n[1] 1 2 3 4 5 6\n\n\n\n\nsample(dice, size = 1)\n\n[1] 2\n\n\n\n\nsample(dice, size = 1)\n\n[1] 5\n\n\n\n\nsim_dice &lt;- sample(dice, size = 100000, replace = T)\ntable(sim_dice)/100000\n\nsim_dice\n      1       2       3       4       5       6 \n0.16787 0.16411 0.16535 0.16913 0.16655 0.16699 \n\n\n\nThe probability of casting a dice and obtaining one of the six numbers is \\(\\frac{1}{6} \\approx 0.17\\)\nThe probability of casting the dice twice and obtaining the same number is \\(\\frac{1}{6} * \\frac{1}{6} = \\frac{1}{36} \\approx 0.028\\)\n\n\n\nWe want to recreate a sample of 15 individuals starting from the gamete pool of our original population with \\(n = 15\\) and \\(p \\approx 0.633\\) and \\(q \\approx 0.367\\)\n\n\n\n\n\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nsample(c(\"A\", \"a\"), size = 1, prob = c(p, q))\n\n\n\nEvery time we sample an allele, we add a color. Remember A = and a = . An animation of the process is available here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(n_{AA}\\)\n\\(n_{Aa}\\)\n\\(n_{aa}\\)\n\\(n\\)\n\n\n\n\n7\n7\n1\n15\n\n\n\n\n\nThe genotype and allele frequencies of the new generation are different from the previous one. We repeat the experiment one more time\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nnewSample &lt;- sample(c(\"A\", \"a\"), size = 30,\n                    prob = c(p, q),\n                    replace = T)\ntable(newSample)\n\nnewSample\n a  A \n11 19 \n\n\n\n\nOnce again, the genotype and allele frequencies of the new generation are different from the previous one, and it will likely be different most of the time we do this again\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nnewSample &lt;- sample(c(\"A\", \"a\"), size = 30,\n                    prob = c(p, q),\n                    replace = T)\ntable(newSample)\n\nnewSample\n a  A \n12 18 \n\n\n\n\n\n\nThere is a large variability around the original value of p = 0.633\n\n\n\n\n\n\nSmaller variability if we collect a larger sample\n\n\n\n\n\n\nSample size matters to prevent loss of genetic variability"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#summary-of-the-hardy-weinberg-model",
+    "href": "conservation biology old/classes/5/class_5.html#summary-of-the-hardy-weinberg-model",
+    "title": "Populations genetics",
+    "section": "Summary of the Hardy-Weinberg model",
+    "text": "Summary of the Hardy-Weinberg model\n\nThe larger the sample dimension, the lower is the variation in allele frequencies with respect to the original value\nIf all the assumptions of the HW model are met, we should expect no variation at all in allele frequency, generation after generation\nIn natural population it is very hard to meet all the assumptions of the HW\nThe HW model is a very effective and simple way to “see” the effects of various evolutionary forces operating at the population level\nWith this in mind we can start investigate the relative role of the various evolutionary forces"
+  },
+  {
+    "objectID": "conservation biology old/classes/5/class_5.html#genetic-drift",
+    "href": "conservation biology old/classes/5/class_5.html#genetic-drift",
+    "title": "Populations genetics",
+    "section": "Genetic Drift",
+    "text": "Genetic Drift\n\nGenetic drift is the random change in allele frequencies from generation to generation because of sampling error. That is, the finite number of genes transmitted to progeny will be an imperfect sample of the allele frequencies in the previous generation (Allendorf et al., 2022, p. 114)\nGenetic drift is the primary cause bringing about allele frequency changes throughout the genome over time (Allendorf et al., 2022; Chen et al., 2018)\nWith many samples (\\(n &gt;&gt; 1\\)) the probability that their alleles all are \\(A_1\\) or \\(A_2\\) becomes \\((\\frac{1}{2})^{2n}\\), and it will be less likely to loose one of the two alleles\n\n\n\nThe probability that a population has \\(k\\) copies of allele \\(A_1\\) and \\(2n-k\\) copies of \\(A_2\\) allele is \\(\\binom{2n}{k}p^kq^{2n-k}\\) where \\(\\binom{2n}{k}\\) is the binomial function \\(\\frac{2n!}{k!(2n-k)!}\\)\nThe variance around the mean allele frequency is the binomial sampling variance: \\(\\sigma^2_p =\\frac{p_0q_0}{2n}\\)\nVariances are higher in smaller than larger populations\nIn small population the process of sampling happens every single generation, and its effect on allele frequency is cumulative\n\n\n\nGenetic drift will eventually cause all except one allele to go to fixation.\nThe probability that a gamete does not contain allele \\(A_1\\) (with frequency \\(p\\) in the parental population) is \\(1-p\\)\n\n\\[\nP(fixation \\ A_2)=(1-p)^{2n}\n\\]\n\n\n\n\n\n\nImportantProblem\n\n\n\nDiploid population with \\(n = 4\\) with allele \\(A_1\\) with a frequency \\(p = 0.25\\) and allele \\(A_2\\) with a frequency \\(q = 0.75\\). What is the probability of losing allele \\(A_1\\) in one generation of sampling to recreate a population of the same size?\n\n\n\n\n\n\n\n\n\nTipSolution\n\n\n\n\\((1-0.25)^8=\\) 0.1001129\n\n\n\n\n\n\nThree alleles in a population at t = 0\n\n\n\n\n\n\nThree alleles in a population at t = 1\n\n\n\n\n\n\nAllele frequencies variation after 200 generations while maintaining N = 100 (Russo, Colosimo, Fanelli, Franceschini, & Parisi, 2021)\n\n\n\n\n\n\nSimulating the average time of allele fixation in our example (Russo et al., 2021)"
   }
 ]

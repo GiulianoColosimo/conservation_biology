@@ -45,15 +45,16 @@ It is a student's responsibility to periodically check this website to make sure
 #| echo: FALSE
 #| warning: FALSE
 
-students <- c("Serena Liverino",     "Francesco Baldini",   "Federico Cornacchia", "Alessia Iacobelli",  
- "Laura Oliva",         "Anna Battista",       "Carlotta Cimini",     "Alessia Caretti",    
- "Leonardo Fritz",      "Lorenzo D'Orfeo",    "Michela Papa",       
-"Chiara Di Ruzza",    "Ilaria Manni",        "Luca Amoruso",  "Lucrezia Tiseo", "Loris Bognanno")
+students <- c("Serena Liverino",     "Francesco Baldini",   "Federico Cornacchia",
+              "Alessia Iacobelli",  "Laura Oliva", "Anna Battista",
+              "Carlotta Cimini",     "Alessia Caretti", "Leonardo Fritz",
+              "Lorenzo D'Orfeo",    "Michela Papa", "Chiara Di Ruzza",
+              "Ilaria Manni", "Luca Amoruso",  "Lucrezia Tiseo", "Loris Bognanno")
 
 
-paperAssign <- read.csv("paper assignment.csv", header = T)
+paperAssign <- read.csv("paper assignment.csv", header = F)
 names(paperAssign)<- c("Student", "Title", "Url", "Date")
-paperAssign$Student[1:17] <- students
+paperAssign$Student[1:16] <- students
 paperAssign$Title <- text_spec(paperAssign$Title,
                                link = paperAssign$Url,
                                format = "html",
@@ -66,7 +67,6 @@ kable(paperAssign[, c("Student", "Title", "Date")],
                 font_size = 7)
 
 ```
-
 
 ```{r echo=FALSE}
 #| out-width: 100%
@@ -120,12 +120,13 @@ calendR(month = 10,
 
 dates <- seq(as.Date("2025-11-01"), as.Date("2025-11-30"), by = "1 day")
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
-events[c(3, 6, 10, 17, 20, 24, 27)] <- "Class"
+events[c(6, 10, 17, 20, 24, 27)] <- "Class"
 events[13] <- "Mid term 1"
+events[3] <- "Class canceled"
 calendR(month = 11,
         start = "M",
         special.days = events,
-        special.col = c("green", "red", "gray"),
+        special.col = c("green", "violet", "red", "gray"),
         legend.pos = "bottom",
         pdf = F, 
         day.size = 3, 
@@ -135,7 +136,7 @@ calendR(month = 11,
         text.size = 2.5,              
         text.col = "black",
         text = "14:00-16:00",
-        text.pos = c(3, 6, 10, 13, 17, 20, 24, 27))
+        text.pos = c(6, 10, 13, 17, 20, 24, 27))
 ```
 
 ```{r echo=FALSE}

@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.21">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Giuliano Colosimo">
+
+<title>Populations – Biologia della Conservazione 25/26</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-7e9717d9caa9b4d114d189eaeb260ada.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-27550dbc14977a75f3b0c67b1021d4fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-da71d79dcad599e4b4efa1c6f8292913.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-27550dbc14977a75f3b0c67b1021d4fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Populations – Biologia della Conservazione 25/26">
+<meta property="og:description" content="Biologia della Conservazione 25/26">
+<meta property="og:image" content="https://giulianocolosimo.github.com/conservation biology old/classes/4/exponentialgrowth.png">
+<meta property="og:site_name" content="Biologia della Conservazione 25/26">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="2400">
+<meta property="og:image:width" content="3600">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Biologia della Conservazione 25/26</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../calendar.html"> 
+<span class="menu-text">Calendar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Populations</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../.././figures/avatar.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../.././figures/avatar.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="mailto:giuliano.colosimo@protonmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+</div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Classes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 1 - Introduction to Conservation Biology.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 1 - Introduction to Conservation Biology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 2 - Biodiversity - Concept, Measurement, and Management.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 2 - Biodiversity: Concept, Measurement, and Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 3 - Anthropocene.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 3 - Anthropocene</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 4 - Populations.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 4 - Populations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 5 - Populations genetics.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 5 - Population genetics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-a-population" id="toc-what-is-a-population" class="nav-link active" data-scroll-target="#what-is-a-population">What is a population?</a></li>
+  <li><a href="#population-demography" id="toc-population-demography" class="nav-link" data-scroll-target="#population-demography">Population demography</a></li>
+  <li><a href="#population-models-exponential" id="toc-population-models-exponential" class="nav-link" data-scroll-target="#population-models-exponential">Population models: exponential</a></li>
+  <li><a href="#population-models-logistic" id="toc-population-models-logistic" class="nav-link" data-scroll-target="#population-models-logistic">Population models: logistic</a></li>
+  <li><a href="#population-perturbations-density-independent" id="toc-population-perturbations-density-independent" class="nav-link" data-scroll-target="#population-perturbations-density-independent">Population perturbations: density independent</a></li>
+  <li><a href="#population-perturbations-natural-catastrophes" id="toc-population-perturbations-natural-catastrophes" class="nav-link" data-scroll-target="#population-perturbations-natural-catastrophes">Population perturbations: natural catastrophes!</a></li>
+  <li><a href="#avoiding-extinction-through-spatial-segregation" id="toc-avoiding-extinction-through-spatial-segregation" class="nav-link" data-scroll-target="#avoiding-extinction-through-spatial-segregation">Avoiding extinction through spatial segregation</a></li>
+  <li><a href="#population-perturbations-density-dependent" id="toc-population-perturbations-density-dependent" class="nav-link" data-scroll-target="#population-perturbations-density-dependent">Population perturbations: density dependent</a></li>
+  <li><a href="#how-do-we-estimate-the-size-of-a-population" id="toc-how-do-we-estimate-the-size-of-a-population" class="nav-link" data-scroll-target="#how-do-we-estimate-the-size-of-a-population">How do we estimate the size of a population?</a></li>
+  <li><a href="#tagging-systems" id="toc-tagging-systems" class="nav-link" data-scroll-target="#tagging-systems">Tagging systems</a></li>
+  <li><a href="#visual-tagging-systems" id="toc-visual-tagging-systems" class="nav-link" data-scroll-target="#visual-tagging-systems">Visual tagging systems</a></li>
+  <li><a href="#passive-integrated-transponders" id="toc-passive-integrated-transponders" class="nav-link" data-scroll-target="#passive-integrated-transponders">Passive integrated transponders</a></li>
+  <li><a href="#patterns-tagging" id="toc-patterns-tagging" class="nav-link" data-scroll-target="#patterns-tagging">Patterns tagging</a>
+  <ul class="collapse">
+  <li><a href="#toes-and-nail-clipping" id="toc-toes-and-nail-clipping" class="nav-link" data-scroll-target="#toes-and-nail-clipping">Toes and nail clipping</a></li>
+  <li><a href="#features-tag" id="toc-features-tag" class="nav-link" data-scroll-target="#features-tag">Features tag</a></li>
+  </ul></li>
+  <li><a href="#photo-tagging" id="toc-photo-tagging" class="nav-link" data-scroll-target="#photo-tagging">Photo tagging</a></li>
+  <li><a href="#satellite-tags" id="toc-satellite-tags" class="nav-link" data-scroll-target="#satellite-tags">Satellite tags</a></li>
+  <li><a href="#estimates-of-census-population-size" id="toc-estimates-of-census-population-size" class="nav-link" data-scroll-target="#estimates-of-census-population-size">Estimates of census population size</a></li>
+  <li><a href="#lincoln-petersen-estimator-of-n-seber1982" id="toc-lincoln-petersen-estimator-of-n-seber1982" class="nav-link" data-scroll-target="#lincoln-petersen-estimator-of-n-seber1982">Lincoln-Petersen estimator of N <span class="citation" data-cites="Seber1982">(Seber, 1982)</span></a></li>
+  <li><a href="#schnable-estimator-of-n" id="toc-schnable-estimator-of-n" class="nav-link" data-scroll-target="#schnable-estimator-of-n">Schnable estimator of <span class="math inline">\(N\)</span></a></li>
+  <li><a href="#jolly-seber" id="toc-jolly-seber" class="nav-link" data-scroll-target="#jolly-seber">Jolly-Seber</a></li>
+  <li><a href="#distance-sampling" id="toc-distance-sampling" class="nav-link" data-scroll-target="#distance-sampling">Distance sampling</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="class_4.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Populations</h1>
+<p class="subtitle lead">Biologia della Conservazione 25/26</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Giuliano Colosimo </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Rome Tor Vergata
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-is-a-population" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-population">What is a population?</h2>
+<ul>
+<li><p>The traditional definition of a population is:</p>
+<ul>
+<li> <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></li>
+</ul></li>
+<li><p>This definition is strictly biological, but it could be more complex when we refer to individuals that are harvested, threatened or are perceived controversially by the public opinion</p></li>
+<li><p>In the above cases, a population may be defined using political and social arguments rather than biological ones</p></li>
+<li><p>For example, Michigan and Wisconsin manage their Wolf (<em>Canis lupus</em>) population independently even though they are neighboring states and even though wolf individuals, obviously, move across the boundaries as they please</p></li>
+</ul>
+<hr>
+<ul>
+<li>Even if they “feel” artificial, political and social perspectives should always be considered when defining populations, as politicians are the ones that ultimately support or deny conservation policies</li>
+</ul>
+</section>
+<section id="population-demography" class="level2">
+<h2 class="anchored" data-anchor-id="population-demography">Population demography</h2>
+<ul>
+<li><p>Populations mutate over time due to individuals or , or </p></li>
+<li><p>Population demography is the study of populations by understanding how probable each one of the above mentioned events is, and what factors influence these probabilities</p></li>
+</ul>
+<p>. . .</p>
+<ul>
+<li><p> is the event that conservation biologists are trying to avoid</p></li>
+<li><p>Very few populations suddenly disappear when they are alrge and healthy: extinction is generally preceded by decline!</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>: a group of individuals born at the same time</p></li>
+<li><p>: the probability of an individual surviving up to a certain age</p></li>
+<li><p>: the net additions/subtractions of reproductively viable individuals, added to the population after the adjustment for early or neonatal mortality</p></li>
+<li><p>: the number of young or eggs produced per female (animal) or seeds per individual (plants) per unit time</p></li>
+<li><p>: the permanent movement of an individual from its area of birth to another area. Usually measured in term of , and </p></li>
+</ul>
+<!-- La capacità di dispersione di un organismo è stata per lungo tempo trascurata perché difficile da misurare direttamente. Tecniche moderno di monitoraggio diretto come la telemetria e la possibilità dei monitoraggi satellitari, stanno via via sostituendo le tecniche indirette come ad esempio l'utilizzo delle metriche basate sulle distancze genetiche tra popolazioni -->
+<hr>
+<ul>
+<li><p>If we had perfect knowledge about each individual in the population it would be relatively simple to make precise predictions about the behavior of the population through time</p></li>
+<li><p>Unfortunately, in most cases our knowledge about population status is far from perfect. We therefore construct models to understand and approximate the complexity of a population and predict how it will behave</p></li>
+<li><p>The models and their assumptions are NOT laws that invariably describe how populations work. They have to be informed with direct information gathered from real populations</p></li>
+</ul>
+</section>
+<section id="population-models-exponential" class="level2">
+<h2 class="anchored" data-anchor-id="population-models-exponential">Population models: exponential</h2>
+<ul>
+<li>The simplest model of population dynamic can be written as the sum of births () and migrants entering the populations () minus mortality () and individuals leaving or exiting the population ()</li>
+</ul>
+<p><span class="math display">\[
+\label{popmod}
+\tag{4.1}
+N_{(t+1)} = N_{(t)} + (B_t + I_t) - (D_t + E_t)
+\]</span></p>
+<p>. . .</p>
+<ul>
+<li><p>If a population is increasing exponentially (, increasing with and increasing rate over time) its growth will be defined by <span class="math inline">\(N\)</span> and a rate of increase <span class="math inline">\(r\)</span> which is rate of birth minus rate of death (<span class="math inline">\(r = b-d\)</span>)</p></li>
+<li><p>Without considering migration (neither in nor out of the population) <span class="math inline">\(B\)</span> becomes a function of birth rate (<span class="math inline">\(b\)</span>), the number of deaths (<span class="math inline">\(D\)</span>) is a function of <span class="math inline">\(d\)</span> the per capita death rate</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./exponentialgrowth.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Exponential growth curve</figcaption>
+</figure>
+</div>
+<ul>
+<li>Change in numbers over change in time is expressed as:</li>
+</ul>
+<p><span class="math display">\[
+\label{expgrth}
+\tag{4.2}
+\frac{dN}{dt} = rN
+\]</span></p>
+</section>
+<section id="population-models-logistic" class="level2">
+<h2 class="anchored" data-anchor-id="population-models-logistic">Population models: logistic</h2>
+<ul>
+<li><p>The exponential growth curve is a good starting point, although unrealistic for most species. <span class="citation" data-cites="Boyce1992">(<a href="#ref-Boyce1992" role="doc-biblioref">Boyce, 1992</a>)</span></p></li>
+<li><p>A more realistic model should account for species’ ecology and the fact that species exist in their environment</p></li>
+<li><p>The limits imposed by the environment are usually identified using <span class="math inline">\(K\)</span>, the carrying capacity</p></li>
+</ul>
+<p><span class="math display">\[
+\label{expgrthcc}
+\tag{4.3}
+\frac{dN}{dt} = rN (\frac{K-N}{K})
+\]</span></p>
+<ul>
+<li>With small values of <span class="math inline">\(N\)</span> relative to <span class="math inline">\(K\)</span>, <span class="math inline">\((\frac{K-N}{K}) \approx 1\)</span> and the population grows almost exponentially</li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./logisticgrowth.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Logistic growth curve</figcaption>
+</figure>
+</div>
+<ul>
+<li>This model assumes all individuals are demographic equivalent, an unlikely assumption in many systems, especially with long lived individuals!</li>
+</ul>
+<hr>
+<ul>
+<li><p>In logistic model, changes in the size of the population (<span class="math inline">\(N\)</span>) directly affect population growth, an expression of </p></li>
+<li><p>Density dependence operates through a negative feedback between the growth rate and the population size at one or more steps</p></li>
+<li><p>Density dependence results in regulation of the population fluctuations around a mean population size, which is the carrying capacity</p></li>
+</ul>
+<hr>
+</section>
+<section id="population-perturbations-density-independent" class="level2">
+<h2 class="anchored" data-anchor-id="population-perturbations-density-independent">Population perturbations: density independent</h2>
+<ul>
+<li><p>Many factors influencing population size are described as <span style="color: red;">stochastic factors</span></p></li>
+<li><p>A population whose growth is only a function of stochastic variation can be described as density independent. <span class="citation" data-cites="Shaffer1981">Shaffer (<a href="#ref-Shaffer1981" role="doc-biblioref">1981</a>)</span> recognizes 4 main sources of such stochasticity:</p>
+<ul>
+<li><p>genetic stochasticity;</p></li>
+<li><p>demographic stochasticity;</p></li>
+<li><p>environmental stochasticity</p></li>
+<li><p>natural catastrophes!</p></li>
+</ul></li>
+<li><p>The effects of the these sources of variation are not predetermined, but subject to uncertainties that are more or less probable according to population characteristics</p></li>
+</ul>
+</section>
+<section id="population-perturbations-natural-catastrophes" class="level2">
+<h2 class="anchored" data-anchor-id="population-perturbations-natural-catastrophes">Population perturbations: natural catastrophes!</h2>
+<ul>
+<li><p>Some have argued that natural catastrophes are a special case of environmental stochasticity because they are only extreme forms of normal environment variation (prolonged drought, flash floods, extreme rain)</p></li>
+<li><p>The point is that catastrophes lie outside of the normal probability distribution of random events associated with environmental variation</p></li>
+<li><p>They also are qualitatively and quantitatively different in their effects</p></li>
+<li><p>A forest fire is not just a very hot day! <span class="citation" data-cites="Lacy1993">(<a href="#ref-Lacy1993" role="doc-biblioref">Lacy, 1993</a>)</span></p></li>
+<li><p>The most viable protection against risks associated with catastrophes is spatial segregation of different population subunits <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+</ul>
+</section>
+<section id="avoiding-extinction-through-spatial-segregation" class="level2">
+<h2 class="anchored" data-anchor-id="avoiding-extinction-through-spatial-segregation">Avoiding extinction through spatial segregation</h2>
+<ul>
+<li>What are the relative risks of keeping a small population intact on a single site versus subdividing the population in to separate units?</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./decision analysis.png" class="img-fluid figure-img" style="width:65.0%"></p>
+<figcaption>Decision analysis after <span class="citation" data-cites="Drechsler2004">Drechsler &amp; Burgman (<a href="#ref-Drechsler2004" role="doc-biblioref">2004</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./pink iguana for class.png" class="img-fluid figure-img" style="width:83.0%"></p>
+<figcaption>The pink iguana population only persists on the top of an active volcano!</figcaption>
+</figure>
+</div>
+</section>
+<section id="population-perturbations-density-dependent" class="level2">
+<h2 class="anchored" data-anchor-id="population-perturbations-density-dependent">Population perturbations: density dependent</h2>
+<ul>
+<li><p>Density dependent factors can regulate the size of a population in a much more precise way than the independent ones</p></li>
+<li><p>To better understand these factors it is useful to debunk the assumptions of the logistic growth curves</p>
+<ul>
+<li><p>Time lag in density dependence: the addition of new individuals in the population may not have an immediate effect in shaping the growth curve</p></li>
+<li><p>Traditional logistic curves assume constant values of K: it is more accurate to define K not as a constant value that a population cannot exceed, but as a population size reflecting equilibrium between a population and its resources created by their interaction</p></li>
+<li><p>Individuals in a population are not contributing equally to the population growth: age and sex structure play a pivotal role</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="how-do-we-estimate-the-size-of-a-population" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-we-estimate-the-size-of-a-population">How do we estimate the size of a population?</h2>
+<ul>
+<li>It is often impractical and/or impossible to count every single individual in a population</li>
+</ul>
+<p>. . .</p>
+<ul>
+<li><p>Capture-Mark-Recapture experiments allow to estimate a population’s size</p>
+<ul>
+<li><p>Some individuals are captured and marked</p></li>
+<li><p>The marked individuals are released in their environment</p></li>
+<li><p>A second sampling trip is conducted and another portion of the individuals are collected</p></li>
+<li><p>The number of marked individuals collected in the second expedition is expected to be proportional to the number of marked individuals in the entire population</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="tagging-systems" class="level2">
+<h2 class="anchored" data-anchor-id="tagging-systems">Tagging systems</h2>
+<ul>
+<li><p>A tagging system is a system allowing us to tag and label things to provide those things a unique identifier</p></li>
+<li><p>People have been tagging animals (wild and captive) for hundreds of years and have developed different ways to tag pretty much every single living things</p></li>
+<li><p>An animal tag can be as simple as a piece of metal or plastic with a number carved on it or with a standardized meaning</p></li>
+</ul>
+<hr>
+</section>
+<section id="visual-tagging-systems" class="level2">
+<h2 class="anchored" data-anchor-id="visual-tagging-systems">Visual tagging systems</h2>
+<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
+<div class="quarto-layout-row">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_4_1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>A male <em>Cyclura carinata</em> with colored bead tags. Photo credits: Giuliano Colosimo.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="passive-integrated-transponders" class="level2">
+<h2 class="anchored" data-anchor-id="passive-integrated-transponders">Passive integrated transponders</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Tags based on radio-frequency identification (RFID) </li>
+<li>Emit a signal with an alpha-numeric code unique to the animal </li>
+<li>Widely used for wildlife fauna </li>
+<li>They generally do not carry any other information but the ID</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_4_2.png" class="img-fluid figure-img"></p>
+<figcaption>A Passive Integrated Transponder by Trovan®. Photo credits: Giuliano Colosimo.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="patterns-tagging" class="level2">
+<h2 class="anchored" data-anchor-id="patterns-tagging">Patterns tagging</h2>
+<section id="toes-and-nail-clipping" class="level3">
+<h3 class="anchored" data-anchor-id="toes-and-nail-clipping">Toes and nail clipping</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_4_3.png" class="img-fluid figure-img"></p>
+<figcaption>This image is from <span class="citation" data-cites="Waichman1992">Waichman (<a href="#ref-Waichman1992" role="doc-biblioref">1992</a>)</span>. The author describes all possible combination of toe clipping to uniquely identify individuals</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="features-tag" class="level3">
+<h3 class="anchored" data-anchor-id="features-tag">Features tag</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_4_4.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Toads of the genus <em>Bombina</em> have unique spotted patterns. Photo credits: <a href="https://www.naturamediterraneo.com/forum/topic.asp?TOPIC_ID=273624">marioeffe</a></figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="photo-tagging" class="level2">
+<h2 class="anchored" data-anchor-id="photo-tagging">Photo tagging</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_4_5.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Development of a photo recognition software to identify iguanas in the wild. Image courtesy of Nathalie Duporge.</figcaption>
+</figure>
+</div>
+</section>
+<section id="satellite-tags" class="level2">
+<h2 class="anchored" data-anchor-id="satellite-tags">Satellite tags</h2>
+<!--   Identify an individual and provide useful information about that animal and its environment [@Loreti2019; @Loreti2020; @Colosimo2022b]-->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_4_6.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>A male <em>Conolophus marthae</em> with a Wireless Sensor Node (WSN) attached behind its hindlegs. Photo credits: Giuliano Colosimo.</figcaption>
+</figure>
+</div>
+</section>
+<section id="estimates-of-census-population-size" class="level2">
+<h2 class="anchored" data-anchor-id="estimates-of-census-population-size">Estimates of census population size</h2>
+<ul>
+<li><p>A conservationist is working on a critical endangered species and needs to estimate how many individuals are left. He/she goes to the field and captures 15 individuals. These individuals are tagged and released on site. One week later the researcher comes back and catches 20 individuals, 10 of which are tagged</p></li>
+<li><p>Lets define some variables as:</p>
+<ul>
+<li><p><span class="math inline">\(N\)</span> = Number of animals in the population</p></li>
+<li><p><span class="math inline">\(n\)</span> = Number of animals marked on the first visit</p></li>
+<li><p><span class="math inline">\(K\)</span> = Number of animals captured on the second visit</p></li>
+<li><p><span class="math inline">\(k\)</span> = Number of animals captured in the second visit that were marked (i.e., recaptured individuals)</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="lincoln-petersen-estimator-of-n-seber1982" class="level2">
+<h2 class="anchored" data-anchor-id="lincoln-petersen-estimator-of-n-seber1982">Lincoln-Petersen estimator of N <span class="citation" data-cites="Seber1982">(<a href="#ref-Seber1982" role="doc-biblioref">Seber, 1982</a>)</span></h2>
+<ul>
+<li>Useful with only two sampling events </li>
+<li>Assumes that <span class="math inline">\(N\)</span> is constant over the time of the experiment (i.e., there are no deaths or births) </li>
+<li>Assumes a closed population (i.e., there are no migrants) </li>
+<li>Catchability is the same among individuals, even the tagged ones </li>
+<li>Tags are not lost between sampling events </li>
+<li>Individuals have the time to randomly redistribute over their habitat</li>
+</ul>
+<hr>
+<ul>
+<li><span class="math inline">\(N\)</span> = Number of animals in the population </li>
+<li><span class="math inline">\(n\)</span> = Number of animals marked on the first visit </li>
+<li><span class="math inline">\(K\)</span> = Number of animals captured on the second visit </li>
+<li><span class="math inline">\(k\)</span> = Number of animals captured in the second visit that were marked (i.e., recaptured individuals)</li>
+</ul>
+<p><span class="math display">\[
+\label{lp}
+\tag{4.4}
+N=\frac{K*n}{k}
+\]</span></p>
+</section>
+<section id="schnable-estimator-of-n" class="level2">
+<h2 class="anchored" data-anchor-id="schnable-estimator-of-n">Schnable estimator of <span class="math inline">\(N\)</span></h2>
+<ul>
+<li>Extension of the LP estimator </li>
+<li>Same assumptions of LP </li>
+<li>Allows to incorporate <span class="math inline">\(s\)</span> sampling events in the calculation </li>
+<li>It depends simply on observing how the proportion of marked animals in catches increases as more animals have been marked <span class="citation" data-cites="Sutherland1996">(<a href="#ref-Sutherland1996" role="doc-biblioref">Sutherland, 2006</a>)</span></li>
+</ul>
+<hr>
+<ul>
+<li><span class="math inline">\(N\)</span> = Number of animals in the population </li>
+<li><span class="math inline">\(n_i\)</span> = Number of animals captured on <span class="math inline">\(i^{th}\)</span> visit </li>
+<li><span class="math inline">\(m_i\)</span> = Number of animals marked on <span class="math inline">\(i^{th}\)</span> visit </li>
+<li><span class="math inline">\(k_i\)</span> = Number of animals captured on <span class="math inline">\(i^{th}\)</span> visit that were marked (i.e., recaptured individuals) </li>
+<li><span class="math inline">\(s\)</span> = Number of visits</li>
+</ul>
+<p><span class="math display">\[
+\label{schnable}
+\tag{4.5}
+N=\frac{\sum_{i=1}^s  n_i*m_i}{\sum_{i=1}^s k_i}
+\]</span></p>
+</section>
+<section id="jolly-seber" class="level2">
+<h2 class="anchored" data-anchor-id="jolly-seber">Jolly-Seber</h2>
+<ul>
+<li><p>Jolly-Seber <span class="citation" data-cites="Jolly1965 Seber1982">(<a href="#ref-Jolly1965" role="doc-biblioref">Jolly, 1965</a>; <a href="#ref-Seber1982" role="doc-biblioref">Seber, 1982</a>)</span> is the method of election to estimate N starting from multiple sampling occasions</p></li>
+<li><p>The following set of four numbers are needed in order to begin the calculation</p>
+<ul>
+<li><p><span class="math inline">\(n_i\)</span> = total number of animals caught in the <span class="math inline">\(i^{th}\)</span> sample</p></li>
+<li><p><span class="math inline">\(R_i\)</span> = number of animals that are released after the <span class="math inline">\(i^{th}\)</span> sample</p></li>
+<li><p><span class="math inline">\(m_i\)</span> = number of animals in the <span class="math inline">\(i^{th}\)</span> sample that carry marks from previous captures</p></li>
+<li><p><span class="math inline">\(m_{ij}\)</span> = number of animals in the <span class="math inline">\(i^{th}\)</span> sample that were most recently caught in the <span class="math inline">\(j^{th}\)</span> sample</p></li>
+</ul></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./js_1.png" class="img-fluid figure-img" style="width:38.0%"></p>
+<figcaption>Capture history of sampled individuals. After <span class="citation" data-cites="Sutherland1996">Sutherland (<a href="#ref-Sutherland1996" role="doc-biblioref">2006</a>)</span>, p.&nbsp;121</figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./js_2.png" class="img-fluid figure-img"></p>
+<figcaption>Summary of capture data from previous table. After <span class="citation" data-cites="Sutherland1996">Sutherland (<a href="#ref-Sutherland1996" role="doc-biblioref">2006</a>)</span>, p.&nbsp;121</figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li><p><span class="math inline">\(z_i\)</span> = the number of animals caught both before and after the <span class="math inline">\(i^{th}\)</span> sample but not in the <span class="math inline">\(i^{th}\)</span> sample itself</p></li>
+<li><p><span class="math inline">\(r_i\)</span> = the number of animals that were released from the <span class="math inline">\(i^{th}\)</span> sample and were subsequently recaptured <span class="citation" data-cites="Sutherland1996">(<a href="#ref-Sutherland1996" role="doc-biblioref">Sutherland, 2006</a>)</span></p></li>
+<li><p><span class="math inline">\(M_i\)</span> = number of marked animals in the population when the <span class="math inline">\(i^{th}\)</span> sample is taken (but not including animals newly marked in the <span class="math inline">\(i^{th}\)</span> sample)</p></li>
+</ul>
+<p><span class="math display">\[
+    \label{mi}
+    \tag{4.6}
+    m_1 + (R_i + 1)z_i /(r_i + 1)
+\]</span></p>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./js_3.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Capture history data sourced from <span class="citation" data-cites="Jolly1965">Jolly (<a href="#ref-Jolly1965" role="doc-biblioref">1965</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li><span class="math inline">\(N_i\)</span> = population size at the time of the <span class="math inline">\(i^{th}\)</span> sample</li>
+</ul>
+<p><span class="math display">\[
+    \label{ni}
+    \tag{4.7}
+    M_i (n_i + 1)/(m_i + 1)
+    \]</span></p>
+<ul>
+<li><span class="math inline">\(\phi_i\)</span> = proportion of the population surviving (and remaining in the study area) from the <span class="math inline">\(i^{th}\)</span> sampling occasion to the <span class="math inline">\((i + 1)^{th}\)</span></li>
+</ul>
+<p><span class="math display">\[
+\label{fi}
+\tag{4.8}
+M_{i+1}/(M_i − m_i + R_1)
+\]</span></p>
+<ul>
+<li><span class="math inline">\(B_i\)</span> = number of animals that enter the population between the <span class="math inline">\(i^{th}\)</span> and <span class="math inline">\((i + 1)^{th}\)</span> samples and survive until the <span class="math inline">\((i + 1)^{th}\)</span> sampling occasion</li>
+</ul>
+<p><span class="math display">\[
+    \label{bi}
+    \tag{4.9}
+    N_{i+1} − \phi_i (N_i − n_i + R_i)
+\]</span></p>
+<hr>
+<ul>
+<li><span class="math inline">\(M_2 = 10 + (143 + 1)14/(80 + 1) = 34.89\)</span> </li>
+<li><span class="math inline">\(N_2 = 34.89(146 + 1)/(10 + 1) = 466.1\)</span> </li>
+<li><span class="math inline">\(\phi_2 = 169.46/(34.89 − 10 + 143) = 1.009\)</span> </li>
+<li><span class="math inline">\(B_2 = 758.1 − 1.009(466.2 − 146 + 143) = 290.7\)</span> </li>
+<li>Note that one cannot calculate <span class="math inline">\(M\)</span> for the last sample, <span class="math inline">\(N\)</span> for the first or last, <span class="math inline">\(\phi\)</span> for the last two and <span class="math inline">\(B\)</span> for the first or last two. <span class="math inline">\(M_1\)</span> is always zero</li>
+</ul>
+</section>
+<section id="distance-sampling" class="level2">
+<h2 class="anchored" data-anchor-id="distance-sampling">Distance sampling</h2>
+<ul>
+<li><p>This method is based on performing transects during which the user collects the distances of the surveyed individuals from a line or point</p></li>
+<li><p>The goal is to estimate the density of individuals within a region</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Distance_sampling_method_line_transects_diagram.png" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Distance sampling using line transect. Downloaded <a href="https://en.wikipedia.org/wiki/Distance_sampling">here</a></figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li>Distance sampling assumes perfect detectability on the walking transect line</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./distSamplSim.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Example survey from systematic parallel design. Data downloaded <a href="https://distancesampling.org/dsims/index.html">here</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="references" class="level1 allowframebreaks">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Boyce1992" class="csl-entry" role="listitem">
+Boyce, M. S. (1992). <a href="https://doi.org/10.1146/annurev.es.23.110192.002405">Population viability analysis</a>. <em>Annual Review of Ecology and Systematics</em>, <em>23</em>(1), 481–497. Annual Reviews.
+</div>
+<div id="ref-Drechsler2004" class="csl-entry" role="listitem">
+Drechsler, M., &amp; Burgman, M. A. (2004). <a href="https://doi.org/10.1023/b:bioc.0000004315.09433.f6">Combining population viability analysis with decision analysis</a>. <em>Biodiversity &amp;amp; Conservation</em>, <em>13</em>(1), 115–139. Springer Science; Business Media LLC.
+</div>
+<div id="ref-VanDyke2020" class="csl-entry" role="listitem">
+Dyke, F. V., &amp; Lamb, R. L. (2020). <em>Conservation biology</em>. Springer International Publishing. Retrieved from <a href="https://doi.org/10.1007%2F978-3-030-39534-6">https://doi.org/10.1007%2F978-3-030-39534-6</a>
+</div>
+<div id="ref-Jolly1965" class="csl-entry" role="listitem">
+Jolly, G. M. (1965). Explicit estimates from capture-recapture data with both death and immigration-stochastic model. <em>Biometrika</em>, <em>52</em>(1/2), 225–247. [Oxford University Press, Biometrika Trust]. Retrieved April 28, 2023, from <a href="http://www.jstor.org/stable/2333826">http://www.jstor.org/stable/2333826</a>
+</div>
+<div id="ref-Lacy1993" class="csl-entry" role="listitem">
+Lacy, R. C. (1993). <span>VORTEX</span>: A computer simulation model for population viability analysis. <em>Wildlife Research</em>, <em>20</em>(1), 45. <span>CSIRO</span> Publishing. Retrieved from <a href="https://doi.org/10.1071%2Fwr9930045">https://doi.org/10.1071%2Fwr9930045</a>
+</div>
+<div id="ref-Seber1982" class="csl-entry" role="listitem">
+Seber, G. A. F. (1982). <em>The estimation of animal abundance and related parameters.</em> <em>Biometrische Zeitschrift</em> (Vol. 16, pp. 80–80). Caldwel, New Jersey: Blackburn Press. Retrieved from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.19740160115">https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.19740160115</a>
+</div>
+<div id="ref-Shaffer1981" class="csl-entry" role="listitem">
+Shaffer, M. L. (1981). <a href="https://doi.org/10.2307/1308256"><span class="nocase">Minimum Population Sizes for Species Conservation</span></a>. <em>BioScience</em>, <em>31</em>(2), 131–134.
+</div>
+<div id="ref-Sutherland1996" class="csl-entry" role="listitem">
+Sutherland, W. J. (Ed.). (2006). <em>Ecological census techniques: A handbook</em> (2nd ed.). Cambridge University Press.
+</div>
+<div id="ref-Waichman1992" class="csl-entry" role="listitem">
+Waichman, A. (1992). An alphanumeric code for toe clipping amphibians and reptiles. <em>Herpetological Review</em>, <em>23</em>, 19–21.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/giulianocolosimo\.github\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025 Giuliano Colosimo</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>. Inspiration for this site comes from <a href="https://www.mm218.dev">here</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,31 @@
+---
+title: "Contact"
+author: "Giuliano Colosimo"
+editor: visual
+date: "2024-11-02"
+date-modified: last-modified
+bibliography: ./comprehensive_database.bib
+csl: ./apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
+---
+
+Here you can find my contact information. My office is number 14, located on the first floor of the main building at "Laboratori di Ecologia Sperimentale ed Acquacoltura" in Via Cracovia 1, 00133 Rome, Italy.
+
+```{r ufficio, echo=FALSE}
+library(leaflet)
+
+leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lng = 12.6298, lat = 41.85021, popup="Office 14 is located on the first floor of this building")
+```
+
+<br/>
+
+You can reach me by e-mail using the following address:
+
+-   giuliano.colosimo\@uniroma2.it
+
+Or you can call my office number at:
+
+-   +39 06 7259 5964
