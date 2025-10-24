@@ -15,6 +15,7 @@ library(gtsummary)
 library(knitr)
 library(kableExtra)
 library(plotly)
+library(RColorBrewer)
 
 deforestation <- read.csv("./classes/1/data_treecover_loss_by_region__ha.csv", header = T)
 
@@ -810,13 +811,688 @@ sim.gen2fix <- function (pop.ls, num.sims) {
   #return(df)
 }
 
+png("./classes/5/fixationSimulation.png", width = 12, height = 8, units = "in", res = 300)
 sim.gen2fix(pop.ls, 2000)
+dev.off()
+
+
+
+alleles <- c("A","a")
+
+n_sizes <- c(5,10,20,50,100,500,1000)
+
+df <- data.frame(N = rep(n_sizes, each=50),
+                 Freq_A = NA,
+                 Freq_a = NA)
+
+for(row in 1:nrow(df)) {
+  # selezione casuale di alleli 
+  a <- sample(alleles, size=df$N[row], replace = T)
+  # find the frequency
+  f <- sum(a == "A") / length(a)
+  # assign it back to the data.frame
+  df$Freq_A[row] <- f
+  df$Freq_a[row] <- 1-f
+}
+
+df_mean_freq_N <- df %>% 
+  group_by(as.factor(N)) %>% 
+  summarise(A = mean(Freq_A),
+            a = mean(Freq_a))
+
+df_sd_freq_N <- df %>% 
+  group_by(as.factor(N)) %>% 
+  summarise(A = sd(Freq_A),
+            a = sd(Freq_a))
+
+df_mean_freq_N_mtrx <- as.matrix(df_mean_freq_N[,2:3])
+rownames(df_mean_freq_N_mtrx) <- c(5,10,20,50,100,500,1000)
+
+df_sd_freq_N_mtrx <- as.matrix(df_sd_freq_N[,2:3])
+rownames(df_sd_freq_N_mtrx) <- c(5,10,20,50,100,500,1000)
+
+#A function to add arrows on the chart
+error.bar <- function(x, y, upper, lower=upper, length=0.1,...){
+  arrows(x,y+upper, x, y-lower, 
+         angle=90, code=3, length=length, ...)
+}
+
+png("./classes/6/sizeMatters.png", width = 12, height = 8, units = "in", res = 300)
+df_mean_freq_N_mtrx.blt <-barplot(df_mean_freq_N_mtrx, 
+                                  beside = T, 
+                                  ylim = c(0,1), 
+                                  col = rev(brewer.pal(7, "Blues")),
+                                  xlab = "Alleles",
+                                  ylab = "Frequency")
+legend("top", legend = c(5,10,20,50,100,500,1000),
+       fill = rev(brewer.pal(7, "Blues")), 
+       title = "N", horiz = T)
+lines(x = seq(0, 16, 1), y = rep(0.5, 17),
+      lty = 2, col = "red", lwd = 3)
+error.bar(df_mean_freq_N_mtrx.blt, df_mean_freq_N_mtrx, 
+          df_sd_freq_N_mtrx)
+dev.off()
+
+
+
+
+png("./classes/6/coal1.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"),
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(11, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 11, labels = expression('Past (t'[0]*')'))
+text(x = 11.5, y = 11, labels = expression('G'[0]))
+text(x = 11.5, y = 10, labels = expression('G'[1]))
+text(x = 11.5, y = 9, labels = expression('G'[2]))
+text(x = 11.5, y = 7, labels = ":")
+text(x = 11.5, y = 6, labels = ":")
+text(x = 11.5, y = 5, labels = ":")
+text(x = 11.5, y = 2, labels = expression('G'[i-1]))
+text(x = 11.5, y = 1, labels = expression('G'[i]))
+dev.off()
+
+
+
+
+mtDNAhap <- c("palegreen2", "yellow", "pink",      "darkgreen", "red",
+              "steelblue2", "gray9",  "seagreen1", "plum3", "orange")
+
+set.seed(1211)
+mtDNAhap1 <- sample(mtDNAhap, size = 10, replace = T)
+mtDNAhap2 <- sample(mtDNAhap1, size = 10, replace = T)
+mtDNAhap3 <- sample(mtDNAhap2, size = 10, replace = T)
+mtDNAhap4 <- sample(mtDNAhap3, size = 10, replace = T)
+mtDNAhap5 <- sample(mtDNAhap4, size = 10, replace = T)
+mtDNAhap6 <- sample(mtDNAhap5, size = 10, replace = T)
+mtDNAhap7 <- sample(mtDNAhap6, size = 10, replace = T)
+mtDNAhap8 <- sample(mtDNAhap7, size = 10, replace = T)
+mtDNAhap9 <- sample(mtDNAhap8, size = 10, replace = T)
+mtDNAhap10 <- sample(mtDNAhap9, size = 10, replace = T)
+
+
+png("./classes/6/coal2.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"),
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(11, 10), pch=21, cex=2.7, col = "black", lwd=2,
+       bg= mtDNAhap)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 11, labels = expression('Past (t'[0]*')'))
+text(x = 11.5, y = 11, labels = expression('G'[0]))
+text(x = 11.5, y = 10, labels = expression('G'[1]))
+text(x = 11.5, y = 9, labels = expression('G'[2]))
+text(x = 11.5, y = 7, labels = ":")
+text(x = 11.5, y = 6, labels = ":")
+text(x = 11.5, y = 5, labels = ":")
+text(x = 11.5, y = 2, labels = expression('G'[i-1]))
+text(x = 11.5, y = 1, labels = expression('G'[i]))
+dev.off()
+
+
+png("./classes/6/coal3.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"),
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap1, lwd=2)
+points(x=1:10, y=rep(11, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap, lwd=2)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 11, labels = expression('Past (t'[0]*')'))
+text(x = 11.5, y = 11, labels = expression('G'[0]))
+text(x = 11.5, y = 10, labels = expression('G'[1]))
+text(x = 11.5, y = 9, labels = expression('G'[2]))
+text(x = 11.5, y = 7, labels = ":")
+text(x = 11.5, y = 6, labels = ":")
+text(x = 11.5, y = 5, labels = ":")
+text(x = 11.5, y = 2, labels = expression('G'[i-1]))
+text(x = 11.5, y = 1, labels = expression('G'[i]))
+dev.off()
+
+
+
+png("./classes/6/coal4.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"),
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap2, lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap1, lwd=2)
+points(x=1:10, y=rep(11, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap, lwd=2)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 11, labels = expression('Past (t'[0]*')'))
+text(x = 11.5, y = 11, labels = expression('G'[0]))
+text(x = 11.5, y = 10, labels = expression('G'[1]))
+text(x = 11.5, y = 9, labels = expression('G'[2]))
+text(x = 11.5, y = 7, labels = ":")
+text(x = 11.5, y = 6, labels = ":")
+text(x = 11.5, y = 5, labels = ":")
+text(x = 11.5, y = 2, labels = expression('G'[i-1]))
+text(x = 11.5, y = 1, labels = expression('G'[i]))
+dev.off()
+
+
+
+
+png("./classes/6/coal5.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"),
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "white", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap3, lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap2, lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap1, lwd=2)
+points(x=1:10, y=rep(11, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap, lwd=2)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 11, labels = expression('Past (t'[0]*')'))
+text(x = 11.5, y = 11, labels = expression('G'[0]))
+text(x = 11.5, y = 10, labels = expression('G'[1]))
+text(x = 11.5, y = 9, labels = expression('G'[2]))
+text(x = 11.5, y = 7, labels = ":")
+text(x = 11.5, y = 6, labels = ":")
+text(x = 11.5, y = 5, labels = ":")
+text(x = 11.5, y = 2, labels = expression('G'[i-1]))
+text(x = 11.5, y = 1, labels = expression('G'[i]))
+dev.off()
+
+png("./classes/6/coal6.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = mtDNAhap10,
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap9, lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap8, lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap7, lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap6, lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap5, lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap4, lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap3, lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap2, lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap1, lwd=2)
+points(x=1:10, y=rep(11, 10), pch=21, cex=2.7, col = "black",
+       bg= mtDNAhap, lwd=2)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 11, labels = expression('Past (t'[0]*')'))
+text(x = 11.5, y = 11, labels = expression('G'[0]))
+text(x = 11.5, y = 10, labels = expression('G'[1]))
+text(x = 11.5, y = 9, labels = expression('G'[2]))
+text(x = 11.5, y = 7, labels = ":")
+text(x = 11.5, y = 6, labels = ":")
+text(x = 11.5, y = 5, labels = ":")
+text(x = 11.5, y = 2, labels = expression('G'[i-1]))
+text(x = 11.5, y = 1, labels = expression('G'[i]))
+dev.off()
+
+
+
+
+
+png("./classes/6/coal7.png", width = 12, height = 8, units = "in", res = 300)
+plot(x=1:10, y=rep(1,10), pch=21, cex=2.7, col = "black",
+     bg = c("green", "green", "white", "green", "green", "white", "green", "white", "green", "white"),
+     ylim = c(0, 11), asp = 1, frame.plot = F, ann = F, axes = F, lwd=2)
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, col = "black",
+       bg= c("green", "white", "green", "white", "green", "white", "green", "white", "green", "white"), lwd=2)
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("green", "white", "green", "white", "green", "white", "white", "green", "green", "white"), lwd=2)
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, col = "black",
+       bg= c("green", "white", "green", "white", "white", "green", "white", "green", "white", "white"), lwd=2)
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "green", "white", "white", "green", "white", "green", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "green", "white", "white", "green", "white", "green", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "green", "white", "white", "green", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "green", "white", "green", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "green", "green", "white", "white", "white", "white", "white", "white"), lwd=2)
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "white", "green", "white", "white", "white", "white", "white", "white"), lwd=2)
+text(x = -1.5, y = 1, labels = expression('Present (t'[i]*')'))
+text(x = -1, y = 10, labels = expression('Past (t'[0]*')'))
+text(x = 4, y = 11, labels = "MRCA")
+lines(x = c(1,1,1,1,2,2,3,3,3,4), y = c(1,2,3,4,5,6,7,8,9,10))
+lines(x = c(2,3,3,3,2,2,3,3,3,4), y = c(1,2,3,4,5,6,7,8,9,10))
+lines(x = c(4,5,5,6,5,5,6,5,4,4), y = c(1,2,3,4,5,6,7,8,9,10))
+lines(x = c(5,5,5,6,5,5,6,5,4,4), y = c(1,2,3,4,5,6,7,8,9,10))
+lines(x = c(7,7,8,8,7,7,6,5,4,4), y = c(1,2,3,4,5,6,7,8,9,10))
+lines(x = c(9,9,9,8,7,7,6,5,4,4), y = c(1,2,3,4,5,6,7,8,9,10))
+points(x=1:10, y=rep(1,10), pch=21, cex=2.7, 
+       col = "black",
+       bg= c("green", "green", "white", "green", "green", "white", "green", "white", "green", "white"))
+points(x=1:10, y=rep(2, 10), pch=21, cex=2.7, 
+       col = c("black", "black", "black", "black", "red", "black", "black", "black", "black", "black"),
+       bg= c("green", "white", "green", "white", "green", "white", "green", "white", "green", "white"))
+points(x=1:10, y=rep(3, 10), pch=21, cex=2.7, col = "black",
+       bg= c("green", "white", "green", "white", "green", "white", "white", "green", "green", "white"))
+points(x=1:10, y=rep(4, 10), pch=21, cex=2.7, 
+       col = c("black", "black", "black", "black", "black", "black", "black", "red", "black", "black"),
+       bg= c("green", "white", "green", "white", "white", "green", "white", "green", "white", "white"))
+points(x=1:10, y=rep(5, 10), pch=21, cex=2.7, 
+       col = c("black", "red", "black", "black", "black", "black", "black", "black", "black", "black"),
+       bg= c("white", "green", "white", "white", "green", "white", "green", "white", "white", "white"))
+points(x=1:10, y=rep(6, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "green", "white", "white", "green", "white", "green", "white", "white", "white"))
+points(x=1:10, y=rep(7, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "green", "white", "white", "green", "white", "white", "white", "white"))
+points(x=1:10, y=rep(8, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "green", "white", "green", "white", "white", "white", "white", "white"))
+points(x=1:10, y=rep(9, 10), pch=21, cex=2.7, col = "black",
+       bg= c("white", "white", "green", "green", "white", "white", "white", "white", "white", "white"))
+points(x=1:10, y=rep(10, 10), pch=21, cex=2.7, 
+       col = c("black", "black", "black", "red", "black", "black", "black", "black", "black", "black"),
+       bg= c("white", "white", "white", "green", "white", "white", "white", "white", "white", "white"))
+dev.off()
+
+
+
+simulate.pop<-function(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, mut.rate=  0.1, for.class= TRUE, initial.state="all.black",plot.freqs=FALSE,mult.pop=FALSE,pops=FALSE){
+  #  c(rep(10,5),rep(3,2),rep(10,5),rep(3,2),rep(10,5))  #
+  stopifnot(initial.state %in% c("all.black","all.diff","two.alleles","single.mut") )
+  
+  if(plot.freqs){layout(c(1,2)); par(mar=c(1,2,0,1))}
+  if(for.class){
+    line.lwd<-1
+    line.col<-"black"
+    mut.line.lwd<-1
+    mut.line.col<-"black"
+    
+  }else{
+    line.lwd<-0.5
+    line.col<-"grey"
+    mut.line.lwd<-1
+    mut.line.col<-"grey"
+  }
+  
+  num.gens<- length(N.vec)-1	
+  
+  if(!mult.pop){
+    ind.pop.par<-matrix(1,nrow=max(N.vec),ncol=num.gens+1)
+    ind.pop<-matrix(1,nrow=max(N.vec),ncol=num.gens+1)
+  }else{
+    ind.pop.par<-pops[["ind.pop.par"]]
+    ind.pop<-pops[["ind.pop"]]
+  }
+  
+  num.gens<- length(N.vec)-1
+  offset<-0.1
+  plot(c(1,num.gens),c(0.5,max(N.vec))+c(-offset,offset),type="n",axes=FALSE,xlab="",ylab="")
+  mtext(side=1,line=0,"Generations")
+  text(1,0.5,"Past")
+  text(num.gens-1,0.5,"Present")
+  
+  track.cols<- list()
+  N <-N.vec[1]
+  if(initial.state=="all.black") my.cols<-rep("black",2*N)  #sample(rainbow(2*N))
+  if(initial.state=="all.diff") my.cols<-sample(rainbow(2*N))
+  if(initial.state=="two.alleles")  my.cols<-  rep(c("blue","red"),N)
+  if(initial.state=="single.mut")  my.cols<-  c("red",rep("blue",2*N-1))
+  stopifnot((2*N)==length(my.cols))
+  
+  track.cols[[1]]<-my.cols
+  points(rep(1,N),1:N+offset, pch=19,cex=1.3,col=my.cols[(1:N)*2])
+  points(rep(1,N),1:N-offset, pch=19,cex=1.3,col=my.cols[(1:N)*2-1])
+  
+  for(i in 1:num.gens){
+    
+    N.new<-N.vec[i+1]
+    N.old<-N.vec[i]
+    points(rep(i,N.old),1:N.old+offset, pch=19,cex=1.3,col=my.cols[(1:N.old)*2])
+    points(rep(i,N.old),1:N.old-offset, pch=19,cex=1.3,col=my.cols[(1:N.old)*2-1])
+    
+    new.cols<-rep("black",2*N.new)
+    
+    if(const.RS){ 
+      repro.success<-rep(1/N.old,N.old)
+    }else{
+      repro.success<-sample(c(rep(0.5/(N.old),N.old-2),c(0.25,0.25)),replace=FALSE)
+    }
+    
+    for(ind in 1:N.new){
+      
+      this.pop.par <- ind.pop.par[ind,i+1]
+      available.pars <- (1:N.old)[which(ind.pop[1:N.old,i] == this.pop.par)]
+      par<-sample(available.pars,2,replace=FALSE,prob=repro.success[which(ind.pop[1:N.old,i] == this.pop.par)])
+      
+      which.allele.1<-sample(c(-1,1),1)
+      if(i != num.gens){ lines(c(i,i+1), c(par[1]+which.allele.1*offset,ind-offset),col=line.col,lwd=line.lwd)}
+      new.cols[2*ind-1]<- my.cols[2*par[1] +ifelse(which.allele.1==1,0,-1)]
+      
+      which.allele.2<-sample(c(-1,1),1)
+      if(i != num.gens){ lines(c(i,i+1), c(par[2]+which.allele.2*offset,ind+offset),col=line.col,lwd=line.lwd)}
+      new.cols[2*ind]<- my.cols[2*par[2] +ifelse(which.allele.2==1,0,-1)]
+      
+      if(mutation){
+        if(runif(1)<mut.rate){ 
+          new.cols[2*ind-1]<- sample(rainbow(4*N),1)
+          if(i != num.gens){ lines(c(i,i+1), c(par[1]+which.allele.1*offset,ind-offset),col=mut.line.col,lwd=mut.line.lwd)}
+          
+        }
+        if(runif(1)<mut.rate){ 
+          new.cols[2*ind]<- sample(rainbow(4*N),1)
+          if(i != num.gens){ lines(c(i,i+1), c(par[2]+which.allele.2*offset,ind+offset),col=mut.line.col,lwd=mut.line.lwd)}
+        } 
+        
+      }
+    }	
+    ##redraw points to cover lines		 
+    points(rep(i,N.old),1:N.old+offset, pch=19,cex=1.3,col=my.cols[(1:N.old)*2])
+    points(rep(i,N.old),1:N.old-offset, pch=19,cex=1.3,col=my.cols[(1:N.old)*2-1])
+    
+    my.cols<-new.cols
+    track.cols[[i+1]]<-my.cols
+    if(!const.RS) sapply(which(repro.success>1/N.old), function(ind){ draw.circle(x=i,y=ind,radius=0.2,nv=100,border=NULL,col=NA,lty=1,lwd=1)})
+  }
+  #	recover()
+  if(plot.freqs){
+    plot(c(1,num.gens),c(0,1),type="n",axes=FALSE,xlab="",ylab="")
+    all.my.cols<-unique(unlist(track.cols))
+    
+    if(!mult.pop){ 
+      my.col.freqs<-sapply(track.cols,function(my.gen){sapply(all.my.cols,function(my.col){sum(my.gen==my.col)})})
+      
+      sapply(all.my.cols,function(col.name){lines(my.col.freqs[col.name,]/(2*N.vec),col=col.name,lwd=2)});
+    }else{
+      
+      for(pop in 1:max(ind.pop)){
+        my.col.freqs<-sapply(1:num.gens, function(gen){
+          #			recover()
+          my.gen<-track.cols[[gen]]
+          if(all(ind.pop.par[ind.pop[,gen]==pop,gen]==0)) return(rep(NA,length(all.my.cols)))  #if pop doesn't exist in this gen.
+          
+          these.inds<-which(ind.pop[,gen]==pop)
+          my.gen<-c(my.gen[these.inds*2],my.gen[these.inds*2-1])
+          sapply(all.my.cols,function(my.col){
+            sum(my.gen==my.col)
+          })})
+        rownames(my.col.freqs)<-		all.my.cols
+        sapply(all.my.cols[-length(all.my.cols)],function(col.name){lines(my.col.freqs[col.name,]/(2*5),col=col.name,lwd=2,lty=pop)});	
+      }
+    }
+    
+    axis(2)
+  }
+}
+
+png("./classes/6/driftandH1.png", width = 12, height = 8, units = "in", res = 300)
+simulate.pop(N.vec= rep(5,15), const.RS=TRUE,  mutation= FALSE, for.class= TRUE, initial.state="two.alleles")
+dev.off()
+
+png("./classes/6/driftandH2.png", width = 12, height = 8, units = "in", res = 300)
+simulate.pop(N.vec=rep(5,15), const.RS=TRUE,  mutation= FALSE, for.class= TRUE, initial.state="all.diff")
+dev.off()
+
+
+png("./classes/6/driftandmutation1.png", width = 12, height = 8, units = "in", res = 300)
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation=TRUE, mut.rate=  0.2, for.class= TRUE, initial.state="all.black")
+dev.off()
+
+
+
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, mut.rate=  0.1, for.class= TRUE, initial.state="all.black")
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, mut.rate=  0.1, for.class= TRUE, initial.state="all.black")
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, mut.rate=  0.1, for.class= TRUE, initial.state="all.black")
+
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation=TRUE, mut.rate=  0.2, for.class= TRUE, initial.state="all.black")
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, mut.rate=  0.2, for.class= TRUE, initial.state="all.black")
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, mut.rate=  0.2, for.class= TRUE, initial.state="all.black")
+
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, for.class= TRUE,plot.freqs=TRUE,initial.state="all.black")
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, for.class= TRUE,plot.freqs=TRUE,initial.state="all.black")
+simulate.pop(N.vec=rep(5,30), const.RS=TRUE,  mutation= TRUE, for.class= TRUE,plot.freqs=TRUE,initial.state="all.black")
+
+
+
+
+
+wf <- function(N, ngens, p0=1/3, mu=0) {
+  N <- 2*N  # diploid adjustment
+  # initialize an empty matrix
+  gns <- matrix(NA, nrow=ngens, ncol=N)
+  # initialize the first generation, with two alleles, one at freq
+  # p0
+  alleles <- 2
+  gns[1, ] <- sample(1:2, N, replace=TRUE, prob=c(p0, 1-p0))
+  for (i in 2:ngens) {
+    gns[i, ] <- gns[i-1, sample(1:N, N, replace=TRUE)]
+    if (mu > 0) {
+      # add mutations to this generation
+      muts <- rbinom(N, 1, prob=mu)
+      new_alleles <- sum(muts)
+      alleles <- alleles + new_alleles
+      if (new_alleles) {
+        # there are mutations, add to population.
+        gns[i, ] <- ifelse(muts, sample(alleles), gns[i, ])
+      }
+    }
+  }
+  gns
+}
+
+
+
+
+het <- function(x) {
+  tbl <- table(x)
+  1 - sum((tbl/sum(tbl))^2)
+}
+
+my.sims<-replicate(100,wf(N=100, ngens=150))
+
+h <- apply(my.sims, 1, het)
+plot(h, type='l', xlab='generation', ylab='heterozygosity')
+
+p0<-0.3
+N<-500
+ngens<-150
+my.sims<-replicate(40,wf(N=N, ngens=ngens,p0=p0))
+
+png("./classes/6/lossofhet.png", width = 12, height = 8, units = "in", res = 300)
+layout(t(1:2))
+plot(type="n",y=c(0,1),x=c(0,ngens),xlab="Time, generations",ylab="Frequency, p", cex.lab=1.4,cex.axis=1.2)
+apply(my.sims,3,function(sim){
+  lines(c(p0,apply(sim==1,1,mean)),,col=adjustcolor("black",0.3))
+})
+lines(c(p0,apply(my.sims[,,1]==1,1,mean)),col="red",lwd=2)
+lines(rowMeans(apply(my.sims,3,function(sim){c(p0,apply(sim==1,1,mean))})),col="blue",lwd=2)
+abline(h=p0,col="blue",lwd=2,lty=3)
+legend(x="topright",legend=c("1 sim.","Mean sim.","Expectation"),col=c("red","blue","blue"),lty=c(1,1,2),bg="white")
+plot(type="n",y=c(0,0.5),x=c(0,ngens),xlab="Time, generations",ylab="Heterozygosity", cex.lab=1.4,cex.axis=1.2)
+apply(my.sims,3,function(sim){
+  lines(c(2*p0*(1-p0),apply(sim,1,het)),col=adjustcolor("black",0.3))
+})
+lines(c(2*p0*(1-p0),apply(my.sims[,,1],1,het)),col="red",lwd=2)
+lines(rowMeans(apply(my.sims,3,function(sim){apply(sim,1,het)})),col="blue",lwd=2)
+lines(0:ngens,2*p0*(1-p0)*(1-1/(2*N))^(0:ngens),col="blue",lty=3,lwd=2)
+dev.off()
+
+
+
+#https://academic.oup.com/jmammal/article/92/4/751/887640
+#Genetic Diversity and Fitness in Black-Footed Ferrets Before and During a Bottleneck 
+#S. M. Wisely S. W. Buskirk M. A. Fleming D. B. McDonald E. A. Ostrander 
+
+#another set of numbers https://academic.oup.com/jmammal/article/92/4/751/887640
+#In 1985 the last wild population (N = 40 adults) experienced simultaneous epizootics of canine distemper and sylvatic plague (Yersinia pestis). 
+#. Eighteen individuals were captured for breeding
+#
+black_footed<-read.csv("./classes/6/black-footed-ferrets_He.csv")
+
+black_footed[,1]<-c(1891,1972,1985,1986) ##displace postbottleneck pop 1 year
+#black_footed<-rbind(black_footed,cbind(c(0.067,0.067),c(1999,2004))
+
+png("./classes/6/blackfootedferret.png", width = 12, height = 8, units = "in", res = 300)
+plot(black_footed,type="b",xlab= "Year", ylab="Heterozygosity (HE)",ylim=c(0,.3),cex.lab=1.4,cex=1.5,pch=19,range(black_footed$date)+c(-12,5),axes=FALSE)
+N<-c("N>10k","N=62","N=40","N=7")
+axis(1)
+axis(2)
+text(black_footed$date-6,black_footed$He-0.008,paste(" (",N,")",sep="")) #black_footed$date)
+dev.off()
 
 
 
 
 
 
+
+
+track_lineages<-function(N.vec, n.iter, num.tracked, col.allele,return.tracked=FALSE){
+  offset<-0.2
+  num.gens<-length(N.vec)
+  for(iter in 1:n.iter){
+    N.max<-max(N.vec)
+    N<-N.vec[num.gens]
+    N.prev<-N.vec[num.gens-1]
+    plot(c(1,num.gens),c(1,N.max),type="n",axes=FALSE,xlab="",ylab="")
+    mtext(side=1,line=1,"Generations")
+    
+    track.this.allele<-vector("list", 2*N)
+    track.this.allele.time<-list()
+    track.this.allele[sample(1:(2*N),num.tracked)]<-1:num.tracked
+    
+    track.this.allele.next.gen<-vector("list", 2*N.prev)
+    
+    for(i in num.gens:2){
+      if(return.tracked) track.this.allele.time[[i]]<-track.this.allele
+      N<-N.vec[i]
+      N.prev<-N.vec[i-1]
+      track.this.allele.next.gen<-vector("list", 2*N.prev)
+      for(ind in 1:N){
+        
+        par<-sample(1:N.prev,2,replace=FALSE)
+        which.allele<-sample(c(-1,1),1)
+        lines(c(i,i-1), c(ind-offset,par[1]+which.allele*offset),col="light grey",lwd=0.5)
+        if(!is.null(track.this.allele[[2*ind-1]])){
+          this.one<-2*par[1] +ifelse(which.allele==1,0,-1); 
+          track.this.allele.next.gen[[this.one]]  <- c(track.this.allele.next.gen[[this.one]],track.this.allele[[2*ind-1]])
+        }
+        
+        which.allele<-sample(c(-1,1),1)
+        lines(c(i,i-1), c(ind+offset,par[2]+which.allele*offset),col="light grey",lwd=0.5)
+        if(!is.null(track.this.allele[[2*ind]])){ 
+          this.one<-2*par[2] +ifelse(which.allele==1,0,-1); 
+          track.this.allele.next.gen[[ this.one]]  <- c(track.this.allele.next.gen[[this.one]],track.this.allele[[2*ind]])
+        }
+        #		recover()
+      }
+      for(this.allele in 1:num.tracked){ 
+        daughter<-which(sapply(track.this.allele,function(allele){any(allele==this.allele)}))
+        parent<-which(sapply(track.this.allele.next.gen,function(allele){any(allele==this.allele)}))
+        lines(c(i,i-1), c(ceiling(daughter/2)+offset* ifelse(daughter %% 2,-1,1) ,ceiling(parent/2) + offset*ifelse(parent %% 2,-1,1) ),col=col.allele[this.allele],lwd=2)
+      }
+      
+      points(rep(i,N),1:N+offset, pch=19,cex=1)
+      points(rep(i,N),1:N-offset, pch=19,cex=1)
+      track.this.allele<-track.this.allele.next.gen
+    }
+    
+    
+  }
+  if(return.tracked) track.this.allele.time
+}
+
+
+N<-10
+
+###Track pairs
+png("./classes/6/pairwisecoalescent.png", width = 12, height = 8, units = "in", res = 300)
+track_lineages(N.vec=rep(10,20), n.iter=20, num.tracked=2, col.allele=c("red","blue"))
+dev.off()
 
 
 

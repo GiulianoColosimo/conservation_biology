@@ -46,9 +46,9 @@ rm(x)
 
 ## What is a population?
 
-- The traditional definition of a population is:
+-   The traditional definition of a population is:
 
-  - \textcolor{red}{All individuals of the same species coexisting at the same time and in the same geographic area} [@VanDyke2020]
+    -   \textcolor{red}{All individuals of the same species coexisting at the same time and in the same geographic area} [@VanDyke2020]
 
 -   This definition is strictly biological, but it could be more complex when we refer to individuals that are harvested, threatened or are perceived controversially by the public opinion
 
@@ -60,7 +60,6 @@ rm(x)
 
 -   Even if they "feel" artificial, political and social perspectives should always be considered when defining populations, as politicians are the ones that ultimately support or deny conservation policies
 
-
 ## Population demography
 
 -   Populations mutate over time due to individuals \textcolor{blue}{reproducing} or \textcolor{red}{dying}, \textcolor{orange}{migrating} or \textcolor{olive}{dispersing}
@@ -69,34 +68,31 @@ rm(x)
 
 . . .
 
-- \textcolor{gray}{Extinction} is the event that conservation biologists are trying to avoid
+-   \textcolor{gray}{Extinction} is the event that conservation biologists are trying to avoid
 
-- Very few populations suddenly disappear when they are alrge and healthy: extinction is generally preceded by decline!
+-   Very few populations suddenly disappear when they are alrge and healthy: extinction is generally preceded by decline!
 
 ------------------------------------------------------------------------
 
+-   \textbf{Cohort}: a group of individuals born at the same time
 
-- \textbf{Cohort}: a group of individuals born at the same time
+-   \textbf{Survivorship}: the probability of an individual surviving up to a certain age
 
-- \textbf{Survivorship}: the probability of an individual surviving up to a certain age
+-   \textbf{Recruitment}: the net additions/subtractions of reproductively viable individuals, added to the population after the adjustment for early or neonatal mortality
 
-- \textbf{Recruitment}: the net additions/subtractions of reproductively viable individuals, added to the population after the adjustment for early or neonatal mortality
+-   \textbf{Fecundity}: the number of young or eggs produced per female (animal) or seeds per individual (plants) per unit time
 
-- \textbf{Fecundity}: the number of young or eggs produced per female (animal) or seeds per individual (plants) per unit time
-
-- \textbf{Dispersal}: the permanent movement of an individual from its area of birth to another area. Usually measured in term of \emph{rate}, \emph{distance} and \emph{direction}
-
+-   \textbf{Dispersal}: the permanent movement of an individual from its area of birth to another area. Usually measured in term of \emph{rate}, \emph{distance} and \emph{direction}
 
 <!-- La capacità di dispersione di un organismo è stata per lungo tempo trascurata perché difficile da misurare direttamente. Tecniche moderno di monitoraggio diretto come la telemetria e la possibilità dei monitoraggi satellitari, stanno via via sostituendo le tecniche indirette come ad esempio l'utilizzo delle metriche basate sulle distancze genetiche tra popolazioni -->
 
----
+------------------------------------------------------------------------
 
-- If we had perfect knowledge about each individual in the population it would be relatively simple to make precise predictions about the behavior of the population through time
+-   If we had perfect knowledge about each individual in the population it would be relatively simple to make precise predictions about the behavior of the population through time
 
-- Unfortunately, in most cases our knowledge about population status is far from perfect. We therefore construct models to understand and approximate the complexity of a population and predict how it will behave
+-   Unfortunately, in most cases our knowledge about population status is far from perfect. We therefore construct models to understand and approximate the complexity of a population and predict how it will behave
 
-- The models and their assumptions are NOT laws that invariably describe how populations work. They have to be informed with direct information gathered from real populations
-
+-   The models and their assumptions are NOT laws that invariably describe how populations work. They have to be informed with direct information gathered from real populations
 
 ## Population models: exponential
 
@@ -148,13 +144,13 @@ $$
 
 -   This model assumes all individuals are demographic equivalent, an unlikely assumption in many systems, especially with long lived individuals!
 
----
+------------------------------------------------------------------------
 
-- In logistic model, changes in the size of the population ($N$) directly affect population growth, an expression of \textbf{density dependence}
+-   In logistic model, changes in the size of the population ($N$) directly affect population growth, an expression of \textbf{density dependence}
 
-- Density dependence operates through a negative feedback between the growth rate and the population size at one or more steps
+-   Density dependence operates through a negative feedback between the growth rate and the population size at one or more steps
 
-- Density dependence results in regulation of the population fluctuations around a mean population size, which is the carrying capacity
+-   Density dependence results in regulation of the population fluctuations around a mean population size, which is the carrying capacity
 
 ------------------------------------------------------------------------
 
@@ -176,26 +172,25 @@ $$
 
 ## Population perturbations: natural catastrophes!
 
-- Some have argued that natural catastrophes are a special case of environmental stochasticity because they are only extreme forms of normal environment variation (prolonged drought, flash floods, extreme rain)
+-   Some have argued that natural catastrophes are a special case of environmental stochasticity because they are only extreme forms of normal environment variation (prolonged drought, flash floods, extreme rain)
 
-- The point is that catastrophes lie outside of the normal probability distribution of random events associated with environmental variation
+-   The point is that catastrophes lie outside of the normal probability distribution of random events associated with environmental variation
 
-- They also are qualitatively and quantitatively different in their effects
+-   They also are qualitatively and quantitatively different in their effects
 
-- A forest fire is not just a very hot day! [@Lacy1993]
+-   A forest fire is not just a very hot day! [@Lacy1993]
 
-- The most viable protection against risks associated with catastrophes is spatial segregation of different population subunits [@VanDyke2020]
-
+-   The most viable protection against risks associated with catastrophes is spatial segregation of different population subunits [@VanDyke2020]
 
 ## Avoiding extinction through spatial segregation
 
-- What are the relative risks of keeping a small population intact on a single site versus subdividing the population in to separate units?
+-   What are the relative risks of keeping a small population intact on a single site versus subdividing the population in to separate units?
 
-![Decision analysis after @Drechsler2004](./decision analysis.png){width="65%" fig-align="center"}
+![Decision analysis after @Drechsler2004](./decision%20analysis.png){width="65%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
-![The pink iguana population only  persists on the top of an active volcano!](./pink iguana for class.png){width="83%" fig-align="center"}
+![The pink iguana population only persists on the top of an active volcano!](./pink%20iguana%20for%20class.png){width="83%" fig-align="center"}
 
 ## Population perturbations: density dependent
 
@@ -260,17 +255,15 @@ $$
 
 ## Patterns tagging
 
-
 ### Toes and nail clipping
 
 ![This image is from @Waichman1992. The author describes all possible combination of toe clipping to uniquely identify individuals](./class_4_3.png)
 
----
+------------------------------------------------------------------------
 
 ### Features tag
 
 ![Toads of the genus *Bombina* have unique spotted patterns. Photo credits: [marioeffe](https://www.naturamediterraneo.com/forum/topic.asp?TOPIC_ID=273624)](./class_4_4.png){fig-align="center" width="80%"}
-
 
 ## Photo tagging
 
@@ -415,17 +408,17 @@ $$
 
 ## Distance sampling
 
-- This method is based on performing transects during which the user collects the distances of the surveyed individuals from a line or point
+-   This method is based on performing transects during which the user collects the distances of the surveyed individuals from a line or point
 
-- The goal is to estimate the density of individuals within a region
+-   The goal is to estimate the density of individuals within a region
 
 ![Distance sampling using line transect. Downloaded [here](https://en.wikipedia.org/wiki/Distance_sampling)](./Distance_sampling_method_line_transects_diagram.png){width="30%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 \vspace{.7cm}
 
-- Distance sampling assumes perfect detectability on the walking transect line
+-   Distance sampling assumes perfect detectability on the walking transect line
 
 ![Example survey from systematic parallel design. Data downloaded [here](https://distancesampling.org/dsims/index.html)](./distSamplSim.png){width="70%" fig-align="center"}
 

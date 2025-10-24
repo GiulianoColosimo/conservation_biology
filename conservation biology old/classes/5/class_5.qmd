@@ -71,22 +71,22 @@ rm(x)
 -   As in other sciences, conservation genetics has benefited from the use of model organisms for experiments as well as modelistic and numerical approaches
 
 -   How much gene flow is required to prevent the inbreeding effects of small population size?
-  
-    - We can use species with short generation time and easy to control (*Drosophila*, peas, *Arabidopsis thaliana*) to make empirical experiments and answer the above question
 
----
-    
+    -   We can use species with short generation time and easy to control (*Drosophila*, peas, *Arabidopsis thaliana*) to make empirical experiments and answer the above question
+
+------------------------------------------------------------------------
+
 -   Describing individuals from a molecular genetic standpoint can also help to better understand the basic biology of species and populations [@Allendorf2022]
 
     -   Total population size can be estimated from the genotypes in populations that are difficult to sample with the classic methodologies [@Luikart2010]
-    
+
 -   Genetic analysis can help detecting cryptic effects of climate change on the distribution of species [@Allendorf2022]
 
     -   @Gurgel2020 documented the reduction in genetic diversity after a heatwave despite the sea weed population had recovered
 
 ------------------------------------------------------------------------
 
-![Genetic (blue) and genomic (blue) issues that can be addressed in a population ](./popGenetics.png){width="90%" filg-align="center"}
+![Genetic (blue) and genomic (blue) issues that can be addressed in a population](./popGenetics.png){width="90%" filg-align="center"}
 
 ## What should we conserve?
 
@@ -96,15 +96,15 @@ rm(x)
 
 -   @VaneWright1991 developed a method to assign a conservation value to distinct phylogenetic lineages. This value is inversely proportional to the number of branching points to other extant lineages
 
----
+------------------------------------------------------------------------
 
-- \textbf{Species or ecosystems}: Conservation requires a balanced approach based on habitat protection that also takes into account the natural history and viability of individual species. This is particularly challenging for wide-ranging species [@Allendorf2022]
+-   \textbf{Species or ecosystems}: Conservation requires a balanced approach based on habitat protection that also takes into account the natural history and viability of individual species. This is particularly challenging for wide-ranging species [@Allendorf2022]
 
-- \textbf{Populations or species}: Genetically distinct populations should probably receive more attention than species from a conservation perspective
+-   \textbf{Populations or species}: Genetically distinct populations should probably receive more attention than species from a conservation perspective
 
 -   The functional units of an ecosystem are populations
 
----
+------------------------------------------------------------------------
 
 -   Experiments conducted in the field of community genetics hint towards a correlation between individual alleles within species and community composition and diversity [@Crutsinger2016]
 
@@ -115,8 +115,8 @@ rm(x)
 ## Fundamental vocabulary
 
 | Term | Definition |
-|-------------------|-----------------------------------------------------|
-| Locus | The position on the chromosome where a specific gene is found, and/or the genetic segment, even a single nucleotide base, of interest.|
+|--------------------|----------------------------------------------------|
+| Locus | The position on the chromosome where a specific gene is found, and/or the genetic segment, even a single nucleotide base, of interest. |
 | Allele | Variant of a specific locus on homologous chromosomes (containing the same type of genetic information). |
 | Genotype | Combination of alleles at one or more loci (genes) in an individual. For example, the genotype of a diploid individual characterized for the bi-allelic gene A might be A1A1, A1A2, or A2A2. |
 
@@ -125,7 +125,7 @@ rm(x)
 \vspace{.5cm}
 
 |   | (continues) |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Phenotype | The obvious and measurable manifestation of a specific genotype. |
 | Genome | The set of nucleotide sequences, coding and not, generally organized into chromosomes, which characterize a species or an individual. |
 | Homozygote | Individual with two identical copies of a specific allele registered at the locus (gene) of interest. |
@@ -137,16 +137,15 @@ rm(x)
 \vspace{.5cm}
 
 |   | (continues) |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Polymorphic | The presence in a species or population of 2 or more alleles at a certain gene. For example, gene A in a population might have 4 alleles: A1, A2, A3, and A4. A locus is considered polymorphic if the frequency of its most frequent allele is less than 0.99 or 0.95. |
 | Monomorphic | A population or species is monomorphic for a gene when all individuals have the same allele. In other words, the frequency of that allele in the population is 1. |
 | Average heterozygosity | Average number of heterozygous loci in an individual or population. |
 
-
 ------------------------------------------------------------------------
 
 |   | (continues) |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Co-dominance | Situation where all genotypes can be identified by their phenotypes. In the case of gene A with two codominant alleles, the A1A1, A1A2, and A2A2 genotypes all produce different and distinguishable phenotypes. |
 | Allelic diversity | Mean number of alleles per locus. |
 | Genetic distance | A measure of distance obtained by comparing 2 or more nucleotide sequences or by comparing the allele and genotype frequencies of two or more individuals or populations. |
@@ -169,19 +168,19 @@ $$
 
 $$
 p = \frac{2n_{Hom} + n_{Het}}{2n}
-$$ 
+$$
 
 <!-- where $p$ is the frequency of the allele (usually the dominant one) and $n$ is the number of individuals that are homozygotes ($n_{Hom}$) and heterozygotes ($n_{Het}$) for that allele, respectively -->
 
 -   Average heterozygosity $H = \sum H_i/N$ where $H_i$ is the average heterozygosity at locus $i$, and $N$ is the total number of loci
 
----
+------------------------------------------------------------------------
 
 -   Describing the genetic variation using mathematical tool is a good and necessary exercise, but it is not enough!
 
 -   We need to develop models that could tell us about how various evolutionary factors (natural selection, mutations, population size, geographic fragmentation, drift) affect the persistence of populations and species
 
- - Models are essential for understanding the genetics of natural populations in a variety of ways: *i)* models make us define the parameters that need to be considered; *ii)* models allow us to test hypotheses; *iii)* models allow us to generalize results; iv) models allow us to predict how a system will operate in the future [@Allendorf2022, p.95].
+-   Models are essential for understanding the genetics of natural populations in a variety of ways: *i)* models make us define the parameters that need to be considered; *ii)* models allow us to test hypotheses; *iii)* models allow us to generalize results; iv) models allow us to predict how a system will operate in the future [@Allendorf2022, p.95].
 
 ------------------------------------------------------------------------
 
@@ -204,7 +203,7 @@ $$
 ## Assumptions of the model
 
 | Assumption | Significance |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Random mating | Individuals show no significant preference or dislike for other individuals with respect to specific traits or loci. |
 | No mutation | Mutation is one of the few forces creating variability. We assume that the information is transmitted from generation to generation without the influence of mutation. |
 | Infinite population size | No population in nature is actually infinite (although populations of some species may as well be)! This assumption is fundamental to construct a null model and compare the effect of small population size. |
@@ -214,11 +213,11 @@ $$
 \vspace{.5cm}
 
 |   | (continues) |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | No natural selection | We will assume that all alleles and genotypes have the same fitness and that there is no differential reproduction or survival. This assumption is very unlikely to be true in nature, especially because selection may be reduced for the loci under analysis, but still present at all other loci in an individual. |
 | No immigration | We will first consider a situation where only one population of a certain species is present. This means that we will not consider gene flow and exchange of genetic material from and to other populations. |
 
----
+------------------------------------------------------------------------
 
 ::: callout-important
 # Question
@@ -226,10 +225,9 @@ $$
 What is the main consequence of the assumptions we have just described?
 :::
 
----
+------------------------------------------------------------------------
 
 ![Organization of genetic variability in a Hardy-Weinberg equilibrium population typed at a biallelic locus.](./hweplot.png){width="90%" fig-align="center"}
-
 
 ## Analyzing the Hardy-Weinberg model
 
@@ -247,10 +245,9 @@ What is the main consequence of the assumptions we have just described?
 |----------|----------|----------|-----|
 | 6        | 7        | 2        | 15  |
 
-
 $$
 p = f(A) = \frac{2n_{AA} + n_{Aa}}{2n} = \frac{12 + 7}{30} \approx 0.633
-$$ 
+$$
 
 $$
 q = f(a) = \frac{2n_{aa} + n_{Aa}}{2n}= \frac{4 + 7}{30} \approx 0.367
@@ -260,7 +257,7 @@ $$
 p + q = 1
 $$
 
-## Expansion with alleles > 2 
+## Expansion with alleles \> 2
 
 -   Because of our assumption of random mating the assortment of alleles in the zygotes can be estimated from the allele frequencies using a binomial expansion:
 
@@ -305,7 +302,7 @@ sample(dice, size = 1)
 sample(dice, size = 1)
 ```
 
----
+------------------------------------------------------------------------
 
 ```{r dice4}
 #| output-location: column-fragment
@@ -317,7 +314,7 @@ table(sim_dice)/100000
 
 -   The probability of casting the dice twice and obtaining the same number is $\frac{1}{6} * \frac{1}{6} = \frac{1}{36} \approx 0.028$
 
----
+------------------------------------------------------------------------
 
 \vspace{.3cm}
 
@@ -331,14 +328,13 @@ q <- 0.367
 sample(c("A", "a"), size = 1, prob = c(p, q))
 ```
 
----
+------------------------------------------------------------------------
 
 -   Every time we sample an allele, we add a color. Remember A = \textcolor{red}{red} and a = \textcolor{yellow}{yellow}. An animation of the process is available [here](https://drive.proton.me/urls/7G3G9Y3VQ4#vdhcdyprcfvd)
 
 ![](./genePoolHWA30.png){fig-align="center" width="75%"}
 
-
----
+------------------------------------------------------------------------
 
 ![](./genePoolHWA30.png){fig-align="center" width="75%"}
 
@@ -346,7 +342,7 @@ sample(c("A", "a"), size = 1, prob = c(p, q))
 |----------|----------|----------|-----|
 | 7        | 7        | 1        | 15  |
 
----
+------------------------------------------------------------------------
 
 -   The genotype and allele frequencies of the new generation are different from the previous one. We repeat the experiment one more time
 
@@ -361,7 +357,7 @@ newSample <- sample(c("A", "a"), size = 30,
 table(newSample)
 ```
 
----
+------------------------------------------------------------------------
 
 -   Once again, the genotype and allele frequencies of the new generation are different from the previous one, and it will likely be different most of the time we do this again
 
@@ -404,7 +400,7 @@ table(newSample)
 
 -   The HW model is a very effective and simple way to "see" the effects of various evolutionary forces operating at the population level
 
--  With this in mind we can start investigate the relative role of the various evolutionary forces
+-   With this in mind we can start investigate the relative role of the various evolutionary forces
 
 ## Genetic Drift
 
@@ -424,7 +420,7 @@ table(newSample)
 
 -   In small population the process of sampling happens every single generation, and its effect on allele frequency is cumulative
 
----
+------------------------------------------------------------------------
 
 -   Genetic drift will eventually cause all except one allele to go to fixation.
 
@@ -440,7 +436,7 @@ $$
 Diploid population with $n = 4$ with allele $A_1$ with a frequency $p = 0.25$ and allele $A_2$ with a frequency $q = 0.75$. What is the probability of losing allele $A_1$ in one generation of sampling to recreate a population of the same size?
 :::
 
----
+------------------------------------------------------------------------
 
 ::: callout-tip
 # Solution
@@ -448,31 +444,28 @@ Diploid population with $n = 4$ with allele $A_1$ with a frequency $p = 0.25$ an
 $(1-0.25)^8=$ `r (1-0.25)^8`
 :::
 
-
----
+------------------------------------------------------------------------
 
 \vspace{.7cm}
 
 ![Three alleles in a population at t = 0](./geneticDrift1.png){width="90%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 \vspace{.7cm}
 
 ![Three alleles in a population at t = 1](./geneticDrift2.png){width="90%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 \vspace{.3cm}
 
 ![Allele frequencies variation after 200 generations while maintaining N = 100 [@Russo2021]](./geneticDrift3.png){width="80%" fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 \vspace{.3cm}
 
 ![Simulating the average time of allele fixation in our example [@Russo2021]](./fixationSimulation.png){width="80%" fig-align="center"}
-
 
 ## References {.allowframebreaks}
