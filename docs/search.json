@@ -1013,5 +1013,103 @@
     "title": "\\(N_e\\), genetic drift and the coalescent",
     "section": "Estimating \\(N_e\\): Fluctuating population size",
     "text": "Estimating \\(N_e\\): Fluctuating population size\n\nThe rate of loss of heterozygosity (\\(\\frac{1}{2N}\\)) is the reciprocal of the population size (\\(\\frac{1}{N}\\))\nMany generations with reduced population size will influence greatly the loss of heterozygosity and influcence \\(N_e\\)\nConsider a population that fluctuates in the following way: \\(N_1 = 100\\), \\(N_2 = 2\\), and \\(N_3 = 100\\)\nWe can use the armonic mean to calculate the loss of heterozygosity and the effective population size in this situation\n\n\n\\[\n\\label{fluctPop}\n\\tag{6.12}\nN_e=\\frac{t}{\\sum_{i=1}^t{(\\frac{1}{N_i})}}\n\\]\n\\[\nN_e=\\frac{3}{(\\frac{1}{100}+\\frac{1}{2}+\\frac{1}{100})}=5.77\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html",
+    "href": "conservation biology old/classes/7/class_7.html",
+    "title": "Population structure",
+    "section": "",
+    "text": "Individuals rarely mate completely at random!\nEven within species, there’s often geographically-restricted mating among individuals\nIndividuals tend to mate with individuals from the same, or closely related sets of populations\nThis form of non-random mating is called population structure and can have profound effects on the distribution of genetic variation within and among natural populations\nIn most species individuals are scattered in local conglomerates that are called demes (i.e., local populations or subpopulations)\n\n\n\nSummarizing population structure is often a key initial stage in population genetic and genomic analyses\nWe can define inbreeding as having parents that are more closely related to each other than two individuals drawn at random from some reference population\nThe question that naturally arises is: Which reference population should we use? While I might not look inbred in comparison to allele frequencies in Italy, where I am from, my parents certainly are not two individuals drawn at random from the world-wide population\n\n\n\n\n\n\n\nInbreeding couple\n\n\n\n\n\n\nInbreeding couple\n\n\n\n\n\nThere cannot be a class on inbreeding without these pictures!!\n\n\n\nIn its most simple definition inbreeding is the mating between related individuals. An individual is considered inbred if its parents share a common ancestor\nIn large population inbreeding can happen because of the non-random assortment of gametes\nIn many tree species spatially closer trees are more likely to be related than trees further apart\n\n\n\n\nImage after Allendorf et al. (2022), pg. 178\n\n\n\n\n\n\nAfter Akçakaya, Mills, & Doncaster (2007)\n\n\n\n\n\n\nAfter Frankham, Ballou, & Briscoe (2010)\n\n\n\n\nA metapopulation is defined as a set of discrete populations (demes) of the same species, in the same general geographical area, potentially able to exchange individuals through migration, dispersal, or human-mediated movement (Akçakaya et al., 2007; Hanski & Simberloff, 1997)\nThis subdivision (or structure) of populations can be natural and/or human driven\nRegardless of the cause, the existence of population structure in many species forces us to think at the genetic variation within a species at two primary levels:\n\nGenetic variation within local demes\nGenetic variation bewteen local demes\n\n\n\n\n\n\n\nAfter Allendorf et al. (2022), p. 184\n\n\n\n\n\n\nBoreal forest distibution in North America. Available here\n\n\n\n\n\n\nMaxent prediction of Hystrix cristata distribution After Mori, Sforzi, & Di Febbraro (2013)\n\n\n\n\n\n\nIndividuals that are very distant from each other may present significant differences at the genetic level: isolation by distance. Modified from Forbes & Hogg (1999) with unpublished data from M.K. Schwartz (Allendorf et al., 2022).\n\n\n\n\n\n\nDescribing the patterns and amount of differentiation among demes is of the uttermost importance to develop effective conservation strategies. Study area in Thatte, Joshi, Vaidyanathan, Landguth, & Ramakrishnan (2018). Genetically identified tigers as red dots\n\n\n\n\nFrankham et al. (2011) describe the risks of outbreeding depression when translocating individuals from genetically distinct populations to supplement imperiled ones\n\n\n\n\n\n\nAfter Welch et al. (2017).\n\n\n\n\n\n\nAfter Welch et al. (2017).\n\n\n\n\n\n\n\n\nPatterns of differentiation in Cyclura cychlura populations. After Colosimo et al. (2021)\n\n\n\n\nDeveloping priorities for the conservation of a species often requires an understanding of adaptive genetic differentiation among populations (Allendorf et al., 2022)\nTo understand how genetic variation is distributed at different loci within subdivided populations it is necessary to look at different interacting forces like gene flow, genetic drift and natural selection\n\\(F\\) statistics (Malécot, 1948; Wright, 1931, 1951) are undoubtedly the most used indexes to describe genetic differentiation in and between demes\n\\(F\\) statistics are, in short, inbreeding coefficients measuring different types of inbreeding at different levels"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#introduction",
+    "href": "conservation biology old/classes/7/class_7.html#introduction",
+    "title": "Population structure",
+    "section": "",
+    "text": "Individuals rarely mate completely at random!\nEven within species, there’s often geographically-restricted mating among individuals\nIndividuals tend to mate with individuals from the same, or closely related sets of populations\nThis form of non-random mating is called population structure and can have profound effects on the distribution of genetic variation within and among natural populations\nIn most species individuals are scattered in local conglomerates that are called demes (i.e., local populations or subpopulations)\n\n\n\nSummarizing population structure is often a key initial stage in population genetic and genomic analyses\nWe can define inbreeding as having parents that are more closely related to each other than two individuals drawn at random from some reference population\nThe question that naturally arises is: Which reference population should we use? While I might not look inbred in comparison to allele frequencies in Italy, where I am from, my parents certainly are not two individuals drawn at random from the world-wide population\n\n\n\n\n\n\n\nInbreeding couple\n\n\n\n\n\n\nInbreeding couple\n\n\n\n\n\nThere cannot be a class on inbreeding without these pictures!!\n\n\n\nIn its most simple definition inbreeding is the mating between related individuals. An individual is considered inbred if its parents share a common ancestor\nIn large population inbreeding can happen because of the non-random assortment of gametes\nIn many tree species spatially closer trees are more likely to be related than trees further apart\n\n\n\n\nImage after Allendorf et al. (2022), pg. 178\n\n\n\n\n\n\nAfter Akçakaya, Mills, & Doncaster (2007)\n\n\n\n\n\n\nAfter Frankham, Ballou, & Briscoe (2010)\n\n\n\n\nA metapopulation is defined as a set of discrete populations (demes) of the same species, in the same general geographical area, potentially able to exchange individuals through migration, dispersal, or human-mediated movement (Akçakaya et al., 2007; Hanski & Simberloff, 1997)\nThis subdivision (or structure) of populations can be natural and/or human driven\nRegardless of the cause, the existence of population structure in many species forces us to think at the genetic variation within a species at two primary levels:\n\nGenetic variation within local demes\nGenetic variation bewteen local demes\n\n\n\n\n\n\n\nAfter Allendorf et al. (2022), p. 184\n\n\n\n\n\n\nBoreal forest distibution in North America. Available here\n\n\n\n\n\n\nMaxent prediction of Hystrix cristata distribution After Mori, Sforzi, & Di Febbraro (2013)\n\n\n\n\n\n\nIndividuals that are very distant from each other may present significant differences at the genetic level: isolation by distance. Modified from Forbes & Hogg (1999) with unpublished data from M.K. Schwartz (Allendorf et al., 2022).\n\n\n\n\n\n\nDescribing the patterns and amount of differentiation among demes is of the uttermost importance to develop effective conservation strategies. Study area in Thatte, Joshi, Vaidyanathan, Landguth, & Ramakrishnan (2018). Genetically identified tigers as red dots\n\n\n\n\nFrankham et al. (2011) describe the risks of outbreeding depression when translocating individuals from genetically distinct populations to supplement imperiled ones\n\n\n\n\n\n\nAfter Welch et al. (2017).\n\n\n\n\n\n\nAfter Welch et al. (2017).\n\n\n\n\n\n\n\n\nPatterns of differentiation in Cyclura cychlura populations. After Colosimo et al. (2021)\n\n\n\n\nDeveloping priorities for the conservation of a species often requires an understanding of adaptive genetic differentiation among populations (Allendorf et al., 2022)\nTo understand how genetic variation is distributed at different loci within subdivided populations it is necessary to look at different interacting forces like gene flow, genetic drift and natural selection\n\\(F\\) statistics (Malécot, 1948; Wright, 1931, 1951) are undoubtedly the most used indexes to describe genetic differentiation in and between demes\n\\(F\\) statistics are, in short, inbreeding coefficients measuring different types of inbreeding at different levels"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#f-statistics",
+    "href": "conservation biology old/classes/7/class_7.html#f-statistics",
+    "title": "Population structure",
+    "section": "\\(F\\) statistics",
+    "text": "\\(F\\) statistics\n\nWe recognize three primary coefficients: \\(F_{IS}\\), \\(F_{IT}\\), and \\(F_{ST}\\)\n\\(F_{IS}\\) measures Hardy–Weinberg departures within local demes\n\\(F_{ST}\\) measures divergence in allele frequencies among demes\n\\(F_{IT}\\) measures Hardy–Weinberg departures in the metapopulation due to \\(F_{IS}\\) (nonrandom mating within local demes) and \\(F_{ST}\\) (allele frequency divergence among demes)\nThe original \\(F\\) statistics developed by wright focused on loci with only two alleles\nNei (1977) extended these measures to multiple alleles and used a different notation to name what he called analysis of gene diversity: \\(G_{IS}\\), \\(G_{IT}\\), and \\(G_{ST}\\). Often the two groups of indexes are used interchangeably"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#f_is",
+    "href": "conservation biology old/classes/7/class_7.html#f_is",
+    "title": "Population structure",
+    "section": "\\(F_{IS}\\)",
+    "text": "\\(F_{IS}\\)\n\nThis is a measure of departure from HW proportions within local demes.\n\n\\[\n\\label{fis}\n\\tag{7.1}\nF_{IS} = 1-\\frac{H_O}{H_S}\n\\]\n\n\\(H_O\\) is the observed heterozygosity averaged over all demes while \\(H_S\\) is the expected heterozygosity averaged over all demes. \\(F_{IS}\\) values can range from \\(-1 \\leq 0 \\leq 1\\), with positive values indicating an excess of homozygotes and negative values indicating an excess of heterozygotes (Allendorf et al., 2022)."
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#f_st",
+    "href": "conservation biology old/classes/7/class_7.html#f_st",
+    "title": "Population structure",
+    "section": "\\(F_{ST}\\)",
+    "text": "\\(F_{ST}\\)\n\nOften called fixation index, it is a measure of genetic divergence among demes.\n\n\\[\n\\label{fst}\n\\tag{7.2}\nF_{ST} = 1-\\frac{H_S}{H_T}\n\\]\n\n\\(H_T\\) as the expected HW heterozygosity if the metapopulation were panmictic, and \\(H_S\\) is the HW proportion of heterozygotes in each separate deme and then averaged over all demes. This measure varies from \\(0\\) (demes all have equal allele frequencies) to \\(1\\) (demes are all fixed for different alleles)."
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#f_it",
+    "href": "conservation biology old/classes/7/class_7.html#f_it",
+    "title": "Population structure",
+    "section": "\\(F_{IT}\\)",
+    "text": "\\(F_{IT}\\)\n\nMeasures the departure from HW proportions due to departures from HW proportions within local demes and divergence among demes (Allendorf et al., 2022).\n\n\\[\n\\label{fit}\n\\tag{7.3}\nF_{IT} = 1-\\frac{H_O}{H_T}\n\\]\n\n\\(H_O\\) is the observed heterozygosity averaged over all demes while \\(H_T\\) is the expected HW heterozygosity if the metapopulation were panmictic.\n\n\n\nThe fixation indexes described in the previous slides are related by the following expression:\n\n\\[\n\\label{findexrelation}\n\\tag{7.4}\nF_{IT}= F_{IS}+F_{ST}-(F_{IS}*F_{ST})\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#population-structure-and-habitat-fragmentation",
+    "href": "conservation biology old/classes/7/class_7.html#population-structure-and-habitat-fragmentation",
+    "title": "Population structure",
+    "section": "Population structure and habitat fragmentation",
+    "text": "Population structure and habitat fragmentation\n\nHabitat fragmentation is a combination of two processes: reduction in total area, and the creation of separate islands\nHuman induced fragmentation and habitat loss is recognized as the main cause of biodiversity loss (Baan, Alkemade, & Koellner, 2013)\nHabitat fragmentation causes an overall reduction in population size\nHabitat fragmentation also causes an overall reduction in gene flow among the patches it creates\n\n\n\n\n\nFragmentation of Atlantic forest. After Nunes (2011)\n\n\n\n\n\n\nSingle large (SL) VS several small (SS). After Frankham et al. (2010)\n\n\n\n\nFragmentation happens in two steps:\n\nInitial genetic subdivision of the population\nCumulative diversification through genetic drift, selection, inbreeding etc. etc. etc\n\nAfter an initial fragmentation, different fragments will have different initial allele frequencies. This diversification can be described by the binomial sampling variance (\\(\\sigma_p^2 = \\frac{pq}{2N}\\)) and the smaller the fragment, the higher the variance\nThe degree of differentiation among fragments can be described by partitioning the overall inbreeding into components within and among populations (\\(F\\) statistics).\nWe will look at some examples on estimating \\(F\\) statistics from genotype data."
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#gene-flow",
+    "href": "conservation biology old/classes/7/class_7.html#gene-flow",
+    "title": "Population structure",
+    "section": "Gene flow",
+    "text": "Gene flow\n\nWhat is gene flow?\n\nMovement of alleles between population due to migration.\n\nThe effects of fragmentation on gene flow depend on:\n\nNumber of population fragments\nDistribution of population sizes in the fragments\nDistance between fragments\nDispersal ability of the species\nMigration rates among fragments\nEnvironment of the matrix among fragments\nTimes since fragmentation and extinction and recolonization rates across fragments"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#the-black-footed-rock-wallaby",
+    "href": "conservation biology old/classes/7/class_7.html#the-black-footed-rock-wallaby",
+    "title": "Population structure",
+    "section": "The black footed rock wallaby",
+    "text": "The black footed rock wallaby\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLocation\nProp. of polymorphic loci\nMean # of alleles\nAverage heterozygosity\n\n\n\n\nBarrow Island (1)\n0.1\n1.2\n0.05\n\n\nExmouth (2)\n1.0\n3.4\n0.62\n\n\nWheatbelt (3)\n1.0\n4.4\n0.56\n\n\n\n\nData from Eldridge et al. (1999), images after Frankham et al. (2010)."
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#example---1",
+    "href": "conservation biology old/classes/7/class_7.html#example---1",
+    "title": "Population structure",
+    "section": "Example - 1",
+    "text": "Example - 1\n\nPopulations with same allele frequencies. One with random mating the other one with inbreeding.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation\n\\(A_1A_1\\)\n\\(A_1A_2\\)\n\\(A_2A_2\\)\nAllele Freq\nF\nHe\n\n\n\n\n1\n0.25\n0.5\n0.25\n\\(p=0.5\\)\n0\n0.5\n\n\n\n\n\n\n\\(q=0.5\\)\n\n\n\n\n2\n0.4\n0.2\n0.4\n\\(p=0.5\\)\n0.6\n0.5\n\n\n\n\n\n\n\\(q=0.5\\)\n\n\n\n\n\n\n\\(H_O\\) observed heterozygosity averaged over all demes.\n\\(H_S\\) expected heterozygosity averaged over all demes.\n\\(H_T\\) expected heterozygosity of the metapopulation.\n\\(F_{IS} = 1-\\frac{H_O}{H_S}\\); \\(F_{IT} = 1-\\frac{H_O}{H_T}\\); \\(F_{ST} = 1-\\frac{H_S}{H_T}\\)."
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#example---2",
+    "href": "conservation biology old/classes/7/class_7.html#example---2",
+    "title": "Population structure",
+    "section": "Example - 2",
+    "text": "Example - 2\n\nRandom mating populations with different allele frequencies\n\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation\n\\(A_1A_1\\)\n\\(A_1A_2\\)\n\\(A_2A_2\\)\nAllele Freq\nF\nHe\n\n\n\n\n1\n0.25\n0.5\n0.25\n\\(p=0.5\\)\n0\n0.5\n\n\n\n\n\n\n\\(q=0.5\\)\n\n\n\n\n2\n0.04\n0.32\n0.64\n\\(p=0.2\\)\n0\n0.32\n\n\n\n\n\n\n\\(q=0.8\\)\n\n\n\n\n\n\n\\(H_O\\) observed heterozygosity averaged over all demes\n\\(H_S\\) expected heterozygosity averaged over all demes\n\\(H_T\\) expected heterozygosity of the metapopulation\n\\(F_{IS} = 1-\\frac{H_O}{H_S}\\); \\(F_{IT} = 1-\\frac{H_O}{H_T}\\); \\(F_{ST} = 1-\\frac{H_S}{H_T}\\)"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#example---3",
+    "href": "conservation biology old/classes/7/class_7.html#example---3",
+    "title": "Population structure",
+    "section": "Example - 3",
+    "text": "Example - 3\n\nPopulations with different allele frequencies, one random mating and one with inbreeding\n\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation\n\\(A_1A_1\\)\n\\(A_1A_2\\)\n\\(A_2A_2\\)\nAllele Freq\nF\nHe\n\n\n\n\n1\n0.25\n0.5\n0.25\n\\(p=0.5\\)\n0\n0.5\n\n\n\n\n\n\n\\(q=0.5\\)\n\n\n\n\n2\n0.14\n0.13\n0.74\n\\(p=0.2\\)\n0.6\n0.32\n\n\n\n\n\n\n\\(q=0.8\\)\n\n\n\n\n\n\n\\(H_O\\) observed heterozygosity averaged over all demes\n\\(H_S\\) expected heterozygosity averaged over all demes\n\\(H_T\\) expected heterozygosity of the metapopulation\n\\(F_{IS} = 1-\\frac{H_O}{H_S}\\); \\(F_{IT} = 1-\\frac{H_O}{H_T}\\); \\(F_{ST} = 1-\\frac{H_S}{H_T}\\)"
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#patterns-of-f_st",
+    "href": "conservation biology old/classes/7/class_7.html#patterns-of-f_st",
+    "title": "Population structure",
+    "section": "Patterns of \\(F_{ST}\\)",
+    "text": "Patterns of \\(F_{ST}\\)\n\n\n\n\\(F_{ST}\\) increases over generations in fragmented populations at a rate inversely dependent on population size. Values that are \\(\\ge 0.15\\) indicate significant differentiation between fragments (Frankham et al., 2010)."
+  },
+  {
+    "objectID": "conservation biology old/classes/7/class_7.html#migration-and-gene-flow",
+    "href": "conservation biology old/classes/7/class_7.html#migration-and-gene-flow",
+    "title": "Population structure",
+    "section": "Migration and gene flow",
+    "text": "Migration and gene flow\n\nMigration reduces the impact of fragmentation in a way that is dependent on the rate of gene flow\nWhen is gene flow sufficiently high to prevent the genetic impact of fragmentation?\n\n\n\n\nA single migrant per generation is considered sufficient to prevent differentiation between demes\nThe migration rate \\(m\\) is the proportion of genes in a population derived from migrants per generation\n\\(Nm\\) is the number of migrants per generation (Frankham et al., 2010)"
   }
 ]
