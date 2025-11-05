@@ -56,10 +56,12 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 7 - Population structure.pdf
             text: "Class 7 - Population structure"
             icon: file-pdf
-#          - href: ./classes/8/class_8.html
-#            text: "Class 8 - Hybridization and heritability"
-#          - href: ./classes/9/class_9.html
-#            text: "Class 9 - Population viability analysis"
+          - href: ./classes/Conservation Biology 25-26 - Class 8 - Seminar.pdf
+            text: "Class 8 - Seminar"
+            icon: file-pdf
+          - href: ./classes/Conservation Biology 25-26 - Class 9 - Inbreeding.pdf
+            text: "Class 9 - Population viability analysis"
+            icon: file-pdf
 #          - href: ./classes/10/class_10.html
 #            text: "Class 10 - Conservation and climate change"
 #          - href: ./classes/11/class_11.html

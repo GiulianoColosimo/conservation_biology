@@ -41,25 +41,25 @@ rm(x)
 
 ## Introduction
 
-- Individuals rarely mate completely at random! 
+-   Individuals rarely mate completely at random!
 
-- Even within species, there’s often geographically-restricted mating among individuals
+-   Even within species, there’s often geographically-restricted mating among individuals
 
-- Individuals tend to mate with individuals from the same, or closely related sets of populations
+-   Individuals tend to mate with individuals from the same, or closely related sets of populations
 
-- This form of non-random mating is called population structure and can have profound effects on the distribution of genetic variation within and among natural populations
+-   This form of non-random mating is called population structure and can have profound effects on the distribution of genetic variation within and among natural populations
 
 -   In most species individuals are scattered in local conglomerates that are called *demes* (*i.e.*, local populations or subpopulations)
 
----
+------------------------------------------------------------------------
 
-- Summarizing population structure is often a key initial stage in population genetic and genomic analyses
+-   Summarizing population structure is often a key initial stage in population genetic and genomic analyses
 
-- We can define inbreeding as having parents that are more closely related to each other than two individuals drawn at random from some reference population
+-   We can define inbreeding as having parents that are more closely related to each other than two individuals drawn at random from some reference population
 
-- The question that naturally arises is: Which reference population should we use? While I might not look inbred in comparison to allele frequencies in Italy, where I am from, my parents certainly are not two individuals drawn at random from the world-wide population
+-   The question that naturally arises is: Which reference population should we use? While I might not look inbred in comparison to allele frequencies in Italy, where I am from, my parents certainly are not two individuals drawn at random from the world-wide population
 
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
@@ -75,8 +75,7 @@ rm(x)
 
 -   There cannot be a class on inbreeding without these pictures!!
 
-
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
@@ -88,20 +87,19 @@ rm(x)
 
 ![Image after @Allendorf2022, pg. 178](./class_10_3.png){width="38%" fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
 ![After @Akakaya2007](./class_13_1.png){width="85%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
 ![After @Frankham2010](./class_13_2.jpg){width="85%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 -   A metapopulation is defined as a set of discrete populations (demes) of the same species, in the same general geographical area, potentially able to exchange individuals through migration, dispersal, or human-mediated movement [@Akakaya2007; @Hanski1997]
 
@@ -110,32 +108,32 @@ rm(x)
 -   Regardless of the cause, the existence of population structure in many species forces us to think at the genetic variation within a species at two primary levels:
 
     1.  Genetic variation within local demes
-    
+
     2.  Genetic variation bewteen local demes
 
 <!--   Not all species are scattered! -->
 
----
+------------------------------------------------------------------------
 
 ![After @Allendorf2022, p. 184](./class_13_3.png)
 
----
+------------------------------------------------------------------------
 
 ![Boreal forest distibution in North America. Available [here](https://canadiangeographic.ca/articles/new-framework-identifies-climate-change-refugia-in-boreal-forest/)](./class_13_4.png){width="85%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ![Maxent prediction of *Hystrix cristata* distribution After @Mori2013](./Hystrixdistro.png){width="60%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ![Individuals that are very distant from each other may present significant differences at the genetic level: isolation by distance. Modified from @Forbes1999 with unpublished data from M.K. Schwartz [@Allendorf2022].](./class_13_5.png){width="70%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ![Describing the patterns and amount of differentiation among demes is of the uttermost importance to develop effective conservation strategies. Study area in @Thatte2018. Genetically identified tigers as red dots](./class_13_6.png){width="70%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 -   @Frankham2011 describe the risks of outbreeding depression when translocating individuals from genetically distinct populations to supplement imperiled ones
 
@@ -151,14 +149,13 @@ rm(x)
 :::
 :::::
 
----
+------------------------------------------------------------------------
 
 \vspace{.6cm}
 
 ![Patterns of differentiation in *Cyclura cychlura* populations. After @Colosimo2021b](./class_13_9.png){width="95%" fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 -   Developing priorities for the conservation of a species often requires an understanding of adaptive genetic differentiation among populations [@Allendorf2022]
 
@@ -184,7 +181,7 @@ rm(x)
 
 ## $F_{IS}$
 
-- This is a measure of departure from HW proportions within local demes.
+-   This is a measure of departure from HW proportions within local demes.
 
 $$
 \label{fis}
@@ -192,11 +189,11 @@ $$
 F_{IS} = 1-\frac{H_O}{H_S}
 $$
 
-- $H_O$ is the observed heterozygosity averaged over all demes while $H_S$ is the expected heterozygosity averaged over all demes. $F_{IS}$ values can range from $-1 \leq 0 \leq 1$, with positive values indicating an excess of homozygotes and negative values indicating an excess of heterozygotes [@Allendorf2022].
+-   $H_O$ is the observed heterozygosity averaged over all demes while $H_S$ is the expected heterozygosity averaged over all demes. $F_{IS}$ values can range from $-1 \leq 0 \leq 1$, with positive values indicating an excess of homozygotes and negative values indicating an excess of heterozygotes [@Allendorf2022].
 
 ## $F_{ST}$
 
-- Often called *fixation index*, it is a measure of genetic divergence among demes.
+-   Often called *fixation index*, it is a measure of genetic divergence among demes.
 
 $$
 \label{fst}
@@ -204,11 +201,11 @@ $$
 F_{ST} = 1-\frac{H_S}{H_T}
 $$
 
-- $H_T$ as the expected HW heterozygosity if the metapopulation were panmictic, and $H_S$ is the HW proportion of heterozygotes in each separate deme and then averaged over all demes. This measure varies from $0$ (demes all have equal allele frequencies) to $1$ (demes are all fixed for different alleles).
+-   $H_T$ as the expected HW heterozygosity if the metapopulation were panmictic, and $H_S$ is the HW proportion of heterozygotes in each separate deme and then averaged over all demes. This measure varies from $0$ (demes all have equal allele frequencies) to $1$ (demes are all fixed for different alleles).
 
 ## $F_{IT}$
 
-- Measures the departure from HW proportions due to departures from HW proportions within local demes and divergence among demes [@Allendorf2022].
+-   Measures the departure from HW proportions due to departures from HW proportions within local demes and divergence among demes [@Allendorf2022].
 
 $$
 \label{fit}
@@ -216,9 +213,9 @@ $$
 F_{IT} = 1-\frac{H_O}{H_T}
 $$
 
-- $H_O$ is the observed heterozygosity averaged over all demes while $H_T$ is the expected HW heterozygosity if the metapopulation were panmictic.
+-   $H_O$ is the observed heterozygosity averaged over all demes while $H_T$ is the expected HW heterozygosity if the metapopulation were panmictic.
 
----
+------------------------------------------------------------------------
 
 -   The fixation indexes described in the previous slides are related by the following expression:
 
@@ -238,53 +235,53 @@ $$
 
 -   Habitat fragmentation also causes an overall reduction in gene flow among the patches it creates
 
----
+------------------------------------------------------------------------
 
 \vspace{.3cm}
 
 ![Fragmentation of Atlantic forest. After @Luci2011](./class_13_10.png){width="45%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 \vspace{.3cm}
 
 ![Single large (SL) VS several small (SS). After @Frankham2010](./class_13_11.jpg){width="40%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
-- Fragmentation happens in two steps:
+-   Fragmentation happens in two steps:
 
-    1. Initial genetic subdivision of the population
+    1.  Initial genetic subdivision of the population
 
-    2. Cumulative diversification through genetic drift, selection, inbreeding etc. etc. etc
+    2.  Cumulative diversification through genetic drift, selection, inbreeding etc. etc. etc
 
-- After an initial fragmentation, different fragments will have different initial allele frequencies. This diversification can be described by the binomial sampling variance ($\sigma_p^2 = \frac{pq}{2N}$) and the smaller the fragment, the higher the variance
+-   After an initial fragmentation, different fragments will have different initial allele frequencies. This diversification can be described by the binomial sampling variance ($\sigma_p^2 = \frac{pq}{2N}$) and the smaller the fragment, the higher the variance
 
-- The degree of differentiation among fragments can be described by partitioning the overall inbreeding into components within and among populations ($F$ statistics).
+-   The degree of differentiation among fragments can be described by partitioning the overall inbreeding into components within and among populations ($F$ statistics).
 
-- We will look at some examples on estimating $F$ statistics from genotype data.
+-   We will look at some examples on estimating $F$ statistics from genotype data.
 
 ## Gene flow
 
-- What is gene flow?
+-   What is gene flow?
 
-    - Movement of alleles between population due to migration.
+    -   Movement of alleles between population due to migration.
 
-- The effects of fragmentation on gene flow depend on:
+-   The effects of fragmentation on gene flow depend on:
 
-    - Number of population fragments
-    
-    - Distribution of population sizes in the fragments
-    
-    - Distance between fragments
-    
-    - Dispersal ability of the species
-    
-    - Migration rates among fragments
-    
-    - Environment of the matrix among fragments
-    
-    - Times since fragmentation and extinction and recolonization rates across fragments
+    -   Number of population fragments
+
+    -   Distribution of population sizes in the fragments
+
+    -   Distance between fragments
+
+    -   Dispersal ability of the species
+
+    -   Migration rates among fragments
+
+    -   Environment of the matrix among fragments
+
+    -   Times since fragmentation and extinction and recolonization rates across fragments
 
 ## The black footed rock wallaby
 
@@ -375,6 +372,5 @@ $$
 ![](./class_13_16.jpg){width="75%" fig-align="center"}
 :::
 :::::
-
 
 ## References {.allowframebreaks}
