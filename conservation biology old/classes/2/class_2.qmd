@@ -55,7 +55,7 @@ library("kableExtra")
 
 -   This loss is a systemic problem embedded in the normal ways the human species lives on planet earth, especially with: its ability to \textcolor{red}{convert and manipulate natural habitats} to system designed to maximize human benefit, its \textcolor{red}{use of energy} and waste production, its \textcolor{red}{high rate of population growth}, its ability to \textcolor{red}{move} themselves, and all sorts of plants and animal around, its capacity and supporting technology to \textcolor{red}{harvest a large quantity of animals and plants} in little time, its industrial-level production of many substances that destroy many kinds of life, its ability to influence and \textcolor{red}{change the climate}.
 
----
+------------------------------------------------------------------------
 
 -   Conservation biology origins were driven by studies and discoveries in basic sciences such as genetics and population dynamics, but soon became manifest in applied sciences like forestry, fisheries, wildlife management, and more.
 
@@ -67,19 +67,19 @@ library("kableExtra")
 
 . . .
 
--   The first use of the term \textcolor{red}{biodiversity} in the scientific literature was in a 1980 government report by biologist Eliot Norse [@Pimm2001]. 
+-   The first use of the term \textcolor{red}{biodiversity} in the scientific literature was in a 1980 government report by biologist Eliot Norse [@Pimm2001].
 
 -   In origin, the word is a contraction of \emph{biological diversity}, but today \textcolor{red}{biodiversity} not only has multiple definitions, but also multidimensional concepts and applications.
 
 . . .
 
-- To those engaged in the study of natural history biodiversity represents the biotic elements that can be described and classified. The tool for such description and classification is taxonomy.
+-   To those engaged in the study of natural history biodiversity represents the biotic elements that can be described and classified. The tool for such description and classification is taxonomy.
 
-- To environmental activists biodiversity is an intrinsic quality of natural systems that should be preserved for its own sake, expressed using the tools of environmental ethics [@VanDyke2020].
+-   To environmental activists biodiversity is an intrinsic quality of natural systems that should be preserved for its own sake, expressed using the tools of environmental ethics [@VanDyke2020].
 
----
+------------------------------------------------------------------------
 
-- To conservation biologists, biodiversity is an aspect of living systems to be descriptively characterized and explained, a measurable parameter providing insight into community structure, environmental processes, and ecosystem functions determined by the tools of site-specific survey and study.
+-   To conservation biologists, biodiversity is an aspect of living systems to be descriptively characterized and explained, a measurable parameter providing insight into community structure, environmental processes, and ecosystem functions determined by the tools of site-specific survey and study.
 
 . . .
 
@@ -87,7 +87,7 @@ library("kableExtra")
 
 -   Genes and their variety of forms (alleles) are the most fundamental units at which biodiversity can be measured, and their are the basis for all other measures of diversity.
 
----
+------------------------------------------------------------------------
 
 ![Main biodiversity levels.](./biodiversityPlot.png){width="83%"}
 
@@ -96,14 +96,14 @@ library("kableExtra")
 -   A more diverse combination of species (biological community) or, in other words, a more biodiverse system...
 
     -   ... translates in to a more productive environment [@Hooper2005; @Duffy2009].
-    
+
     -   ... produces a more resistant environment [@Tilman1997; @Naeem2000].
-    
+
     -   ... produces a more resilient environment [@Wilsey2000].
-    
+
     -   ... produces more stable ecosystem processes and a more stable environment in general [@Cardinale2012; @VanMeerbeek2021].
 
----
+------------------------------------------------------------------------
 
 -   A key concept when talking about Biodiversity is that of **emergence**. This occurs when a complex entity has properties or behaviors that its parts do not have on their own, and emerge only when they interact in a wider whole [@enwiki1310041482]
 
@@ -115,7 +115,6 @@ library("kableExtra")
 
 ![Examples of emergent properties arising from community complexity. After @Berg2022](./1_emergence.png){width="93%" fig-align="center"}
 
-
 ## Emergence...
 
 ![Multifunctional ecosystem require many species. After @Duffy2009](./2_duffy2009.png){width="93%" fig-align="center"}
@@ -124,7 +123,7 @@ library("kableExtra")
 
 ![Roles of host species in the transmission of Lyme disease in the northeastern USA. After @Keesing2010](./3_keesing2010.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ## Higher productivity
 
@@ -142,8 +141,7 @@ library("kableExtra")
 
 ![Relative species richness per land use type. After @deBaan2013](./7_deBaan.png){width="75%"}
 
-
----
+------------------------------------------------------------------------
 
 -   The ESA (Ecological Society of America) concluded that maintaining biodiversity is a safeguard against risk resulting from changes in environmental conditions because it extends the productive use of a site's resources over time and provides an effective way to multiple goods and services [@Hooper2005].
 
@@ -155,39 +153,37 @@ library("kableExtra")
 What are ecosystem services?
 :::
 
----
-
+------------------------------------------------------------------------
 
 -   **Provisioning services**
 
     -   Food, Energy, Structural materials
-    
+
 -   **Regulating services**
 
     -   Reduce the severity of environmental events
-    
+
 -   **Supporting services**
 
     -   Provision of physical bodies to be used for essential services (oxygen and soil)
-    
+
 -   **Cultural services**
 
     -   Recreational, intellectual and spiritual activities
-
 
 # IUCN
 
 ### International Union for the Conservation of Nature (est. 1948) <https://www.iucn.org>
 
-- Its vision...
+-   Its vision...
 
 > [...create a just world that values and conserves nature.]{style="color: green;"}
 
-- Its mission...
+-   Its mission...
 
 > [...influence, encourage and assist societies throughout the world to conserve the integrity and diversity of nature...]{style="color: green;"}
 
-- Permanent staff of ca. 1000 paid employees and thousands of volunteer experts and professional dislocated and working in about 50 locations globally. Combines together government and NGOs. It has no explicit authority to make any "law", but its authority has gained enough momentum to have the force of law as international standards for conservation practice [@Stuart2017].
+-   Permanent staff of ca. 1000 paid employees and thousands of volunteer experts and professional dislocated and working in about 50 locations globally. Combines together government and NGOs. It has no explicit authority to make any "law", but its authority has gained enough momentum to have the force of law as international standards for conservation practice [@Stuart2017].
 
 ------------------------------------------------------------------------
 
@@ -197,8 +193,8 @@ What are ecosystem services?
     -   IUCN Red List Categories and Criteria Version 3.1 Second Edition [@IUCN2012]
     -   A global standard for the identification of Key Biodiversity Areas : version 1.0 [@IUCN2016]
     -   Guidelines for the application of IUCN Red List of Ecosystems Categories and Criteria. Version 1.1 [@IUCN2017]
-    
----
+
+------------------------------------------------------------------------
 
 ![Red List Categories. Each one of these level is defined by very specific and stringent criteria.](./iucnredlist.png){width="80%"}
 
@@ -224,13 +220,13 @@ What are ecosystem services?
 
 Change in the way the land is used. For example, a prairie changed to become a soybean field. The land is still there, and the productivity in term of biomass may even be higher, but the system structure's is simplified and the chance to have a diverse group of species is lost
 
----
+------------------------------------------------------------------------
 
 ### Occupational effects
 
 Colonization of areas that were previously human free. The human presence directly and indirectly affect the newly colonized system by removing resources, producing wastes, altering the landscape
 
-. . . 
+. . .
 
 ### Permanent effects
 
@@ -255,7 +251,7 @@ Although as an applied concept we can measure it at multiple levels, the most wi
 | Evolutionary Species Concept (ESC) | A species is a lineage of ancestral descent which maintains its identity from other such lineages and which has its own evolutionary tendencies and historical fate | [@Wiley1978] |
 | Biological Species Concept (BSC) | Groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups | [@Mayr1942] |
 
----
+------------------------------------------------------------------------
 
 |   |   | (continued) |
 |:------------------|:---------------------------------|:------------------|
@@ -272,39 +268,37 @@ Although as an applied concept we can measure it at multiple levels, the most wi
 
 -   The concept of Evolutionary Significant Units (ESU) aims at preserving both evolutionary potential and organisms. ESUs are based on criteria that are associated to genetic variation between and within populations [@Moritz1994]
 
----
+------------------------------------------------------------------------
 
 ![*Cyclura* diversity in the West Indies](./8_cycluradiv.png){width="85%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ![Cyclura carinata population structure, After @Welch2017](./carinata_structure.jpg){width="75%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ![Cyclura carinata ESU identification, After @Welch2017](./carinata_structure2.jpg){width="80%"}
-
-
 
 # Measuring biodiversity
 
 | Index | Formula and Terms |
 |:----------------------------------|:-----------------------------------|
-| **Alpha diversity**:
-The diversity of species within an ecological community. The number of different species (species richness) and their evenness (the species' relative abundance) | $H = - \sum_i^s \ p_i \ ln(p_i), \ (i=1, 2, 3,...,s), \ \ (0 \le H^{'}\le \infty)$ [@VanDyke2020]; $p_i$ = proportion of the total community abundance of the species $i$ |
-| **Beta diversity**: Measure of diversity among communities. A measure of the gradient of species composition across a landscape | $S/\alpha-1$ [@Whittaker1975];  $S$ = number of species in the area; $\alpha$ = average number of species per site |
+| **Alpha diversity**: |  |
+| The diversity of species within an ecological community. The number of different species (species richness) and their evenness (the species' relative abundance) | $H = - \sum_i^s \ p_i \ ln(p_i), \ (i=1, 2, 3,...,s), \ \ (0 \le H^{'}\le \infty)$ [@VanDyke2020]; $p_i$ = proportion of the total community abundance of the species $i$ |
+| **Beta diversity**: Measure of diversity among communities. A measure of the gradient of species composition across a landscape | $S/\alpha-1$ [@Whittaker1975]; $S$ = number of species in the area; $\alpha$ = average number of species per site |
 
----
+------------------------------------------------------------------------
 
 | Index | Formula and Terms |
-|:----------------------------------|:----------------------------------|
+|:-----------------------------------|:-----------------------------------|
 | **Gamma diversity**: Biodiversity of species across larger landscape levels | $dS/dD[(g+l)/2]$ [@Cody1986]; $D$ = distance; $g$ = rate of species gain; $l$ = rate of species loss |
 
 ## Calculating biodiversity: Excercise 1
 
 ![Excercise dataset.](./output4.png){width="35%"}
 
-- What is the most diverse site based on Shannon index? $H = - \sum_i^s \ p_i \ ln(p_i)$
+-   What is the most diverse site based on Shannon index? $H = - \sum_i^s \ p_i \ ln(p_i)$
 
 ## Calculating biodiversity: Excercise 1 in R
 
@@ -323,7 +317,6 @@ plantDivExcercise <- cbind(Site, plantDivExcercise)
 diversity(plantDivExcercise)[diversity(plantDivExcercise)
     [] == max(diversity(plantDivExcercise))]
 ```
-
 
 ## Calculating biodiversity: Exercise 1 explanation
 
@@ -354,11 +347,10 @@ $$
 ![Excercise 2 dataset A.](./output7.png){width="85%"}
 :::
 
-:::  {.column width="50%"}
+::: {.column width="50%"}
 ![Excercise 2 dataset B.](./output8.png){width="85%"}
 :::
-::::
-
+:::::
 
 -   Question: What is the most diverse area based on $\beta$ diversity index as postulated by @Whittaker1975? $S/\alpha-1$
 
@@ -445,6 +437,5 @@ After @Trimble2014
 -   Effective future research on biodiversity will not only keep on refining and finding new ways on how to measure it, but also understand the evolutionary and ecological processes that can contribute to its creation and maintainment.
 
 -   The hope is to increasingly see biodiversity as a core concept of future local and international strategies for the conservation of nature.
-
 
 # References {.allowframebreaks}

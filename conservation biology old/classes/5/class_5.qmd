@@ -115,7 +115,7 @@ rm(x)
 ## Fundamental vocabulary
 
 | Term | Definition |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Locus | The position on the chromosome where a specific gene is found, and/or the genetic segment, even a single nucleotide base, of interest. |
 | Allele | Variant of a specific locus on homologous chromosomes (containing the same type of genetic information). |
 | Genotype | Combination of alleles at one or more loci (genes) in an individual. For example, the genotype of a diploid individual characterized for the bi-allelic gene A might be A1A1, A1A2, or A2A2. |
@@ -125,7 +125,7 @@ rm(x)
 \vspace{.5cm}
 
 |   | (continues) |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Phenotype | The obvious and measurable manifestation of a specific genotype. |
 | Genome | The set of nucleotide sequences, coding and not, generally organized into chromosomes, which characterize a species or an individual. |
 | Homozygote | Individual with two identical copies of a specific allele registered at the locus (gene) of interest. |
@@ -137,7 +137,7 @@ rm(x)
 \vspace{.5cm}
 
 |   | (continues) |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Polymorphic | The presence in a species or population of 2 or more alleles at a certain gene. For example, gene A in a population might have 4 alleles: A1, A2, A3, and A4. A locus is considered polymorphic if the frequency of its most frequent allele is less than 0.99 or 0.95. |
 | Monomorphic | A population or species is monomorphic for a gene when all individuals have the same allele. In other words, the frequency of that allele in the population is 1. |
 | Average heterozygosity | Average number of heterozygous loci in an individual or population. |
@@ -145,7 +145,7 @@ rm(x)
 ------------------------------------------------------------------------
 
 |   | (continues) |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Co-dominance | Situation where all genotypes can be identified by their phenotypes. In the case of gene A with two codominant alleles, the A1A1, A1A2, and A2A2 genotypes all produce different and distinguishable phenotypes. |
 | Allelic diversity | Mean number of alleles per locus. |
 | Genetic distance | A measure of distance obtained by comparing 2 or more nucleotide sequences or by comparing the allele and genotype frequencies of two or more individuals or populations. |
@@ -203,7 +203,7 @@ $$
 ## Assumptions of the model
 
 | Assumption | Significance |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Random mating | Individuals show no significant preference or dislike for other individuals with respect to specific traits or loci. |
 | No mutation | Mutation is one of the few forces creating variability. We assume that the information is transmitted from generation to generation without the influence of mutation. |
 | Infinite population size | No population in nature is actually infinite (although populations of some species may as well be)! This assumption is fundamental to construct a null model and compare the effect of small population size. |
@@ -213,7 +213,7 @@ $$
 \vspace{.5cm}
 
 |   | (continues) |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | No natural selection | We will assume that all alleles and genotypes have the same fitness and that there is no differential reproduction or survival. This assumption is very unlikely to be true in nature, especially because selection may be reduced for the loci under analysis, but still present at all other loci in an individual. |
 | No immigration | We will first consider a situation where only one population of a certain species is present. This means that we will not consider gene flow and exchange of genetic material from and to other populations. |
 

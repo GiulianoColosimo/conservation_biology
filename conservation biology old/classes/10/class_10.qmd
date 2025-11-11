@@ -1,0 +1,422 @@
+---
+title: "Material review and excercises"
+subtitle: "Biologia della Conservazione 25/26"
+author: "Giuliano Colosimo"
+institute: "University of Rome Tor Vergata"
+format: 
+  beamer: 
+    aspectratio: 32
+    keep_tex: true
+    navigation: empty
+    mainfont: "Atkinson Hyperlegible"
+    toc: false
+    toc-title: "Table of contents"
+    slide-level: 2
+    urlcolor: olive 
+    citecolor: red
+    linkcolor: gray
+    include-in-header:
+      - text: |
+          \usepackage{amsmath}
+          \usepackage{tikz}
+          \setbeamertemplate{footline}[page number]
+          \addtobeamertemplate{headline}{}{%
+            \begin{tikzpicture}[remember picture,overlay]
+              \node[anchor=north east,yshift=-4pt] at (current page.north east) {
+                \includegraphics[width=2cm]{../../figures/Tor-Vergata_logo_cmyk.png}
+              };
+            \end{tikzpicture}%
+          }
+editor: visual
+bibliography: ../../comprehensive_database.bib
+csl: ../../apa_5th_edition.csl
+citation_package: natbib #biblatex
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+x <- c("DT", "tidyverse", "RColorBrewer", "learnPopGen")
+lapply(x, require, character.only = T)
+rm(x)
+```
+
+## Material review
+
+1. Introduction to conservation biology
+
+2. Biodiversity 
+
+3. Anthropocene
+
+4. Populations
+
+5. Population genetics
+
+6. $N_e$ genetic drift and the coalescent
+
+7. Population structure
+
+8. Seminar
+
+9. Inbreeding
+
+## Introduction to conservation biology
+
+- What is conservation biology
+
+- The noble savage conundrum
+
+- Core merits of conservation biology
+
+## Biodiversity
+
+- What is biodiversity
+
+    - Levels of biodiversity
+    
+    - Emergence, Resistence, Productivity
+    
+    - Ecosystem services
+
+- IUCN
+
+- Species concept
+
+- How to measure biodiversity
+
+    1. Alpha diversity
+    
+    2. Beta diversity
+
+---
+
+### Alpha diversity
+
+$$
+H = - \sum_i^s \ p_i \ ln(p_i)
+$$
+
+
+```{r divExcercise, echo=F, eval=TRUE}
+library(vegan)
+data(BCI)
+plantDivExcercise <- BCI[11:20, 
+                         c(144, 186, 208, 216, 223)]
+species_names <- rep(NA, ncol(plantDivExcercise))
+for (i in 1:ncol(plantDivExcercise)){
+  species_names[i] <- paste("Sp_", i, sep = "")
+}
+names(plantDivExcercise) <- species_names
+Site <-  11:20
+plantDivExcercise <- cbind(Site, plantDivExcercise)
+print(plantDivExcercise, row.names = F)
+#diversity(plantDivExcercise)[diversity(plantDivExcercise)
+#    [] == max(diversity(plantDivExcercise))]
+```
+
+
+---
+
+-   In $H = - \sum_i^s \ p_i \ ln(p_i)$, $p_i$ is the proportion of the total community abundance of the species $i$. We can workout the value for site 1
+
+
+$$
+17+1+41+6+1 = 66
+$$
+
+$$
+p_{species1} = 17/66 = 0.257
+$$
+
+$$
+ln(p_{species1}) = ln(0.257) = -1.358
+$$
+
+$$
+0.257*-1.358 = -0.349
+$$
+
+---
+
+- The site with the highest alpha diversity is:
+
+```{r divExcercise2, echo=F, eval=TRUE}
+library(vegan)
+data(BCI)
+plantDivExcercise <- BCI[11:20, 
+                         c(144, 186, 208, 216, 223)]
+species_names <- rep(NA, ncol(plantDivExcercise))
+for (i in 1:ncol(plantDivExcercise)){
+  species_names[i] <- paste("Sp_", i, sep = "")
+}
+names(plantDivExcercise) <- species_names
+Site <-  11:20
+plantDivExcercise <- cbind(Site, plantDivExcercise)
+diversity(plantDivExcercise)[diversity(plantDivExcercise)
+    [] == max(diversity(plantDivExcercise))]
+```
+
+---
+
+### Beta diversity
+
+$$
+S/\alpha-1
+$$
+
+::::: columns
+::: {.column width="50%"}
+
+```{r divExcercise3, echo=F, eval=TRUE}
+data(BCI)
+plantDivExcercise <- BCI[11:15, 
+                         c(144, 186, 208, 216, 223)]
+species_names <- rep(NA, ncol(plantDivExcercise))
+for (i in 1:ncol(plantDivExcercise)){
+  species_names[i] <- paste("Sp_", i, sep = "")
+}  
+names(plantDivExcercise) <- species_names
+Site <-  11:15
+plantDivExcercise <- cbind(Site, plantDivExcercise)
+print(plantDivExcercise, row.names = F)
+```
+
+
+:::
+
+::: {.column width="50%"}
+
+```{r divExcercise4, echo=F, eval=TRUE}
+data(BCI)
+plantDivExcercise <- BCI[16:20, 
+                         c(144, 186, 208, 216, 223)]
+species_names <- rep(NA, ncol(plantDivExcercise))
+for (i in 1:ncol(plantDivExcercise)){
+  species_names[i] <- paste("Sp_", i, sep = "")
+}  
+names(plantDivExcercise) <- species_names
+Site <-  16:20
+plantDivExcercise <- cbind(Site, plantDivExcercise)
+print(plantDivExcercise, row.names = F)
+```
+
+:::
+:::::
+
+
+---
+
+-   The @Whittaker1975 formula: $\beta=(S/\alpha)-1$, where $S$ is the total number of species in the area, and $\alpha$ is the average number of species in the area. $\beta$ diversity gives us an index of species turnover along a geographic gradient.
+
+- We can calculate the beta index for dataset 1
+
+$$
+\beta=\frac{5}{(5+3+3+4+5)/5}-1=0.25
+$$
+
+---
+
+- Beta diversity for dataset 1
+
+```{r divExcercise5, echo=F, eval=TRUE}
+data(BCI)
+plantDivExcercise <- BCI[11:20, 
+                         c(144, 186, 208, 216, 223)]
+species_names <- rep(NA, ncol(plantDivExcercise))
+for (i in 1:ncol(plantDivExcercise)){
+  species_names[i] <- paste("Sp_", i, sep = "")
+}  
+names(plantDivExcercise) <- species_names
+Site <-  11:20
+plantDivExcercise <- cbind(Site, plantDivExcercise)
+
+ncol(plantDivExcercise[1:5, 2:6])/
+  mean(specnumber(plantDivExcercise[1:5, 2:6])) - 1
+```
+
+
+- Beta diversity for dataset 2
+
+```{r divExcercise6, echo=F, eval=TRUE}
+data(BCI)
+plantDivExcercise <- BCI[11:20, 
+                         c(144, 186, 208, 216, 223)]
+species_names <- rep(NA, ncol(plantDivExcercise))
+for (i in 1:ncol(plantDivExcercise)){
+  species_names[i] <- paste("Sp_", i, sep = "")
+}  
+names(plantDivExcercise) <- species_names
+Site <-  11:20
+plantDivExcercise <- cbind(Site, plantDivExcercise)
+
+ncol(plantDivExcercise[6:10, 2:6])/
+  mean(specnumber(plantDivExcercise[6:10, 2:6])) - 1
+```
+
+## Anthropocene
+
+- The definition of anthropocene
+
+- Invasive species (examples)
+
+- Evolution of life on earth
+
+- Extinctions
+
+---
+
+### Background rate of extinction
+
+- A cohort of 825 amphibian species has been described in the last century and has accumulated 74215 species-years, meaning that one species has been known, on average, for 90 years. Since their description, 28 have gone extinct. Can you estimate the extinction rate?
+
+---
+
+$$
+28:74215=x:10^6
+$$
+
+
+. . .
+
+$$
+x = \frac{28}{74215}*10^6 \approx 377
+$$
+
+---
+
+## Populations
+
+- What is a population
+
+- Demography
+
+- Population models
+
+- Tagging systems
+
+- Estimates of population size
+
+    1. CMR
+    2. Lincoln Petersen
+    3. Jolly- Saber
+    4. Distance sampling
+
+## Population genetics
+
+- Why is important
+
+- Fundamental vocabulary
+
+- Fundamental measures of genetic diversity
+
+- Hardy-Weinberg principle and its assumptions
+
+- Binomial sampling and genetic drift
+
+---
+
+### Probability of a gamete going to fixation
+
+- We work with  a diploid population with $n = 9$. Individuals are typed at a bi-allelic locus and the frequency of allele $A_1$ is $p = 0.31$. What is the probability of losing allele $A_1$ in one generation of sampling to recreate a population of the same size?
+
+---
+
+$$
+P(fixation \ A_2)=(1-p)^{2n}
+$$
+
+. . .
+
+$$
+P(fixation \ A_2)=(1-0.31)^{18} = 0.00125
+$$
+
+## $N_e$ genetic drift and the coalescent
+
+- Effective population size
+
+- Wrigth-Fisher model
+
+- Genetic drift and heterozygosity
+
+- Mutations drift balance
+
+- Coalescent theory
+
+- Estimating $N_e$ using demographic parameters
+
+---
+
+### Minimal loss of genetic diversity
+
+- You are in charge of a program to maintaining the genetic variability of flying foxes population to a level of 0.0075. After 80 generations of only genetic drift acting on the population you measure heterozygosity and found that it has dropped to 0.0071. What has been the effective population size during this time?
+
+---
+
+-   To determine the smallest fully outbreeding population size (N) that maintained heterozygosity over this period of time under genetic drift, we use the formula for the decline in heterozygosity due to drift: $H_{t}=H_0(1-\frac{1}{2N})^t$
+
+    -   $H_0 = 0.0075$ is the initial heterozygosity
+
+    -   $H_t = 0.0071$ final heterozigosity
+
+    -   $t$ = 80 generations
+
+    -   $N$ = is the population size we want to solve for
+    
+---
+
+$$
+0.0071 = 0.0075*(1-\frac{1}{2N})^{80}
+$$
+
+## Population structure
+
+- Demes and metapopulation
+
+- F-statistics
+
+- Migration and gene flow
+
+## Inbreeding
+
+- Identical by Descent
+
+- Identical by State
+
+- Pedigree inbreeding coefficient $F_P$
+
+- Inbreeding depression
+
+---
+
+### Estimating inbreeding using pedigree
+
+![Pedigree of full siblings](./full siblings.png){width="50%" fig-align="center"}
+
+---
+
+$$
+F_P = ((\frac{1}{2})^3*(1+0))+((\frac{1}{2})^3*(1+0))
+$$
+
+
+$$
+F_P = \frac{1}{8} + \frac{1}{8} = \frac{1}{4} = 0.25
+$$
+
+---
+
+![Pedigree of double first cousins](./double first cousins.png){width="50%" fig-align="center"}
+
+---
+
+$$
+F_P = ((\frac{1}{2})^5*(1+0))+((\frac{1}{2})^5*(1+0))+((\frac{1}{2})^5*(1+0))+((\frac{1}{2})^5*(1+0))
+$$
+
+$$
+F_P = \frac{1}{32} + \frac{1}{32} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} = 0.125
+$$
+
+# References {.allowframebreaks}

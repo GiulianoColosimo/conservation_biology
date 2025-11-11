@@ -62,8 +62,9 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 9 - Inbreeding.pdf
             text: "Class 9 - Inbreeding"
             icon: file-pdf
-#          - href: ./classes/10/class_10.html
-#            text: "Class 10 - Conservation and climate change"
+          - href: ./classes/Conservation Biology 25-26 - Class 10 - Material review and excercise.pdf
+            text: "Class 10 - Material review and excercise"
+            icon: file-pdf
 #          - href: ./classes/11/class_11.html
 #            text: "Class 11 - Excercise: Accessing weather station data"
 #          - href: ./classes/12/class_12.html

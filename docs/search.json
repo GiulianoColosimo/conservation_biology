@@ -900,7 +900,7 @@
     "href": "conservation biology old/classes/5/class_5.html#basic-probability-theory",
     "title": "Populations genetics",
     "section": "Basic probability theory",
-    "text": "Basic probability theory\n\nThe probability of two independent events, such as the union of two gametes at random in a zygote, is calculated as the product of the probability of the single events\n\n\n(dice &lt;- c(1,2,3,4,5,6))\n\n[1] 1 2 3 4 5 6\n\n\n\n\nsample(dice, size = 1)\n\n[1] 4\n\n\n\n\nsample(dice, size = 1)\n\n[1] 1\n\n\n\n\nsim_dice &lt;- sample(dice, size = 100000, replace = T)\ntable(sim_dice)/100000\n\nsim_dice\n      1       2       3       4       5       6 \n0.16535 0.16678 0.16656 0.16761 0.16625 0.16745 \n\n\n\nThe probability of casting a dice and obtaining one of the six numbers is \\(\\frac{1}{6} \\approx 0.17\\)\nThe probability of casting the dice twice and obtaining the same number is \\(\\frac{1}{6} * \\frac{1}{6} = \\frac{1}{36} \\approx 0.028\\)\n\n\n\nWe want to recreate a sample of 15 individuals starting from the gamete pool of our original population with \\(n = 15\\) and \\(p \\approx 0.633\\) and \\(q \\approx 0.367\\)\n\n\n\n\n\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nsample(c(\"A\", \"a\"), size = 1, prob = c(p, q))\n\n\n\nEvery time we sample an allele, we add a color. Remember A = and a = . An animation of the process is available here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(n_{AA}\\)\n\\(n_{Aa}\\)\n\\(n_{aa}\\)\n\\(n\\)\n\n\n\n\n7\n7\n1\n15\n\n\n\n\n\nThe genotype and allele frequencies of the new generation are different from the previous one. We repeat the experiment one more time\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nnewSample &lt;- sample(c(\"A\", \"a\"), size = 30,\n                    prob = c(p, q),\n                    replace = T)\ntable(newSample)\n\nnewSample\n a  A \n10 20 \n\n\n\n\nOnce again, the genotype and allele frequencies of the new generation are different from the previous one, and it will likely be different most of the time we do this again\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nnewSample &lt;- sample(c(\"A\", \"a\"), size = 30,\n                    prob = c(p, q),\n                    replace = T)\ntable(newSample)\n\nnewSample\n a  A \n 9 21 \n\n\n\n\n\n\nThere is a large variability around the original value of p = 0.633\n\n\n\n\n\n\nSmaller variability if we collect a larger sample\n\n\n\n\n\n\nSample size matters to prevent loss of genetic variability"
+    "text": "Basic probability theory\n\nThe probability of two independent events, such as the union of two gametes at random in a zygote, is calculated as the product of the probability of the single events\n\n\n(dice &lt;- c(1,2,3,4,5,6))\n\n[1] 1 2 3 4 5 6\n\n\n\n\nsample(dice, size = 1)\n\n[1] 1\n\n\n\n\nsample(dice, size = 1)\n\n[1] 6\n\n\n\n\nsim_dice &lt;- sample(dice, size = 100000, replace = T)\ntable(sim_dice)/100000\n\nsim_dice\n      1       2       3       4       5       6 \n0.16903 0.16812 0.16573 0.16523 0.16580 0.16609 \n\n\n\nThe probability of casting a dice and obtaining one of the six numbers is \\(\\frac{1}{6} \\approx 0.17\\)\nThe probability of casting the dice twice and obtaining the same number is \\(\\frac{1}{6} * \\frac{1}{6} = \\frac{1}{36} \\approx 0.028\\)\n\n\n\nWe want to recreate a sample of 15 individuals starting from the gamete pool of our original population with \\(n = 15\\) and \\(p \\approx 0.633\\) and \\(q \\approx 0.367\\)\n\n\n\n\n\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nsample(c(\"A\", \"a\"), size = 1, prob = c(p, q))\n\n\n\nEvery time we sample an allele, we add a color. Remember A = and a = . An animation of the process is available here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(n_{AA}\\)\n\\(n_{Aa}\\)\n\\(n_{aa}\\)\n\\(n\\)\n\n\n\n\n7\n7\n1\n15\n\n\n\n\n\nThe genotype and allele frequencies of the new generation are different from the previous one. We repeat the experiment one more time\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nnewSample &lt;- sample(c(\"A\", \"a\"), size = 30,\n                    prob = c(p, q),\n                    replace = T)\ntable(newSample)\n\nnewSample\n a  A \n 8 22 \n\n\n\n\nOnce again, the genotype and allele frequencies of the new generation are different from the previous one, and it will likely be different most of the time we do this again\n\n\np &lt;- 0.633 \nq &lt;- 0.367  \nnewSample &lt;- sample(c(\"A\", \"a\"), size = 30,\n                    prob = c(p, q),\n                    replace = T)\ntable(newSample)\n\nnewSample\n a  A \n10 20 \n\n\n\n\n\n\nThere is a large variability around the original value of p = 0.633\n\n\n\n\n\n\nSmaller variability if we collect a larger sample\n\n\n\n\n\n\nSample size matters to prevent loss of genetic variability"
   },
   {
     "objectID": "conservation biology old/classes/5/class_5.html#summary-of-the-hardy-weinberg-model",
@@ -1195,5 +1195,75 @@
     "title": "Inbreeding",
     "section": "The concept of genetic load",
     "text": "The concept of genetic load\n\nGenetic load is the relative difference in fitness between the theoretically fittest genotype within a population and the average genotype in that population.\nThe term load was first used by Muller (1950) in his consideration of the possible effects of increased mutation rates because of nuclear weapons\n\nMutation load: The decrease in fitness caused by the accumulation of deleterious mutations\nSegregation load: The decrease in fitness caused by heterozygous advantage\nDrift load: The decrease in fitness caused by the increase in frequency of deleterious alleles resulting from genetic drift\nMigration load: The reduction in fitness caused by the migration into a population of individuals that are less adapted to the local environment than native individuals"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html",
+    "href": "conservation biology old/classes/10/class_10.html",
+    "title": "Material review and excercises",
+    "section": "",
+    "text": "Introduction to conservation biology\nBiodiversity\nAnthropocene\nPopulations\nPopulation genetics\n\\(N_e\\) genetic drift and the coalescent\nPopulation structure\nSeminar\nInbreeding"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#material-review",
+    "href": "conservation biology old/classes/10/class_10.html#material-review",
+    "title": "Material review and excercises",
+    "section": "",
+    "text": "Introduction to conservation biology\nBiodiversity\nAnthropocene\nPopulations\nPopulation genetics\n\\(N_e\\) genetic drift and the coalescent\nPopulation structure\nSeminar\nInbreeding"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#introduction-to-conservation-biology",
+    "href": "conservation biology old/classes/10/class_10.html#introduction-to-conservation-biology",
+    "title": "Material review and excercises",
+    "section": "Introduction to conservation biology",
+    "text": "Introduction to conservation biology\n\nWhat is conservation biology\nThe noble savage conundrum\nCore merits of conservation biology"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#biodiversity",
+    "href": "conservation biology old/classes/10/class_10.html#biodiversity",
+    "title": "Material review and excercises",
+    "section": "Biodiversity",
+    "text": "Biodiversity\n\nWhat is biodiversity\n\nLevels of biodiversity\nEmergence, Resistence, Productivity\nEcosystem services\n\nIUCN\nSpecies concept\nHow to measure biodiversity\n\nAlpha diversity\nBeta diversity\n\n\n\n\nAlpha diversity\n\\[\nH = - \\sum_i^s \\ p_i \\ ln(p_i)\n\\]\n\n\nLoading required package: permute\n\n\n Site Sp_1 Sp_2 Sp_3 Sp_4 Sp_5\n   11   17    1   41    6    1\n   12   19    0   46    6    0\n   13   17    1   35    0    0\n   14   22    0   33   17    1\n   15   11    2   33   16    2\n   16   15    2   25   24    0\n   17   31    0   36    5    1\n   18   24    3   23    0    1\n   19   24    0   44   12    3\n   20   19    3   33   15    1\n\n\n\n\nIn \\(H = - \\sum_i^s \\ p_i \\ ln(p_i)\\), \\(p_i\\) is the proportion of the total community abundance of the species \\(i\\). We can workout the value for site 1\n\n\\[\n17+1+41+6+1 = 66\n\\]\n\\[\np_{species1} = 17/66 = 0.257\n\\]\n\\[\nln(p_{species1}) = ln(0.257) = -1.358\n\\]\n\\[\n0.257*-1.358 = -0.349\n\\]\n\n\nThe site with the highest alpha diversity is:\n\n\n\n     20 \n1.48712 \n\n\n\n\n\nBeta diversity\n\\[\nS/\\alpha-1\n\\]\n\n\n\n\n Site Sp_1 Sp_2 Sp_3 Sp_4 Sp_5\n   11   17    1   41    6    1\n   12   19    0   46    6    0\n   13   17    1   35    0    0\n   14   22    0   33   17    1\n   15   11    2   33   16    2\n\n\n\n\n\n Site Sp_1 Sp_2 Sp_3 Sp_4 Sp_5\n   16   15    2   25   24    0\n   17   31    0   36    5    1\n   18   24    3   23    0    1\n   19   24    0   44   12    3\n   20   19    3   33   15    1\n\n\n\n\n\n\nThe Whittaker (1975) formula: \\(\\beta=(S/\\alpha)-1\\), where \\(S\\) is the total number of species in the area, and \\(\\alpha\\) is the average number of species in the area. \\(\\beta\\) diversity gives us an index of species turnover along a geographic gradient.\nWe can calculate the beta index for dataset 1\n\n\\[\n\\beta=\\frac{5}{(5+3+3+4+5)/5}-1=0.25\n\\]\n\n\nBeta diversity for dataset 1\n\n\n\n[1] 0.25\n\n\n\nBeta diversity for dataset 2\n\n\n\n[1] 0.1904762"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#anthropocene",
+    "href": "conservation biology old/classes/10/class_10.html#anthropocene",
+    "title": "Material review and excercises",
+    "section": "Anthropocene",
+    "text": "Anthropocene\n\nThe definition of anthropocene\nInvasive species (examples)\nEvolution of life on earth\nExtinctions\n\n\n\nBackground rate of extinction\n\nA cohort of 825 amphibian species has been described in the last century and has accumulated 74215 species-years, meaning that one species has been known, on average, for 90 years. Since their description, 28 have gone extinct. Can you estimate the extinction rate?\n\n\n\\[\n28:74215=x:10^6\n\\]\n. . .\n\\[\nx = \\frac{28}{74215}*10^6 \\approx 377\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#populations",
+    "href": "conservation biology old/classes/10/class_10.html#populations",
+    "title": "Material review and excercises",
+    "section": "Populations",
+    "text": "Populations\n\nWhat is a population\nDemography\nPopulation models\nTagging systems\nEstimates of population size\n\nCMR\nLincoln Petersen\nJolly- Saber\nDistance sampling"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#population-genetics",
+    "href": "conservation biology old/classes/10/class_10.html#population-genetics",
+    "title": "Material review and excercises",
+    "section": "Population genetics",
+    "text": "Population genetics\n\nWhy is important\nFundamental vocabulary\nFundamental measures of genetic diversity\nHardy-Weinberg principle and its assumptions\nBinomial sampling and genetic drift\n\n\n\nProbability of a gamete going to fixation\n\nWe work with a diploid population with \\(n = 9\\). Individuals are typed at a bi-allelic locus and the frequency of allele \\(A_1\\) is \\(p = 0.31\\). What is the probability of losing allele \\(A_1\\) in one generation of sampling to recreate a population of the same size?\n\n\n\\[\nP(fixation \\ A_2)=(1-p)^{2n}\n\\]\n. . .\n\\[\nP(fixation \\ A_2)=(1-0.31)^{18} = 0.00125\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#n_e-genetic-drift-and-the-coalescent",
+    "href": "conservation biology old/classes/10/class_10.html#n_e-genetic-drift-and-the-coalescent",
+    "title": "Material review and excercises",
+    "section": "\\(N_e\\) genetic drift and the coalescent",
+    "text": "\\(N_e\\) genetic drift and the coalescent\n\nEffective population size\nWrigth-Fisher model\nGenetic drift and heterozygosity\nMutations drift balance\nCoalescent theory\nEstimating \\(N_e\\) using demographic parameters\n\n\n\nMinimal loss of genetic diversity\n\nYou are in charge of a program to maintaining the genetic variability of flying foxes population to a level of 0.0075. After 80 generations of only genetic drift acting on the population you measure heterozygosity and found that it has dropped to 0.0071. What has been the effective population size during this time?\n\n\n\nTo determine the smallest fully outbreeding population size (N) that maintained heterozygosity over this period of time under genetic drift, we use the formula for the decline in heterozygosity due to drift: \\(H_{t}=H_0(1-\\frac{1}{2N})^t\\)\n\n\\(H_0 = 0.0075\\) is the initial heterozygosity\n\\(H_t = 0.0071\\) final heterozigosity\n\\(t\\) = 80 generations\n\\(N\\) = is the population size we want to solve for\n\n\n\n\\[\n0.0071 = 0.0075*(1-\\frac{1}{2N})^{80}\n\\]"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#population-structure",
+    "href": "conservation biology old/classes/10/class_10.html#population-structure",
+    "title": "Material review and excercises",
+    "section": "Population structure",
+    "text": "Population structure\n\nDemes and metapopulation\nF-statistics\nMigration and gene flow"
+  },
+  {
+    "objectID": "conservation biology old/classes/10/class_10.html#inbreeding",
+    "href": "conservation biology old/classes/10/class_10.html#inbreeding",
+    "title": "Material review and excercises",
+    "section": "Inbreeding",
+    "text": "Inbreeding\n\nIdentical by Descent\nIdentical by State\nPedigree inbreeding coefficient \\(F_P\\)\nInbreeding depression\n\n\n\nEstimating inbreeding using pedigree\n\n\n\nPedigree of full siblings\n\n\n\n\\[\nF_P = ((\\frac{1}{2})^3*(1+0))+((\\frac{1}{2})^3*(1+0))\n\\]\n\\[\nF_P = \\frac{1}{8} + \\frac{1}{8} = \\frac{1}{4} = 0.25\n\\]\n\n\n\n\nPedigree of double first cousins\n\n\n\n\\[\nF_P = ((\\frac{1}{2})^5*(1+0))+((\\frac{1}{2})^5*(1+0))+((\\frac{1}{2})^5*(1+0))+((\\frac{1}{2})^5*(1+0))\n\\]\n\\[\nF_P = \\frac{1}{32} + \\frac{1}{32} + \\frac{1}{32} + \\frac{1}{32} = \\frac{1}{8} = 0.125\n\\]"
   }
 ]

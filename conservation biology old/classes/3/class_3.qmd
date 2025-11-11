@@ -137,7 +137,7 @@ library("kableExtra")
 
 ![A typical sequence of invasion for most non-native species. After @Crowl2008.](./class_3_invasive.png){width="75%"}
 
-##  Catastrophic invasions - The zebra mussel
+## Catastrophic invasions - The zebra mussel
 
 ![*Dreissena polymorpha* the zebra mussel. Picture downloaded from [this](https://www.flickr.com/photos/117184384@N07/39449820624) website.](./class_17_2.jpg){width="80%"}
 
@@ -159,13 +159,13 @@ library("kableExtra")
 
 ![@Strayer2009](./class_17_4.png){width="85%"}
 
-##  Catastrophic invasions - Green iguanas
+## Catastrophic invasions - Green iguanas
 
 -   Green iguanas have invaded [Grand Cayman](https://doe.ky/wp-content/uploads/2021/07/Invasive_-Green-Iguanas-in-the-Cayman-Islands.pdf) island!
 
 ![Downloaded [here](https://doe.ky/green-iguana-cull-update/)](./iguana_cull.png){width="75%"}
 
-##  Catastrophic invasions - The blue crab
+## Catastrophic invasions - The blue crab
 
 ![*Callinectes sapidus* invaded from the american East cost. After @Clavero2022](./blueCrab.jpg){width="100%"}
 
@@ -283,7 +283,7 @@ library("kableExtra")
 
 ## How many species are there?
 
-![Number of described species. Data downloaded from [IUCN](https://www.iucnredlist.org/resources/summary-statistics) website.](./numspec.png){width="87%" fig-align=center}
+![Number of described species. Data downloaded from [IUCN](https://www.iucnredlist.org/resources/summary-statistics) website.](./numspec.png){width="87%" fig-align="center"}
 
 ## Fossil records and extinction rates
 
@@ -300,9 +300,9 @@ library("kableExtra")
 | Planktonic foraminifera | [@VanValen1973]  | 7            |
 | Echinoderms             | [@Durham1970]    | 6            |
 
-- Estimates of species lifespan from origin to extinction [@Lawton1995].
+-   Estimates of species lifespan from origin to extinction [@Lawton1995].
 
----
+------------------------------------------------------------------------
 
 ![After @Raup1982](./5_exteven.png)
 
@@ -406,7 +406,7 @@ $$
 
 . . .
 
-- This means that the rates of extinctions in recent times (at least since we can document extinctions as they happen) seems to be dramatically increased [@Pimm2014]!
+-   This means that the rates of extinctions in recent times (at least since we can document extinctions as they happen) seems to be dramatically increased [@Pimm2014]!
 
 ------------------------------------------------------------------------
 
@@ -414,7 +414,7 @@ $$
 
 -   We know from fossil records that species seem to persist \~1 MY. @Pimm1995 take the fossil evidence and turn it into a background extinction rate (i.e, a ratio between two quantities, the number of species extinct over time-species). In particular, 1 extinction (E) per $10^6$ species-years (MSY).
 
----
+------------------------------------------------------------------------
 
 :::::: columns
 ::: {.column width="33%"}

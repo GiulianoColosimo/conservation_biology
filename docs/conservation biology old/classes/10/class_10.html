@@ -8,7 +8,7 @@
 
 <meta name="author" content="Giuliano Colosimo">
 
-<title>Inbreeding – Biologia della Conservazione 25/26</title>
+<title>Material review and excercises – Biologia della Conservazione 25/26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -104,10 +124,13 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Inbreeding – Biologia della Conservazione 25/26">
+<meta property="og:title" content="Material review and excercises – Biologia della Conservazione 25/26">
 <meta property="og:description" content="Biologia della Conservazione 25/26">
+<meta property="og:image" content="https://giulianocolosimo.github.com/conservation biology old/classes/10/full siblings.png">
 <meta property="og:site_name" content="Biologia della Conservazione 25/26">
 <meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="203">
+<meta property="og:image:width" content="170">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -320,7 +343,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Inbreeding</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Material review and excercises</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -432,9 +455,34 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#material-review" id="toc-material-review" class="nav-link active" data-scroll-target="#material-review">Material review</a></li>
+  <li><a href="#introduction-to-conservation-biology" id="toc-introduction-to-conservation-biology" class="nav-link" data-scroll-target="#introduction-to-conservation-biology">Introduction to conservation biology</a></li>
+  <li><a href="#biodiversity" id="toc-biodiversity" class="nav-link" data-scroll-target="#biodiversity">Biodiversity</a>
+  <ul class="collapse">
+  <li><a href="#alpha-diversity" id="toc-alpha-diversity" class="nav-link" data-scroll-target="#alpha-diversity">Alpha diversity</a></li>
+  <li><a href="#beta-diversity" id="toc-beta-diversity" class="nav-link" data-scroll-target="#beta-diversity">Beta diversity</a></li>
+  </ul></li>
+  <li><a href="#anthropocene" id="toc-anthropocene" class="nav-link" data-scroll-target="#anthropocene">Anthropocene</a>
+  <ul class="collapse">
+  <li><a href="#background-rate-of-extinction" id="toc-background-rate-of-extinction" class="nav-link" data-scroll-target="#background-rate-of-extinction">Background rate of extinction</a></li>
+  </ul></li>
+  <li><a href="#populations" id="toc-populations" class="nav-link" data-scroll-target="#populations">Populations</a></li>
+  <li><a href="#population-genetics" id="toc-population-genetics" class="nav-link" data-scroll-target="#population-genetics">Population genetics</a>
+  <ul class="collapse">
+  <li><a href="#probability-of-a-gamete-going-to-fixation" id="toc-probability-of-a-gamete-going-to-fixation" class="nav-link" data-scroll-target="#probability-of-a-gamete-going-to-fixation">Probability of a gamete going to fixation</a></li>
+  </ul></li>
+  <li><a href="#n_e-genetic-drift-and-the-coalescent" id="toc-n_e-genetic-drift-and-the-coalescent" class="nav-link" data-scroll-target="#n_e-genetic-drift-and-the-coalescent"><span class="math inline">\(N_e\)</span> genetic drift and the coalescent</a>
+  <ul class="collapse">
+  <li><a href="#minimal-loss-of-genetic-diversity" id="toc-minimal-loss-of-genetic-diversity" class="nav-link" data-scroll-target="#minimal-loss-of-genetic-diversity">Minimal loss of genetic diversity</a></li>
+  </ul></li>
+  <li><a href="#population-structure" id="toc-population-structure" class="nav-link" data-scroll-target="#population-structure">Population structure</a></li>
+  <li><a href="#inbreeding" id="toc-inbreeding" class="nav-link" data-scroll-target="#inbreeding">Inbreeding</a>
+  <ul class="collapse">
+  <li><a href="#estimating-inbreeding-using-pedigree" id="toc-estimating-inbreeding-using-pedigree" class="nav-link" data-scroll-target="#estimating-inbreeding-using-pedigree">Estimating inbreeding using pedigree</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="class_9.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="class_10.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -442,7 +490,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Inbreeding</h1>
+<h1 class="title">Material review and excercises</h1>
 <p class="subtitle lead">Biologia della Conservazione 25/26</p>
 </div>
 
@@ -473,13 +521,312 @@ window.Quarto = {
 </header>
 
 
-<section id="references" class="level2 allowframebreaks">
-<h2 class="allowframebreaks anchored" data-anchor-id="references">References</h2>
+<section id="material-review" class="level2">
+<h2 class="anchored" data-anchor-id="material-review">Material review</h2>
+<ol type="1">
+<li><p>Introduction to conservation biology</p></li>
+<li><p>Biodiversity</p></li>
+<li><p>Anthropocene</p></li>
+<li><p>Populations</p></li>
+<li><p>Population genetics</p></li>
+<li><p><span class="math inline">\(N_e\)</span> genetic drift and the coalescent</p></li>
+<li><p>Population structure</p></li>
+<li><p>Seminar</p></li>
+<li><p>Inbreeding</p></li>
+</ol>
+</section>
+<section id="introduction-to-conservation-biology" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-conservation-biology">Introduction to conservation biology</h2>
+<ul>
+<li><p>What is conservation biology</p></li>
+<li><p>The noble savage conundrum</p></li>
+<li><p>Core merits of conservation biology</p></li>
+</ul>
+</section>
+<section id="biodiversity" class="level2">
+<h2 class="anchored" data-anchor-id="biodiversity">Biodiversity</h2>
+<ul>
+<li><p>What is biodiversity</p>
+<ul>
+<li><p>Levels of biodiversity</p></li>
+<li><p>Emergence, Resistence, Productivity</p></li>
+<li><p>Ecosystem services</p></li>
+</ul></li>
+<li><p>IUCN</p></li>
+<li><p>Species concept</p></li>
+<li><p>How to measure biodiversity</p>
+<ol type="1">
+<li><p>Alpha diversity</p></li>
+<li><p>Beta diversity</p></li>
+</ol></li>
+</ul>
+<hr>
+<section id="alpha-diversity" class="level3">
+<h3 class="anchored" data-anchor-id="alpha-diversity">Alpha diversity</h3>
+<p><span class="math display">\[
+H = - \sum_i^s \ p_i \ ln(p_i)
+\]</span></p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: permute</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code> Site Sp_1 Sp_2 Sp_3 Sp_4 Sp_5
+   11   17    1   41    6    1
+   12   19    0   46    6    0
+   13   17    1   35    0    0
+   14   22    0   33   17    1
+   15   11    2   33   16    2
+   16   15    2   25   24    0
+   17   31    0   36    5    1
+   18   24    3   23    0    1
+   19   24    0   44   12    3
+   20   19    3   33   15    1</code></pre>
+</div>
+</div>
+<hr>
+<ul>
+<li>In <span class="math inline">\(H = - \sum_i^s \ p_i \ ln(p_i)\)</span>, <span class="math inline">\(p_i\)</span> is the proportion of the total community abundance of the species <span class="math inline">\(i\)</span>. We can workout the value for site 1</li>
+</ul>
+<p><span class="math display">\[
+17+1+41+6+1 = 66
+\]</span></p>
+<p><span class="math display">\[
+p_{species1} = 17/66 = 0.257
+\]</span></p>
+<p><span class="math display">\[
+ln(p_{species1}) = ln(0.257) = -1.358
+\]</span></p>
+<p><span class="math display">\[
+0.257*-1.358 = -0.349
+\]</span></p>
+<hr>
+<ul>
+<li>The site with the highest alpha diversity is:</li>
+</ul>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>     20 
+1.48712 </code></pre>
+</div>
+</div>
+<hr>
+</section>
+<section id="beta-diversity" class="level3">
+<h3 class="anchored" data-anchor-id="beta-diversity">Beta diversity</h3>
+<p><span class="math display">\[
+S/\alpha-1
+\]</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code> Site Sp_1 Sp_2 Sp_3 Sp_4 Sp_5
+   11   17    1   41    6    1
+   12   19    0   46    6    0
+   13   17    1   35    0    0
+   14   22    0   33   17    1
+   15   11    2   33   16    2</code></pre>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code> Site Sp_1 Sp_2 Sp_3 Sp_4 Sp_5
+   16   15    2   25   24    0
+   17   31    0   36    5    1
+   18   24    3   23    0    1
+   19   24    0   44   12    3
+   20   19    3   33   15    1</code></pre>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<ul>
+<li><p>The <span class="citation" data-cites="Whittaker1975">Whittaker (<a href="#ref-Whittaker1975" role="doc-biblioref">1975</a>)</span> formula: <span class="math inline">\(\beta=(S/\alpha)-1\)</span>, where <span class="math inline">\(S\)</span> is the total number of species in the area, and <span class="math inline">\(\alpha\)</span> is the average number of species in the area. <span class="math inline">\(\beta\)</span> diversity gives us an index of species turnover along a geographic gradient.</p></li>
+<li><p>We can calculate the beta index for dataset 1</p></li>
+</ul>
+<p><span class="math display">\[
+\beta=\frac{5}{(5+3+3+4+5)/5}-1=0.25
+\]</span></p>
+<hr>
+<ul>
+<li>Beta diversity for dataset 1</li>
+</ul>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.25</code></pre>
+</div>
+</div>
+<ul>
+<li>Beta diversity for dataset 2</li>
+</ul>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1904762</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="anthropocene" class="level2">
+<h2 class="anchored" data-anchor-id="anthropocene">Anthropocene</h2>
+<ul>
+<li><p>The definition of anthropocene</p></li>
+<li><p>Invasive species (examples)</p></li>
+<li><p>Evolution of life on earth</p></li>
+<li><p>Extinctions</p></li>
+</ul>
+<hr>
+<section id="background-rate-of-extinction" class="level3">
+<h3 class="anchored" data-anchor-id="background-rate-of-extinction">Background rate of extinction</h3>
+<ul>
+<li>A cohort of 825 amphibian species has been described in the last century and has accumulated 74215 species-years, meaning that one species has been known, on average, for 90 years. Since their description, 28 have gone extinct. Can you estimate the extinction rate?</li>
+</ul>
+<hr>
+<p><span class="math display">\[
+28:74215=x:10^6
+\]</span></p>
+<p>. . .</p>
+<p><span class="math display">\[
+x = \frac{28}{74215}*10^6 \approx 377
+\]</span></p>
+<hr>
+</section>
+</section>
+<section id="populations" class="level2">
+<h2 class="anchored" data-anchor-id="populations">Populations</h2>
+<ul>
+<li><p>What is a population</p></li>
+<li><p>Demography</p></li>
+<li><p>Population models</p></li>
+<li><p>Tagging systems</p></li>
+<li><p>Estimates of population size</p>
+<ol type="1">
+<li>CMR</li>
+<li>Lincoln Petersen</li>
+<li>Jolly- Saber</li>
+<li>Distance sampling</li>
+</ol></li>
+</ul>
+</section>
+<section id="population-genetics" class="level2">
+<h2 class="anchored" data-anchor-id="population-genetics">Population genetics</h2>
+<ul>
+<li><p>Why is important</p></li>
+<li><p>Fundamental vocabulary</p></li>
+<li><p>Fundamental measures of genetic diversity</p></li>
+<li><p>Hardy-Weinberg principle and its assumptions</p></li>
+<li><p>Binomial sampling and genetic drift</p></li>
+</ul>
+<hr>
+<section id="probability-of-a-gamete-going-to-fixation" class="level3">
+<h3 class="anchored" data-anchor-id="probability-of-a-gamete-going-to-fixation">Probability of a gamete going to fixation</h3>
+<ul>
+<li>We work with a diploid population with <span class="math inline">\(n = 9\)</span>. Individuals are typed at a bi-allelic locus and the frequency of allele <span class="math inline">\(A_1\)</span> is <span class="math inline">\(p = 0.31\)</span>. What is the probability of losing allele <span class="math inline">\(A_1\)</span> in one generation of sampling to recreate a population of the same size?</li>
+</ul>
+<hr>
+<p><span class="math display">\[
+P(fixation \ A_2)=(1-p)^{2n}
+\]</span></p>
+<p>. . .</p>
+<p><span class="math display">\[
+P(fixation \ A_2)=(1-0.31)^{18} = 0.00125
+\]</span></p>
+</section>
+</section>
+<section id="n_e-genetic-drift-and-the-coalescent" class="level2">
+<h2 class="anchored" data-anchor-id="n_e-genetic-drift-and-the-coalescent"><span class="math inline">\(N_e\)</span> genetic drift and the coalescent</h2>
+<ul>
+<li><p>Effective population size</p></li>
+<li><p>Wrigth-Fisher model</p></li>
+<li><p>Genetic drift and heterozygosity</p></li>
+<li><p>Mutations drift balance</p></li>
+<li><p>Coalescent theory</p></li>
+<li><p>Estimating <span class="math inline">\(N_e\)</span> using demographic parameters</p></li>
+</ul>
+<hr>
+<section id="minimal-loss-of-genetic-diversity" class="level3">
+<h3 class="anchored" data-anchor-id="minimal-loss-of-genetic-diversity">Minimal loss of genetic diversity</h3>
+<ul>
+<li>You are in charge of a program to maintaining the genetic variability of flying foxes population to a level of 0.0075. After 80 generations of only genetic drift acting on the population you measure heterozygosity and found that it has dropped to 0.0071. What has been the effective population size during this time?</li>
+</ul>
+<hr>
+<ul>
+<li><p>To determine the smallest fully outbreeding population size (N) that maintained heterozygosity over this period of time under genetic drift, we use the formula for the decline in heterozygosity due to drift: <span class="math inline">\(H_{t}=H_0(1-\frac{1}{2N})^t\)</span></p>
+<ul>
+<li><p><span class="math inline">\(H_0 = 0.0075\)</span> is the initial heterozygosity</p></li>
+<li><p><span class="math inline">\(H_t = 0.0071\)</span> final heterozigosity</p></li>
+<li><p><span class="math inline">\(t\)</span> = 80 generations</p></li>
+<li><p><span class="math inline">\(N\)</span> = is the population size we want to solve for</p></li>
+</ul></li>
+</ul>
+<hr>
+<p><span class="math display">\[
+0.0071 = 0.0075*(1-\frac{1}{2N})^{80}
+\]</span></p>
+</section>
+</section>
+<section id="population-structure" class="level2">
+<h2 class="anchored" data-anchor-id="population-structure">Population structure</h2>
+<ul>
+<li><p>Demes and metapopulation</p></li>
+<li><p>F-statistics</p></li>
+<li><p>Migration and gene flow</p></li>
+</ul>
+</section>
+<section id="inbreeding" class="level2">
+<h2 class="anchored" data-anchor-id="inbreeding">Inbreeding</h2>
+<ul>
+<li><p>Identical by Descent</p></li>
+<li><p>Identical by State</p></li>
+<li><p>Pedigree inbreeding coefficient <span class="math inline">\(F_P\)</span></p></li>
+<li><p>Inbreeding depression</p></li>
+</ul>
+<hr>
+<section id="estimating-inbreeding-using-pedigree" class="level3">
+<h3 class="anchored" data-anchor-id="estimating-inbreeding-using-pedigree">Estimating inbreeding using pedigree</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./full siblings.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Pedigree of full siblings</figcaption>
+</figure>
+</div>
+<hr>
+<p><span class="math display">\[
+F_P = ((\frac{1}{2})^3*(1+0))+((\frac{1}{2})^3*(1+0))
+\]</span></p>
+<p><span class="math display">\[
+F_P = \frac{1}{8} + \frac{1}{8} = \frac{1}{4} = 0.25
+\]</span></p>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./double first cousins.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Pedigree of double first cousins</figcaption>
+</figure>
+</div>
+<hr>
+<p><span class="math display">\[
+F_P = ((\frac{1}{2})^5*(1+0))+((\frac{1}{2})^5*(1+0))+((\frac{1}{2})^5*(1+0))+((\frac{1}{2})^5*(1+0))
+\]</span></p>
+<p><span class="math display">\[
+F_P = \frac{1}{32} + \frac{1}{32} + \frac{1}{32} + \frac{1}{32} = \frac{1}{8} = 0.125
+\]</span></p>
+</section>
+</section>
+<section id="references" class="level1 allowframebreaks">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Whittaker1975" class="csl-entry" role="listitem">
+Whittaker, R. H. (1975). <em>Communities and ecosystems</em> (Second.). Macmillan Publishers Limited.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
