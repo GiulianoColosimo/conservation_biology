@@ -199,7 +199,7 @@ rm(x)
 
 ---
 
-![Marmot appearance. [After @Inouye2000]](./Marmot%20appearence.png){width="75%"}
+![Marmot appearance. [After @Inouye2000]](./Marmot%20appearence.png){width="65%"}
 
 ## Pollination patterns
 
@@ -210,6 +210,8 @@ rm(x)
 -   When phenological changes in plants (i.e., earlier flowering time) and pollinators (i.e. earlier emergence in the season due to early emergence from eggs or awakening from hibernation) happen at the same time the degree of sinchronization is maintained. However, when the timing of one species changes faster than the other, or when the shifts happens in different directions such disagreement can cause plants population depression or pollinators starvation [@Morton2017].
 
 ---
+
+\vspace{1cm}
 
 ![Conceptual depiction of phenological changes in plant-pollinators interactions. After @Morton2017](./class_20_8.png){width="80%"}
 
@@ -230,7 +232,7 @@ rm(x)
 
 ## Range shifts
 
-![Meta analysis investigating a direct link between temperature change and range shift. After @Ching2011](./class_20_9.png)[{width="70%"}
+![Meta analysis investigating a direct link between temperature change and range shift. After @Ching2011](./class_20_9.png){width="70%"}
 
 ## Other effects of climate change
 
@@ -256,10 +258,10 @@ rm(x)
 
 ---
 
--   *Vulnerability* to climate change is defined as the extant to which a species or population is threatened with decline, reduced fitness, genetic loss of extinction due to climate change as a function of three primary components: [exposure]{style="color: red;"}, [sensitivity]{style="color: green;"} or [adaptive capacity]{style="color: blue;"}.
+-   *Vulnerability* to climate change is defined as the extant to which a species or population is threatened with decline, reduced fitness, genetic loss of extinction due to climate change as a function of three primary components: \textcolor{red}{exposure}, \textcolor{green}{sensitivity} or \textcolor{blue}{adaptive capacity}.
 
 
--   [Exposure]{style="color: red;"} is defined as the extant of climate change likely to be experienced by a species or locale [@Dawson2011].
+-   \textcolor{red}{Exposure} is defined as the extant of climate change likely to be experienced by a species or locale [@Dawson2011].
 
 ---
 
@@ -275,7 +277,7 @@ rm(x)
 
 -   ENMs are useful to map how species' preferred environmental space moves according to climate changes.
 
--   [Sensitivity]{style="color: green;"} is defined as the degree to which the survival, persistence, fitness, performance, or regeneration of a species or population is dependent on the prevailing climate, particularly on those variables that are more likely to change in the near future [@Dawson2011; @VanDyke2020].
+-   \textcolor{green}{Sensitivity} is defined as the degree to which the survival, persistence, fitness, performance, or regeneration of a species or population is dependent on the prevailing climate, particularly on those variables that are more likely to change in the near future [@Dawson2011; @VanDyke2020].
 
 -   Here the focus is on species- specific factors that may indicate higher risk relative to specific changes in climate variables.
 
@@ -285,7 +287,7 @@ rm(x)
 
 -   This second component of vulnerability is important for management since species across the same spatial domain may exhibit very different sensitivity and respond in radically different ways to the same climate variations [@Foden2019].
 
--   Finally, [adaptive capacity]{style="color: blue;"} is the last component of species vulnerability to climate changes.
+-   Finally, \textcolor{blue}{adaptive capacity} is the last component of species vulnerability to climate changes.
 
 -   This is the capacity of a species or population to cope with climate change by persisting in-situ, but shifting to more suitable local microhabitats, or migrating to more suitable regions [@Dawson2011].
 
@@ -361,13 +363,15 @@ rm(x)
 
 ---
 
--   What has Italy pledged to keep warming at or below $1.5\ ˚C$?
+-  Italy pledged to keep warming at or below $1.5\ ˚C$
 
 -   How are we doing?
 
 -   Lets take a look...[Eurostat](https://ec.europa.eu/eurostat/web/climate-change/visualisations).
 
 -   Given ongoing opportunities for synchronized climate change mitigation and adaptation, conservation biologists are poised to advance solutions that both slow climate change and protect biodiversity.
+
+---
 
 -   Many international activities, such as the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services ([IPBES](https://www.ipbes.net)), provide a platform for the scientific engagement on a global scale.
 
