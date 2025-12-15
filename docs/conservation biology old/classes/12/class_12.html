@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.21">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Giuliano Colosimo">
+
+<title>Conservation and Climate Change – Biologia della Conservazione 25/26</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-7e9717d9caa9b4d114d189eaeb260ada.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-27550dbc14977a75f3b0c67b1021d4fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-da71d79dcad599e4b4efa1c6f8292913.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-27550dbc14977a75f3b0c67b1021d4fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Conservation and Climate Change – Biologia della Conservazione 25/26">
+<meta property="og:description" content="Biologia della Conservazione 25/26">
+<meta property="og:image" content="https://giulianocolosimo.github.com/conservation biology old/classes/12/class_20_1.png">
+<meta property="og:site_name" content="Biologia della Conservazione 25/26">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="2126">
+<meta property="og:image:width" content="3780">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Biologia della Conservazione 25/26</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../calendar.html"> 
+<span class="menu-text">Calendar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Conservation and Climate Change</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../../../index.html" class="sidebar-logo-link">
+      <img src="../../.././figures/avatar.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../.././figures/avatar.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="mailto:giuliano.colosimo@protonmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+</div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Classes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 1 - Introduction to Conservation Biology.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 1 - Introduction to Conservation Biology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 2 - Biodiversity - Concept, Measurement, and Management.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 2 - Biodiversity: Concept, Measurement, and Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 3 - Anthropocene.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 3 - Anthropocene</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 4 - Populations.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 4 - Populations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 5 - Populations genetics.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 5 - Population genetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 6 - Ne, genetic drift and the coalescent.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 6 - <span class="math inline">\(N_{e}\)</span>, genetic drift and the coalescent</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 7 - Population structure.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 7 - Population structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 8 - Seminar.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 8 - Seminar</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 9 - Inbreeding.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 9 - Inbreeding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 10 - Material review and excercise.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 10 - Material review and excercise</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 11 - Population Viability Analysis.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 11 - Population Viability Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 12 - Conservation and climate change.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 12 - Conservation and climate change</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#periodicity-in-annual-variation." id="toc-periodicity-in-annual-variation." class="nav-link active" data-scroll-target="#periodicity-in-annual-variation.">Periodicity in annual variation.</a></li>
+  <li><a href="#discontinuities" id="toc-discontinuities" class="nav-link" data-scroll-target="#discontinuities">Discontinuities</a></li>
+  <li><a href="#contemporary-changes-vs-past-changes" id="toc-contemporary-changes-vs-past-changes" class="nav-link" data-scroll-target="#contemporary-changes-vs-past-changes">Contemporary changes VS past changes</a></li>
+  <li><a href="#rapidly-rising-co2" id="toc-rapidly-rising-co2" class="nav-link" data-scroll-target="#rapidly-rising-co2">Rapidly rising CO2</a></li>
+  <li><a href="#common-ecological-response-to-climate-change" id="toc-common-ecological-response-to-climate-change" class="nav-link" data-scroll-target="#common-ecological-response-to-climate-change">Common ecological response to climate change</a></li>
+  <li><a href="#phenological-changes" id="toc-phenological-changes" class="nav-link" data-scroll-target="#phenological-changes">Phenological changes</a></li>
+  <li><a href="#pollination-patterns" id="toc-pollination-patterns" class="nav-link" data-scroll-target="#pollination-patterns">Pollination patterns</a></li>
+  <li><a href="#predator-prey-dynamics" id="toc-predator-prey-dynamics" class="nav-link" data-scroll-target="#predator-prey-dynamics">Predator-prey dynamics</a></li>
+  <li><a href="#range-shifts" id="toc-range-shifts" class="nav-link" data-scroll-target="#range-shifts">Range shifts</a></li>
+  <li><a href="#other-effects-of-climate-change" id="toc-other-effects-of-climate-change" class="nav-link" data-scroll-target="#other-effects-of-climate-change">Other effects of climate change</a></li>
+  <li><a href="#tools-for-assessing-future-climate-changes" id="toc-tools-for-assessing-future-climate-changes" class="nav-link" data-scroll-target="#tools-for-assessing-future-climate-changes">Tools for assessing future climate changes</a></li>
+  <li><a href="#an-example-of-enm" id="toc-an-example-of-enm" class="nav-link" data-scroll-target="#an-example-of-enm">An example of ENM</a></li>
+  <li><a href="#policies-against-climate-change" id="toc-policies-against-climate-change" class="nav-link" data-scroll-target="#policies-against-climate-change">Policies against climate change</a></li>
+  <li><a href="#how-things-are-looking" id="toc-how-things-are-looking" class="nav-link" data-scroll-target="#how-things-are-looking">How things are looking?</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="class_12.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Conservation and Climate Change</h1>
+<p class="subtitle lead">Biologia della Conservazione 25/26</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Giuliano Colosimo </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Rome Tor Vergata
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Climate stripes, created by professor <a href="https://www.climate-lab-book.ac.uk/2018/warming-stripes/">Ed Hawkins</a>. Image downloaded from <a href="https://showyourstripes.info/s/globe">here</a>.</figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_2.png" class="img-fluid figure-img"></p>
+<figcaption>Climate stripes with reference chart. Image downloaded from <a href="https://showyourstripes.info/s/globe">here</a>.</figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_3.png" class="img-fluid figure-img"></p>
+<figcaption>Climate stripes with reference chart for Italy. Image downloaded from <a href="https://showyourstripes.info/s/globe">here</a>.</figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li><p>Traditionally, habitat destruction and invasive species constituted the two main obstacles to biodiversity conservation.</p></li>
+<li><p>While this still holds true, climate change is expected to function as new as well as intensifier of already existing threats.</p></li>
+<li><p>Global climate change has the potential to completely debunk existing local, regional, and national conservation plans, regardless of their good intention and design.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>…upon the North American continent, one single factor does seem to loom up as being the most frequent delimiter of distribution, or even the ultimately effective one, in greater or lesser degree, even thhough other factors may play a role too <span class="citation" data-cites="Grinnell1917">(<a href="#ref-Grinnell1917" role="doc-biblioref">Grinnell, 1917</a>)</span>.</p></li>
+<li><p>Grinnel considered temperature a <em>limiting</em> factor, but not a <em>changing</em> one! Moreover, he did not think as temperature (and other climate factors) as time-dependent and mutating!</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>…climate change probably has the greatest potential to alter the functioning of the Earth system; its direct effects on natural and managed systems ultimately could become overwhelming…nevertheless, the major effects of climate change are mostly in the future, while most of the others are already with us <span class="citation" data-cites="Vitousek1992">(<a href="#ref-Vitousek1992" role="doc-biblioref">Vitousek, 1992</a>)</span>.</p></li>
+<li><p>Climate change is a problem right now <span class="citation" data-cites="Molina2014">(<a href="#ref-Molina2014" role="doc-biblioref">Molina et al., 2014</a>)</span>, so we do not have to wait for future scenarios. The speed of contemporary changes is faster than most of the past events and is actively challenging the effectiveness of twenty century conservation <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+</ul>
+<hr>
+<ul>
+<li>…the stated purpose of the Prince Albert National Park is to protect for all time the ecological integrity of a natural area of Canadian significance representative of the souther boreal forest…Yet, all six vegetation change scenarios examined projected the eventual loss of boreal forest in this park suggesting that the park’s mandate would be untenable in the long term <span class="citation" data-cites="Lovejoy2008">(<a href="#ref-Lovejoy2008" role="doc-biblioref">Lovejoy, 2008</a>)</span>.</li>
+</ul>
+<section id="periodicity-in-annual-variation." class="level2">
+<h2 class="anchored" data-anchor-id="periodicity-in-annual-variation.">Periodicity in annual variation.</h2>
+<p><a href="https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate/">Video credits: NASA/JPL-Caltech. Video source</a>.</p>
+</section>
+<section id="discontinuities" class="level2">
+<h2 class="anchored" data-anchor-id="discontinuities">Discontinuities</h2>
+<ul>
+<li><p>In contrast to regular changes, discontinuities, jumps, trends or increasing variability all represent forms of climate change.</p></li>
+<li><p>In such cases means of climate variables do not remain the same or stationary over long time periods, but are altered.</p></li>
+<li><p>Climate discontinuities and climate jumps occur when climate variables, relative to the length of the temporal cycle, show a large change in magnitude over a relatively short amount of time. After the jump a new baseline emerges that is different from the previous one.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>Increasing variability occurs when the mean of the variable remains the same, but its range of variation increases significantly. In such case, individual weather events become more unpredictable and dramatic.</p></li>
+<li><p>Variational trends refer to changes in which the range of variation remains within historical norms, but with movement of the mean in one direction (increasing or decreasing).</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./discontinuities.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Periodic VS unstable variation.</figcaption>
+</figure>
+</div>
+</section>
+<section id="contemporary-changes-vs-past-changes" class="level2">
+<h2 class="anchored" data-anchor-id="contemporary-changes-vs-past-changes">Contemporary changes VS past changes</h2>
+<ul>
+<li><p>The range of temperatures on earth is driven by the absorpion of solar radiation from the sun.</p></li>
+<li><p>The average earth net income of such solar radiation is <span class="math inline">\(342 \ W/m^2\)</span> <span class="citation" data-cites="Lovejoy2008">(<a href="#ref-Lovejoy2008" role="doc-biblioref">Lovejoy, 2008</a>)</span>.</p></li>
+<li><p>About <span class="math inline">\(31\%\)</span> of such energy is reflected back in space and never reaches the surface.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>The rest of the radiation is reflected and when it happens the emitted radiation is changed in wave length to long infrared radiation. This is an important passage because infrared radiation can become trapped by the so called Greenhouse gasses (GHG) such as water vapor (<span class="math inline">\(H_2O\)</span>), methane (<span class="math inline">\(CH_4\)</span>), ozone (<span class="math inline">\(O_3\)</span>), nitrous oxide (<span class="math inline">\(N_2O\)</span>), and carbon dioxide (<span class="math inline">\(CO_2\)</span>).</p></li>
+<li><p>This absorption creates an additional net influx of energy on earth.</p></li>
+<li><p>To conserve the energy balance of the system there must be some change in non-radiative energy, including temperature!</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_4.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption>The earth’s annual global mean energy budget based on <span class="citation" data-cites="Kiehl1997">Kiehl &amp; Trenberth (<a href="#ref-Kiehl1997" role="doc-biblioref">1997</a>)</span>.</figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li><p>Each GHG varies in its capacity to absorb longwave radiation and in other ways it can affect its overall contribution to the warming produced</p>
+<ol type="1">
+<li><p>The amount of gas released in the atmosphere per year</p></li>
+<li><p>The length of time the gas stays in the atmosphere (also known as residence time)</p></li>
+<li><p>Its capacity to affect the atmosphere chemistry</p></li>
+<li><p>Its concentration and capacity to interact with other GHG</p></li>
+</ol></li>
+<li><p>Considering all these factors together, water vapor (<span class="math inline">\(H_2O\)</span>) and carbon dioxide (<span class="math inline">\(CO_2\)</span>) contribute for <span class="math inline">\(60\%\)</span> and <span class="math inline">\(26\%\)</span> of the warming respectively.</p></li>
+</ul>
+</section>
+<section id="rapidly-rising-co2" class="level2">
+<h2 class="anchored" data-anchor-id="rapidly-rising-co2">Rapidly rising CO2</h2>
+<ul>
+<li><p>Humans, through their, activities are contributing to the dramatic increase of greenhouse gasses.</p></li>
+<li><p>Of these, <span class="math inline">\(CO_2\)</span>, through the burning of fossil fuel, is the one increasing the most and having the largest effect on the absorption of energy, as in normal conditions it contributes for about <span class="math inline">\(26\%\)</span> of the warming effect <span class="citation" data-cites="Kiehl1997">(<a href="#ref-Kiehl1997" role="doc-biblioref">Kiehl &amp; Trenberth, 1997</a>)</span>.</p></li>
+<li><p>Direct measurements of <span class="math inline">\(CO_2\)</span> (and other GHG) emission began in 1958 in Hawaii, but older records can be estimated by measuring the concentrations of GHG trapped in, for examples, ice cores.</p></li>
+<li><p>Ice cores collected in antarctica helped to estimate GHG concentrations over the last 800K years.</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_5.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption><span class="math inline">\(CO_2\)</span> data from ice cores covering the last 800,000 years. Data from NASA, image available <a href="https://earth.org/data_visualization/a-brief-history-of-co2/">here</a>.</figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li><p>Drawing on ice cores and other inferential data, climatologist M. J. Apps and colleagues were able to estimate temperature and <span class="math inline">\(CO_2\)</span> levels going back to 1.5 million years ago!</p></li>
+<li><p>Throughout at least the last 4 glacial cycles, spanning nearly 1.5 million years, …, the amtmospheric concentration of <span class="math inline">\(CO_2\)</span> only varied ~180ppmv during glatiations … and ~280ppmv during the interglacial periods. This narrow range of variation is remarkable, given that its concentration is determined by a highly dynamic biogeochemical cycle…<span class="citation" data-cites="Bhatti2006">(<a href="#ref-Bhatti2006" role="doc-biblioref">Bhatti, 2006</a>)</span>.</p></li>
+<li><p>Current concetration levels of <span class="math inline">\(CO_2\)</span> are ~410ppm</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>More troubling is the rate of increase of such concentration, which is 5 times greater than every other historical <span class="math inline">\(CO_2\)</span> increase on record, and 100 times faster than the rate of increase at the end of the last ice age.</p></li>
+<li><p>Because overall <span class="math inline">\(CO_2\)</span> concentrations, and human contributions to them are still rising, and are expected to continue rising at least until the first half of the <span class="math inline">\(21^{st}\)</span> century, the world appears to be decades from climate stability <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_6.png" class="img-fluid figure-img"></p>
+<figcaption>Global <span class="math inline">\(CO_2\)</span> emissions for 1940 to 2000 and emissions ranges for categories of stabilisation scenarios from 2000 to 2100; and the corresponding relationship between the stabilisation target and the likely equilibrium global average temperature increase above pre-industrial. <a href="https://www.ipcc.ch/report/ar4/syr/">IPCC-AR4 Climate Change 2007: Synthesis Report</a>.</figcaption>
+</figure>
+</div>
+</section>
+<section id="common-ecological-response-to-climate-change" class="level2">
+<h2 class="anchored" data-anchor-id="common-ecological-response-to-climate-change">Common ecological response to climate change</h2>
+<ul>
+<li><p>A range of species-specific responses have been identified along with a range of common patterns of response shared among taxonomic or ecological guilds <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+<li><p><span class="citation" data-cites="Parmesan2003">Parmesan &amp; Yohe (<a href="#ref-Parmesan2003" role="doc-biblioref">2003</a>)</span> conducted a meta-analysis evaluating over 1700 species to determine if recent biological shifts in range and timing of the analyzed species matched predictions from climate change analysis.</p></li>
+<li><p>In 2013 another group of researchers, including Camille Parmesan, conducted a new analysis on marine organisms documenting that <span class="math inline">\(83\%\)</span> of observed changes in single species were according to what was predicted by climate change <span class="citation" data-cites="Poloczanska2013">(<a href="#ref-Poloczanska2013" role="doc-biblioref">Poloczanska et al., 2013</a>)</span>.</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_7.png" class="img-fluid figure-img"></p>
+<figcaption>Summary of biological change events from a meta-analysis of studies from 1700 species. After <span class="citation" data-cites="Parmesan2003">Parmesan &amp; Yohe (<a href="#ref-Parmesan2003" role="doc-biblioref">2003</a>)</span>.</figcaption>
+</figure>
+</div>
+<ul>
+<li>These changes in species response are not random, but consistent with the directions predicted by climate change. The range of responses is scattered across species and ecosystems, indicating global and widespread implications of climate changes <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</li>
+</ul>
+</section>
+<section id="phenological-changes" class="level2">
+<h2 class="anchored" data-anchor-id="phenological-changes">Phenological changes</h2>
+<ul>
+<li><p>Changes in species phenology, the seasonal timing of life history traits, is one of the most unambiguous consequence of climate change.</p></li>
+<li><p>Life history traits, fecundity, development and survivorship, are highly plastic (they show adaptive response) to variation in temperature.</p></li>
+<li><p>This means that species and individuals can have their physiology, behavior and even morphology modified by changes in temperature patterns and climate changes.</p></li>
+<li><p><span class="citation" data-cites="Inouye2000">Inouye, Barr, Armitage, &amp; Inouye (<a href="#ref-Inouye2000" role="doc-biblioref">2000</a>)</span> documented that over the time-span of 23 years the yellow bellied marmots, <em>Marmota flaviventris</em>, had advanced their emergence date by 38 days as a result of warmer local spring air temperature in Colorado (USA).</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Marmot appearence.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Marmot appearance. <span class="citation" data-cites="Inouye2000">(After <a href="#ref-Inouye2000" role="doc-biblioref">Inouye et al., 2000</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="pollination-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="pollination-patterns">Pollination patterns</h2>
+<ul>
+<li><p>Climate change is affecting the flowering date of many plants, advancing the flowering in the spring <span class="citation" data-cites="Calinger2013">(<a href="#ref-Calinger2013" role="doc-biblioref">Calinger, Queenborough, &amp; Curtis, 2013</a>)</span>.</p></li>
+<li><p>Accordingly, many fo the pollinator species that feed and contribute to plant pollination are now appearing earlier in the year.</p></li>
+<li><p>When phenological changes in plants (i.e., earlier flowering time) and pollinators (i.e.&nbsp;earlier emergence in the season due to early emergence from eggs or awakening from hibernation) happen at the same time the degree of sinchronization is maintained. However, when the timing of one species changes faster than the other, or when the shifts happens in different directions such disagreement can cause plants population depression or pollinators starvation <span class="citation" data-cites="Morton2017">(<a href="#ref-Morton2017" role="doc-biblioref">Morton &amp; Rafferty, 2017</a>)</span>.</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_8.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Conceptual depiction of phenological changes in plant-pollinators interactions. After <span class="citation" data-cites="Morton2017">Morton &amp; Rafferty (<a href="#ref-Morton2017" role="doc-biblioref">2017</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="predator-prey-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="predator-prey-dynamics">Predator-prey dynamics</h2>
+<ul>
+<li><p>The Skagit river is a key wintering site for bald eagles in Washington (USA).</p></li>
+<li><p><span class="citation" data-cites="Rubenstein2018">Rubenstein, Christophersen, &amp; Ransom (<a href="#ref-Rubenstein2018" role="doc-biblioref">2018</a>)</span> considered trends in habitat use, salmon escapement (the proportion of salmon that does not get caught by the prey) and the timing and instensity of flood events.</p></li>
+<li><p>The authors found that peak presence of salmons and eagles has advanced of about <span class="math inline">\(0.45\)</span> days/year in the past 30 years. The predator demonstrated the ability to rapidly respond and take advantage of ephemeral resources across the landscape.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>The authors also noticed that the population of prey also showed an asynchronous response to flood events. The interval between population peak and first flow event grew approximately of <span class="math inline">\(1\)</span> day/year <span class="citation" data-cites="Rubenstein2018">(<a href="#ref-Rubenstein2018" role="doc-biblioref">Rubenstein et al., 2018</a>)</span>.</p></li>
+<li><p>The ecological outcome of this shift are still not completely understood, but could have a cascade effect in the way trophic components of the fresh water ecosystem interact with the marine ecosystem.</p></li>
+</ul>
+</section>
+<section id="range-shifts" class="level2">
+<h2 class="anchored" data-anchor-id="range-shifts">Range shifts</h2>
+<p><img src="./class_20_9.png" class="img-fluid" alt="Meta analysis investigating a direct link between temperature change and range shift. After Chen, Hill, Ohlemüller, Roy, &amp; Thomas (2011)">[{width=“70%”}</p>
+</section>
+<section id="other-effects-of-climate-change" class="level2">
+<h2 class="anchored" data-anchor-id="other-effects-of-climate-change">Other effects of climate change</h2>
+<ul>
+<li><p>Rising sea temperatures and deepening fish assemblages</p></li>
+<li><p>Contracting ranges.</p></li>
+<li><p>Spread of pathogens.</p></li>
+<li><p>Competitive advantages of invasive species.</p></li>
+<li><p>Increasing threat of extinctions.</p></li>
+<li><p>Declining health and local disappearing of coral reefs.</p></li>
+<li><p>Disappearing ecosystems and the species that rely on them.</p></li>
+</ul>
+</section>
+<section id="tools-for-assessing-future-climate-changes" class="level2">
+<h2 class="anchored" data-anchor-id="tools-for-assessing-future-climate-changes">Tools for assessing future climate changes</h2>
+<ul>
+<li><p>Accurately anticipating the effects of climates change on biodiversity requires a multidisciplinary approach and numerous and diverse lines of evidence.</p></li>
+<li><p>Reviewing paleoecological observations, recent phenological and microevolutionary responses, experiments and computational models, <span class="citation" data-cites="Dawson2011">Dawson, Jackson, House, Prentice, &amp; Mace (<a href="#ref-Dawson2011" role="doc-biblioref">2011</a>)</span> concluded that reliance on a single scientific approach creates risks of policy or management failures.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p><em>Vulnerability</em> to climate change is defined as the extant to which a species or population is threatened with decline, reduced fitness, genetic loss of extinction due to climate change as a function of three primary components: <span style="color: red;">exposure</span>, <span style="color: green;">sensitivity</span> or <span style="color: blue;">adaptive capacity</span>.</p></li>
+<li><p><span style="color: red;">Exposure</span> is defined as the extant of climate change likely to be experienced by a species or locale <span class="citation" data-cites="Dawson2011">(<a href="#ref-Dawson2011" role="doc-biblioref">Dawson et al., 2011</a>)</span>.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>The rate and magnitude of the change provide an indication of how strong and disruptive the change will be to the ecosystem enduring it.</p></li>
+<li><p>The drivers of this change are societals demands and needs which results in associated variation in GHG emessions <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+<li><p>A range of potential future changes can be developed via Global Climate Models (GCMs) and can downscaled to highlight abiotic pressures or resulting effects on the physical environment.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>These climate scenario are also the ones used within Ecological Niche Models (also referred as climate envelop models), which use statistical relationship between climate variables and species distributions.</p></li>
+<li><p>ENMs are useful to map how species’ preferred environmental space moves according to climate changes.</p></li>
+<li><p><span style="color: green;">Sensitivity</span> is defined as the degree to which the survival, persistence, fitness, performance, or regeneration of a species or population is dependent on the prevailing climate, particularly on those variables that are more likely to change in the near future <span class="citation" data-cites="Dawson2011 VanDyke2020">(<a href="#ref-Dawson2011" role="doc-biblioref">Dawson et al., 2011</a>; <a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+<li><p>Here the focus is on species- specific factors that may indicate higher risk relative to specific changes in climate variables.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>The more sensitive is a species the greater the changes in survival and fecundity under small changes in climate conditions.</p></li>
+<li><p>This second component of vulnerability is important for management since species across the same spatial domain may exhibit very different sensitivity and respond in radically different ways to the same climate variations <span class="citation" data-cites="Foden2019">(<a href="#ref-Foden2019" role="doc-biblioref">Foden et al., 2019</a>)</span>.</p></li>
+<li><p>Finally, <span style="color: blue;">adaptive capacity</span> is the last component of species vulnerability to climate changes.</p></li>
+<li><p>This is the capacity of a species or population to cope with climate change by persisting in-situ, but shifting to more suitable local microhabitats, or migrating to more suitable regions <span class="citation" data-cites="Dawson2011">(<a href="#ref-Dawson2011" role="doc-biblioref">Dawson et al., 2011</a>)</span>.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>Utilizing empirical and observations studies along with modeling and prediction studies, scientists have worked to characterize the adaptive capacity of a species or population starting from intrinsic factors such as phenotypic plasticity, dispersal ability, colonization ability or evolvability <span class="citation" data-cites="VanDyke2020 Foden2019">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>; <a href="#ref-Foden2019" role="doc-biblioref">Foden et al., 2019</a>)</span>.</p></li>
+<li><p>Given the high number of species under threat it is important to organize and mine the information and literature available to look for clues about inherent species capacities. Along this strategy, it is important to create empirical models that can estimate a range of ecological and evolutionary responses to forecasted environmental changes <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_11.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Model of species vulnerability to climate threats. After <span class="citation" data-cites="Dawson2011">Dawson et al. (<a href="#ref-Dawson2011" role="doc-biblioref">2011</a>)</span>.</figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_12.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>A schematics of how an integrated approach to climate-science could look like. After <span class="citation" data-cites="Dawson2011">Dawson et al. (<a href="#ref-Dawson2011" role="doc-biblioref">2011</a>)</span>.</figcaption>
+</figure>
+</div>
+</section>
+<section id="an-example-of-enm" class="level2">
+<h2 class="anchored" data-anchor-id="an-example-of-enm">An example of ENM</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Red dots show the 427 <em>Conolophus marthae</em> location data collected during 11 sampling campaigns across 18 years (2005-2022). Map projection is WGS 1984 UTM Zone 15. After <span class="citation" data-cites="Gargano2025">Gargano et al. (<a href="#ref-Gargano2025" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_2.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Estimated fixed effects of environmental variables on the probability of occurrence of <em>C. marthae</em>. After <span class="citation" data-cites="Gargano2025">Gargano et al. (<a href="#ref-Gargano2025" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_3.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Map of the posterior predictive mean of the probability of occurrence of <em>Conolophus marthae</em> within the study area. After <span class="citation" data-cites="Gargano2025">Gargano et al. (<a href="#ref-Gargano2025" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_4.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Predictive map of the probability of occurrence for C. marthae outside the sampling area. After <span class="citation" data-cites="Gargano2025">Gargano et al. (<a href="#ref-Gargano2025" role="doc-biblioref">2025</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="policies-against-climate-change" class="level2">
+<h2 class="anchored" data-anchor-id="policies-against-climate-change">Policies against climate change</h2>
+<ul>
+<li><p>With the availability of spatial tools, modeling algorithm, increasing data collection, it is not a question of whether we should engage in climate informed conservation, but of which tools to apply under what conditions and to which species conditions <span class="citation" data-cites="Tingley2014">(<a href="#ref-Tingley2014" role="doc-biblioref">Tingley, Darling, &amp; Wilcove, 2014</a>)</span>.</p></li>
+<li><p>According to <span class="citation" data-cites="Tingley2014">Tingley et al. (<a href="#ref-Tingley2014" role="doc-biblioref">2014</a>)</span>, it could be possible to classify conservation actions as either fine-filter or coarse-filter, with a portfolio of strategies that can be implemented. The authors further use the metaphor of a theater to better explain the rationale behind chosing a stratey that would save the actors or the stage.</p></li>
+<li><p>Decision on what are the best strategies to use depends on the answers to three key management questions: Where? When? Why?</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_13.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Fine VS coarse filters in conservavtion approaches to climate issues. After <span class="citation" data-cites="Tingley2014">Tingley et al. (<a href="#ref-Tingley2014" role="doc-biblioref">2014</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li>Conservation responses to climate change require two components:</li>
+</ul>
+<ol type="1">
+<li>to adapt conservation strategies to manage dynamic biodiversity and mitigate the overall effects of climate change;</li>
+<li>to engage policy makers to take actions and reduce GHG emissions to levels that will keep biological changes manageable.</li>
+</ol>
+<ul>
+<li><p>We have definitely managed to engage policy makers with <a href="https://en.wikipedia.org/wiki/Paris_Agreement">Paris Agreements</a> (2015). Negotiated by 196 countries and currently signed by 195 and ratified by 185. The ultimate goal of the agreement is to reduce GHG emission to ensure a global warming no greater than <span class="math inline">\(1.5\ ˚C\)</span>.</p></li>
+<li><p>This agreement builds on the United Nations Framework Convention on Climate Change and works to overcome some of the difficulties presented during and after the <a href="https://en.wikipedia.org/wiki/Kyoto_Protocol">Kyoto Protocol</a> (1997).</p></li>
+</ul>
+</section>
+<section id="how-things-are-looking" class="level2">
+<h2 class="anchored" data-anchor-id="how-things-are-looking">How things are looking?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_20_14.png" class="img-fluid figure-img"></p>
+<figcaption>Global GHG emissions trends under different scenarios. After <span class="citation" data-cites="Rogelj2016">Rogelj et al. (<a href="#ref-Rogelj2016" role="doc-biblioref">2016</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li><p>What has Italy pledged to keep warming at or below <span class="math inline">\(1.5\ ˚C\)</span>?</p></li>
+<li><p>How are we doing?</p></li>
+<li><p>Lets take a look…<a href="https://ec.europa.eu/eurostat/web/climate-change/visualisations">Eurostat</a>.</p></li>
+<li><p>Given ongoing opportunities for synchronized climate change mitigation and adaptation, conservation biologists are poised to advance solutions that both slow climate change and protect biodiversity.</p></li>
+<li><p>Many international activities, such as the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (<a href="https://www.ipbes.net">IPBES</a>), provide a platform for the scientific engagement on a global scale.</p></li>
+<li><p>Every country must be involved in this process, and when individual countries, especially the ones that contribute most GHG, remove themselves from the solution-building conversations on the global scale, they put both people and ecosystems at risk <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span>.</p></li>
+</ul>
+</section>
+<section id="references" class="level1 allowframebreaks">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Bhatti2006" class="csl-entry" role="listitem">
+Bhatti, J. S. (Ed.). (2006). <em>Climate change and managed ecosystems</em>. Boca Raton, FL: CRC Press, Taylor &amp; Francis Group.
+</div>
+<div id="ref-Calinger2013" class="csl-entry" role="listitem">
+Calinger, K. M., Queenborough, S., &amp; Curtis, P. S. (2013). Herbarium specimens reveal the footprint of climate change on flowering trends across north-central north america. (Y. Buckley, Ed.)<em>Ecology Letters</em>, <em>16</em>(8), 1037–1044. Wiley. Retrieved from <a href="https://doi.org/10.1111%2Fele.12135">https://doi.org/10.1111%2Fele.12135</a>
+</div>
+<div id="ref-Ching2011" class="csl-entry" role="listitem">
+Chen, I.-C., Hill, J. K., Ohlemüller, R., Roy, D. B., &amp; Thomas, C. D. (2011). Rapid range shifts of species associated with high levels of climate warming. <em>Science</em>, <em>333</em>(6045), 1024–1026. Retrieved from <a href="https://www.science.org/doi/abs/10.1126/science.1206432">https://www.science.org/doi/abs/10.1126/science.1206432</a>
+</div>
+<div id="ref-Dawson2011" class="csl-entry" role="listitem">
+Dawson, T. P., Jackson, S. T., House, J. I., Prentice, I. C., &amp; Mace, G. M. (2011). Beyond predictions: Biodiversity conservation in a changing climate. <em>Science</em>, <em>332</em>(6025), 53–58. Retrieved from <a href="https://www.science.org/doi/abs/10.1126/science.1200303">https://www.science.org/doi/abs/10.1126/science.1200303</a>
+</div>
+<div id="ref-VanDyke2020" class="csl-entry" role="listitem">
+Dyke, F. V., &amp; Lamb, R. L. (2020). <em>Conservation biology</em>. Springer International Publishing. Retrieved from <a href="https://doi.org/10.1007%2F978-3-030-39534-6">https://doi.org/10.1007%2F978-3-030-39534-6</a>
+</div>
+<div id="ref-Foden2019" class="csl-entry" role="listitem">
+Foden, W. B., Young, B. E., Akçakaya, H. R., Garcia, R. A., Hoffmann, A. A., Stein, B. A., Thomas, C. D., et al. (2019). Climate change vulnerability assessment of species. <em>WIREs Climate Change</em>, <em>10</em>(1), e551. Retrieved from <a href="https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcc.551">https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcc.551</a>
+</div>
+<div id="ref-Gargano2025" class="csl-entry" role="listitem">
+Gargano, M., Marta, S., Garizio, L., Gratton, P., Colosimo, G., Gerber, G. P., Lewbart, G. A., et al. (2025). A spatio-temporally explicit distribution model to support conservation strategies for isolated small-ranged species: A case study from galapagos. <em>Diversity and Distribution, DDI-2025-0320</em>, (and Glenn P. Gerber and Gregory A. Lewbart and Christian Sevilla and Gabriele Gentile).
+</div>
+<div id="ref-Grinnell1917" class="csl-entry" role="listitem">
+Grinnell, J. (1917). Field tests of theories concerning distributional control. <em>The American Naturalist</em>, <em>51</em>(602), 115–128. University of Chicago Press. Retrieved from <a href="https://doi.org/10.1086%2F279591">https://doi.org/10.1086%2F279591</a>
+</div>
+<div id="ref-Inouye2000" class="csl-entry" role="listitem">
+Inouye, D. W., Barr, B., Armitage, K. B., &amp; Inouye, B. D. (2000). Climate change is affecting altitudinal migrants and hibernating species. <em>Proceedings of the National Academy of Sciences</em>, <em>97</em>(4), 1630–1633. Proceedings of the National Academy of Sciences. Retrieved from <a href="https://doi.org/10.1073%2Fpnas.97.4.1630">https://doi.org/10.1073%2Fpnas.97.4.1630</a>
+</div>
+<div id="ref-Kiehl1997" class="csl-entry" role="listitem">
+Kiehl, J. T., &amp; Trenberth, K. E. (1997). Earth’s annual global mean energy budget. <em>Bulletin of the American Meteorological Society</em>, <em>78</em>(2), 197–208. Boston MA, USA: American Meteorological Society. Retrieved from <a href="https://journals.ametsoc.org/view/journals/bams/78/2/1520-0477_1997_078_0197_eagmeb_2_0_co_2.xml">https://journals.ametsoc.org/view/journals/bams/78/2/1520-0477_1997_078_0197_eagmeb_2_0_co_2.xml</a>
+</div>
+<div id="ref-Lovejoy2008" class="csl-entry" role="listitem">
+Lovejoy, T. E. (2008). Climate change and biodiversity. <em>Revue scientifique et technique</em>, <em>27 2</em>, 331–8.
+</div>
+<div id="ref-Molina2014" class="csl-entry" role="listitem">
+Molina, M., McCarthy, J., Wall, D., Alley, R., Cobb, K., Cloe, J., Das, S., et al. (2014). <em>What we know: The reality, risks and response to climate change.</em> The AAAS Climate Science Panel.
+</div>
+<div id="ref-Morton2017" class="csl-entry" role="listitem">
+Morton, E. M., &amp; Rafferty, N. E. (2017). Plant<span></span>pollinator interactions under climate change: The use of spatial and temporal transplants. <em>Applications in Plant Sciences</em>, <em>5</em>(6), 1600133. Wiley. Retrieved from <a href="https://doi.org/10.3732%2Fapps.1600133">https://doi.org/10.3732%2Fapps.1600133</a>
+</div>
+<div id="ref-Parmesan2003" class="csl-entry" role="listitem">
+Parmesan, C., &amp; Yohe, G. (2003). A globally coherent fingerprint of climate change impacts across natural systems. <em>Nature</em>, <em>421</em>(6918), 37–42. Springer Science; Business Media <span>LLC</span>. Retrieved from <a href="https://doi.org/10.1038%2Fnature01286">https://doi.org/10.1038%2Fnature01286</a>
+</div>
+<div id="ref-Poloczanska2013" class="csl-entry" role="listitem">
+Poloczanska, E. S., Brown, C. J., Sydeman, W. J., Kiessling, W., Schoeman, D. S., Moore, P. J., Brander, K., et al. (2013). Global imprint of climate change on marine life. <em>Nature Climate Change</em>, <em>3</em>(10), 919–925. Springer Science; Business Media <span>LLC</span>. Retrieved from <a href="https://doi.org/10.1038%2Fnclimate1958">https://doi.org/10.1038%2Fnclimate1958</a>
+</div>
+<div id="ref-Rogelj2016" class="csl-entry" role="listitem">
+Rogelj, J., Elzen, M. den, Höhne, N., Fransen, T., Fekete, H., Winkler, H., Schaeffer, R., et al. (2016). Paris agreement climate proposals need a boost to keep warming well below 2<span></span><span></span>c. <em>Nature</em>, <em>534</em>(7609), 631–639. Springer Science; Business Media <span>LLC</span>. Retrieved from <a href="https://doi.org/10.1038%2Fnature18307">https://doi.org/10.1038%2Fnature18307</a>
+</div>
+<div id="ref-Rubenstein2018" class="csl-entry" role="listitem">
+Rubenstein, M. A., Christophersen, R., &amp; Ransom, J. I. (2018). Trophic implications of a phenological paradigm shift: Bald eagles and salmon in a changing climate. (D. Thompson, Ed.)<em>Journal of Applied Ecology</em>, <em>56</em>(3), 769–778. Wiley. Retrieved from <a href="https://doi.org/10.1111%2F1365-2664.13286">https://doi.org/10.1111%2F1365-2664.13286</a>
+</div>
+<div id="ref-Tingley2014" class="csl-entry" role="listitem">
+Tingley, M. W., Darling, E. S., &amp; Wilcove, D. S. (2014). Fine- and coarse-filter conservation strategies in a time of climate change. <em>Annals of the New York Academy of Sciences</em>, <em>1322</em>(1), 92–109. Wiley. Retrieved from <a href="https://doi.org/10.1111%2Fnyas.12484">https://doi.org/10.1111%2Fnyas.12484</a>
+</div>
+<div id="ref-Vitousek1992" class="csl-entry" role="listitem">
+Vitousek, P. M. (1992). Global environmental change: An introduction. <em>Annual Review of Ecology and Systematics</em>, <em>23</em>(1), 1–14. Annual Reviews. Retrieved from <a href="https://doi.org/10.1146%2Fannurev.es.23.110192.000245">https://doi.org/10.1146%2Fannurev.es.23.110192.000245</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/giulianocolosimo\.github\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025 Giuliano Colosimo</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>. Inspiration for this site comes from <a href="https://www.mm218.dev">here</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

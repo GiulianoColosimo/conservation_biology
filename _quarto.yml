@@ -65,10 +65,12 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 10 - Material review and excercise.pdf
             text: "Class 10 - Material review and excercise"
             icon: file-pdf
-#          - href: ./classes/11/class_11.html
-#            text: "Class 11 - Excercise: Accessing weather station data"
-#          - href: ./classes/12/class_12.html
-#            text: "Class 12 - Seminar"
+          - href: ./classes/Conservation Biology 25-26 - Class 11 - Population Viability Analysis.pdf
+            text: "Class 11 - Population Viability Analysis"
+            icon: file-pdf
+          - href: ./classes/Conservation Biology 25-26 - Class 12 - Conservation and climate change.pdf
+            text: "Class 12 - Conservation and climate change"
+            icon: file-pdf
 #          - href: ./classes/13/class_13.html
 #            text: "Class 13 - Conservation economics 1"
 #          - href: ./classes/14/class_14.html

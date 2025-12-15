@@ -159,32 +159,31 @@ $$
 
 -   Solving the equations: $F_{P(G)} = 0.125$, and $F_{P(K)} = (\frac{1}{2})^3 (1.125)$
 
----
+------------------------------------------------------------------------
 
 ![Complex pedigree. After @Allendorf2022](./complexPedigree.png){width="40%" fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
 ![Calculation of the pedigree inbreeding coefficient for the previous slide. After @Allendorf2022](./complexPedigreeExt.png){width="70%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 -   Two major short comings while using $F_P$:
 
     1.  It does not account for the inbreeding level of individuals that are not included in the reference pedigree
-    
+
     2.  This metric is sub-optimal to obtain an accurate estimate of the proportion of the genome that is IBD, because there is a much variation in the proportion of genes that are IBD imputable to chance alone
 
 -   In general, it is often very complicated to obtain accurate pedigrees for natural populations, and while this approach is still massively used in all species for which we can maintain appropriate pedigree databases, coefficient of inbreeding in wild animals is often obtained through the analysis of molecular markers
 
----
+------------------------------------------------------------------------
 
 -   Molecular marker-based measures of $F$ range from simple estimates of individual heterozygosity to more advanced methods that use mapped loci to estimate $F$ via identification of IBD chromosome segments as stretches of homozygous genotypes at mapped single nucleotide polymorphisms [@Allendorf2022, pg. 381]
 
----
+------------------------------------------------------------------------
 
 ## Inbreeding coefficient using unmapped loci
 
@@ -212,7 +211,7 @@ $$
 F_H = \frac{O(Hom)-E(Hom)}{L-E(Hom)}
 $$
 
----
+------------------------------------------------------------------------
 
 -   Where $O(Hom)$ and $E(Hom)$ are the observed and expected Hardy–Weinberg (HW) numbers of homozygous loci in an individual and $L$ is the number of loci examined
 
@@ -240,62 +239,61 @@ $$
 
 ![Callimico monkeys from the [Connecticut Zoo](https://www.beardsleyzoo.org)](./callimico.png){width="80%" fig-align="center"}
 
----
+------------------------------------------------------------------------
 
-![Relationship between inbreeding ($F_P$) and infant survival in captive callimico monkeys.   After @Lacy1997](./class_10_12.png){width="70%" fig-align="center"}
+![Relationship between inbreeding ($F_P$) and infant survival in captive callimico monkeys. After @Lacy1997](./class_10_12.png){width="70%" fig-align="center"}
 
----
-  
+------------------------------------------------------------------------
+
 ::::: columns
 ::: {.column width="50%"}
 ![The concomitant contribution of different factors in determining a vortex effect leading the populations to extinction. Image downloaded [here](https://bio1152.nicerweb.com/Locked/media/ch56/vortex.html)](./class_10_9.jpg){width="60%" fig-align="center"}
 :::
-  
+
 ::: {.column width="50%"}
 ![A more recent take on extinction vortex. After @Allendorf2022](./class_10_10.png){width="60%" fig-align="center"}
 :::
 :::::
-  
----
 
-- Inbreeding depression can result from either increased homozygosity or reduced heterozygosity
+------------------------------------------------------------------------
 
-- Aren't increased homozygosity or reduced heterozygosity two sides of the same coin?
+-   Inbreeding depression can result from either increased homozygosity or reduced heterozygosity
 
-- Yes, but the mechanism related to a fitness reduction is distinct! Increased homozygosity leads to expression of a greater number of deleterious recessive alleles in inbred individuals, thereby lowering their fitness. Reduced heterozygosity reduces fitness of inbred individuals at loci where the heterozygotes have a selective advantage over homozygotes (heterozygous advantage or overdominance)
+-   Aren't increased homozygosity or reduced heterozygosity two sides of the same coin?
 
-- Most evidence show support for the primary problem of inbreeding depression is increased homozygosity [@Allendorf2022]
+-   Yes, but the mechanism related to a fitness reduction is distinct! Increased homozygosity leads to expression of a greater number of deleterious recessive alleles in inbred individuals, thereby lowering their fitness. Reduced heterozygosity reduces fitness of inbred individuals at loci where the heterozygotes have a selective advantage over homozygotes (heterozygous advantage or overdominance)
 
+-   Most evidence show support for the primary problem of inbreeding depression is increased homozygosity [@Allendorf2022]
 
 ## Different mechanisms of fitness reduction
 
 ![After @Frankham2010](./class_15_2.jpg)
 
-- It is crucial to know the mechanisms causing inbreeding depression because it affects the ability of a population to "adapt" to inbreeding
+-   It is crucial to know the mechanisms causing inbreeding depression because it affects the ability of a population to "adapt" to inbreeding
 
-- A population could adapt to inbreeding if inbreeding depression is caused by deleterious recessive alleles that potentially could be removed (purged by selection)
+-   A population could adapt to inbreeding if inbreeding depression is caused by deleterious recessive alleles that potentially could be removed (purged by selection)
 
----
+------------------------------------------------------------------------
 
-- However, inbreeding depression caused by heterozygous advantage cannot be purged because overdominant loci will always suffer reduced fitness as homozygosity increases due to increased inbreeding [@Allendorf2022]
+-   However, inbreeding depression caused by heterozygous advantage cannot be purged because overdominant loci will always suffer reduced fitness as homozygosity increases due to increased inbreeding [@Allendorf2022]
 
-- Deleterious recessive alleles are present in the genome of all species because they are continually introduced by mutation, and natural selection is inefficient at removing them because most copies are "hidden" phenotypically in heterozygotes that do not have reduced fitness [@Allendorf2022]
+-   Deleterious recessive alleles are present in the genome of all species because they are continually introduced by mutation, and natural selection is inefficient at removing them because most copies are "hidden" phenotypically in heterozygotes that do not have reduced fitness [@Allendorf2022]
 
-- We, therefore, expect all species to show some inbreeding depression due to the increase in homozygosity of recessive deleterious alleles
+-   We, therefore, expect all species to show some inbreeding depression due to the increase in homozygosity of recessive deleterious alleles
 
----
+------------------------------------------------------------------------
 
-- The effects of inbreeding depression on survival are often measured by the mean number of lethal equivalents (LEs) per diploid genome
+-   The effects of inbreeding depression on survival are often measured by the mean number of lethal equivalents (LEs) per diploid genome
 
-- A lethal equivalent is a set of deleterious alleles that would cause death if homozygous
+-   A lethal equivalent is a set of deleterious alleles that would cause death if homozygous
 
-- One lethal equivalent may be a single allele that is lethal when homozygous, two alleles each with a probability of 0.5 of causing death when homozygous, or 10 alleles each with a probability of 0.10 of causing death when homozygous
+-   One lethal equivalent may be a single allele that is lethal when homozygous, two alleles each with a probability of 0.5 of causing death when homozygous, or 10 alleles each with a probability of 0.10 of causing death when homozygous
 
----
+------------------------------------------------------------------------
 
-- The number of LEs present in a species or population is generally estimated by regressing survival on the inbreeding coefficient
+-   The number of LEs present in a species or population is generally estimated by regressing survival on the inbreeding coefficient
 
-- The effects of inbreeding on the probability of survival, S, can be expressed as a function of $F_P$ following @Morton1956
+-   The effects of inbreeding on the probability of survival, S, can be expressed as a function of $F_P$ following @Morton1956
 
 $$
 \label{le}
@@ -303,28 +301,25 @@ $$
 S = e^{-(A+BF_P)}
 $$
 
-
 where $e^{-A}$ is survival in an outbred population, and B is the inbreeding load.
 
----
+------------------------------------------------------------------------
 
 ![Relationship between inbreeding coefficient (F) and reduction in fitness. Inbreeding depression is the reduction in fitness of inbred individuals and measured by the number of LEs per gamete (B). The bracket shows the reduction in fitness (inbreeding depression) predicted for individuals with an F of 0.5. After @Keller2002a and @Allendorf2022.](./class_10_13.png){width="60%" fig-align="center"}
 
----
-
+------------------------------------------------------------------------
 
 ![After @Allendorf2022](./LE.png){width="45%" fig-align="center"}
 
-
 ## The concept of genetic load
 
-- Genetic load is the relative difference in fitness between the theoretically fittest genotype within a population and the average genotype in that population.
+-   Genetic load is the relative difference in fitness between the theoretically fittest genotype within a population and the average genotype in that population.
 
-- The term load was first used by @Muller1950 in his consideration of the possible effects of increased mutation rates because of nuclear weapons
+-   The term load was first used by @Muller1950 in his consideration of the possible effects of increased mutation rates because of nuclear weapons
 
-    1. Mutation load: The decrease in fitness caused by the accumulation of deleterious mutations
-    2. Segregation load: The decrease in fitness caused by heterozygous advantage
-    3. Drift load: The decrease in fitness caused by the increase in frequency of deleterious alleles resulting from genetic drift
-    4. Migration load: The reduction in fitness caused by the migration into a population of individuals that are less adapted to the local environment than native individuals
+    1.  Mutation load: The decrease in fitness caused by the accumulation of deleterious mutations
+    2.  Segregation load: The decrease in fitness caused by heterozygous advantage
+    3.  Drift load: The decrease in fitness caused by the increase in frequency of deleterious alleles resulting from genetic drift
+    4.  Migration load: The reduction in fitness caused by the migration into a population of individuals that are less adapted to the local environment than native individuals
 
 ## References {.allowframebreaks}

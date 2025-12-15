@@ -241,20 +241,20 @@ Although as an applied concept we can measure it at multiple levels, the most wi
 . . .
 
 | Species concept | Description | Reference |
-|:------------------|:---------------------------------|:------------------|
+|:---|:---|:---|
 | Typological Species Concept (TySP) | Defines species as distinct and fixed morphological types | Based on Plato's, Aristotele's, and, later, Christian philosophies |
 
 ------------------------------------------------------------------------
 
 |   |   | (continued) |
-|:------------------|:---------------------------------|:------------------|
+|:---|:---|:---|
 | Evolutionary Species Concept (ESC) | A species is a lineage of ancestral descent which maintains its identity from other such lineages and which has its own evolutionary tendencies and historical fate | [@Wiley1978] |
 | Biological Species Concept (BSC) | Groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups | [@Mayr1942] |
 
 ------------------------------------------------------------------------
 
 |   |   | (continued) |
-|:------------------|:---------------------------------|:------------------|
+|:---|:---|:---|
 | Phylogenetic Species Concept (PSC) | A species is the smallest diagnosable cluster of individual organisms within which there is a parental pattern of ancestry and descent | [@Cracraft1983] |
 | Differential Fitness Species Concept (DFSC) | Groups of individuals with features that would have negative fitness effects in other groups and cannot regularly be exchanged between groups upon contact | [@Hausdorf2011] |
 
@@ -283,7 +283,7 @@ Although as an applied concept we can measure it at multiple levels, the most wi
 # Measuring biodiversity
 
 | Index | Formula and Terms |
-|:----------------------------------|:-----------------------------------|
+|:---|:---|
 | **Alpha diversity**: |  |
 | The diversity of species within an ecological community. The number of different species (species richness) and their evenness (the species' relative abundance) | $H = - \sum_i^s \ p_i \ ln(p_i), \ (i=1, 2, 3,...,s), \ \ (0 \le H^{'}\le \infty)$ [@VanDyke2020]; $p_i$ = proportion of the total community abundance of the species $i$ |
 | **Beta diversity**: Measure of diversity among communities. A measure of the gradient of species composition across a landscape | $S/\alpha-1$ [@Whittaker1975]; $S$ = number of species in the area; $\alpha$ = average number of species per site |
@@ -291,7 +291,7 @@ Although as an applied concept we can measure it at multiple levels, the most wi
 ------------------------------------------------------------------------
 
 | Index | Formula and Terms |
-|:-----------------------------------|:-----------------------------------|
+|:---|:---|
 | **Gamma diversity**: Biodiversity of species across larger landscape levels | $dS/dD[(g+l)/2]$ [@Cody1986]; $D$ = distance; $g$ = rate of species gain; $l$ = rate of species loss |
 
 ## Calculating biodiversity: Excercise 1
