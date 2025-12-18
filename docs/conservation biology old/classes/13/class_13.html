@@ -141,8 +141,11 @@ window.Quarto = {
 
 <meta property="og:title" content="Excercise - Download climate data – Biologia della Conservazione 25/26">
 <meta property="og:description" content="Biologia della Conservazione 25/26">
+<meta property="og:image" content="https://giulianocolosimo.github.com/conservation biology old/classes/13/class_13_files/figure-html/unnamed-chunk-7-1.png">
 <meta property="og:site_name" content="Biologia della Conservazione 25/26">
 <meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="576">
+<meta property="og:image:width" content="768">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -469,6 +472,13 @@ window.Quarto = {
  <span class="menu-text">Class 12 - Conservation and climate change</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../.././classes/Conservation Biology 25-26 - Class 13 - Excercise-Download climate data.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Class 13 - Excercise - Download climate data</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -591,7 +601,7 @@ Attaching package: 'dplyr'</code></pre>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># start date in year, month, day format</span></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>startDate <span class="ot">&lt;-</span> <span class="fu">ISOdate</span>(<span class="dv">1990</span>, <span class="dv">1</span>, <span class="dv">1</span>) </span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># end date in year, month, day format</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>endDate <span class="ot">&lt;-</span> <span class="fu">ISOdate</span>(<span class="dv">2020</span>, <span class="dv">12</span>, <span class="dv">31</span>) </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>endDate <span class="ot">&lt;-</span> <span class="fu">ISOdate</span>(<span class="dv">2024</span>, <span class="dv">12</span>, <span class="dv">31</span>) </span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># second, we need to specify the data network parameter </span></span>
 <span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># we want to download the data from</span></span>
@@ -634,6 +644,192 @@ text        "text"
 opened      "closed"                                                            
 can read    "yes"                                                               
 can write   "no"                                                                </code></pre>
+</div>
+</div>
+<hr>
+<ul>
+<li>Now we can use that connection to read the information.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>jdict <span class="ot">&lt;-</span> <span class="fu">fromJSON</span>(data)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># to see what kind of object we have</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># you can type and execute jdict at the prompt</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>stationsPlot <span class="ot">&lt;-</span> </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">matrix</span>(<span class="fu">unlist</span>(jdict<span class="sc">$</span>features<span class="sc">$</span>geometry<span class="sc">$</span>coordinates),</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>                       <span class="at">nrow =</span> <span class="dv">2</span> )</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(stationsPlot[<span class="dv">1</span>,], stationsPlot[<span class="dv">2</span>,], <span class="at">asp =</span> <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="class_13_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="384"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<ul>
+<li>Now that we have all the codes of the weather stations we can work on the URL address were all the specific information of each weather station is stored.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> </span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="st">"https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?"</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, </span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"data=all&amp;tz=Etc/UTC&amp;format=comma&amp;latlon=yes&amp;"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, <span class="st">"year1="</span>, <span class="fu">year</span>(startDate),</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"&amp;month1="</span>, <span class="fu">month</span>(startDate), <span class="st">"&amp;day1="</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">mday</span>(startDate), <span class="st">"&amp;"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, <span class="st">"year2="</span>, <span class="fu">year</span>(endDate),</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"&amp;month2="</span>, <span class="fu">month</span>(endDate),</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"&amp;day2="</span>, <span class="fu">mday</span>(endDate), <span class="st">"&amp;"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>it_stations_id <span class="ot">&lt;-</span> jdict<span class="sc">$</span>features<span class="sc">$</span>id</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<ul>
+<li>Set the working directory where to store data.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"path/to/your/folder/of/choice"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<ul>
+<li>This is the main for loop to download the all the data.</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Beware!!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The original loop downloads about 4.4GB of data! You should only run it when you have a stable and fast internet connection. Right now we will run a simplified version of the script that should download data from only two stations.</p>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>it_stations_nm <span class="ot">&lt;-</span> jdict<span class="sc">$</span>features<span class="sc">$</span>properties<span class="sc">$</span>sname</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>){</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  uri <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, <span class="st">"station="</span>,</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>               it_stations_id[i], <span class="at">sep =</span> <span class="st">""</span>)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Network:"</span>, network, </span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Downloading:"</span>, it_stations_nm[i],</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>              it_stations_id[i], <span class="at">sep=</span><span class="st">" "</span>))</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  data <span class="ot">&lt;-</span> <span class="fu">url</span>(uri)</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  datestring1 <span class="ot">&lt;-</span> <span class="fu">format</span>(startDate, <span class="st">"%Y%m%d"</span>)</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  datestring2 <span class="ot">&lt;-</span> <span class="fu">format</span>(endDate, <span class="st">"%Y%m%d"</span>)</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>  outfn <span class="ot">&lt;-</span> <span class="fu">paste</span>(network, <span class="st">"_"</span>, it_stations_id[i],</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"_"</span>, datestring1, <span class="st">"_to_"</span>, datestring2, </span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>                 <span class="at">sep=</span><span class="st">""</span>)</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(uri, <span class="fu">paste</span>(outfn, <span class="st">".csv"</span>), <span class="st">"auto"</span>)</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./class_21_1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>This is what my result folder looks like. Note, I have downloaded all 4.4GB of data, but you should only have two files corresponding to “LIMG” and “LIEA”.</figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li>Time to load the data and look at them.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># path_to_csv &lt;- "path/to/your/data"</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>suffix <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"LIBA"</span>, <span class="st">"LIBC"</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> path_to_csv, </span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">"*.csv"</span>, <span class="at">full.names =</span> T) </span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>files_names <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> path_to_csv, </span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">"*.csv"</span>, <span class="at">full.names =</span> F)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>myfiles  <span class="ot">&lt;-</span>  <span class="fu">lapply</span>(files, read.csv, <span class="at">skip =</span> <span class="dv">5</span>, </span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>              <span class="at">header =</span> T, <span class="at">na.strings =</span> <span class="st">"M"</span>)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(myfiles) <span class="ot">&lt;-</span> suffix</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>myfiles_df <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(myfiles, <span class="at">.id =</span> <span class="st">"station_label"</span>)</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>format <span class="ot">&lt;-</span> <span class="st">"%Y-%m-%d %H:%M"</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>myfiles_df<span class="sc">$</span>valid <span class="ot">&lt;-</span> <span class="fu">as.POSIXct</span>(myfiles_df<span class="sc">$</span>valid,</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>          <span class="at">format =</span> format, <span class="at">tz =</span> <span class="st">"UTC"</span>)</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>myfiles_df[<span class="dv">1</span><span class="sc">:</span><span class="dv">13</span>, <span class="dv">2</span><span class="sc">:</span><span class="dv">7</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>   station               valid     lon     lat  tmpf  dwpf
+1     LIBA 1990-01-01 00:00:00 15.7139 41.5381 43.16 41.72
+2     LIBA 1990-01-01 01:00:00 15.7139 41.5381 42.80 41.00
+3     LIBA 1990-01-01 02:30:00 15.7139 41.5381 42.80 41.00
+4     LIBA 1990-01-01 03:00:00 15.7139 41.5381 42.80 41.36
+5     LIBA 1990-01-01 04:50:00 15.7139 41.5381 42.80 41.00
+6     LIBA 1990-01-01 06:00:00 15.7139 41.5381 43.16 41.00
+7     LIBA 1990-01-01 09:00:00 15.7139 41.5381 43.16 41.00
+8     LIBA 1990-01-01 12:00:00 15.7139 41.5381 44.60 43.16
+9     LIBA 1990-01-01 21:00:00 15.7139 41.5381 44.24 42.08
+10    LIBA 1990-01-02 00:00:00 15.7139 41.5381 43.88 42.44
+11    LIBA 1990-01-02 03:00:00 15.7139 41.5381 43.16 41.72
+12    LIBA 1990-01-02 06:00:00 15.7139 41.5381 43.52 42.08
+13    LIBA 1990-01-02 09:00:00 15.7139 41.5381 44.96 43.52</code></pre>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">date</span>(myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>                       <span class="st">"LIBA"</span>, ]<span class="sc">$</span>valid),</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>     myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span> <span class="st">"LIBA"</span>, ]<span class="sc">$</span>tmpf,</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">type =</span> <span class="st">"o"</span>, </span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Year"</span>, <span class="at">ylab =</span> <span class="st">"Temp."</span>,</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"LIBA, Amendola"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="class_13_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">date</span>(myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>                       <span class="st">"LIBC"</span>, ]<span class="sc">$</span>valid),</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>     myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span> <span class="st">"LIBC"</span>, ]<span class="sc">$</span>tmpf,</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">type =</span> <span class="st">"o"</span>, </span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Year"</span>, <span class="at">ylab =</span> <span class="st">"Temp."</span>,</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"LIBC, Crotone"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="class_13_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(stationsPlot[<span class="dv">1</span>,], </span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>     stationsPlot[<span class="dv">2</span>,], </span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">asp =</span> <span class="dv">1</span>, <span class="at">pch =</span> <span class="dv">21</span>, <span class="at">bg =</span> <span class="st">"gray"</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="fu">points</span>(stationsPlot[<span class="dv">1</span>,<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>],</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>       stationsPlot[<span class="dv">2</span>,<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>], </span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">pch =</span> <span class="dv">21</span>, <span class="at">bg  =</span> <span class="st">"green"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="class_13_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 
