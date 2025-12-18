@@ -48,7 +48,7 @@ rm(x)
 
 -   After all, we live in a largely capitalistic world, and increasing the capital, which often translates to increasing the bank account, is the goal of most corporations worldwide
 
--   Despite this, thinking like an economist or at least including a few economics notions in the way we think and develop conservation strategies can help to device appropriate conservation actions when resources are lacking or very few
+-   Despite this, thinking like an economist or at least including a few economics notions in the way we think and develop conservation strategies can help to device appropriate conservation actions when resources are lacking 
 
 ------------------------------------------------------------------------
 
@@ -126,7 +126,7 @@ rm(x)
 
 - In an effort to clarify ecosystem terms for an economic assessment some authors describe the following terms using an economic mindset :
 
-    -   \textcolor{red}{Ecosystems}: are combinations of interacting species and their environment. They do many things, not all of which are ecosystem services (e.g., a wetland)
+    -   \textcolor{red}{Ecosystems}: are combinations of interacting species and their environment. They do many things, not all of which are ecosystem services
 
     -   \textcolor{red}{Ecosystem services}: the subset of natural processes that actually generate benefits to people (e.g., water purification). Sometime the service is the production of a good
 
@@ -141,9 +141,9 @@ rm(x)
 
 -   Of the 24 services examined by the Millennium Ecosystem Assessment ([World Resource Institute](https://www.wri.org)), 15 were being used in an unsustainable way
 
--   As ecosystems and services they provide are degraded, global biodiversity is diminshed
+-   As ecosystems and services they provide are degraded, global biodiversity is diminished
 
--   Results from the MEA demonstrated that failing to include the value of ecosystems has left critical dimensions of human well-being out of economic decision making
+-   Results from the MEA demonstrated that failing to include the value of ecosystems has left critical dimensions of human well being out of economic decision making
 
 ## Stock-flow and Fund-service resources
 
@@ -172,7 +172,7 @@ Stock-flow resources:
 
 -   The fund provides a service at a fixed rate so that the service is best measured in some metric that describes the output over time
 
--   For example, from 2007 to 2016 terrestrial ecosystems globally removed an estimated 3.61 Pg (petagrams) C per year from the atmosphere which amounts to 33.7% of total anthropogenic emissions from industrial activity and land-use change [@Keenan2018]
+-   For example, from 2007 to 2016 terrestrial ecosystems globally removed an estimated 3.61 Pg (1 petagram = $10^{15}$ g) C per year from the atmosphere which amounts to 33.7% of total anthropogenic emissions from industrial activity and land-use change [@Keenan2018]
 
 ---
 
@@ -180,7 +180,7 @@ Stock-flow resources:
 
 -   We can expand this capacity via afforestation, but we cannot stockpile this service
 
--   Although the service cannot be used up, it can be worn out if the habitat providing the service is degraded or in suboptimal conditions
+-   Although the service cannot be used up, it can be worn out if the habitat providing the service is degraded or in sub optimal conditions
 
 -   By clearly distinguishing between these two resource types we are better able to define the parameters of the so called sustainable use
 
@@ -203,7 +203,7 @@ Stock-flow resources:
 
 -   Some ecosystem and good services are also \textcolor{blue}{non-rival}, in that the use of the good does not infringe on the use from other
 
--   Because of these characteristics (non-excludable and non-rival) these goods (like climate and water surfaces) are outside of the marketplace and are considered public goods
+-   Because of these characteristics (non-excludable and non-rival) these goods are generally placed outside of the marketplace and are considered public goods
 
 -   The need for some form of governance for public goods arises when there is some degree of rivalry and when changes in land usage and management threatens non-excludability
 
@@ -219,11 +219,85 @@ Stock-flow resources:
 
 -   Higher demand for a particular resource is generated because the price gets lower while the resource or good is supplied with higher quantities.
 
+- Economists assume that consumers purchase the combination and quantity of goods that maximize their own well being (utility). Simultaneously, producers make rational decisions to provide such good based on potential for profitability
+
 ---
 
-![Supply and demand curves. By Paweł Zdziarski. Image downloaded [here](https://en.wikipedia.org/wiki/Supply_and_demand)](./class_13_3.png){width="60%"}
+- Economic theory assumes that the market agents (producers and consumers) account for all potential costs (opportunity costs), given the consumer or producer’s own resource restraints
 
---
+- Based on this, economic analysis can figure out the maximum price P an individual with Q units of a good or service would be willing to pay for an additional unit (marginal profit) of that good or service
+
+- Based on the same kind of analysis we can figure out the marginal cost of producing an additional unit (marginal cost)
+
+---
+
+![Supply and demand curves. By Paweł Zdziarski. Image downloaded [here](https://en.wikipedia.org/wiki/Supply_and_demand)](./class_13_3.png){width="40%"}
+
+- Supply and demand curve. Q = quantity; P = price; D = demand; S = supply. The market clearing price (or equilibrium price) is given at point (Q1, P1). As the demand or supply shift, the market clears at a different price and quantity. The demand shifts to the right as a response to seasonal increase for a certain product
+
+---
+
+- The maximization of consumer and producer surplus, and the creation of economic efficiency, is expected to occur automatically without further intervention from the government or other institution
+
+- An efficient market, then, is one that maximizes social welfare
+
+- In this efficient market, current level of production allows society to derive the largest possible net benefit from the market
+
+- Unfortunately, the market does not guarantee an equitable or fair distribution of goods production and/or consumption across all participating in the market
+
+---
+
+- Ecosystem goods and services represent an example of market failure, where the market does not fully represent social values due to externalities and the true costs and benefits of an activity or good are not linked to consumer or producer decision making
+
+- A classic example of negative externalities is air pollution where some economic costs, social costs, and environmental costs are borne by many other people beyond, and often not including, the ones that pollute the most 
+
+## Supply and demand with ecosystem services
+
+![@Zhao2018. The full article is available on-line and you should be able to access it using the university network](./zhao_1.png)
+
+---
+
+-   To date most soil conservation service studies heavily focus on measuring soil conservation service supply from the natural system without considering corresponding beneficiaries (i.e., demand), and feedback from the human system
+
+-   In this paper, the authors present an updated soil conservation service assessment framework as a two-way analysis of supply and demand, identifying the impacts of soil conservation on human well being and the feedback of human activities on soil conservation supply observed at different scales, from local (intracoupling) to regional (telecoupling)
+
+---
+
+\textbf{Introduction}
+
+-   Soil erosion has the potential to change soil structure, negatively affects soil fertility and poses a threat to food security and can ultimately affect the carbon cycle
+
+-   Human activities have exacerbated an otherwise natural process
+
+-   Soil conservation service, *the capacity of ecosystem to prevent soil loss*, is receiving more and more attention
+
+-   **R**evised **U**niversal **S**oil **L**oss **E**quation (**RUSLE**) provides information on soil conservation capacities and is the method of choice to estimate soil conservation service
+
+---
+
+\textbf{Premises of the article}
+
+-   The challenge for soil conservation service assessment is on how to measure such service for its beneficiaries. Therefore, further studies are required to identify the corresponding beneficiaries or benefiting areas and to build a feedback between nature and human system, in order to understand the impacts of changes on soil conservation supply to human well-being, as well as on human demand to soil conservation supply
+
+\textbf{Aims of the article}
+
+-   To address the issues, the authors propose a soil conservation service assessment framework that combines supply and demand of the soil conservation service as an integrated function. Following the framework, the authors propose a new method to quantify soil conservation service supply and provide an overview about the supply and demand of soil conservation service from local to regional scale
+
+---
+
+-   **E**cosystem **S**ervices (ESs) are the ecological characteristics, functions, or processes that directly or indirectly contribute to human wellbeing
+
+-   A crucial feature of ESs concept is the link between ecosystem and human well-being, which considers both the products/functions provided by ecosystem and the beneficiaries which derive benefits from the ecosystem
+
+-   As for **S**oil **C**onservation **S**ervice (**SCS**), the ecosystem has the capacity to control erosion and facilitate sedimentation, depending on ecosystem structure and land management, especially the existing vegetation cover and root system
+
+---
+
+-   This capacity should be called the potential SCS supply provided by ecosystem. Only after people use this service supply to maintain agricultural productivity or to improve water quality, we can say that it is the actual SCS because the SCS provision is used by beneficiaries to meet people’s demand and to contribute to human wellbeing
+
+
+---
+
 
 \vspace{.5cm}
 
@@ -231,19 +305,53 @@ Stock-flow resources:
 
 ---
 
--   While most analysis focus on maintaining steady the supply portion of an ecosystem service, through conservation actions aiming at directly preserving the resource, the authors [@Zhao2018] suggest that quantification of both supply and demand would improve decisions made about both of them.
-
--   By quantifying the benefits of soil conservation, based on the health of ecosystem services, they could help clarify the economic value of the service to people.
-
--   The authors focused on both the maximum allowable erosion rate (how much we can use the resource without depleting it out) and the current erosion rate.
+![An updated method to quantifying SCS supply. The method is based on the calculation of *T* a soil loss tolerance value as a reference to evaluate SCS. After @Zhao2018](./zhao_2.png){width="80%"}
 
 ---
 
--   If the current erosion rate exceeded the maximum there were negative consequences for ecosystem supply. However, if the current erosion were lower than the maximum, the implication for the ecosystem supply were positive.
+-   After quantifying the supply of SCS, the next crucial step is to characterize the demand for the service, which involves three components:
 
--   Properly developed, environmental markets can stimulate market efficiency and improve overall economic efficiency while supporting higher level of biodiversity conservation.
+    1.  identification of the beneficiaries and their location
+    
+    2.  indicators to measure social-economic benefits
+    
+    3.  link to connect the SCS with social-economic benefits
 
--   To do this, economists must address externalities, the costs or benefits that are not explicitly captured in a decision or action!
+---
+
+![When the soil conservation service improves at the upstream area, it should benefit the upstream area (e.g. better soil fertility and land productivity or intracoupling), but also the other areas in a cascade effect. After @Zhao2018](./zhao_3.png){width="80%"}
+
+---
+
+-   During the research processes of soil conservation service, we also need to carry out two-way (feedback) analysis between human system and nature system
+
+-   Ecosystem management from human system will not only affect the target process, but also trigger possible unprecedented effects on the target processes and/or non-target processes
+
+-   Grain for Green restoration project in Loess Plateau of China as a case study, human influences and multiple ecosystem processes have been interconnected, and ecosystem management have cascading impacts at multiscales
+
+---
+
+-   At the local scale, ecosystem restoration can bring positive effect, such as soil conservation and C fixation. Unfortunately, it also led to some unprecedented environmental problems, such as dried soil layer and water shortage. If these problems are prolonged, more negative effects may happen at larger spatial and time scale, such as vegetation degradation, regional water shortage, and downstream wetland degradation. The disturbance effects on ecosystem are transmuting from one type to another, including to types that have not been considered
+
+---
+
+\vspace{.5cm}
+
+![Hypothesis of disturbance effect transmutation and application based on a case study in the Loess Plateau of China. After @Zhao2018](./zhao_4.png){width="80%"}
+
+---
+
+\textbf{Main Conclusions}
+
+-   The key feature of ecosystem service concept is a linkage between nature system and human system, as well as the bi-directional feedback between human and nature system via ecosystem service assessment
+
+-   The framework for metacoupling soil conservation demand and supply from local to regional scale identified and provided measures to consider the effects of soil conservation provision on human-wellbeing and the feedback of human activities at different scales
+
+-   Soil conservation services supply can be calculated as the maximum allowable erosion rate minus the current soil erosion rate, while soil conservation demand needs to consider defined targets such as the Sustainable Development Goals
+
+---
+
+-   Ecosystem management, such as ecosystem restoration project, will not only alter the target process, but also non-target processes, it may lead to unprecedented negative at different scales. Therefore, tradeoff analysis between soil conservation services and other ecosystems services at multiscales are necessary to understand the metacoupling soil conservation demand and supply
 
 ## Cost Benefit Analysis
 
@@ -265,10 +373,20 @@ Stock-flow resources:
 
 ---
 
--   In Microeconomics there are two general classes of evaluation techniques for putting a price tag on ecosystem services: **revealed preference** and **stated preference**.
+\vspace{.5cm}
 
--   **Revealed preference** use observed behavior such as market purchases to make inferences on values of goods and services. Such approaches work with either actual markets or proxy market for property which reflects the various environmental attributes of the property itself.
+-   In Microeconomics there are two general classes of evaluation techniques for putting a price tag on ecosystem services or nature in general: **revealed preference** and **stated preference**
 
--   **Stated preference** methods ask people how much they are willing to pay for a non-market good or service. Stated preference approaches create hypothetical markets for environmental benefits where there are no current market prices.
+-   **Revealed preference** use observed behavior such as market purchases to make inferences on values of goods and services
+
+    -   Hedonic valuation model for private property
+    -   Hedonic travel cost method
+
+-   **Stated preference** methods ask people how much they are willing to pay for a non-market good or service. Stated preference approaches create hypothetical markets for environmental benefits where there are no current market prices
+
+    -   Contingent valuation
+        -   Willingness to pay
+        -   Willingness to accept
+    -   Choice experiments
 
 ## References {.allowframebreaks}

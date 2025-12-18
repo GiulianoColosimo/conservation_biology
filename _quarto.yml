@@ -74,8 +74,9 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 13 - Excercise-Download climate data.pdf
             text: "Class 13 - Excercise -  Download climate data"
             icon: file-pdf
-#          - href: ./classes/14/class_14.html
-#            text: "Class 14 - GdF seminar"
+          - href: ./classes/Conservation Biology 25-26 - Class 14 - Conservation economics.pdf
+            text: "Class 14 - Conservation economics"
+            icon: file-pdf
 #          - href: ./classes/15/class_15.html
 #            text: "Class 15 - Exercise in R"
 #          - href: ./classes/16/class_16.html
