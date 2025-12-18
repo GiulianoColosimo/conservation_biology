@@ -33,7 +33,6 @@ csl: ../../apa_5th_edition.csl
 citation_package: natbib #biblatex
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 x <- c("DT", "tidyverse", "RColorBrewer", "learnPopGen")
@@ -45,19 +44,19 @@ rm(x)
 
 ![Climate stripes, created by professor [Ed Hawkins](https://www.climate-lab-book.ac.uk/2018/warming-stripes/). Image downloaded from [here](https://showyourstripes.info/s/globe).](./class_20_1.png){width="100%"}
 
----
+------------------------------------------------------------------------
 
 \vspace{1cm}
 
 ![Climate stripes with reference chart. Image downloaded from [here](https://showyourstripes.info/s/globe).](./class_20_2.png)
 
----
+------------------------------------------------------------------------
 
 \vspace{1cm}
 
 ![Climate stripes with reference chart for Italy. Image downloaded from [here](https://showyourstripes.info/s/globe).](./class_20_3.png)
 
----
+------------------------------------------------------------------------
 
 -   Traditionally, habitat destruction and invasive species constituted the two main obstacles to biodiversity conservation.
 
@@ -65,28 +64,27 @@ rm(x)
 
 -   Global climate change has the potential to completely debunk existing local, regional, and national conservation plans, regardless of their good intention and design.
 
----
+------------------------------------------------------------------------
 
-- ...upon the North American continent, one single factor does seem to loom up as being the most frequent delimiter of distribution, or even the ultimately effective one, in greater or lesser degree, even thhough other factors may play a role too [@Grinnell1917].
+-   ...upon the North American continent, one single factor does seem to loom up as being the most frequent delimiter of distribution, or even the ultimately effective one, in greater or lesser degree, even thhough other factors may play a role too [@Grinnell1917].
 
 -   Grinnel considered temperature a *limiting* factor, but not a *changing* one! Moreover, he did not think as temperature (and other climate factors) as time-dependent and mutating!
 
----
+------------------------------------------------------------------------
 
-- ...climate change probably has the greatest potential to alter the functioning of the Earth system; its direct effects on natural and managed systems ultimately could become overwhelming...nevertheless, the major effects of climate change are mostly in the future, while most of the others are already with us [@Vitousek1992].
+-   ...climate change probably has the greatest potential to alter the functioning of the Earth system; its direct effects on natural and managed systems ultimately could become overwhelming...nevertheless, the major effects of climate change are mostly in the future, while most of the others are already with us [@Vitousek1992].
 
--  Climate change is a problem right now [@Molina2014], so we do not have to wait for future scenarios. The speed of contemporary changes is faster than most of the past events and is actively challenging the effectiveness of twenty century conservation [@VanDyke2020].
+-   Climate change is a problem right now [@Molina2014], so we do not have to wait for future scenarios. The speed of contemporary changes is faster than most of the past events and is actively challenging the effectiveness of twenty century conservation [@VanDyke2020].
 
----
+------------------------------------------------------------------------
 
-- ...the stated purpose of the Prince Albert National Park is to protect for all time the ecological integrity of a natural area of Canadian significance representative of the souther boreal forest...Yet, all six vegetation change scenarios examined projected the eventual loss of boreal forest in this park suggesting that the park's mandate would be untenable in the long term [@Lovejoy2008].
+-   ...the stated purpose of the Prince Albert National Park is to protect for all time the ecological integrity of a natural area of Canadian significance representative of the souther boreal forest...Yet, all six vegetation change scenarios examined projected the eventual loss of boreal forest in this park suggesting that the park's mandate would be untenable in the long term [@Lovejoy2008].
 
 ## Periodicity in annual variation.
 
-
 [Video credits: NASA/JPL-Caltech. Video source](https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate/).
 
-## Discontinuities 
+## Discontinuities
 
 -   In contrast to regular changes, discontinuities, jumps, trends or increasing variability all represent forms of climate change.
 
@@ -94,17 +92,17 @@ rm(x)
 
 -   Climate discontinuities and climate jumps occur when climate variables, relative to the length of the temporal cycle, show a large change in magnitude over a relatively short amount of time. After the jump a new baseline emerges that is different from the previous one.
 
----
+------------------------------------------------------------------------
 
 -   Increasing variability occurs when the mean of the variable remains the same, but its range of variation increases significantly. In such case, individual weather events become more unpredictable and dramatic.
 
 -   Variational trends refer to changes in which the range of variation remains within historical norms, but with movement of the mean in one direction (increasing or decreasing).
 
----
+------------------------------------------------------------------------
 
 ![Periodic VS unstable variation.](./discontinuities.png){width="50%"}
 
-##  Contemporary changes VS past changes
+## Contemporary changes VS past changes
 
 -   The range of temperatures on earth is driven by the absorpion of solar radiation from the sun.
 
@@ -112,7 +110,7 @@ rm(x)
 
 -   About $31\%$ of such energy is reflected back in space and never reaches the surface.
 
----
+------------------------------------------------------------------------
 
 -   The rest of the radiation is reflected and when it happens the emitted radiation is changed in wave length to long infrared radiation. This is an important passage because infrared radiation can become trapped by the so called Greenhouse gasses (GHG) such as water vapor ($H_2O$), methane ($CH_4$), ozone ($O_3$), nitrous oxide ($N_2O$), and carbon dioxide ($CO_2$).
 
@@ -131,15 +129,14 @@ rm(x)
 -   Each GHG varies in its capacity to absorb longwave radiation and in other ways it can affect its overall contribution to the warming produced
 
     1.  The amount of gas released in the atmosphere per year
-    
+
     2.  The length of time the gas stays in the atmosphere (also known as residence time)
-    
+
     3.  Its capacity to affect the atmosphere chemistry
-    
+
     4.  Its concentration and capacity to interact with other GHG
 
-
-- Considering all these factors together, water vapor ($H_2O$) and carbon dioxide ($CO_2$) contribute for $60\%$ and $26\%$ of the warming respectively.
+-   Considering all these factors together, water vapor ($H_2O$) and carbon dioxide ($CO_2$) contribute for $60\%$ and $26\%$ of the warming respectively.
 
 ## Rapidly rising CO2
 
@@ -159,17 +156,17 @@ rm(x)
 
 -   Drawing on ice cores and other inferential data, climatologist M. J. Apps and colleagues were able to estimate temperature and $CO_2$ levels going back to 1.5 million years ago!
 
-- Throughout at least the last 4 glacial cycles, spanning nearly 1.5 million years, ..., the amtmospheric concentration of $CO_2$ only varied \~180ppmv during glatiations ... and \~280ppmv during the interglacial periods. This narrow range of variation is remarkable, given that its concentration is determined by a highly dynamic biogeochemical cycle...[@Bhatti2006].
+-   Throughout at least the last 4 glacial cycles, spanning nearly 1.5 million years, ..., the amtmospheric concentration of $CO_2$ only varied \~180ppmv during glatiations ... and \~280ppmv during the interglacial periods. This narrow range of variation is remarkable, given that its concentration is determined by a highly dynamic biogeochemical cycle...[@Bhatti2006].
 
 -   Current concetration levels of $CO_2$ are \~410ppm
 
----
+------------------------------------------------------------------------
 
 -   More troubling is the rate of increase of such concentration, which is 5 times greater than every other historical $CO_2$ increase on record, and 100 times faster than the rate of increase at the end of the last ice age.
 
 -   Because overall $CO_2$ concentrations, and human contributions to them are still rising, and are expected to continue rising at least until the first half of the $21^{st}$ century, the world appears to be decades from climate stability [@VanDyke2020].
 
----
+------------------------------------------------------------------------
 
 ![Global $CO_2$ emissions for 1940 to 2000 and emissions ranges for categories of stabilisation scenarios from 2000 to 2100; and the corresponding relationship between the stabilisation target and the likely equilibrium global average temperature increase above pre-industrial. [IPCC-AR4 Climate Change 2007: Synthesis Report](https://www.ipcc.ch/report/ar4/syr/).](./class_20_6.png)
 
@@ -181,7 +178,7 @@ rm(x)
 
 -   In 2013 another group of researchers, including Camille Parmesan, conducted a new analysis on marine organisms documenting that $83\%$ of observed changes in single species were according to what was predicted by climate change [@Poloczanska2013].
 
----
+------------------------------------------------------------------------
 
 ![Summary of biological change events from a meta-analysis of studies from 1700 species. After @Parmesan2003.](./class_20_7.png)
 
@@ -197,7 +194,7 @@ rm(x)
 
 -   @Inouye2000 documented that over the time-span of 23 years the yellow bellied marmots, *Marmota flaviventris*, had advanced their emergence date by 38 days as a result of warmer local spring air temperature in Colorado (USA).
 
----
+------------------------------------------------------------------------
 
 ![Marmot appearance. [After @Inouye2000]](./Marmot%20appearence.png){width="65%"}
 
@@ -209,12 +206,11 @@ rm(x)
 
 -   When phenological changes in plants (i.e., earlier flowering time) and pollinators (i.e. earlier emergence in the season due to early emergence from eggs or awakening from hibernation) happen at the same time the degree of sinchronization is maintained. However, when the timing of one species changes faster than the other, or when the shifts happens in different directions such disagreement can cause plants population depression or pollinators starvation [@Morton2017].
 
----
+------------------------------------------------------------------------
 
 \vspace{1cm}
 
 ![Conceptual depiction of phenological changes in plant-pollinators interactions. After @Morton2017](./class_20_8.png){width="80%"}
-
 
 ## Predator-prey dynamics
 
@@ -224,7 +220,7 @@ rm(x)
 
 -   The authors found that peak presence of salmons and eagles has advanced of about $0.45$ days/year in the past 30 years. The predator demonstrated the ability to rapidly respond and take advantage of ephemeral resources across the landscape.
 
----
+------------------------------------------------------------------------
 
 -   The authors also noticed that the population of prey also showed an asynchronous response to flood events. The interval between population peak and first flow event grew approximately of $1$ day/year [@Rubenstein2018].
 
@@ -256,14 +252,13 @@ rm(x)
 
 -   Reviewing paleoecological observations, recent phenological and microevolutionary responses, experiments and computational models, @Dawson2011 concluded that reliance on a single scientific approach creates risks of policy or management failures.
 
----
+------------------------------------------------------------------------
 
 -   *Vulnerability* to climate change is defined as the extant to which a species or population is threatened with decline, reduced fitness, genetic loss of extinction due to climate change as a function of three primary components: \textcolor{red}{exposure}, \textcolor{green}{sensitivity} or \textcolor{blue}{adaptive capacity}.
 
-
 -   \textcolor{red}{Exposure} is defined as the extant of climate change likely to be experienced by a species or locale [@Dawson2011].
 
----
+------------------------------------------------------------------------
 
 -   The rate and magnitude of the change provide an indication of how strong and disruptive the change will be to the ecosystem enduring it.
 
@@ -271,7 +266,7 @@ rm(x)
 
 -   A range of potential future changes can be developed via Global Climate Models (GCMs) and can downscaled to highlight abiotic pressures or resulting effects on the physical environment.
 
----
+------------------------------------------------------------------------
 
 -   These climate scenario are also the ones used within Ecological Niche Models (also referred as climate envelop models), which use statistical relationship between climate variables and species distributions.
 
@@ -281,7 +276,7 @@ rm(x)
 
 -   Here the focus is on species- specific factors that may indicate higher risk relative to specific changes in climate variables.
 
----
+------------------------------------------------------------------------
 
 -   The more sensitive is a species the greater the changes in survival and fecundity under small changes in climate conditions.
 
@@ -291,19 +286,19 @@ rm(x)
 
 -   This is the capacity of a species or population to cope with climate change by persisting in-situ, but shifting to more suitable local microhabitats, or migrating to more suitable regions [@Dawson2011].
 
----
+------------------------------------------------------------------------
 
 -   Utilizing empirical and observations studies along with modeling and prediction studies, scientists have worked to characterize the adaptive capacity of a species or population starting from intrinsic factors such as phenotypic plasticity, dispersal ability, colonization ability or evolvability [@VanDyke2020; @Foden2019].
 
 -   Given the high number of species under threat it is important to organize and mine the information and literature available to look for clues about inherent species capacities. Along this strategy, it is important to create empirical models that can estimate a range of ecological and evolutionary responses to forecasted environmental changes [@VanDyke2020].
 
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
 ![Model of species vulnerability to climate threats. After @Dawson2011.](./class_20_11.png){width="80%"}
 
----
+------------------------------------------------------------------------
 
 \vspace{.5cm}
 
@@ -329,9 +324,9 @@ rm(x)
 
 ![Predictive map of the probability of occurrence for C. marthae outside the sampling area. After @Gargano2025](./Figure_4.png){width="80%"}
 
----
+------------------------------------------------------------------------
 
-## Policies against climate change 
+## Policies against climate change
 
 -   With the availability of spatial tools, modeling algorithm, increasing data collection, it is not a question of whether we should engage in climate informed conservation, but of which tools to apply under what conditions and to which species conditions [@Tingley2014].
 
@@ -356,14 +351,13 @@ rm(x)
 
 -   This agreement builds on the United Nations Framework Convention on Climate Change and works to overcome some of the difficulties presented during and after the [Kyoto Protocol](https://en.wikipedia.org/wiki/Kyoto_Protocol) (1997).
 
-
 ## How things are looking?
 
 ![Global GHG emissions trends under different scenarios. After @Rogelj2016](./class_20_14.png)
 
----
+------------------------------------------------------------------------
 
--  Italy pledged to keep warming at or below $1.5\ ˚C$
+-   Italy pledged to keep warming at or below $1.5\ ˚C$
 
 -   How are we doing?
 
@@ -371,14 +365,10 @@ rm(x)
 
 -   Given ongoing opportunities for synchronized climate change mitigation and adaptation, conservation biologists are poised to advance solutions that both slow climate change and protect biodiversity.
 
----
+------------------------------------------------------------------------
 
 -   Many international activities, such as the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services ([IPBES](https://www.ipbes.net)), provide a platform for the scientific engagement on a global scale.
 
 -   Every country must be involved in this process, and when individual countries, especially the ones that contribute most GHG, remove themselves from the solution-building conversations on the global scale, they put both people and ecosystems at risk [@VanDyke2020].
 
-
 # References {.allowframebreaks}
-
-
-
