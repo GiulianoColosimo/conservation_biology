@@ -1,0 +1,80 @@
+---
+title: "Conservation technology"
+subtitle: "Biologia della Conservazione 25/26"
+author: "Giuliano Colosimo"
+institute: "University of Rome Tor Vergata"
+format: 
+  beamer: 
+    aspectratio: 32
+    keep_tex: true
+    navigation: empty
+    mainfont: "Atkinson Hyperlegible"
+    toc: false
+    toc-title: "Table of contents"
+    slide-level: 2
+    urlcolor: olive 
+    citecolor: red
+    linkcolor: gray
+    include-in-header:
+      - text: |
+          \usepackage{amsmath}
+          \usepackage{tikz}
+          \setbeamertemplate{footline}[page number]
+          \addtobeamertemplate{headline}{}{%
+            \begin{tikzpicture}[remember picture,overlay]
+              \node[anchor=north east,yshift=-4pt] at (current page.north east) {
+                \includegraphics[width=2cm]{../../figures/Tor-Vergata_logo_cmyk.png}
+              };
+            \end{tikzpicture}%
+          }
+editor: visual
+bibliography: ../../comprehensive_database.bib
+csl: ../../apa_5th_edition.csl
+citation_package: natbib #biblatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+x <- c("DT", "tidyverse", "RColorBrewer", "learnPopGen")
+lapply(x, require, character.only = T)
+rm(x)
+```
+
+
+## Conservation technology
+
+- Conservation technology is defined as: "devices, software platforms, computing resources, algorithms, and biotechnology methods that can cater to the needs of the conservation community" [@Speaker2022]
+
+---
+
+\vspace{1cm}
+
+![After @BergerTal2018.](./BergerTal_2018_1.png){width="85%"}
+
+--- 
+
+\vspace{1cm}
+
+![After @Schulz2023.](./schulz_2023_1.png)
+
+---
+
+- Although no singular technology can solve the current global ecological crisis, devices such as camera traps, acoustic sensors, drones, biologgers, and satellites, as well as increasingly powerful genomic and artificial intelligence applications, hold the potential to empower conservationists to better understand and manage the socioecological systems in which they work [@Speaker2022]
+
+---
+
+- Recent literature suggests that despite meaningful developments in this discipline, systemic issues such as unsustainable funding and development cycles, inadequate evaluation of solutions, and duplication of efforts are reducing its capacity to keep pace with escalating and emerging conservation challenges [@BergerTal2018; @Speaker2022]
+
+---
+
+![Conservation technologies frequently used by survey respondents and mean proficiency scores for each. After @Speaker2022](./fig1.png){width="80%"}
+
+---
+
+![Capacity to advance conservation if current problems were addressed. After @Speaker2022](./fig2.png){width="80%"}
+
+---
+
+![Survey respondent rankings of the greatest challenges facing the field of conservation technology (1, most important; 9, least important). After @Speaker2022](./fig3.png){width="80%"}
+
+## References {.allowframebreaks}

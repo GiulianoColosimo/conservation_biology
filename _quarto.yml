@@ -77,8 +77,9 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 14 - Conservation economics.pdf
             text: "Class 14 - Conservation economics"
             icon: file-pdf
-#          - href: ./classes/15/class_15.html
-#            text: "Class 15 - Exercise in R"
+          - href: ./classes/Conservation Biology 26-26 - Class 15 - Conservation technology.pdf
+            text: "Class 15 - Conservation technology"
+            icon: file-pdf
 #          - href: ./classes/16/class_16.html
 #            text: "Class 16 - Conservation economics 2"
 #          - href: ./classes/17/class_17.html
