@@ -8,7 +8,7 @@
 
 <meta name="author" content="Giuliano Colosimo">
 
-<title>Excercise - Download climate data – Biologia della Conservazione 25/26</title>
+<title>The legal foundations of Conservation Biology – Biologia della Conservazione 25/26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,42 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -108,6 +93,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -139,13 +126,13 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Excercise - Download climate data – Biologia della Conservazione 25/26">
+<meta property="og:title" content="The legal foundations of Conservation Biology – Biologia della Conservazione 25/26">
 <meta property="og:description" content="Biologia della Conservazione 25/26">
-<meta property="og:image" content="https://giulianocolosimo.github.com/conservation biology old/classes/13/class_13_files/figure-html/unnamed-chunk-7-1.png">
+<meta property="og:image" content="https://giulianocolosimo.github.com/conservation biology old/classes/17/Screenshot from 2026-01-09 11-48-36.png">
 <meta property="og:site_name" content="Biologia della Conservazione 25/26">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="576">
-<meta property="og:image:width" content="768">
+<meta property="og:image:height" content="244">
+<meta property="og:image:width" content="479">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -358,7 +345,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Excercise - Download climate data</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">The legal foundations of Conservation Biology</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -519,11 +506,24 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#on-line-data-resources" id="toc-on-line-data-resources" class="nav-link active" data-scroll-target="#on-line-data-resources">On-line data resources</a></li>
-  <li><a href="#the-packages-we-will-be-using" id="toc-the-packages-we-will-be-using" class="nav-link" data-scroll-target="#the-packages-we-will-be-using">The packages we will be using</a></li>
-  <li><a href="#input-from-the-user" id="toc-input-from-the-user" class="nav-link" data-scroll-target="#input-from-the-user">Input from the user</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#ethical-right-laws" id="toc-ethical-right-laws" class="nav-link" data-scroll-target="#ethical-right-laws">Ethical right laws</a></li>
+  <li><a href="#utilitarian-interest-laws" id="toc-utilitarian-interest-laws" class="nav-link" data-scroll-target="#utilitarian-interest-laws">Utilitarian interest laws</a></li>
+  <li><a href="#equitable-distribution-of-risks-laws" id="toc-equitable-distribution-of-risks-laws" class="nav-link" data-scroll-target="#equitable-distribution-of-risks-laws">Equitable distribution of risks laws</a></li>
+  <li><a href="#international-conservation-law" id="toc-international-conservation-law" class="nav-link" data-scroll-target="#international-conservation-law">International Conservation Law</a>
+  <ul class="collapse">
+  <li><a href="#examples-of-multilateral-treaties" id="toc-examples-of-multilateral-treaties" class="nav-link" data-scroll-target="#examples-of-multilateral-treaties">Examples of multilateral treaties</a></li>
+  <li><a href="#cites" id="toc-cites" class="nav-link" data-scroll-target="#cites">CITES</a>
+  <ul class="collapse">
+  <li><a href="#appendix-i" id="toc-appendix-i" class="nav-link" data-scroll-target="#appendix-i">Appendix I</a></li>
+  <li><a href="#appendinx-ii" id="toc-appendinx-ii" class="nav-link" data-scroll-target="#appendinx-ii">Appendinx II</a></li>
+  <li><a href="#appendix-iii" id="toc-appendix-iii" class="nav-link" data-scroll-target="#appendix-iii">Appendix III</a></li>
+  </ul></li>
+  <li><a href="#combining-conservation-and-development" id="toc-combining-conservation-and-development" class="nav-link" data-scroll-target="#combining-conservation-and-development">Combining conservation and development</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="class_13.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="class_17.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -531,7 +531,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Excercise - Download climate data</h1>
+<h1 class="title">The legal foundations of Conservation Biology</h1>
 <p class="subtitle lead">Biologia della Conservazione 25/26</p>
 </div>
 
@@ -562,309 +562,224 @@ window.Quarto = {
 </header>
 
 
-<section id="on-line-data-resources" class="level2">
-<h2 class="anchored" data-anchor-id="on-line-data-resources">On-line data resources</h2>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <ul>
-<li><p><a href="https://ec.europa.eu/eurostat/web/main/data">Eurostat</a></p></li>
-<li><p><a href="https://www.noaa.gov">NOAA</a></p></li>
-<li><p><a href="https://data.nasa.gov/browse">NASA</a></p></li>
-<li><p><a href="https://github.com/owid/co2-data">Our World in Data (via GitHub)</a></p></li>
-<li><p><a href="https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset">Copernicus</a></p></li>
-<li><p><a href="https://mesonet.agron.iastate.edu/ASOS/">Automated Surface Observing System (ASOS)</a></p></li>
+<li><p>In democratic governments, laws are grounded in a constitution and carried out trough specific policies</p></li>
+<li><p>A policy can be defined as a definite course or method of action selected from among alternatives and in light of given conditions to guide and determine present and future decisions</p></li>
+<li><p>The specific actions of the government are generally considered to be examples of public policy, or actions taken by the government on behalf of the public in service of a specific goal</p></li>
+<li><p>According to <span class="citation" data-cites="Salzman2014">Salzman (<a href="#ref-Salzman2014" role="doc-biblioref">2014</a>)</span>, “<em>environmental law and policy can be defined as the use of government authority to protect the natural environment and human health from the impacts of pollution and development</em>”</p></li>
 </ul>
 <hr>
 <ul>
-<li><p>We will be downloading historical data from the ASOS data repository available at Iowa State.</p></li>
-<li><p>We will working on data from the Italian network of automated weather stations.</p></li>
-<li><p>First lets take a look at the website to see how we can use R to automate the process of downloading the data and eventually analyse them.</p></li>
-<li><p><a href="https://mesonet.agron.iastate.edu/ASOS/">Automated Surface Observing System (ASOS)</a></p></li>
+<li><p>At any level of government, the policymaking process is complex and includes a wide variety of values, stakeholders, and sources of information as decision -makers try to select a definite course of action among a range of alternatives</p></li>
+<li><p>Most of the times laws originate when issues gain the attention of politician and government bureaucrats, but issues do not become laws and laws are not translated in to policies without lengthy examination and development by all concerned parties</p></li>
+<li><p>Laws are specifically designed to influence behavior and reinforce approved values by establishing normative rules that everyone must follow or else face punishment <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+</ul>
+<hr>
+<ul>
+<li><p>On a global stage, international cooperation through international conservation law is critical to the world of conservation enterprise</p></li>
+<li><p>Unfortunately, even today with a body of growing international law designed to to empower the world of conservation efforts, international laws and treaties invariably suffer constraints</p></li>
+<li><p>Due to the very nature of the diversity of nation and states the least common denominator approach in species and habitat protection is usually trade and/or other economic interest <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+</ul>
+<hr>
+<ul>
+<li><p>The actions needed to preserve endangered species and their habitats must almost always be resolved at national and local levels</p></li>
+<li><p>Breeding populations of endangered species are found locally and and that is where communities are more likely to reach a consensus of shared values and that support more aggressive and effective actions needed to achieve conservation goals</p></li>
+<li><p>International conservation laws become meaningless without national and local enforcement</p></li>
+<li><p>The engagement of conservation biologists is required at all these levels as much participation is essential for evaluating the effectiveness of monitoring and enforcement</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>New generations of conservation biologists who are both policy-savvy and scientifically grounded will be on the front lines of solving the world most challenging conservation problems <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+<li><p>Globally there are thousands of environmental law, and corresponding policies, that regulate humans interactions with the environment. Generally speaking, environmental law is rooted in three conceptual frameworks <span class="citation" data-cites="Salzman2014">(<a href="#ref-Salzman2014" role="doc-biblioref">Salzman, 2014</a>)</span>:</p>
+<ul>
+<li><p>ethical rights;</p></li>
+<li><p>utilitarian interests;</p></li>
+<li><p>equitable distributions of risks.</p></li>
+</ul></li>
 </ul>
 </section>
-<section id="the-packages-we-will-be-using" class="level2">
-<h2 class="anchored" data-anchor-id="the-packages-we-will-be-using">The packages we will be using</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Installing the appropriate libraries</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"jsonlite"</span>, <span class="st">"RCurl"</span>, <span class="st">"lubridate"</span>,</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"dplyr"</span>, <span class="st">"ggplot2"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load libraries in the working environment</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(jsonlite)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RCurl)</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'lubridate'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    date, intersect, setdiff, union</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'dplyr'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:stats':
-
-    filter, lag</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    intersect, setdiff, setequal, union</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<section id="ethical-right-laws" class="level2">
+<h2 class="anchored" data-anchor-id="ethical-right-laws">Ethical right laws</h2>
+<ul>
+<li><p>In ancient cultures (Roman, Chinese and Jewish) non-human animals and even the land were protected against forms of abuse and mistreatment</p></li>
+<li><p>The intent of those laws was not directed towards conservation as we intend it today, nevertheless they set the basis for treating non-human animals and ecosystems as <em>moral subjects</em></p></li>
+<li><p>Non-human entities in the natural world were perceived as morally considerable and they could be treated in a morally right or wrong way! <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+</ul>
 </section>
-<section id="input-from-the-user" class="level2">
-<h2 class="anchored" data-anchor-id="input-from-the-user">Input from the user</h2>
+<section id="utilitarian-interest-laws" class="level2">
+<h2 class="anchored" data-anchor-id="utilitarian-interest-laws">Utilitarian interest laws</h2>
 <ul>
-<li>Now that we know the web site, we can set up a script to automate data downloading</li>
+<li><p>Laws designed to forbid the use of plants and or animals found on private property, especially on the property belonging to people of high social extraction</p></li>
+<li><p>These laws aimed at protecting the right of the landowner to enjoy and use a healthy and productive environment</p></li>
+<li><p>Even though these laws protected non-human species, the rights they protected were expression of privilege and not of conservation</p></li>
+<li><p>Laws rooted in utilitarian interests often use cost-benefit analyses as the primary guide to make decisions <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
 </ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># first, we need to specify the date boundaries</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># start date in year, month, day format</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>startDate <span class="ot">&lt;-</span> <span class="fu">ISOdate</span>(<span class="dv">1990</span>, <span class="dv">1</span>, <span class="dv">1</span>) </span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># end date in year, month, day format</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>endDate <span class="ot">&lt;-</span> <span class="fu">ISOdate</span>(<span class="dv">2024</span>, <span class="dv">12</span>, <span class="dv">31</span>) </span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># second, we need to specify the data network parameter </span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># we want to download the data from</span></span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co"># and the state we want to download the data from</span></span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>user.network <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"ASOS"</span>)</span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>user.state <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"IT"</span>) <span class="co">#state</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+</section>
+<section id="equitable-distribution-of-risks-laws" class="level2">
+<h2 class="anchored" data-anchor-id="equitable-distribution-of-risks-laws">Equitable distribution of risks laws</h2>
+<ul>
+<li><p>Environmental justice and its intersection with civil right law provides a frame for preventing the unequal distribution of environmental risk and harm focusing on the role of socioeconomic status along with race</p></li>
+<li><p>Originally, most of these kind of laws focused on the issue of environmental pollution and associated health risks</p></li>
+<li><p>Recently, intergenerational equity and the rights of future generations has been a focus of discussion, particularly with respect to the ongoing impact of climate change and the sustainability of our current economic, social and ecological system <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+</ul>
+</section>
+<section id="international-conservation-law" class="level1">
+<h1>International Conservation Law</h1>
+<ul>
+<li><p>Although international conservation law does, in some cases, implicitly recognize the intrinsic value of the species or habitats it preserves, it is primarily driven by utilitarian interests and equalization of risks, usually in the form of increased mutual international interdependence and concern for intergenerational equality <span class="citation" data-cites="VanDyke2020">(<a href="#ref-VanDyke2020" role="doc-biblioref">Dyke &amp; Lamb, 2020</a>)</span></p></li>
+<li><p>The primary agent that brokers international conservation initiative is the United Nations (UN) and, within the UN, the Environmental Program (UNEP)</p></li>
+</ul>
 <hr>
 <ul>
-<li>We can now start and retrieve the identifier of all the weather stations we are interested in.</li>
+<li><p>The UN has entered over 325 treaties, conventions and agreements focusing on international conservation during the last 45 years and today over 1000 international legal instruments, most of them binding, contain one section or provision that addresses environmental conservation (<a href="https://www.informea.org/en">https://www.informea.org/en</a>)</p></li>
+<li><p>Advisement and enforcement is operated by the International Court of Justice (ICJ) of which members of the UN are automatic members</p></li>
 </ul>
+<section id="examples-of-multilateral-treaties" class="level2">
+<h2 class="anchored" data-anchor-id="examples-of-multilateral-treaties">Examples of multilateral treaties</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>network <span class="ot">&lt;-</span> <span class="fu">paste</span>(user.state, </span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>                 user.network, <span class="at">sep =</span> <span class="st">"__"</span>)</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>uri <span class="ot">&lt;-</span> </span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">paste</span>(<span class="st">"https://mesonet.agron.iastate.edu/geojson/network/"</span>,</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>        network, <span class="st">".geojson"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>uri</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "https://mesonet.agron.iastate.edu/geojson/network/IT__ASOS.geojson"</code></pre>
-</div>
-</div>
-<hr>
-<ul>
-<li>We use the URL address we have prepared and try to retrieve the information we want.</li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># first we tell R that that we work with an URL</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># URL = Uniform Resource Locator</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># in this way R will be opening a connection to that URL </span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># and we will be able to access the website</span></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">url</span>(uri)</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>A connection with                                                                                
-description "https://mesonet.agron.iastate.edu/geojson/network/IT__ASOS.geojson"
-class       "url-libcurl"                                                       
-mode        "r"                                                                 
-text        "text"                                                              
-opened      "closed"                                                            
-can read    "yes"                                                               
-can write   "no"                                                                </code></pre>
-</div>
-</div>
-<hr>
-<ul>
-<li>Now we can use that connection to read the information.</li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>jdict <span class="ot">&lt;-</span> <span class="fu">fromJSON</span>(data)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># to see what kind of object we have</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># you can type and execute jdict at the prompt</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>stationsPlot <span class="ot">&lt;-</span> </span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">matrix</span>(<span class="fu">unlist</span>(jdict<span class="sc">$</span>features<span class="sc">$</span>geometry<span class="sc">$</span>coordinates),</span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>                       <span class="at">nrow =</span> <span class="dv">2</span> )</span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(stationsPlot[<span class="dv">1</span>,], stationsPlot[<span class="dv">2</span>,], <span class="at">asp =</span> <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
-<div>
+<table class="table caption-top table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Name</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Year</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Parties</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Objective</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; width: 15em;">Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)</td>
+<td style="text-align: right;">1975</td>
+<td style="text-align: right;">183</td>
+<td style="text-align: left; width: 30em;">Ensures the international trade of wild animals and plants do not threaten their survival. Degree of protection depends on Appendix level designation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 15em;">Convention on Biological Diversity (CBD)</td>
+<td style="text-align: right;">1993</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: left; width: 30em;">Promotes the conservation of biological diversity through the sustainable use of its components and the equitable sharing of genetic resources</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 15em;">Rotterdam convention</td>
+<td style="text-align: right;">2004</td>
+<td style="text-align: right;">161</td>
+<td style="text-align: left; width: 30em;">Promotes cooperation and shared responsability in the international trade of hazardous chemicals to protect the environment and human health</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; width: 15em;">Minamata convention on mercury</td>
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">118</td>
+<td style="text-align: left; width: 30em;">Protects the environment and humans from damaging effects of mercury pollution by controlling anthropogenic rreleases throughout its lifecycle</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; width: 15em;">Tehran convention</td>
+<td style="text-align: right;">2006</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left; width: 30em;">Provides a framework for the sustainable use and environmental protection of the Caspian Sea region</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<ul>
+<li>The number of parties listed in this table is updated to 2019 and represents the number of countries that have ratified the treaty and make it legally binding on themselves</li>
+</ul>
+<hr>
+<ul>
+<li><p>The beginning of coordinated conservation and environmental law is the Stockholm Conference of 1972</p></li>
+<li><p>The conference aimed at providing a framework within which the UN could comprehensively assess the problems of the human environment and place the focus of national governments and the public on such problems</p></li>
+<li><p>One of the most important achievements of the conference was the creation of the very first environmental agency: the UNEP (United Nations Environmental Program)</p></li>
+<li><p>UNEP made environmental concerns and programs a permanent fixture of the UN agenda</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>The creation of UNEP had an immediate impact on world conservation</p></li>
+<li><p>In 1973 the UNEP Governing Board declared regional seas to be an important conservation priority</p></li>
+<li><p>This emphasis led directly to the development of the Barcelona Convention of 1976 for the protection of the Mediterranean Sea Against Pollution</p></li>
+<li><p>By 1988 more than 100 nations and 50 international organizations were cooperating in regional seas programs</p></li>
+</ul>
+</section>
+<section id="cites" class="level2">
+<h2 class="anchored" data-anchor-id="cites">CITES</h2>
+<ul>
+<li><p>The Convention on International Trade in Endangered Species of Wild Flora and Fauna (CITES, 1975) arose from the combined efforts of the IUCN and UNEP</p></li>
+<li><p>CITES is one of the most important international conservation agreements operating today because it specifically regulates or prohibits commercial trade in globally endangered species or their products</p></li>
+<li><p>The heart of the CITES convention is described via three appendices that list three categories of species regulated under the term of the treaty</p></li>
+</ul>
+<hr>
+<section id="appendix-i" class="level3">
+<h3 class="anchored" data-anchor-id="appendix-i">Appendix I</h3>
+<ul>
+<li>Commercial trade for species listed in this Appendix is prohibited and permits from both the importing and exporting country must be obtained even for non commercial transport</li>
+</ul>
+</section>
+<section id="appendinx-ii" class="level3">
+<h3 class="anchored" data-anchor-id="appendinx-ii">Appendinx II</h3>
+<ul>
+<li>Species listed here are those that either could be threatened by large volumes of trade or that cannot be distinguished from a threatened species. Trade involving species in this category requires a permit from the exporting country</li>
+</ul>
+</section>
+<section id="appendix-iii" class="level3">
+<h3 class="anchored" data-anchor-id="appendix-iii">Appendix III</h3>
+<ul>
+<li>Species listed here are not globally threatened but may be listed at the initiative of an individual state seeking international cooperation for that species protection. For these species, nations are asked not to issue importation permits without an export permit from the listing country</li>
+</ul>
+<hr>
+<ul>
+<li><p>As of January 2017 there were 35801 species and 68 subspecies in the Appendices comprising 1045 in Appendix I (3%), 34608 in Appendix II (97%) and 216 in Appendix III (&lt;1%)</p></li>
+<li><p>CITES is an evolving document and amendments and changes are common. Parties to the treaty meet every two years to make amendments to the appendices and develop new species and animal product lists and identification manuals to improve enforcement</p></li>
+<li><p>Originally a treaty that equated conservation with strict protectionism in international trade, more recent meetings of CITES participants have shown a growing tendency to permit some trade in formerly protected species if it can be shown that such trade actually enhances species conservation</p></li>
+</ul>
+</section>
+</section>
+<section id="combining-conservation-and-development" class="level2">
+<h2 class="anchored" data-anchor-id="combining-conservation-and-development">Combining conservation and development</h2>
+<ul>
+<li><p>In June 1992 a major global environmental gathering occurred in Rio De Janeiro to integrate efforts to protect the planetary ecosystems with economic development of the poor nations of the world</p></li>
+<li><p>The most important document signed during the Rio Summit was <em>Agenda 21</em>, an 800-page work plan addressing social and economic dimensions of environment and development, conservation and management of resources and means of implementation</p></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="class_13_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="384"></p>
+<p><img src="./Screenshot from 2026-01-09 11-48-36.png" class="img-fluid figure-img"></p>
+<figcaption>Over the last couple of decades the implementation of Agenda 21 has subsequently resulted in the establishment of several high profile global goals organized as the Millennium Development Goals (MDGs 2000-2015)</figcaption>
 </figure>
-</div>
-</div>
-</div>
-<hr>
-<ul>
-<li>Now that we have all the codes of the weather stations we can work on the URL address were all the specific information of each weather station is stored.</li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> </span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="st">"https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?"</span></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, </span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"data=all&amp;tz=Etc/UTC&amp;format=comma&amp;latlon=yes&amp;"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, <span class="st">"year1="</span>, <span class="fu">year</span>(startDate),</span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"&amp;month1="</span>, <span class="fu">month</span>(startDate), <span class="st">"&amp;day1="</span>,</span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">mday</span>(startDate), <span class="st">"&amp;"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>service <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, <span class="st">"year2="</span>, <span class="fu">year</span>(endDate),</span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"&amp;month2="</span>, <span class="fu">month</span>(endDate),</span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"&amp;day2="</span>, <span class="fu">mday</span>(endDate), <span class="st">"&amp;"</span>, <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>it_stations_id <span class="ot">&lt;-</span> jdict<span class="sc">$</span>features<span class="sc">$</span>id</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<ul>
-<li>Set the working directory where to store data.</li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"path/to/your/folder/of/choice"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<ul>
-<li>This is the main for loop to download the all the data.</li>
-</ul>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Beware!!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The original loop downloads about 4.4GB of data! You should only run it when you have a stable and fast internet connection. Right now we will run a simplified version of the script that should download data from only two stations.</p>
-</div>
-</div>
-<hr>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>it_stations_nm <span class="ot">&lt;-</span> jdict<span class="sc">$</span>features<span class="sc">$</span>properties<span class="sc">$</span>sname</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>){</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  uri <span class="ot">&lt;-</span> <span class="fu">paste</span>(service, <span class="st">"station="</span>,</span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>               it_stations_id[i], <span class="at">sep =</span> <span class="st">""</span>)</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Network:"</span>, network, </span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Downloading:"</span>, it_stations_nm[i],</span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>              it_stations_id[i], <span class="at">sep=</span><span class="st">" "</span>))</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  data <span class="ot">&lt;-</span> <span class="fu">url</span>(uri)</span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  datestring1 <span class="ot">&lt;-</span> <span class="fu">format</span>(startDate, <span class="st">"%Y%m%d"</span>)</span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  datestring2 <span class="ot">&lt;-</span> <span class="fu">format</span>(endDate, <span class="st">"%Y%m%d"</span>)</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>  outfn <span class="ot">&lt;-</span> <span class="fu">paste</span>(network, <span class="st">"_"</span>, it_stations_id[i],</span>
-<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>                 <span class="st">"_"</span>, datestring1, <span class="st">"_to_"</span>, datestring2, </span>
-<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>                 <span class="at">sep=</span><span class="st">""</span>)</span>
-<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(uri, <span class="fu">paste</span>(outfn, <span class="st">".csv"</span>), <span class="st">"auto"</span>)</span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <hr>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./class_21_1.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption>This is what my result folder looks like. Note, I have downloaded all 4.4GB of data, but you should only have two files corresponding to “LIMG” and “LIEA”.</figcaption>
+<p><img src="./SDG-pyramid.jpg" class="img-fluid figure-img"></p>
+<figcaption>The high profile goals have been revisited in to the Sustainable Development Goals (SDGs 2016-2030)</figcaption>
 </figure>
 </div>
 <hr>
 <ul>
-<li>Time to load the data and look at them.</li>
+<li><p>Unfortunately, to account for the competing political socioeconomic, and environmental interests that are common in conservation policy, compromises are typically made during target development and implementation, which can weaken their primary objectives <span class="citation" data-cites="Doherty2018">(<a href="#ref-Doherty2018" role="doc-biblioref">Doherty et al., 2018</a>)</span></p></li>
+<li><p>Furthermore, with limited regulatory and enforcement power countries face few to no legal consequences for failing to meet identified targets <span class="citation" data-cites="Doherty2018">(<a href="#ref-Doherty2018" role="doc-biblioref">Doherty et al., 2018</a>)</span></p></li>
 </ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># path_to_csv &lt;- "path/to/your/data"</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>suffix <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"LIBA"</span>, <span class="st">"LIBC"</span>)</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>files <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> path_to_csv, </span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">"*.csv"</span>, <span class="at">full.names =</span> T) </span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>files_names <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> path_to_csv, </span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">"*.csv"</span>, <span class="at">full.names =</span> F)</span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>myfiles  <span class="ot">&lt;-</span>  <span class="fu">lapply</span>(files, read.csv, <span class="at">skip =</span> <span class="dv">5</span>, </span>
-<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>              <span class="at">header =</span> T, <span class="at">na.strings =</span> <span class="st">"M"</span>)</span>
-<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(myfiles) <span class="ot">&lt;-</span> suffix</span>
-<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>myfiles_df <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(myfiles, <span class="at">.id =</span> <span class="st">"station_label"</span>)</span>
-<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>format <span class="ot">&lt;-</span> <span class="st">"%Y-%m-%d %H:%M"</span></span>
-<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>myfiles_df<span class="sc">$</span>valid <span class="ot">&lt;-</span> <span class="fu">as.POSIXct</span>(myfiles_df<span class="sc">$</span>valid,</span>
-<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>          <span class="at">format =</span> format, <span class="at">tz =</span> <span class="st">"UTC"</span>)</span>
-<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>myfiles_df[<span class="dv">1</span><span class="sc">:</span><span class="dv">13</span>, <span class="dv">2</span><span class="sc">:</span><span class="dv">7</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>   station               valid     lon     lat  tmpf  dwpf
-1     LIBA 1990-01-01 00:00:00 15.7139 41.5381 43.16 41.72
-2     LIBA 1990-01-01 01:00:00 15.7139 41.5381 42.80 41.00
-3     LIBA 1990-01-01 02:30:00 15.7139 41.5381 42.80 41.00
-4     LIBA 1990-01-01 03:00:00 15.7139 41.5381 42.80 41.36
-5     LIBA 1990-01-01 04:50:00 15.7139 41.5381 42.80 41.00
-6     LIBA 1990-01-01 06:00:00 15.7139 41.5381 43.16 41.00
-7     LIBA 1990-01-01 09:00:00 15.7139 41.5381 43.16 41.00
-8     LIBA 1990-01-01 12:00:00 15.7139 41.5381 44.60 43.16
-9     LIBA 1990-01-01 21:00:00 15.7139 41.5381 44.24 42.08
-10    LIBA 1990-01-02 00:00:00 15.7139 41.5381 43.88 42.44
-11    LIBA 1990-01-02 03:00:00 15.7139 41.5381 43.16 41.72
-12    LIBA 1990-01-02 06:00:00 15.7139 41.5381 43.52 42.08
-13    LIBA 1990-01-02 09:00:00 15.7139 41.5381 44.96 43.52</code></pre>
-</div>
-</div>
-<hr>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">date</span>(myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>                       <span class="st">"LIBA"</span>, ]<span class="sc">$</span>valid),</span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>     myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span> <span class="st">"LIBA"</span>, ]<span class="sc">$</span>tmpf,</span>
-<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">type =</span> <span class="st">"o"</span>, </span>
-<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Year"</span>, <span class="at">ylab =</span> <span class="st">"Temp."</span>,</span>
-<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"LIBA, Amendola"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="class_13_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<hr>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">date</span>(myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>                       <span class="st">"LIBC"</span>, ]<span class="sc">$</span>valid),</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>     myfiles_df[myfiles_df<span class="sc">$</span>station <span class="sc">==</span> <span class="st">"LIBC"</span>, ]<span class="sc">$</span>tmpf,</span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">type =</span> <span class="st">"o"</span>, </span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Year"</span>, <span class="at">ylab =</span> <span class="st">"Temp."</span>,</span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"LIBC, Crotone"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="class_13_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<hr>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(stationsPlot[<span class="dv">1</span>,], </span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>     stationsPlot[<span class="dv">2</span>,], </span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">asp =</span> <span class="dv">1</span>, <span class="at">pch =</span> <span class="dv">21</span>, <span class="at">bg =</span> <span class="st">"gray"</span>)</span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="fu">points</span>(stationsPlot[<span class="dv">1</span>,<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>],</span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>       stationsPlot[<span class="dv">2</span>,<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>], </span>
-<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">pch =</span> <span class="dv">21</span>, <span class="at">bg  =</span> <span class="st">"green"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<hr>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="class_13_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+</section>
+<section id="references" class="level2 allowframebreaks">
+
+
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Doherty2018" class="csl-entry" role="listitem">
+Doherty, T. S., Bland, L. M., Bryan, B. A., Neale, T., Nicholson, E., Ritchie, E. G., &amp; Driscoll, D. A. (2018). <a href="https://doi.org/10.1016/j.tree.2018.08.014">Expanding the role of targets in conservation policy</a>. <em>Trends in Ecology &amp;amp; Evolution</em>, <em>33</em>(11), 809–812. Elsevier BV.
+</div>
+<div id="ref-VanDyke2020" class="csl-entry" role="listitem">
+Dyke, F. V., &amp; Lamb, R. L. (2020). <em>Conservation biology</em>. Springer International Publishing. Retrieved from <a href="https://doi.org/10.1007%2F978-3-030-39534-6">https://doi.org/10.1007%2F978-3-030-39534-6</a>
+</div>
+<div id="ref-Salzman2014" class="csl-entry" role="listitem">
+Salzman, J. (2014). <em>Environmental law and policy</em> (p. 372). Foundation Press.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
