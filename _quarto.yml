@@ -86,9 +86,9 @@ website:
           - href: ./classes/Conservation Biology 25-26 - Class 17 - The legal foundations of conservation.pdf
             text: "Class 17 - The legal foundations of conservation"
             icon: file-pdf
-#          - href: ./classes/Conservation Biology 25-26 - Class 18 - GdF seminar.pdf
-#            text: "Class 18 - GdF Seminar"
-#            icon: file-pdf
+          - href: ./classes/Conservation Biology 25-26 - Class 18 - GdF seminar.pdf
+            text: "Class 18 - GdF Seminar"
+            icon: file-pdf
 
 
 
